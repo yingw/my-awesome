@@ -2,5 +2,5 @@
 
 :octocat:
 
-![:octocat:](http://baidu.com)
+[:octocat:](http://baidu.com)
 
