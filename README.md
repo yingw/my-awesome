@@ -1,4 +1,8 @@
-# My Awesome
+# My Knowledge
+
+相关项目
+- [My Awesome](https://github.com/yingw/my-awesome): 工具和架构
+- [My Stars](https://github.com/yingw/my-stars): 关注的项目
 
 使用 emoji 含义说明
 - [:octocat:](https://github.com) GitHub 开源，并且是代码仓库的地址
@@ -6,10 +10,120 @@
 - :heavy_dollar_sign: 商业软件
 - :warning: 已终结
 - :cloud: 在线工具
-- :white_check_mark: 已使用
+- :white_check_mark: 已使用，默认都是已使用
 - :black_square_button: 未使用
 - :heart: 个人最爱
 - :triangular_flag_on_post: 中国制造
+
+目录
+[TOC]
+
+## 操作系统
+
+- [CentOS](https://www.centos.org/) Community Enterprise Operating System，RedHat 的开源编译版本，目前最常用的服务器操作系统
+- [RHEL](https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux) RedHat 的商用 Linux 发行版 💲
+- [Ubuntu Server](https://www.ubuntu.com/server) Ubuntu 的服务器版本 
+- [Windows Server](https://www.microsoft.com/en-us/cloud-platform/windows-server) Microsoft 的 Windows 服务器，有 03、08、12、16、19 版本 💲
+- [AWS Linux](https://aws.amazon.com/cn/amazon-linux-ami/) Amazon AWS 的 Linux 操作系统 for EC2，基于 CentOS
+- [Deepin 深度操作系统](https://www.deepin.org/) 国内的 Linux 发行版 🚩
+- [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10) Win10 上的 Linux 子系统，可用于开发环境
+
+## 设计
+
+- [墨刀](https://free.modao.cc) 在线原型设计协作平台，有免费和收费版 ☁️🚩
+- [Axure RP](https://www.axure.com/) 老牌的原型设计工具 💲
+- [Balsamiq](https://balsamiq.com/) Rapid wireframing tool 💲
+- [Photopea](https://www.photopea.com/) 在线的免费图片编辑工具，类似 Photoshop ☁️
+
+## 1. 微服务
+
+Java 的微服务开发平台主要有 Spring Cloud，Dubbo，也有新的无服务（Serverless）管理平台 Knative，服务网格（Service Mesh）架构 Istio
+
+- **[Consul](https://www.consul.io/)** HashiCorp 的服务发现 [教程1](http://note.youdao.com/noteshare?id=260b576b89c46c712a66ff42af314404&sub=9D9D7FBBBA8F4DDCB4A5CE8D41708F61) [教程2](http://note.youdao.com/noteshare?id=cbb2af2fc18c218969fd2aecc6da2e6a&sub=42E5693611884D04A4B9C7318D33E678)
+- **[Kong](https://getkong.org/)** 微服务 API 网关，有社区版和企业版 ，丰富的插件，基于 **[Nginx](http://nginx.org/)** 和 **[OpenResty](http://openresty.org/cn/)** [教程1](http://note.youdao.com/noteshare?id=d9faa3dcff2cb3200e61a7c9523b6ad7&sub=1B9691556D834F1F9041F69040A8B659)
+- **[Spring Cloud](http://projects.spring.io/spring-cloud/)** Spring 的微服务解决方案 
+- [**Spring Cloud Config**](https://cloud.spring.io/spring-cloud-config/) Spring Cloud 的配置服务
+  - [**spring-cloud-config-admin**](https://github.com/dyc87112/spring-cloud-config-admin) Spring Cloud Config 的管理功能 by 翟永超
+- **[Spring Cloud Sleuth](https://cloud.spring.io/spring-cloud-sleuth/)** 分布式追踪，借鉴 Dapper、Zipkin
+- [**Apollo** ](https://github.com/ctripcorp/apollo) 携程的分布式配置中心
+- **[Zipkin](https://zipkin.io/)** 链路追踪 
+  - [**Zipkin4net** ](https://github.com/openzipkin/zipkin4net) Zipkin 的 .net 客户端 
+- [**Hystrix** ](https://github.com/Netflix/Hystrix) 断路器 
+- [**Ribbon** ](https://github.com/Netflix/ribbon) Netflix 的客户端负载均衡 
+- **[JHipster UAA](https://www.jhipster.tech/using-uaa/)** or **[CloudFoundry UAA](https://github.com/cloudfoundry/uaa)**: 用户鉴权中心、单点登入
+- [**Feign** ](https://github.com/OpenFeign/feign) Rest 客户端 
+- **[Traefik](https://traefik.io/)** 现代化的代理服务器、负载均衡，使用微服务架构 
+- **[Istio](https://istio.io)** 谷歌的微服务架构 
+- [Dubbo](http://dubbo.io/) [:octocat:](https://github.com/dubbo) 阿里巴巴的微服务框架 :triangular_flag_on_post:
+- [Dubbox](http://dangdangdotcom.github.io/dubbox/) [:octocat:](https://github.com/dangdangdotcom/dubbox) 当当的 Dubbo 扩展 :triangular_flag_on_post:
+- Eureka [:octocat:](https://github.com/Netflix/eureka) 服务注册发现 
+- Netflix OSS 
+- Zuul [:octocat:](https://github.com/Netflix/zuul) API 网关 
+- Apollo [:octocat:](https://github.com/ctripcorp/apollo) 携程的分布式配置中心 :triangular_flag_on_post:
+- [etcd](https://coreos.com/etcd/) CoreOS 的分布式键值存储，可用于服务发现 
+- [ServiceComb](http://servicecomb.incubator.apache.org/) 华为的微服务框架 :triangular_flag_on_post:
+- [Micrometer](http://micrometer.io/) 服务监控 
+- [Steeltoe](https://steeltoe.io/) Pivotal 提供的 .net 和 Sprig cloud 体系整合方案
+
+## 容器
+
+- [Docker](https://www.docker.com/) 容器 
+  - Machine
+  - Compose
+  - [Docker Registry](https://docs.docker.com/registry/) 被 Distribution 替代 
+  - [Docker Distribution](https://docs.docker.com/registry/) 替代了原来的 Registry 
+- [Harbor](https://goharbor.io/) 容器镜像管理 by VMWare
+- [Kubernetes](http://kubernetes.io/) [:octocat:](https://github.com/kubernetes/kubernetes) Google 的容器编排 
+  - **[Helm](https://helm.sh/)** [:octocat:](https://github.com/helm/helm) Kubernetes 的包管理
+  - [kops](https://github.com/kubernetes/kops) Kubernetes Operations (kops) - Production Grade K8s Installation, Upgrades, and Management
+- [Mesos](http://mesos.apache.org/) [:octocat:](https://github.com/apache/mesos) Apache 的开源分布式资源管理框架 
+- [Mesosphere](https://mesosphere.com/) 支持 Mesos 和 Kubernetes 的容器管理平台 💲
+- [Moby](https://mobyproject.org/) [:octocat:](https://github.com/moby/moby) Docker 开源版 
+- [Swarm](https://docs.docker.com/engine/swarm/) [:octocat:](https://github.com/docker/swarm) Docker 的集群服务 
+- [Alpine](https://alpinelinux.org/) 轻量级 Linux based on musl libc and busybox. Docker 用 
+- [CoreOS](https://coreos.com/) 容器系统，已加入 RedHat 
+- [Heapster](https://github.com/kubernetes/heapster/blob/master/docs/influxdb.md) [:octocat:](https://github.com/kubernetes/heapster) 容器的资源分析和监控 
+- [Fluentd](http://www.fluentd.org) [:octocat:](https://github.com/fluent/fluentd) 日志收集，可用于管理Docker日志 
+- cAdvisor [:octocat:](https://github.com/google/cadvisor) Google 的 docker 容器管理 
+- Kitematic [:octocat:](https://github.com/docker/kitematic) Docker 桌面管理工具 
+- [Portainer](https://portainer.io/) [:octocat:](https://github.com/portainer/portainer) Docker 管理 
+- docker-gen [:octocat:](https://github.com/jwilder/docker-gen) 生成 docker nginx 的模板 
+- [Clair](https://coreos.com/clair/) 容器镜像漏洞分析工具 by CoreOS
+- [docker-maven-plugin](https://github.com/spotify/docker-maven-plugin) Docker 的 maven 插件 by spotify，官方已经推荐用下面新版的 dockerfile-maven
+- [dockerfile-maven](https://github.com/spotify/dockerfile-maven) 新版插件 by spotfiy
+- [Jib](https://github.com/GoogleContainerTools/jib) Google 的 java 应用容器化工具
+- [Distroless](https://github.com/GoogleContainerTools/distroless) Google 的镜像，基于 Alpine
+- [container-diff](https://github.com/GoogleContainerTools/container-diff) 查看镜像区别 by Google
+- [gcr.io Google Container Registry](https://cloud.google.com/container-registry/)
+- [docker-cn](https://www.docker-cn.com/registry-mirror) Docker 官方提供的 docker 中国镜像加速
+- [DaoCloud](https://www.daocloud.io/mirror) DaoCloud 提供的  docker 中国镜像加速
+- [mirror1](https://hub.docker.com/u/googlecontainer/)
+- [mirror2](https://github.com/anjia0532/gcr.io_mirror)
+### 推荐镜像
+- [frolvlad/alpine-oraclejdk8](frolvlad/alpine-oraclejdk8)
+
+## 运维
+
+- [Ganglia](http://ganglia.info/) UC Berkeley发起的一个开源监控项目 
+- **[Micrometer](http://micrometer.io/)** 服务监控  by Pivotal
+- **[Ansible](https://www.ansible.com)** [:octocat:](https://github.com/ansible/ansible) 基于 Python 的自动化运维工具  by RedHat
+  - [Tower](https://www.ansible.com/products/tower) :heavy_dollar_sign: by RedHat 
+- [Puppet](https://puppet.com/) 集中配置管理系统 
+- [SaltStack](https://saltstack.com/) 基础架构集中化管理平台 
+- [Chef](https://www.chef.io/chef/) 管理基础设施运行时环境和应用的自动化平台 
+- **[Elastic Stack](https://www.elastic.co/products)** ELK 平台 
+  - [ElasticSearch](https://www.elastic.co/products/elasticsearch) 分布式搜索服务 
+  - [Kibana](https://www.elastic.co/products/kibana) ELK 的前端展示中心 
+  - [Logstash](https://www.elastic.co/products/logstash) Log 收集组件 
+  - [Beats](https://www.elastic.co/products/beats) 新一代的数据采集组件，有 Filebeat, Metricbeat, Packetbeat, Winlogbeat, Auditbeat, Heartbeat
+- [logz.io](https://logz.io/) ELK as a Service 有免费版 :cloud:
+- **[Grafana](https://grafana.com/)** [:octocat:](https://github.com/grafana/grafana) 非常漂亮的分析和监控平台可视化面板 
+- **[Prometheus](https://prometheus.io/)** [:octocat:](https://github.com/prometheus/prometheus/) 监控报警系统和时序列数据库 
+- **[蓝绿发布](http://www.tuicool.com/articles/2Iji2ue)** 两个相同的环境的测试切换 
+- [灰度发布（金丝雀发布）](https://www.v2ex.com/t/344341) 部分发布测试 
+- [ArcSight](https://software.microfocus.com/en-us/home) 有很多产品，日志跟踪，商业 
+- [Oneops](http://oneops.com/) [:octocat:](https://github.com/oneops/oneops) 沃尔玛的 DevOps 平台 
+- [Terraform](https://www.terraform.io/) by HashiCorp  IT 基础架构自动化编排工具 
 
 ## 安全
 - [OAuth 2.0](https://oauth.net/) 
@@ -17,32 +131,28 @@
 - [Shiro](http://shiro.apache.org/) [:octocat:](https://github.com/apache/shiro) Apache 的权限管理框架 
 - [Spring Security](https://spring.io/projects/spring-security) [:octocat:](https://github.com/spring-projects/spring-security) Spring 的安全框架，之前是 Acegi Security 
 - [Vault](https://www.vaultproject.io/) [:octocat:](https://github.com/hashicorp/vault) HashiCorp 的密码、证书管理 
+- [Auth0](https://auth0.com/) 认证服务 :cloud:
+- [Authing](https://authing.cn/) 国产的认证云 :cloud:
 ## 安全 单点登入
 - [StormPath](https://stormpath.com/) Security，已被 okta 收购 
 - [Okta](https://www.okta.com/) 认证解决方案，Matt 所在的公司 :heavy_dollar_sign::cloud:
-- [Keycloak](https://www.keycloak.org/) [:octocat:](https://github.com/keycloak/keycloak) JBoss 的单点登入解决方案 
+- **[Keycloak](https://www.keycloak.org/)** [:octocat:](https://github.com/keycloak/keycloak) Redhat 的单点登入解决方案 
 - [CAS](https://www.apereo.org/projects/cas) [:octocat:](https://github.com/apereo/cas) Apereo 的单点登录产品，之前也叫 Jasiq CAS 
 ## 报表
 - [UReport](http://www.bstek.com/products/ureport) [:octocat:](https://github.com/youseries/ureport) 锐道的纯 Java 报表引擎 
 - [FineReport](http://www.finereport.com/) 帆软的报表 :heavy_dollar_sign::triangular_flag_on_post:
 ## 编译
 - [Ant](http://ant.apache.org/) Apache 老牌的编译打包工具 
-- [Consul](https://www.consul.io/) [:octocat:](https://github.com/hashicorp/consul) Hashicorp 的服务发现 
 - [Gradle](https://gradle.org/) [:octocat:](https://github.com/gradle/gradle) 编译工具 
 - [Grunt](https://gruntjs.com/) [:octocat:](https://github.com/gruntjs/grunt) JavaScript Task Runner 
 - [Gulp](https://gulpjs.com/) [:octocat:](https://github.com/gulpjs/gulp) Automating painful or time-consuming tasks 
 - [Maven](http://maven.apache.org/) [:octocat:](https://github.com/apache/maven) Apache Maven 打包编译工具 
-- [Nexus](http://www.sonatype.org/nexus/) Nexus Repository OSS 
-## 操作系统
-- [CentOS](https://www.centos.org/) Community Enterprise Operating System，RedHat 的开源编译版本 
-- [RHEL](https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux) RedHat 的商用 Linux 发行版 :heavy_dollar_sign:
-- [Ubuntu Server](https://www.ubuntu.com/server) Ubuntu 的服务器版本 
-- [Windows Server](https://www.microsoft.com/en-us/cloud-platform/windows-server) Microsoft 的 Windows 服务器，有 03、08、12、16、19 版本 :heavy_dollar_sign:
-- [AWS Linux](https://aws.amazon.com/cn/amazon-linux-ami/) Amazon AWS 的 Linux 操作系统 for EC2 
-- [Deepin 深度操作系统](https://www.deepin.org/) 国内的 Linux 发行版 :triangular_flag_on_post:
+- [Nexus](http://www.sonatype.org/nexus/) Nexus Repository OSS，maven 等的私有仓库
+- [MSBuild](https://github.com/Microsoft/msbuild) 微软的 .net / .net core 编译工具
+- [Bazle](https://bazel.build/) 谷歌的 java 编译工具
 ## 测试
 - [Badboy](http://www.badboy.com.au/) 导出 Jmeter 测试脚本 
-- [BlazeMeter](https://www.blazemeter.com/) 兼容 Jmeter 商业测试工具 :cloud:
+- [BlazeMeter](https://www.blazemeter.com/) 兼容 Jmeter 商业测试工具 :cloud: 免费50用户，有 chrome 插件录制
 - [Browsersync](http://www.browsersync.cn/) 浏览器同步兼容性测试工具 
 - [GA](https://www.ibm.com/developerworks/community/groups/service/html/communityview?communityUuid=22d56091-3a7b-4497-b36e-634b51838e11) IBM 提供的 Java GC 和堆观察程序 
 - [Gatling](https://gatling.io/) [:octocat:](https://github.com/gatling/gatling) 压力和性能测试工具 
@@ -61,6 +171,7 @@
 - QTP HP 的自动测试工具，Quick Test Professional :heavy_dollar_sign:
 - [Seleniumhq](https://www.seleniumhq.org/) [:octocat:](https://github.com/SeleniumHQ/selenium) 自动测试框架。组件有 WebDriver、IDE 
 - [SonarQube](http://www.sonarqube.org/) [:octocat:](https://github.com/SonarSource/sonarqube) 开源的代码质量检测平台 
+  - [sonarcloud](https://sonarcloud.io/about) :cloud: 在线 sonar 服务，开源免费，需要翻墙
 - [EasyMock](http://easymock.org) [:octocat:](https://github.com/easymock/easymock) Mock 测试环境 
 - [Easy Mock](https://www.easy-mock.com) [:octocat:](https://github.com/easy-mock/easy-mock) 大搜车的 Mock Server :cloud::triangular_flag_on_post:
 - [SoapUI](https://www.soapui.org/) WebService、API 测试工具，有开源版和专业版 
@@ -68,13 +179,18 @@
 - [Puppeteer](https://pptr.dev/) [:octocat:](https://github.com/GoogleChrome/puppeteer) Chrome 的无头浏览器 Node API 
 - [Headless Chrome](https://developers.google.com/web/updates/2017/04/headless-chrome) Google 的 Chrome 无头浏览器 
 - [try-puppeteer](https://try-puppeteer.appspot.com/) [:octocat:](https://github.com/ebidel/try-puppeteer) Puppeteer 在线运行测试 
+- [Zephyr](https://www.getzephyr.com/) 测试管理工具，已经被 smartbear（SoapUI）收购 :heavy_dollar_sign:
+- [Katalon](https://www.katalon.com/) 自动化测试工具
 ## 持续集成
 - [Jenkins](https://jenkins.io) 老牌的 CI CD 工具 
-- [Jenkins X](https://jenkins.io/projects/jenkins-x/) Native CI/CD for Kubernetes 
+  - [Jenkins X](https://jenkins.io/projects/jenkins-x/) Native CI/CD for Kubernetes 
+  - [BlueOcean](https://jenkins.io/projects/blueocean/) Jenkins 优化配置方式
 - [Spinnaker](http://www.spinnaker.io/) [:octocat:](https://github.com/spinnaker/spinnaker) Netflix 的持续交付平台 
 - [CircleCI](http://circleci.com/) 持续集成 
 - [Drone](https://drone.io/) [:octocat:](https://github.com/drone/drone) 持续集成和持续部署平台 
 - [Travis CI](https://travis-ci.org/) 同步 GitHub 项目的持续集成和部署平台，有 pro 版 
+- **[Azure DevOps (VSTS)](https://azure.microsoft.com/zh-cn/services/devops/)** 微软的 DevOps 服务，5个用户免费 :cloud:
+
 ## 代码仓库
 - CVS 
 - [Git-SCM](https://git-scm.com/) [:octocat:](https://github.com/git/git) Git 
@@ -99,6 +215,7 @@
 - [LarryMS](http://www.larrycms.com/tpl/) :triangular_flag_on_post:
 - [SB Admin 2](https://startbootstrap.com/template-overviews/sb-admin-2/) [:octocat:](https://github.com/blackrockdigital/startbootstrap-sb-admin-2/) Bootstrap 的页面模板 
 - [Gentelella Admin](https://colorlib.com/polygon/gentelella/index.html) [:octocat:](https://github.com/puikinsh/gentelella) 
+- [CoreUI](https://coreui.io/) Bootstrap 管理模板，有免费版和收费版，支持多个语言
 ## 监控
 - [Nagios](https://www.nagios.com/products/nagios-core/) 监控服务和主机 
 - [Observium Community](http://www.observium.org/) 网络监控 
@@ -119,6 +236,7 @@
 - [Drools](http://www.drools.org/) [:octocat:](https://github.com/kiegroup/drools) JBoss 的规则引擎 
 - [jBPM](http://www.jbpm.org/) [:octocat:](https://github.com/kiegroup/jbpm) JBoss 的工作流引擎，已经改名为 Kiegroups 
 - [URule](http://www.bstek.com/products/urule) [:octocat:](https://github.com/youseries/urule) 国内锐道的基于RETE算法的规则引擎 
+- [Flowable](https://www.flowable.org/) 从 Activiti 团队分离出去的核心主创新构建的流程引擎
 ## 模板引擎
 - [Freemarker](https://freemarker.apache.org/) Java template engine 
 - [Velocity](http://velocity.apache.org/) Apache 的 Java 模板引擎 
@@ -149,30 +267,10 @@
 - CSS3 
 - [Primefaces](https://www.primefaces.org/) JSF、Angular 解决方案 
 - [Material-UI](https://material-ui.com) [:octocat:](https://github.com/mui-org/material-ui) Material Design 的 React 实现 
-## 容器
-- [Docker](https://www.docker.com/) 容器 
-- [Docker Registry](https://docs.docker.com/registry/) 被 Distribution 替代 
-- [Docker Distribution](https://docs.docker.com/registry/) 替代了原来的 Registry 
-- [Kubernetes](http://kubernetes.io/) [:octocat:](https://github.com/kubernetes/kubernetes) Google 的容器编排 
-- [Mesos](http://mesos.apache.org/) [:octocat:](https://github.com/apache/mesos) Apache 的开源分布式资源管理框架 
-- [Mesosphere](https://mesosphere.com/) 支持 Mesos 和 Kubernetes 的容器管理平台 :heavy_dollar_sign:
-- [Moby](https://mobyproject.org/) [:octocat:](https://github.com/moby/moby) Docker 开源版 
-- [Swarm](https://docs.docker.com/engine/swarm/) [:octocat:](https://github.com/docker/swarm) Docker 的集群服务 
-- [Alpine](https://alpinelinux.org/) 轻量级 Linux based on musl libc and busybox. Docker 用 
-- [CoreOS](https://coreos.com/) 容器系统，已加入 RedHat 
-- [Heapster](https://github.com/kubernetes/heapster/blob/master/docs/influxdb.md) [:octocat:](https://github.com/kubernetes/heapster) 容器的资源分析和监控 
-- [Fluentd](http://www.fluentd.org) [:octocat:](https://github.com/fluent/fluentd) 日志收集，可用于管理Docker日志 
-- cAdvisor [:octocat:](https://github.com/google/cadvisor) Google 的 docker 容器管理 
-- Kitematic [:octocat:](https://github.com/docker/kitematic) Docker 桌面管理工具 
-- [Portainer](https://portainer.io/) [:octocat:](https://github.com/portainer/portainer) Docker 管理 
-- docker-gen [:octocat:](https://github.com/jwilder/docker-gen) 生成 docker nginx 的模板 
-## 设计
-- [Axure RP](https://www.axure.com/) 老牌的原型设计工具 :heavy_dollar_sign:
-- [Balsamiq](https://balsamiq.com/) Rapid wireframing tool :heavy_dollar_sign:
 ## 数据库
 - [Amoeba](http://wiki.hexnova.com/display/amoeba/Home) [:rainbow:](https://sourceforge.net/projects/amoeba/files/) 支持数据分片的分布式关系型数据库 
 - Corba [:octocat:](https://github.com/alibaba/cobar) 基于MySQL的分布式数据库服务中间件 
-- [Data Integration Kettle](https://community.hds.com/docs/DOC-1009855) Java 编写的 ETL 工具 
+- [Kettle](https://community.hitachivantara.com/docs/DOC-1009855) Java 编写的 ETL 工具 ，也叫 PDI (Pentaho Data Integration)
 - [Database.net](http://fishcodelib.com/Database.htm) .net 写的数据库管理工具 
 - [DB2](https://www.ibm.com/analytics/us/en/technology/db2/db2-linux-unix-windows.html) IBM DB2 数据库 :heavy_dollar_sign:
 - [Derby](https://db.apache.org/derby/) [:rainbow:](https://svn.apache.org/repos/asf/db/derby/code/branches/) Apache 的轻量级可嵌入应用服务器数据库 
@@ -180,13 +278,17 @@
 - [HSQLDB](http://hsqldb.org) Java 写的数据库 
 - [InfluxDB](https://www.influxdata.com) 时序数据库 
 - [LiquiBase](https://www.liquibase.org/) [:octocat:](https://github.com/liquibase/liquibase) 数据库版本 
+- [Flyway](https://flywaydb.org/) [:octocat:](https://github.com/flyway/flyway) 数据库版本、迁移工具
 - [MariaDB](https://mariadb.org/) [:octocat:](https://github.com/MariaDB/server) MySQL 的分支数据库 
 - [MSSQL](https://www.microsoft.com/en-us/cloud-platform/sql-server) Microsoft SQL Server 数据库，有 Express、Developer、Enterprise 版 :heavy_dollar_sign:
+- **[Aurora](https://aws.amazon.com/cn/rds/aurora/)** AWS 的兼容 MySQL 和 PostgreSQL 的关系数据库，号称性能和 Oracle 相当
 - [Mycat](http://www.mycat.io/) [:octocat:](https://github.com/MyCATApache/MyCAT-Server/) 数据库分库分表中间件 :triangular_flag_on_post:
 - [MySQL](http://www.mysql.com/) 有 Community、Cluster、Enterprise 版 
 - [Oracle](https://www.oracle.com/database/index.html) Oracle 数据库 :heavy_dollar_sign:
 - [PostgreSQL](https://www.postgresql.org/) 
 - [Redis](http://redis.io/) [:octocat:](https://github.com/antirez/redis) Redis is an open source (BSD licensed), in-memory data structure store, used as database, cache and message broker. 
+  - [Redsmin](https://www.redsmin.com/) Redis 在线服务 :cloud:
+  - 哨兵
 - [Sharding-JDBC](http://shardingjdbc.io/) [:octocat:](https://github.com/shardingjdbc/sharding-jdbc) Distributed database middleware 
 - [SQLLite](http://sqlite.org/) 
 - [Talend](https://www.talend.com/products/data-integration/) ETL 工具 
@@ -197,8 +299,6 @@
 - [Druid](http://druid.io/) [:octocat:](https://github.com/druid-io/druid/) 面向海量数据的、用于实时查询与分析的OLAP存储系统 
 - [JPQL](https://en.wikipedia.org/wiki/Java_Persistence_Query_Language) Java Persistence Query Language 
 - [QueryDSL](http://www.querydsl.com/) [:octocat:](https://github.com/querydsl/querydsl) 简化JPA操作DSL 
-- [Druid Spring Boot Starter](https://github.com/alibaba/druid/tree/master/druid-spring-boot-starter) Druid 和 String Boot 集成的 starter 
-- [Redsmin](https://www.redsmin.com/) Redis 在线服务 :cloud:
 ## 数据库 NoSQL
 - [HBase](http://hbase.apache.org/) Apahce 的分布式的、面向列的 Hadoop 数据库 
 - [Cassandra](http://cassandra.apache.org/) Apache 的分布式NoSQL数据库 
@@ -206,6 +306,7 @@
 - [Memcached](http://memcached.org/) 分布式内存对象缓存系统 
 - [MongoDB](https://www.mongodb.com/) [:octocat:](https://github.com/mongodb/mongo) 基于分布式文件存储的数据库 
 - [Spark](http://spark.apache.org/) Apache 的基于内存计算的集群计算系统 
+- [IndexedDB](https://developer.mozilla.org/zh-CN/docs/Web/API/IndexedDB_API) 浏览器本地数据库，操作 API，非关系型，JSON 格式
 ## 数据库工具
 - [DB Visualizer](http://www.dbvis.com/) :heavy_dollar_sign:
 - [DBeaver](http://dbeaver.jkiss.org/) [:octocat:](https://github.com/serge-rider/dbeaver/) 
@@ -226,28 +327,7 @@
 - [Echarts](http://echarts.baidu.com/) [:octocat:](https://github.com/ecomfe/echarts) 百度的数据可视化图表 
 - ECharts-Java [:octocat:](https://github.com/abel533/ECharts) 针对ECharts2.x版本的Java类库，实现了所有ECharts中的Json结构对应的Java对象 
 - [HighCharts](https://www.highcharts.com/) [:octocat:](https://github.com/highcharts/highcharts) 
-- [JFreeChart](http://www.jfree.org/jfreechart/index.html) [:octocat:](https://github.com/jfree/jfreechart) 
-## 微服务
-- [Dubbo](http://dubbo.io/) [:octocat:](https://github.com/dubbo) 阿里巴巴的微服务框架 :triangular_flag_on_post:
-- [Dubbox](http://dangdangdotcom.github.io/dubbox/) [:octocat:](https://github.com/dangdangdotcom/dubbox) 当当的 Dubbo 扩展 :triangular_flag_on_post:
-- Eureka [:octocat:](https://github.com/Netflix/eureka) 服务注册发现 
-- Feign [:octocat:](https://github.com/OpenFeign/feign) Rest 客户端 
-- Hystrix [:octocat:](https://github.com/Netflix/Hystrix) 断路器 
-- [Istio](https://istio.io) [:octocat:](https://github.com/istio/istio) 谷歌的微服务架构 
-- [Kong](https://getkong.org/) [:octocat:](https://github.com/Mashape/kong/) API Gateway and Microservices Management Layer 有社区版和企业版 
-- Netflix OSS 
-- Ribbon [:octocat:](https://github.com/Netflix/ribbon) Netflix 的客户端负载均衡 
-- [Spring Cloud](http://projects.spring.io/spring-cloud/) Spring 的微服务解决方案 
-- [Spring Config Server](https://cloud.spring.io/spring-cloud-config/) [:octocat:](https://github.com/spring-cloud/spring-cloud-config) Spring Cloiud 的配置服务 
-- [Sleuth](https://cloud.spring.io/spring-cloud-sleuth/) 分布式追踪，借鉴 Dapper、Zipkin 
-- [Traefik](https://traefik.io/) [:octocat:](https://github.com/containous/traefik/) 现代化的代理服务器、负载均衡，使用微服务架构 
-- [Zipkin](https://zipkin.io/) [:octocat:](https://github.com/openzipkin/zipkin) 链路追踪 
-- Zipkin4net [:octocat:](https://github.com/openzipkin/zipkin4net) Zipkin 的 .net 客户端 
-- Zuul [:octocat:](https://github.com/Netflix/zuul) API 网关 
-- Apollo [:octocat:](https://github.com/ctripcorp/apollo) 携程的分布式配置中心 :triangular_flag_on_post:
-- [etcd](https://coreos.com/etcd/) CoreOS 的分布式键值存储，可用于服务发现 
-- [ServiceComb](http://servicecomb.incubator.apache.org/) 华为的微服务框架 :triangular_flag_on_post:
-- [Micrometer](http://micrometer.io/) 服务监控 
+- [JFreeChart](http://www.jfree.org/jfreechart/index.html) [:octocat:](https://github.com/jfree/jfreechart)  
 ## 项目管理
 - [禅道](http://www.zentao.net/) 青岛易软天创的项目管理软件 :triangular_flag_on_post:
 - [Redmine](https://www.redmine.org/) 项目管理软件 :cloud:
@@ -273,6 +353,7 @@
 - [Sencha Touch](https://www.sencha.com/products/touch/) 
 - [Worklight](https://www.ibm.com/support/knowledgecenter/en/SSZH4A_6.0.0/com.ibm.worklight.getstart.doc/topics/c_overview.html) IBM 收购的移动开发平台 :heavy_dollar_sign:
 - [Ignite](https://infinite.red/ignite) [:octocat:](https://github.com/infinitered/ignite) 开发 React Native 移动应用的 CLI 
+- Swift
 ## 应用服务器
 - [GlassFish](https://javaee.github.io/glassfish/) [:octocat:](https://github.com/javaee/glassfish) Java EE 实现的应用服务器 
 - [Jetty](http://www.eclipse.org/jetty/) [:octocat:](https://github.com/eclipse/jetty.project) 
@@ -285,38 +366,31 @@
 - [WebSphere](http://www-03.ibm.com/software/products/en/appserv-was) IBM 的 JEE 应用服务器 :heavy_dollar_sign:
 - [WebSphere CE](http://publib.boulder.ibm.com/wasce/Front_en.html) Websphere 的社区免费版 
 - [WildFly](http://wildfly.org/) [:octocat:](https://github.com/wildfly/wildfly) 之前是 JBoss AS 
+- [Netty](http://netty.io/) 要和 Spring Boot 2.0 的 WebFlux、WebSocket 结合使用
+- Reactive 响应式、非堵塞的函数式 Reactive Web 框架 
+- [ReactiveX](http://reactivex.io/) ：[RxJava](https://github.com/ReactiveX/RxJava) 响应式编程框架，链式、异步、观察者模式
+- [Reactor](https://projectreactor.io/) 非阻塞应用编程框架，响应式编程，by Pivotal
+
 ## 云服务
 - [AliYun 阿里云](https://www.aliyun.com/) 云服务器 ECS、数据库 RDS、万网域名 :heavy_dollar_sign::cloud::triangular_flag_on_post:
 - [腾讯云](https://cloud.tencent.com/) :heavy_dollar_sign::cloud::triangular_flag_on_post:
 - [AWS](https://aws.amazon.com/) 亚马逊云 :heavy_dollar_sign::cloud:
-- [AWS CloudFront](https://aws.amazon.com/cn/cloudfront/) CDN 
-- [AWS EC2](https://aws.amazon.com/cn/ec2/) 弹性计算 
-- [AWS ECS](https://aws.amazon.com/cn/ecs/) 容器 
-- [AWS Elastic BeansTalk](https://aws.amazon.com/cn/elasticbeanstalk/) PaaS 应用服务器 
-- [AWS ELB](https://aws.amazon.com/cn/elasticloadbalancing/) Elastic Load Balancing 
-- [AWS Lambda](https://aws.amazon.com/cn/lambda/) FaaS 
-- [AWS RDS](https://aws.amazon.com/cn/rds/) PaaS 数据库 
-- [AWS Redshift](https://aws.amazon.com/cn/redshift/) 数据仓库 
-- [AWS S3](https://aws.amazon.com/cn/s3/) 存储 Simple Storage Service 
+  - [AWS CloudFront](https://aws.amazon.com/cn/cloudfront/) CDN 
+  - [AWS EC2](https://aws.amazon.com/cn/ec2/) 弹性计算 
+  - [AWS ECS](https://aws.amazon.com/cn/ecs/) 容器 
+  - [AWS Elastic BeansTalk](https://aws.amazon.com/cn/elasticbeanstalk/) PaaS 应用服务器 
+  - [AWS ELB](https://aws.amazon.com/cn/elasticloadbalancing/) Elastic Load Balancing 
+  - [AWS Lambda](https://aws.amazon.com/cn/lambda/) FaaS 
+  - [AWS RDS](https://aws.amazon.com/cn/rds/) PaaS 数据库 
+  - [AWS Redshift](https://aws.amazon.com/cn/redshift/) 数据仓库 
+  - [AWS S3](https://aws.amazon.com/cn/s3/) 存储 Simple Storage Service
+  - EKS
 - [Azure](https://www.azure.cn/zh-cn/) 微软的云服务平台 :heavy_dollar_sign::cloud:
+  - [Azure SQL](https://www.azure.cn/zh-cn/home/features/sql-database/) 有 vCore 和 DTU 计算方式
 - [Cloud Foundry](https://www.cloudfoundry.org/) Pivotal 云 :heavy_dollar_sign::cloud:
 - [DigitalOcean](https://www.digitalocean.com/) 云服务 :heavy_dollar_sign::cloud:
 - [Heroku](https://www.heroku.com/) 云服务 :heavy_dollar_sign::cloud:
-## 运维
-- [Ganglia](http://ganglia.info/) UC Berkeley发起的一个开源监控项目 
-- [Ansible](https://www.ansible.com) [:octocat:](https://github.com/ansible/ansible) 基于 Python 的自动化运维工具 
-- [Puppet](https://puppet.com/) 集中配置管理系统 
-- [SaltStack](https://saltstack.com/) 基础架构集中化管理平台 
-- [Chef](https://www.chef.io/chef/) 管理基础设施运行时环境和应用的自动化平台 
-- [Elastic Stack (ELK)](https://www.elastic.co/products) ELK 平台 
-- [Grafana](https://grafana.com/) [:octocat:](https://github.com/grafana/grafana) 非常漂亮的分析和监控平台可视化面板 
-- [Prometheus](https://prometheus.io/) [:octocat:](https://github.com/prometheus/prometheus/) 监控报警系统和时序列数据库 
-- [蓝绿发布](http://www.tuicool.com/articles/2Iji2ue) 两个相同的环境的测试切换 
-- [灰度发布（金丝雀发布）](https://www.v2ex.com/t/344341) 部分发布测试 
-- [ArcSight](https://software.microfocus.com/en-us/home) 有很多产品，日志跟踪，商业 
-- Kibana [:rainbow:](https://www.elastic.co/products/kibana) ELK 的前端展示中心 
-- logstash [:rainbow:](https://www.elastic.co/products/logstash) Log 收集组件 
-- [Oneops](http://oneops.com/) [:octocat:](https://github.com/oneops/oneops) 沃尔玛的 DevOps 平台 
+
 ## 在线文档
 - [readme](https://readme.io/) 在线文档平台，商业，14 天试用 :cloud:
 - [ReadMe Build](https://readme.build) 在线文档平台，有免费和收费版 :cloud:
@@ -324,8 +398,11 @@
 ## API
 - [RAML](https://raml.org/) Mule 支持的 YAML格式定义的 RESTful API 建模语言 
 - [OpenAPI](https://openapis.org/) [:octocat:](https://github.com/OAI/OpenAPI-Specification) API 规范，Mule 已加入 
-- [Swagger UI](https://swagger.io/tools/swagger-ui/) Swagger 的 Web UI 
-- [Swagger Codegen](https://swagger.io/tools/swagger-codegen/) 生成 OpenAPI 规范的客户端服务端代码 
+- **[Swagger](https://swagger.io/)** API
+  - **swagger2markup** [:octocat:](https://github.com/Swagger2Markup/swagger2markup) Swagger 转 AsciiDoc 或者 Markdown
+  - **[asciidockor](https://asciidoctor.org/)** [:octocat:](https://github.com/asciidoctor/asciidoctor-maven-plugin) AsciiDoc 转 HTML 或者 PDF
+  - **[Swagger UI](https://swagger.io/tools/swagger-ui/)** Swagger 的 Web UI 
+  - [Swagger Codegen](https://swagger.io/tools/swagger-codegen/) 生成 OpenAPI 规范的客户端服务端代码 
 ## CSS
 - [Less](http://lesscss.org) [:octocat:](https://github.com/less/less.js) Dynamic stylesheet language 
 ## CSS 模板
@@ -392,7 +469,8 @@
 - [Jackson](https://github.com/alibaba/fastjson/wiki/Quick-Start-CN) [:octocat:](https://github.com/FasterXML/jackson) Java JSON 库 
 - [JBoss Cache](http://jbosscache.jboss.org/) JBoss 的分布式缓存 
 - [JBoss Forge](http://forge.jboss.org) JBoss 的快速开发平台，之前叫 Jboss Seam 
-- JCaptcha [:rainbow:](http://jcaptcha.sourceforge.net/) Java 的验证码 
+- JCaptcha [:rainbow:](http://jcaptcha.sourceforge.net/) Java 的验证码
+- [reCAPTCHA](https://www.google.com/recaptcha/) Google 的验证码，国内用 recaptcha.net [说明](https://developers.google.com/recaptcha/docs/faq)
 - Joda-Time [:octocat:](https://github.com/JodaOrg/joda-time) [:rainbow:](http://www.joda.org/joda-time/) Java 的日期时间操作，Java8 后就建议用 java.time 
 - [OSCache](https://mvnrepository.com/artifact/opensymphony/oscache) OpenSymphony 的缓存 
 - [Spark Java](http://sparkjava.com/) 轻量级的 Java Web 开发框架，支持 Java8 和 Kotlin 
@@ -405,15 +483,21 @@
 - ZXing [:octocat:](https://github.com/zxing/zxing) Java, Android 的扫码工具包 
 - [pac4j](http://www.pac4j.org/) [:octocat:](https://github.com/pac4j/pac4j) Java 安全引擎，多种集成 
 - [OpenJPA](http://openjpa.apache.org/) Apache 的 JPA 实现 
-- [Caching Data with Spring](https://spring.io/guides/gs/caching/) Spring 的缓存接口，集成多种实现 
+- [Caching Data with Spring](https://spring.io/guides/gs/caching/) Spring 的缓存接口，集成多种实现
+- [MapStruct](http://mapstruct.org/) Java 对象转换
+- [p3c](https://github.com/alibaba/p3c) 阿里巴巴的 Java 开发规范，有 IDEA 和 Eclipse 插件
 ## Java 脚手架
 - [Dropwizard](https://www.dropwizard.io/) Java 轻量级 Web 开发框架 
 - [JEECG](http://www.jeecg.org/) 基于代码生成器的J2EE快速开发平台 :triangular_flag_on_post:
 - [JeeWx 捷微](http://www.jeewx.com/) 微信管家系统 :triangular_flag_on_post:
 - [JFinal](http://www.jfinal.com/) 基于 Java 语言的极速 WEB + ORM 框架 :triangular_flag_on_post:
 - [JHipster](http://www.jhipster.tech/) [:octocat:](https://github.com/jhipster/generator-jhipster) Spring Boot + AngularJS 的 Java 快速开发脚手架 
+  - JHipster Registry
+  - JHipster UAA
+  - [JDL Studio](https://start.jhipster.tech/jdl-studio/)
 - [Play Framework](https://www.playframework.com/) Java & Scala.的快速 Web 开发框架 
 - [Spring Boot](https://spring.io/projects/spring-boot) [:octocat:](https://github.com/spring-projects/spring-boot) Spring 基础开发平台 
+- [spring-boot-admin](https://github.com/codecentric/spring-boot-admin) Spring Boot 应用的管理程序
 - [Spring Roo](http://projects.spring.io/spring-roo/) [:octocat:](https://github.com/spring-projects/spring-roo) Java 快速开发脚手架 
 - [Spring Side](http://springside.github.io/) [:octocat:](https://github.com/springside/springside4) 国内江南白衣大神的快速 SSH Java 开发框架，目前在唯品会 
 - [enhancer.io](https://enhancer.io) 一站式信息系统开发云平台 :triangular_flag_on_post:
@@ -438,6 +522,7 @@
 - [jQWidgets](http://www.jqwidgets.com/) :heavy_dollar_sign:
 - [JSX](https://reactjs.org/docs/introducing-jsx.html) React 用混合 Html 和 JavaScript 的语法 
 - [Node.JS](https://nodejs.org/en/) V8 JavaScript 运行时 
+  - [frontend-maven-plugin](https://github.com/eirslett/frontend-maven-plugin)
 - [npm](https://www.npmjs.com/) [:octocat:](https://github.com/npm/npm) Node 包管理器 
 - [Promises/A+](https://promisesaplus.com/) [:octocat:](https://github.com/promises-aplus/promises-spec) JavaScript 回调规范 
 - [React](https://reactjs.org/) [:octocat:](https://github.com/facebook/react/) Facebook 的 JavaScript 库 
@@ -457,6 +542,7 @@
 - C3P0 [:rainbow:](https://sourceforge.net/projects/c3p0/) 
 - [DBCP](http://commons.apache.org/proper/commons-dbcp/) Apache 的数据连接池 
 - Druid [:octocat:](https://github.com/alibaba/druid) 阿里巴巴的数据库监控和缓存 
+- [Druid Spring Boot Starter](https://github.com/alibaba/druid/tree/master/druid-spring-boot-starter) Druid 和 String Boot 集成的 starter 
 - [Ehcache](http://www.ehcache.org/) [:octocat:](https://github.com/ehcache/ehcache3) Java 的缓存 
 - [Tomcat JDBC pool](https://tomcat.apache.org/tomcat-7.0-doc/jdbc-pool.html) Apache Tomcat JDBC 池 
 ## PaaS
@@ -476,6 +562,8 @@
 - [Hyperledger](https://www.hyperledger.org/) 被 IBM 采用的区块链平台 
 - [IBM Blockchain](https://www.ibm.com/blockchain/) IBM 的区块链，基于 Hyperledger 
 - Jira [:rainbow:](https://www.atlassian.com/software/jira) Atlassian 商用的问题跟踪系统 :heavy_dollar_sign:
+- Confluence
+- XWiki
 - JSON 
 - JSONView [:rainbow:](https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc) Chrome 插件 JSON 工具 
 - JSONLint [:rainbow:](https://jsonlint.com/) 在线 JSON 工具 
@@ -506,14 +594,19 @@
 - [XXL-JOB](http://www.xuxueli.com/xxl-job/) [:octocat:](https://github.com/xuxueli/xxl-job/) 轻量级分布式任务调度框架 大众点评 许雪里 :triangular_flag_on_post:
 - [zeplin](https://app.zeplin.io/) UI 设计协同工具 :cloud:
 - [Zookeeper](https://zookeeper.apache.org/) Apache 分布式应用程序协调服务 
+- [ArchiMate](https://www.archimatetool.com/) 架构建模工具
+
 ## Web 工具
 - [Google Trends](https://www.google.com/trends) Google 趋势查询 :cloud:
+
 ## WebService
 - [Axis2](http://axis.apache.org/axis2/java/core/) Apache 的 Web Services / SOAP / WSDL 引擎 
 - [CXF](http://cxf.apache.org/) Apache 的服务框架，支持 SOAP, XML/HTTP, RESTful HTTP, or CORBA 协议，HTTP, JMS or JBI 传输，JAX-WS and JAX-RS 前端 API 
 - [SOAP](http://www.w3school.com.cn/soap/) 基于 XML 的 SOAP 协议 
 - [WSDL](http://www.w3school.com.cn/wsdl/) WSDL（网络服务描述语言，Web Services Description Language）基于 XML 的语言，用于描述和访问 Web Services 
-## 
+
+##  其他
+
 - [Apache Kylin](http://kylin.apache.org/cn/) Apache 分布式分析引擎 
 - [Apache Camel](http://camel.apache.org) Apache 的企业应用集成（EAI）Java 实现 
 - [FileNet](http://www-01.ibm.com/support/docview.wss?uid=swg27042122) IBM 的文件、流程管理平台，P8 5.2.1，已不更新 :heavy_dollar_sign:
@@ -524,7 +617,6 @@
 - [Akka](https://akka.io/) Scale 写的实时处理 
 - [Gemfire](https://pivotal.io/pivotal-gemfire) 基于 Apache Geode 的内存分布式数据平台 
 - [ProcessOn](https://www.processon.com/) 在线流程图设计 :cloud::triangular_flag_on_post:
-- [墨刀](https://free.modao.cc) 在线原型设计协作平台，有免费和收费版 :cloud::triangular_flag_on_post:
 - [Trello](https://trello.com) 看板工具，免费、收费版 :cloud:
 - [SkyWalking](http://skywalking.apache.org/) [:octocat:](https://github.com/apache/incubator-skywalking) 国内大神吴晟创作的 APM，捐献 Apache :triangular_flag_on_post:
 - [Open-Falcon](http://open-falcon.org/) [:octocat:](https://github.com/open-falcon/falcon-plus/) 小米的监控平台 :triangular_flag_on_post:
@@ -533,3 +625,13 @@
 - [Let’s Encrypt](https://letsencrypt.org/) 免费 Https 证书 
 - [站酷 (ZCOOL)](https://www.zcool.com.cn/) 设计师平台 :cloud::triangular_flag_on_post:
 - [Jekyll](https://jekyllrb.com/) 免费的 Blog 生成工具，和 GitHub Pages 集成 
+- [Etcher](https://etcher.io/) 烧 Linux 工具
+- [Algolia](https://www.algolia.com/) 为网站与移动应用提供托管式搜索API，开源项目免费 :cloud:
+- [Typeform](https://www.typeform.com/) 在线表单服务
+- Raft 算法，Consul
+- paxos 算法，Zookeeper
+- [Protocal Buffers](https://developers.google.com/protocol-buffers/) (简称 Protobuf) 是 Google 公司内部的混合语言数据标准 
+- [WSO2](https://wso2.com/) 企业基础平台，有 IAM、API、集成
+- [blackduck](https://www.blackducksoftware.com/) 开源安全管理
+- [Kanbanize](https://kanbanize.com/) :heavy_dollar_sign: 个人版免费，但实际只是个 email 分类工具 [flow-e](https://flow-e.com/)
+- [Hygieia](https://github.com/Hygieia/Hygieia) DevOps Dashboard，多个 DevOps 工具的统一面板，能集成 Jira、Jenkins 等多个 Collector
