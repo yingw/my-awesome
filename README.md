@@ -1,19 +1,13 @@
-# My Knowledge
+# My Awesome
 
-相关项目
-- [My Awesome](https://github.com/yingw/my-awesome): 工具和架构
-- [My Stars](https://github.com/yingw/my-stars): 关注的项目
+此项目作为 [yingw](https://github.com/yingw) 的知识库记录。
 
 使用 emoji 含义说明
-- [:octocat:](https://github.com) GitHub 开源，并且是代码仓库的地址
-- :rainbow: 其他代码仓库开源，如：SourceForge、Gitee、GoogleCode
+
 - :heavy_dollar_sign: 商业软件
 - :warning: 已终结
 - :cloud: 在线工具
-- :white_check_mark: 已使用，默认都是已使用
-- :black_square_button: 未使用
-- :heart: 个人最爱
-- :triangular_flag_on_post: 中国制造
+- ![GitHub stars](https://img.shields.io/github/stars/moby/moby.svg?label=Stars&style=social) 用 badge 显示在 GitHub 的 star 数
 
 目录
 [TOC]
@@ -25,17 +19,17 @@
 - [Ubuntu Server](https://www.ubuntu.com/server) Ubuntu 的服务器版本 
 - [Windows Server](https://www.microsoft.com/en-us/cloud-platform/windows-server) Microsoft 的 Windows 服务器，有 03、08、12、16、19 版本 💲
 - [AWS Linux](https://aws.amazon.com/cn/amazon-linux-ami/) Amazon AWS 的 Linux 操作系统 for EC2，基于 CentOS
-- [Deepin 深度操作系统](https://www.deepin.org/) 国内的 Linux 发行版 🚩
+- [Deepin 深度操作系统](https://www.deepin.org/) 国内的 Linux 发行版
 - [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10) Win10 上的 Linux 子系统，可用于开发环境
 
 ## 设计
 
-- [墨刀](https://free.modao.cc) 在线原型设计协作平台，有免费和收费版 ☁️🚩
+- [墨刀](https://free.modao.cc) 在线原型设计协作平台，有免费和收费版 ☁️ 💲
 - [Axure RP](https://www.axure.com/) 老牌的原型设计工具 💲
 - [Balsamiq](https://balsamiq.com/) Rapid wireframing tool 💲
 - [Photopea](https://www.photopea.com/) 在线的免费图片编辑工具，类似 Photoshop ☁️
 
-## 1. 微服务
+## 微服务
 
 Java 的微服务开发平台主要有 Spring Cloud，Dubbo，也有新的无服务（Serverless）管理平台 Knative，服务网格（Service Mesh）架构 Istio
 
@@ -73,12 +67,12 @@ Java 的微服务开发平台主要有 Spring Cloud，Dubbo，也有新的无服
   - [Docker Registry](https://docs.docker.com/registry/) 被 Distribution 替代 
   - [Docker Distribution](https://docs.docker.com/registry/) 替代了原来的 Registry 
 - [Harbor](https://goharbor.io/) 容器镜像管理 by VMWare
-- [Kubernetes](http://kubernetes.io/) [:octocat:](https://github.com/kubernetes/kubernetes) Google 的容器编排 
-  - **[Helm](https://helm.sh/)** [:octocat:](https://github.com/helm/helm) Kubernetes 的包管理
+- [Kubernetes](http://kubernetes.io/) Google 的容器编排 [![GitHub stars](https://img.shields.io/github/stars/kubernetes/kubernetes.svg?label=Stars&style=social)](https://github.com/kubernetes/kubernetes)
+  - **[Helm](https://helm.sh/)** Kubernetes 的包管理 [![GitHub stars](https://img.shields.io/github/stars/helm/helm.svg?label=Stars&style=social)](https://github.com/helm/helm)
   - [kops](https://github.com/kubernetes/kops) Kubernetes Operations (kops) - Production Grade K8s Installation, Upgrades, and Management
-- [Mesos](http://mesos.apache.org/) [:octocat:](https://github.com/apache/mesos) Apache 的开源分布式资源管理框架 
+- [Mesos](http://mesos.apache.org/) Apache 的开源分布式资源管理框架 [![GitHub stars](https://img.shields.io/github/stars/apache/mesos.svg?label=Stars&style=social)](https://github.com/apache/mesos)
 - [Mesosphere](https://mesosphere.com/) 支持 Mesos 和 Kubernetes 的容器管理平台 💲
-- [Moby](https://mobyproject.org/) [:octocat:](https://github.com/moby/moby) Docker 开源版 
+- [Moby](https://mobyproject.org/)  Docker 开源版 [![GitHub stars](https://img.shields.io/github/stars/moby/moby.svg?label=Stars&style=social)](https://github.com/moby/moby)
 - [Swarm](https://docs.docker.com/engine/swarm/) [:octocat:](https://github.com/docker/swarm) Docker 的集群服务 
 - [Alpine](https://alpinelinux.org/) 轻量级 Linux based on musl libc and busybox. Docker 用 
 - [CoreOS](https://coreos.com/) 容器系统，已加入 RedHat 
@@ -268,52 +262,60 @@ Java 的微服务开发平台主要有 Spring Cloud，Dubbo，也有新的无服
 - [Primefaces](https://www.primefaces.org/) JSF、Angular 解决方案 
 - [Material-UI](https://material-ui.com) [:octocat:](https://github.com/mui-org/material-ui) Material Design 的 React 实现 
 ## 数据库
-- [Amoeba](http://wiki.hexnova.com/display/amoeba/Home) [:rainbow:](https://sourceforge.net/projects/amoeba/files/) 支持数据分片的分布式关系型数据库 
-- Corba [:octocat:](https://github.com/alibaba/cobar) 基于MySQL的分布式数据库服务中间件 
-- [Kettle](https://community.hitachivantara.com/docs/DOC-1009855) Java 编写的 ETL 工具 ，也叫 PDI (Pentaho Data Integration)
-- [Database.net](http://fishcodelib.com/Database.htm) .net 写的数据库管理工具 
-- [DB2](https://www.ibm.com/analytics/us/en/technology/db2/db2-linux-unix-windows.html) IBM DB2 数据库 :heavy_dollar_sign:
-- [Derby](https://db.apache.org/derby/) [:rainbow:](https://svn.apache.org/repos/asf/db/derby/code/branches/) Apache 的轻量级可嵌入应用服务器数据库 
-- [H2](http://h2database.com/html/main.html) 轻量级可嵌入数据库，用于开发环境 
-- [HSQLDB](http://hsqldb.org) Java 写的数据库 
-- [InfluxDB](https://www.influxdata.com) 时序数据库 
-- [LiquiBase](https://www.liquibase.org/) [:octocat:](https://github.com/liquibase/liquibase) 数据库版本 
-- [Flyway](https://flywaydb.org/) [:octocat:](https://github.com/flyway/flyway) 数据库版本、迁移工具
-- [MariaDB](https://mariadb.org/) [:octocat:](https://github.com/MariaDB/server) MySQL 的分支数据库 
-- [MSSQL](https://www.microsoft.com/en-us/cloud-platform/sql-server) Microsoft SQL Server 数据库，有 Express、Developer、Enterprise 版 :heavy_dollar_sign:
-- **[Aurora](https://aws.amazon.com/cn/rds/aurora/)** AWS 的兼容 MySQL 和 PostgreSQL 的关系数据库，号称性能和 Oracle 相当
-- [Mycat](http://www.mycat.io/) [:octocat:](https://github.com/MyCATApache/MyCAT-Server/) 数据库分库分表中间件 :triangular_flag_on_post:
-- [MySQL](http://www.mysql.com/) 有 Community、Cluster、Enterprise 版 
-- [Oracle](https://www.oracle.com/database/index.html) Oracle 数据库 :heavy_dollar_sign:
+
+### 关系型数据库
+
+- [MySQL](http://www.mysql.com/) 有 Community、Cluster、Enterprise 版，目前使用最多的开源数据库
+- [Oracle](https://www.oracle.com/database/index.html) Oracle 数据库 💲
 - [PostgreSQL](https://www.postgresql.org/) 
+- [MSSQL](https://www.microsoft.com/en-us/cloud-platform/sql-server) Microsoft SQL Server 数据库，有 Express、Developer、Enterprise 版 💲
+- [Aurora](https://aws.amazon.com/cn/rds/aurora/) AWS 的兼容 MySQL 和 PostgreSQL 的关系数据库，号称性能和 Oracle 相当
+- [H2](http://h2database.com/html/main.html) 轻量级可嵌入数据库，用于开发环境  
+
+### 非关系型数据库
+
+- [Memcached](http://memcached.org/) 分布式内存对象缓存系统 
 - [Redis](http://redis.io/) [:octocat:](https://github.com/antirez/redis) Redis is an open source (BSD licensed), in-memory data structure store, used as database, cache and message broker. 
-  - [Redsmin](https://www.redsmin.com/) Redis 在线服务 :cloud:
+  - [Redsmin](https://www.redsmin.com/) Redis 在线服务 ☁️
   - 哨兵
-- [Sharding-JDBC](http://shardingjdbc.io/) [:octocat:](https://github.com/shardingjdbc/sharding-jdbc) Distributed database middleware 
-- [SQLLite](http://sqlite.org/) 
-- [Talend](https://www.talend.com/products/data-integration/) ETL 工具 
-- [TiDB](https://pingcap.com) 开源分布式 NewSQL 关系型数据库 
-- Netflix Atlas [:octocat:](https://github.com/Netflix/atlas) 时序数据库 
-- [Couchbase](https://www.couchbase.com/) NoSQL 数据库，组件有 Lite，Server，SyncGateway，Connector 
-- [OpenTSDB](http://opentsdb.net/) [:octocat:](https://github.com/OpenTSDB/opentsdb) 时序数据库 
-- [Druid](http://druid.io/) [:octocat:](https://github.com/druid-io/druid/) 面向海量数据的、用于实时查询与分析的OLAP存储系统 
-- [JPQL](https://en.wikipedia.org/wiki/Java_Persistence_Query_Language) Java Persistence Query Language 
-- [QueryDSL](http://www.querydsl.com/) [:octocat:](https://github.com/querydsl/querydsl) 简化JPA操作DSL 
-## 数据库 NoSQL
+- [MongoDB](https://www.mongodb.com/) [:octocat:](https://github.com/mongodb/mongo) 基于分布式文件存储的数据库 
 - [HBase](http://hbase.apache.org/) Apahce 的分布式的、面向列的 Hadoop 数据库 
 - [Cassandra](http://cassandra.apache.org/) Apache 的分布式NoSQL数据库 
 - [Hadoop](http://hadoop.apache.org/) Apache 的分布式系统基础架构 
-- [Memcached](http://memcached.org/) 分布式内存对象缓存系统 
-- [MongoDB](https://www.mongodb.com/) [:octocat:](https://github.com/mongodb/mongo) 基于分布式文件存储的数据库 
 - [Spark](http://spark.apache.org/) Apache 的基于内存计算的集群计算系统 
 - [IndexedDB](https://developer.mozilla.org/zh-CN/docs/Web/API/IndexedDB_API) 浏览器本地数据库，操作 API，非关系型，JSON 格式
-## 数据库工具
+
+### 其他数据库
+
+- [Amoeba](http://wiki.hexnova.com/display/amoeba/Home) [​:rainbow:​](https://sourceforge.net/projects/amoeba/files/) 支持数据分片的分布式关系型数据库 
+- Corba [:octocat:](https://github.com/alibaba/cobar) 基于MySQL的分布式数据库服务中间件 
+- [DB2](https://www.ibm.com/analytics/us/en/technology/db2/db2-linux-unix-windows.html) IBM DB2 数据库 :heavy_dollar_sign:
+- [Derby](https://db.apache.org/derby/) [:rainbow:](https://svn.apache.org/repos/asf/db/derby/code/branches/) Apache 的轻量级可嵌入应用服务器数据库 
+- [HSQLDB](http://hsqldb.org) Java 写的数据库 
+- [InfluxDB](https://www.influxdata.com) 时序数据库 
+- [MariaDB](https://mariadb.org/) [:octocat:](https://github.com/MariaDB/server) MySQL 的分支数据库 
+- [SQLLite](http://sqlite.org/) 
+- [TiDB](https://pingcap.com) 开源分布式 NewSQL 关系型数据库 
+- Netflix Atlas [:octocat:](https://github.com/Netflix/atlas) 时序数据库 
+- [Couchbase](https://www.couchbase.com/) NoSQL 数据库，组件有 Lite，Server，SyncGateway，Connector 
+- [OpenTSDB](http://opentsdb.net/) [:octocat:](https://github.com/OpenTSDB/opentsdb) 时序数据库
+### 数据库管理工具
 - [DB Visualizer](http://www.dbvis.com/) :heavy_dollar_sign:
 - [DBeaver](http://dbeaver.jkiss.org/) [:octocat:](https://github.com/serge-rider/dbeaver/) 
 - [Navicat](https://www.navicat.com/) :heavy_dollar_sign:
 - [PHPMyAdmin](https://www.phpmyadmin.net/) PHP 的 MySQL 管理端 
 - [SQL Developer](http://www.oracle.com/technetwork/developer-tools/sql-developer/overview/index.html) Oracle 的数据库管理工具 
 - [SQLyog](https://www.webyog.com/product/sqlyog) 
+- [Kettle](https://community.hitachivantara.com/docs/DOC-1009855) Java 编写的 ETL 工具 ，也叫 PDI (Pentaho Data Integration)
+- [Database.net](http://fishcodelib.com/Database.htm) .net 写的数据库管理工具 
+- [LiquiBase](https://www.liquibase.org/) [:octocat:](https://github.com/liquibase/liquibase) 数据库版本 
+- [Flyway](https://flywaydb.org/) [:octocat:](https://github.com/flyway/flyway) 数据库版本、迁移工具
+- [Mycat](http://www.mycat.io/) [:octocat:](https://github.com/MyCATApache/MyCAT-Server/) 数据库分库分表中间件 🚩
+- [Sharding-JDBC](http://shardingjdbc.io/) [:octocat:](https://github.com/shardingjdbc/sharding-jdbc) Distributed database middleware 
+- [Talend](https://www.talend.com/products/data-integration/) ETL 工具  
+- [Druid](http://druid.io/) [:octocat:](https://github.com/druid-io/druid/) 面向海量数据的、用于实时查询与分析的OLAP存储系统 
+- [JPQL](https://en.wikipedia.org/wiki/Java_Persistence_Query_Language) Java Persistence Query Language 
+- [QueryDSL](http://www.querydsl.com/) [:octocat:](https://github.com/querydsl/querydsl) 简化JPA操作DSL
 ## 搜索引擎
 - [ElasticSearch](https://www.elastic.co/products/elasticsearch) [:octocat:](https://github.com/elastic/elasticsearch) 分布式搜索服务 
 - [Lucene](http://lucene.apache.org/) Apache 的全文检索引擎工具包 
