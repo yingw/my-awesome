@@ -1,5 +1,15 @@
 # My Awesome
 
+> 2019-06更新：改成除IT知识库外，工具、配置的记录
+
+- [Windows](./windows.md)
+- Mac
+- Linux
+- Deepin
+- [Chrome](./chrome.md)
+- [VSCode](./vscode.md)
+- Game(private)
+
 此项目作为 [yingw](https://github.com/yingw) 的知识库记录。
 
 使用 emoji 含义说明
@@ -10,7 +20,67 @@
 - ![GitHub stars](https://img.shields.io/github/stars/moby/moby.svg?label=Stars&style=social) 用 badge 显示在 GitHub 的 star 数
 
 目录
-[TOC]
+
+<!-- TOC -->
+
+- [My Awesome](#my-awesome)
+    - [操作系统](#操作系统)
+    - [设计](#设计)
+    - [微服务](#微服务)
+    - [容器](#容器)
+        - [推荐镜像](#推荐镜像)
+    - [运维](#运维)
+    - [安全](#安全)
+    - [安全 单点登入](#安全-单点登入)
+    - [报表](#报表)
+    - [编译](#编译)
+    - [测试](#测试)
+    - [持续集成](#持续集成)
+    - [代码仓库](#代码仓库)
+    - [分布式存储](#分布式存储)
+    - [管理模板](#管理模板)
+    - [监控](#监控)
+    - [浏览器](#浏览器)
+    - [流程引擎](#流程引擎)
+    - [模板引擎](#模板引擎)
+    - [前端模板](#前端模板)
+    - [数据库](#数据库)
+        - [关系型数据库](#关系型数据库)
+        - [非关系型数据库](#非关系型数据库)
+        - [其他数据库](#其他数据库)
+        - [数据库管理工具](#数据库管理工具)
+    - [搜索引擎](#搜索引擎)
+    - [图标](#图标)
+    - [图表](#图表)
+    - [项目管理](#项目管理)
+    - [消息队列](#消息队列)
+    - [虚拟机](#虚拟机)
+    - [移动开发](#移动开发)
+    - [应用服务器](#应用服务器)
+    - [云服务](#云服务)
+    - [在线文档](#在线文档)
+    - [API](#api)
+    - [CSS](#css)
+    - [CSS 模板](#css-模板)
+    - [ESB](#esb)
+    - [HTML 模板](#html-模板)
+    - [HTML 组件](#html-组件)
+    - [HTTP 服务器](#http-服务器)
+    - [IDE](#ide)
+    - [Java](#java)
+    - [Java 脚手架](#java-脚手架)
+    - [Java MVC](#java-mvc)
+    - [Java ORM](#java-orm)
+    - [Javascript](#javascript)
+    - [JDBC](#jdbc)
+    - [PaaS](#paas)
+    - [Spring Boot](#spring-boot)
+    - [Tools](#tools)
+    - [Web 工具](#web-工具)
+    - [WebService](#webservice)
+    - [其他](#其他)
+
+<!-- /TOC -->
 
 ## 操作系统
 
@@ -287,7 +357,7 @@ Java 的微服务开发平台主要有 Spring Cloud，Dubbo，也有新的无服
 
 ### 其他数据库
 
-- [Amoeba](http://wiki.hexnova.com/display/amoeba/Home) [​:rainbow:​](https://sourceforge.net/projects/amoeba/files/) 支持数据分片的分布式关系型数据库 
+- [Amoeba](http://wiki.hexnova.com/display/amoeba/Home) [:rainbow:](https://sourceforge.net/projects/amoeba/files/) 支持数据分片的分布式关系型数据库 
 - Corba [:octocat:](https://github.com/alibaba/cobar) 基于MySQL的分布式数据库服务中间件 
 - [DB2](https://www.ibm.com/analytics/us/en/technology/db2/db2-linux-unix-windows.html) IBM DB2 数据库 :heavy_dollar_sign:
 - [Derby](https://db.apache.org/derby/) [:rainbow:](https://svn.apache.org/repos/asf/db/derby/code/branches/) Apache 的轻量级可嵌入应用服务器数据库 
