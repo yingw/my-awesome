@@ -51,7 +51,7 @@
 - [Spring Initializr Java Support](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-spring-initializr)：微软官方，新建 Spring Boot 项目
 - [SQL Server (mssql)](https://marketplace.visualstudio.com/items?itemName=ms-mssql.mssql)
 - [Team Chat](https://marketplace.visualstudio.com/items?itemName=karigari.chat)：边写边聊
-- [TODO Highlight](https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight)：高亮注释里的 TODO: FIXMI: 关键字，也可以自己加关键字
+- [TODO Highlight](https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight)：高亮注释里的 TODO: FIXME: 关键字，也可以自己加关键字
 - [Vetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur)：Vue 的语法提示等
 - [Visual Studio IntelliCode](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode)：智能代码提示，支持多种语言，从Github上分析代码写法
 - [VSCode Great Icons](https://marketplace.visualstudio.com/items?itemName=emmanuelbeziat.vscode-great-icons)：图标集
