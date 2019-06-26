@@ -1,6 +1,6 @@
 # My Awesome VSCode
 
->  [Visual Studio Code](https://code.visualstudio.com/) 的插件
+> [Visual Studio Code](https://code.visualstudio.com/) 的插件
 
 - [Ansible](https://marketplace.visualstudio.com/items?itemName=vscoss.vscode-ansible)
 - [AsciiDoc](https://marketplace.visualstudio.com/items?itemName=joaompinto.asciidoctor-vscode)
@@ -10,7 +10,7 @@
 - [Debugger For Java](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-debug) 官方的Java调试工具，可以在Java工具包一起安装
 - [ES7 React/Redux/GraphQL/React-Native snippets](https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets)
 - [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
-- [Excel Viewer]()
+- [Excel Viewer](https://marketplace.visualstudio.com/items?itemName=GrapeCity.gc-excelviewer)
 - [filesize](https://marketplace.visualstudio.com/items?itemName=mkxml.vscode-filesize)
 - [Gih History](https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory)
 - [Git Tree Compare](https://marketplace.visualstudio.com/items?itemName=letmaik.git-tree-compare)
@@ -44,7 +44,6 @@
 - [Peacock](https://marketplace.visualstudio.com/items?itemName=johnpapa.vscode-peacock)：修改workspace的主题色
 - [Rainbow CSV](https://marketplace.visualstudio.com/items?itemName=mechatroner.rainbow-csv)：查看CSV文件
 - [Settings Sync](https://networkinferno.net/vscode-plugin-settings-sync)：同步VSCode配置，记录在Gist上
-  
   > 新建 Github Access Token：code-settings-sync （一定要用这个名字），权限选择 gist，上传后记录 gist key，新环境下载。注意不要上传空的覆盖。
 - [Spring Boot Dashboard](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-spring-boot-dashboard)：微软官方
 - [Spring Boot Tools](https://marketplace.visualstudio.com/items?itemName=Pivotal.vscode-spring-boot)：Pivotal 出
@@ -58,9 +57,9 @@
 - [XML Tools](https://marketplace.visualstudio.com/items?itemName=DotJoshJohnson.xml)
 - [YAML](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml)：Redhat 出
 
-Install log
+Installation log:
 
-```
+```log
   asciidoctor-vscode v2.1.1
   beautify v1.4.7
   chat v0.8.2
@@ -117,4 +116,3 @@ Install log
   vsliveshare-pack v0.2.4
   xml v2.3.2
 ```
-

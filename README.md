@@ -502,9 +502,11 @@ Java 的微服务开发平台主要有 Spring Cloud，Dubbo，也有新的无服
 - [IBM HTTP Server](http://www-03.ibm.com/software/products/en/http-servers) IBM 的 HTTP 服务器，基于 Apache :heavy_dollar_sign:
 - [Nginx](http://nginx.org/) HTTP 和反向代理服务器 
 - [Apache AJP](https://httpd.apache.org/docs/2.4/mod/mod_proxy_ajp.html) Apache 的 mod_proxy_ajp 负载均衡组件 
-- [Squid](http://www.squid-cache.org/) 反向代理服务器，代理缓存服务器 
+- [Squid](http://www.squid-cache.org/) 反向代理服务器，代理缓存服务器
+
 ## IDE
-- [M2Eclipse](https://www.eclipse.org/m2e/) Eclipse 的 Maven 支持插件 
+
+- [M2Eclipse](https://www.eclipse.org/m2e/) Eclipse 的 Maven 支持插件
 - [MAT](http://www.eclipse.org/mat/) Eclipse Memory Analyzer 
 - [Atom](https://atom.io/) [:octocat:](https://github.com/atom/atom) GitHub 的编辑工具 
 - [Eclipse](http://www.eclipse.org/) Java 集成开发环境 

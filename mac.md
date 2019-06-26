@@ -55,7 +55,7 @@
 - Windows远程Mac可以用VNC，在设置-共享-开启“远程管理”-允许“VNC用密码控制”，也可以只开“屏幕共享”
 - Mac自带一个VNC客户端：屏幕共享（Screen Sharing.APP）
 - screenfetch `brew install`
-- ShadowSocks 
+- ShadowSocks
 翻墙工具，brew上面有三个
   - [ShadowsocksX](https://github.com/shadowsocks/shadowsocks-iOS) 可以用
   - 安装: `brew cask install shadowsocksx` 安装的是官方port，但是github主页留了一句“Removed according to regulations.”（被和谐）
@@ -63,7 +63,7 @@
   - 最后在Mac网络设置里设置socks代理：127.0.0.1:1080
 - [ShadowSocks-NG-X](https://github.com/qinyuhang/ShadowsocksX-NG-R/)：要看dev分支
 - [Xcode](https://itunes.apple.com/cn/app/xcode/id497799835?mt=12)
-- [Trello](https://itunes.apple.com/cn/app/trello/id1278508951?mt=12) (https://trello.com/)：任务看板
+- [Trello](https://trello.com/) ：任务看板，[商店](https://itunes.apple.com/cn/app/trello/id1278508951?mt=12)
 
 ## 1.2. 开发工具
 
@@ -72,25 +72,24 @@
 - [DBeaver](http://dbeaver.io/)：`brew cask install dbeaver-community`
 
 ## 1.3. MacOS 恢复功能
-https://support.apple.com/zh-cn/HT201314
 
-关机状态下按住 `Command (⌘)-R`，再按电源键开机，进入恢复，可以：
+[官方文档](https://support.apple.com/zh-cn/HT201314)，关机状态下按住 `Command (⌘)-R`，再按电源键开机，进入恢复，可以：
+
 1. Restore From Time Machine Backup
 2. Reinstall Mac OS X
 3. Disk Utility （分区）
 
 注：重装需要联网下载整个 OS 镜像
 
-或者制作使用引导安装器：https://support.apple.com/zh-cn/HT201372
+或者[制作使用引导安装器](https://support.apple.com/zh-cn/HT201372)
 
 ## 1.4. 初始化
 
 ## 1.5. 安装Windows
 
-用 Mac 做 Windows 启动盘，需要 ISO 文件
-https://support.apple.com/zh-cn/HT205016
+用 Mac 做 Windows 启动盘，需要 ISO 文件，[官方文档](https://support.apple.com/zh-cn/HT205016)
 
-参考：https://www.cnblogs.com/zhengxu/articles/6145651.html
+[参考](https://www.cnblogs.com/zhengxu/articles/6145651.html)
 
 要用Mac的Bootcamp制作启动盘；（不需要）
 重装后要在U盘里面执行
@@ -101,7 +100,7 @@ https://support.apple.com/zh-cn/HT205016
 
 ## 2.1. 账号管理
 
-- [百度云盘](http://pan.baidu.com/download#pan) 
+- [百度云盘](http://pan.baidu.com/download#pan)
 - [KeePass](https://keepass.info/) 密码管理  可能不支持Mac；有个对应的[Mac版](https://keepass.info/download/p_macosx/index.html)，但是很老了13年
 - [MacPass](https://macpassapp.org)；有个web在线版本[KeeWeb](https://keeweb.info/)也[开源](https://github.com/keeweb/keeweb)7k star，也有对应用Electron封装的桌面版（太大）；
 - [KeepassXC](https://keepassxc.org/) 跨平台  [Github](https://github.com/keepassxreboot/keepassxc/) 5k
@@ -173,9 +172,7 @@ brew cask install quicklook-json #预览JSON文件
 brew cask install quicklook-csv  #预览CSV文件
 ```
 
-用 Homebrew 安装 Java
-参考：https://blog.csdn.net/u013310075/article/details/81024790
-(但是下载的是Oracle版本，看看怎么下载 openjdk)
+用 Homebrew 安装 Java，[参考](https://blog.csdn.net/u013310075/article/details/81024790)，(但是下载的是Oracle版本，看看怎么下载 openjdk)
 
 ```bash
 brew tap caskroom/versions
@@ -195,7 +192,7 @@ sdk install
 
 但是sdk安装的java11别的认不到
 
-- [Dash](https://kapeli.com/dash)，管理各个语言框架的api文档，收费，但可以一直免费用，低版本也是免费的，AppStore上还有移动端，免费，或者用另一个网页版：https://devdocs.io/ 还不需要下周很大的文件
+- [Dash](https://kapeli.com/dash)，管理各个语言框架的api文档，收费，但可以一直免费用，低版本也是免费的，AppStore上还有移动端，免费，或者用另一个网页版：[https://devdocs.io/](https://devdocs.io/) 还不需要下周很大的文件
 - Charles 网络抓包工具
 - FileZilla
 - Ansible
@@ -203,7 +200,7 @@ sdk install
 - maven
 - jdk
 - iTerm2 终端 `brew cask install iterm2` 主题/字体/oh-my-zsh
-- oh-my-zsh https://ohmyz.sh/
+- [oh-my-zsh](https://ohmyz.sh/)
 - `sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
 - [GitKraken](https://www.gitkraken.com/) Git 客户端，免费版够用 `brew cask install gitkraken`
 - sourceTree 或 [GitKraken](https://www.gitkraken.com/)
@@ -213,7 +210,7 @@ sdk install
 - [1Password](https://1password.com/) 密码管理
 - [iPic](https://toolinbox.net/iPic/) 图床
 - TextMate 算了，换 Sublime Text
-- Sublime Text http://www.sublimetext.com 主流有2和3，默认下载版本3
+- [Sublime Text](http://www.sublimetext.com)：主流有2和3，默认下载版本3
 - [Annotate](https://itunes.apple.com/us/app/annotate-capture-screenshot/id918207447?mt=12) 截屏工具
 - Microsoft Office 365 六件套（Word Excel PPT Outlook OneNote OneDrive）可以字节在 AppStore 下，用公司邮箱可以直接激活 ，[参考](https://itunes.apple.com/cn/app-bundle/microsoft-office-365/id1450038993?mt=12)
 - 微信/QQ/企业微信/好压9试用10天）/The Unarchiver /爱奇艺/网易云音乐，这些都可以在 AppStore 直接下
