@@ -5,13 +5,16 @@
 - Adblock Plus：广告拦截
 - OneTab：tab管理，不能云同步，需要导出备份
 - Proxy SwitchOmega：代理管理
-- Enhanced GitHub：显示文件大小、仓库大小等
 - Google文档离线功能
 - HTTPS Everywhere：自动使用 HTTPS 连接访问站点
+- JSONView
+- XV — XML Viewer
 - LastPass：密码管理
 - Momentum：欢迎页
 - Nimbus：截屏
+- Enhanced GitHub：显示文件大小、仓库大小等
 - Octotree：Github插件
+- Awesome Autocomplete for GitHub：增强GitHub的搜索框
 - Password Checkup：Google官方出的密码安全性检查工具
 - Super Simple Highlighter：高亮文具
 - Vue.js devtools
