@@ -36,13 +36,14 @@
 - 办公套件
   - Office：微软Office，可以从AppStore下载
   - iWork：苹果的办公套件，AppStore下载
+  - 邮箱：Outlook 或者 [Spark](https://sparkmailapp.com/) 免费版够用
+  - [ProjectLibre](http://www.projectlibre.com/)：项目管理软件，Office Project 的替代，前身是免费的 OpenProj
 - [企业微信](https://work.weixin.qq.com/)：AppStore下载
 - SAP GUI Java版
 - 7zip 特殊格式解压缩
 - 视频
 - PDF阅读器
 - [mackup](https://github.com/lra/mackup)：备份配置，我的配置：[my-mac-mackup-backup](https://github.com/yingw/my-mac-mackup-backup)
-- [shadowsocksx-ng](https://github.com/shadowsocks/ShadowsocksX-NG)：用链接或二维码导出导入配置，版本1.8.2
 - [iTerm2](https://www.iterm2.com/)：最好的终端，`brew cask install iterm2`
 - zsh，[ohmyzsh](https://ohmyz.sh/)：[参考](https://sspai.com/post/55176)
   - 修改主题 `～/.zshrc`，agnoster
@@ -61,9 +62,18 @@
   - 安装: `brew cask install shadowsocksx` 安装的是官方port，但是github主页留了一句“Removed according to regulations.”（被和谐）
   - 不能用windows的gui-config.json配置文件，只能手动添加配置或者官网扫二维码
   - 最后在Mac网络设置里设置socks代理：127.0.0.1:1080
+- [ShadowSocks-NG](https://github.com/shadowsocks/ShadowsocksX-NG)：用链接或二维码导出导入配置，版本1.8.2
 - [ShadowSocks-NG-X](https://github.com/qinyuhang/ShadowsocksX-NG-R/)：要看dev分支
 - [Xcode](https://itunes.apple.com/cn/app/xcode/id497799835?mt=12)
 - [Trello](https://trello.com/) ：任务看板，[商店](https://itunes.apple.com/cn/app/trello/id1278508951?mt=12)
+- [MindNote](https://apps.apple.com/cn/app/mindnode-6/id1289197285?mt=12) 思维导图，收费
+- [Eudic 欧路词典](https://apps.apple.com/cn/app/eudic-%E6%AC%A7%E8%B7%AF%E8%AF%8D%E5%85%B8/id434350458?mt=12)：Lite版不支持第三方词库，基本也够用
+- [Alfred](https://apps.apple.com/cn/app/alfred/id405843582?mt=12)：搜索，很多功能
+- [Zoom](https://www.zoom.us/download) 视频会议
+- [钉钉](https://www.dingtalk.com/)：[应用商店](https://apps.apple.com/cn/app/%E9%92%89%E9%92%89/id1435447041?mt=12)
+- [阿里旺旺](https://wangwang.taobao.com/)
+- [CopyLess 2](https://apps.apple.com/cn/app/copyless-2/id993841014?mt=12)：剪贴板管理，免费版可以记录100个历史和5个收藏
+- [Ethernet Status](https://apps.apple.com/cn/app/ethernet-status/id1186187538?mt=12)
 
 ## 1.2. 开发工具
 
@@ -215,6 +225,8 @@ sdk install
 - Microsoft Office 365 六件套（Word Excel PPT Outlook OneNote OneDrive）可以字节在 AppStore 下，用公司邮箱可以直接激活 ，[参考](https://itunes.apple.com/cn/app-bundle/microsoft-office-365/id1450038993?mt=12)
 - 微信/QQ/企业微信/好压9试用10天）/The Unarchiver /爱奇艺/网易云音乐，这些都可以在 AppStore 直接下
 - 搜狗输入助手，可以和windows同步字库，账号：
+- 网易云音乐
+- [1ting](https://listen1.github.io/listen1/)：搜索和播放来自网易云音乐，虾米，QQ音乐，酷狗音乐，酷我音乐网站的歌曲
 
 如何卸载内置不用的应用：如股票/消息
 

@@ -56,6 +56,7 @@
 - [VSCode Great Icons](https://marketplace.visualstudio.com/items?itemName=emmanuelbeziat.vscode-great-icons)：图标集
 - [XML Tools](https://marketplace.visualstudio.com/items?itemName=DotJoshJohnson.xml)
 - [YAML](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml)：Redhat 出
+- [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)：拼写检查
 
 Installation log:
 
