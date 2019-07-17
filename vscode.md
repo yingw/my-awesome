@@ -6,8 +6,8 @@
 - [AsciiDoc](https://marketplace.visualstudio.com/items?itemName=joaompinto.asciidoctor-vscode)
 - [Beautify](https://marketplace.visualstudio.com/items?itemName=HookyQR.beautify)
 - [Chinese Language Pack](https://marketplace.visualstudio.com/items?itemName=MS-CEINTL.vscode-language-pack-zh-hans) 中文语言包
-- [Debugger For Chrome](https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome) 官方的前端debugger工具
-- [Debugger For Java](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-debug) 官方的Java调试工具，可以在Java工具包一起安装
+- [Debugger For Chrome](https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome) 官方的前端 debugger 工具
+- [Debugger For Java](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-debug) 官方的 Java 调试工具，可以在 Java 工具包一起安装
 - [ES7 React/Redux/GraphQL/React-Native snippets](https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets)
 - [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 - [Excel Viewer](https://marketplace.visualstudio.com/items?itemName=GrapeCity.gc-excelviewer)
@@ -15,23 +15,23 @@
 - [Gih History](https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory)
 - [Git Tree Compare](https://marketplace.visualstudio.com/items?itemName=letmaik.git-tree-compare)
 - [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
-- [HTML Boilerplate](https://marketplace.visualstudio.com/items?itemName=sidthesloth.html5-boilerplate)：HTML模板
+- [HTML Boilerplate](https://marketplace.visualstudio.com/items?itemName=sidthesloth.html5-boilerplate)：HTML 模板
 - [HTML CSS Support](https://marketplace.visualstudio.com/items?itemName=ecmel.vscode-html-css)
-- [HTML Snippets](https://marketplace.visualstudio.com/items?itemName=abusaidm.html-snippets)：HTML代码片段
+- [HTML Snippets](https://marketplace.visualstudio.com/items?itemName=abusaidm.html-snippets)：HTML 代码片段
 - [IntelliJ IDEA Keybindings](https://marketplace.visualstudio.com/items?itemName=k--kato.intellij-idea-keybindings)：使用 IDEA 的快捷键
 - [Java Dependency Viewer](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-dependency)
-- [Java Extension Pack](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack)：微软官方，包含多个Java插件
+- [Java Extension Pack](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack)：微软官方，包含多个 Java 插件
 - [Java Test Runner](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-test)
-- [JHipster JDL](https://marketplace.visualstudio.com/items?itemName=jhipster-ide.jdl)：JDL语法支持
+- [JHipster JDL](https://marketplace.visualstudio.com/items?itemName=jhipster-ide.jdl)：JDL 语法支持
 - [jshint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.jshint)
 - [Kubernetes](https://marketplace.visualstudio.com/items?itemName=ms-kubernetes-tools.vscode-kubernetes-tools)：微软官方
-- [Language Support for Java](https://marketplace.visualstudio.com/items?itemName=redhat.java)：Red Hat出
+- [Language Support for Java](https://marketplace.visualstudio.com/items?itemName=redhat.java)：Red Hat 出
 - [Live Share](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare)：微软，可以协作编辑一份代码
 - [Live Share Audio](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare-audio)：支持语音
 - [Live Share Extension Pack](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare-pack)
 - [Lombok Annotations Support](https://marketplace.visualstudio.com/items?itemName=GabrielBB.vscode-lombok)：支持 Lombok
-- [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)：支持编辑预览markdown格式
-- [Markdown TOC](https://marketplace.visualstudio.com/items?itemName=AlanWalk.markdown-toc)：生成md文档目录
+- [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)：支持编辑预览 markdown 格式
+- [Markdown TOC](https://marketplace.visualstudio.com/items?itemName=AlanWalk.markdown-toc)：生成 md 文档目录
 - [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint)
 - [Material ICON theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
 - [Maven for Java](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-maven)
@@ -41,9 +41,9 @@
 - [Open In Browser](https://marketplace.visualstudio.com/items?itemName=techer.open-in-browser)：在浏览器中打开
 - [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)：代码格式化
 - [Partial Diff](https://marketplace.visualstudio.com/items?itemName=ryu1kn.partial-diff)：差异比较
-- [Peacock](https://marketplace.visualstudio.com/items?itemName=johnpapa.vscode-peacock)：修改workspace的主题色
-- [Rainbow CSV](https://marketplace.visualstudio.com/items?itemName=mechatroner.rainbow-csv)：查看CSV文件
-- [Settings Sync](https://networkinferno.net/vscode-plugin-settings-sync)：同步VSCode配置，记录在Gist上
+- [Peacock](https://marketplace.visualstudio.com/items?itemName=johnpapa.vscode-peacock)：修改 workspace 的主题色
+- [Rainbow CSV](https://marketplace.visualstudio.com/items?itemName=mechatroner.rainbow-csv)：查看 CSV 文件
+- [Settings Sync](https://networkinferno.net/vscode-plugin-settings-sync)：同步 VSCode 配置，记录在 Gist 上
   > 新建 Github Access Token：code-settings-sync （一定要用这个名字），权限选择 gist，上传后记录 gist key，新环境下载。注意不要上传空的覆盖。
 - [Spring Boot Dashboard](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-spring-boot-dashboard)：微软官方
 - [Spring Boot Tools](https://marketplace.visualstudio.com/items?itemName=Pivotal.vscode-spring-boot)：Pivotal 出
@@ -52,11 +52,12 @@
 - [Team Chat](https://marketplace.visualstudio.com/items?itemName=karigari.chat)：边写边聊
 - [TODO Highlight](https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight)：高亮注释里的 TODO: FIXME: 关键字，也可以自己加关键字
 - [Vetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur)：Vue 的语法提示等
-- [Visual Studio IntelliCode](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode)：智能代码提示，支持多种语言，从Github上分析代码写法
+- [Visual Studio IntelliCode](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode)：智能代码提示，支持多种语言，从 Github 上分析代码写法
 - [VSCode Great Icons](https://marketplace.visualstudio.com/items?itemName=emmanuelbeziat.vscode-great-icons)：图标集
 - [XML Tools](https://marketplace.visualstudio.com/items?itemName=DotJoshJohnson.xml)
 - [YAML](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml)：Redhat 出
 - [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)：拼写检查
+- [vscode-pangu](https://marketplace.visualstudio.com/items?itemName=baurine.vscode-pangu)：全半角之间加空格
 
 Installation log:
 

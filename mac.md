@@ -7,7 +7,9 @@
 <!-- TOC -->
 
 - [My Awesome Mac](#My-Awesome-Mac)
-  - [1.1. 系统工具](#11-%E7%B3%BB%E7%BB%9F%E5%B7%A5%E5%85%B7)
+  - [系统工具](#%E7%B3%BB%E7%BB%9F%E5%B7%A5%E5%85%B7)
+    - [协同工具](#%E5%8D%8F%E5%90%8C%E5%B7%A5%E5%85%B7)
+    - [文档编辑](#%E6%96%87%E6%A1%A3%E7%BC%96%E8%BE%91)
   - [1.2. 开发工具](#12-%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7)
   - [1.3. MacOS 恢复功能](#13-MacOS-%E6%81%A2%E5%A4%8D%E5%8A%9F%E8%83%BD)
   - [1.4. 初始化](#14-%E5%88%9D%E5%A7%8B%E5%8C%96)
@@ -27,18 +29,33 @@
 
 <!-- /TOC -->
 
-## 1.1. 系统工具
+## 系统工具
 
-- [Homebrew](https://brew.sh/)：安装软件
-- [Typora](https://www.typora.io/)：markdown编辑器
-- [有道云笔记](https://note.youdao.com/index.html)：笔记，可以和 Windows 同步；[AppStore](https://itunes.apple.com/cn/app/%E6%9C%89%E9%81%93%E4%BA%91%E7%AC%94%E8%AE%B0/id1121484812?mt=12)；[在线版](https://note.youdao.com/)
-- [迅雷](http://mac.xunlei.com/)：下载工具
+- [Homebrew](https://brew.sh/)：用来软件管理。后面有很多软件都是用 Homebrew 安装。
+
+### 协同工具
+
+- [企业微信](https://work.weixin.qq.com/)：腾讯的，AppStore下载。
+- [Zoom](https://zoom.us/)：可以在web端使用，也有桌面端应用，免费用户3人以上40分钟会议，只要有一个收费用户即无限制。
+- [Teams](https://teams.microsoft.com/)：微软的会议解决方案，web端+桌面端。
+- [钉钉](https://www.dingtalk.com/)：阿里旗下。
+
+### 文档编辑
+
+- [Typora](https://www.typora.io/)：Markdown 格式编辑器。
+- [有道云笔记](https://note.youdao.com/index.html)：笔记，可以和 Windows 同步；[AppStore](https://itunes.apple.com/cn/app/%E6%9C%89%E9%81%93%E4%BA%91%E7%AC%94%E8%AE%B0/id1121484812?mt=12)；[在线版](https://note.youdao.com/)。
 - 办公套件
-  - Office：微软Office，可以从AppStore下载
-  - iWork：苹果的办公套件，AppStore下载
+  - Office：微软Office，可以从AppStore下载，按年授权。
+  - iWork：苹果的办公套件，AppStore下载。
   - 邮箱：Outlook 或者 [Spark](https://sparkmailapp.com/) 免费版够用
   - [ProjectLibre](http://www.projectlibre.com/)：项目管理软件，Office Project 的替代，前身是免费的 OpenProj
-- [企业微信](https://work.weixin.qq.com/)：AppStore下载
+  - [OpenOffice](https://www.openoffice.org/)：`brew cask install openoffice`
+- iWorks 套件：苹果的办公三件套，现在免费了，系统默认安装。可以导出为 Office 格式
+  - Pages
+  - Numbers
+  - Keynote
+
+- [迅雷](http://mac.xunlei.com/)：下载工具
 - SAP GUI Java版
 - 7zip 特殊格式解压缩
 - 视频
@@ -73,7 +90,9 @@
 - [钉钉](https://www.dingtalk.com/)：[应用商店](https://apps.apple.com/cn/app/%E9%92%89%E9%92%89/id1435447041?mt=12)
 - [阿里旺旺](https://wangwang.taobao.com/)
 - [CopyLess 2](https://apps.apple.com/cn/app/copyless-2/id993841014?mt=12)：剪贴板管理，免费版可以记录100个历史和5个收藏
-- [Ethernet Status](https://apps.apple.com/cn/app/ethernet-status/id1186187538?mt=12)
+- [Ethernet Status](https://apps.apple.com/cn/app/ethernet-status/id1186187538?mt=12) 能显示有线网络连接状态
+- [Scroll Reverser](https://pilotmoon.com/scrollreverser/) 分离触摸板和鼠标的自然滚动设置
+- InsomniaX 不行
 
 ## 1.2. 开发工具
 
