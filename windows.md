@@ -1,31 +1,69 @@
-# My Awesome Windows
+# Windows 工具
 
-> 记录我的Windows工具和设置
+> 记录我的 Windows 工具和设置
 
 ## 系统工具
 
-- [Chrome](https://www.google.com/intl/zh-CN/chrome/)：谷歌浏览器，官网下载。初始登入同步需要全局代理。（[我的插件](./chrome.md)）
-- [Shadowsocks](https://github.com/shadowsocks/shadowsocks-windows)：直接替换 `gui-config.json`
-- 驱动管理：建议Windows更新即可；[驱动人生](https://www.160.com/)；不要用驱动精灵，偷偷安装金山毒霸，优化后windows更新失败
-- [Office365](https://portal.office.com/account#installs)：用公司的账号激活，Outlook要用应用密码，在线生成密码后要关闭窗口才能生效
+### 浏览器
 
-  - Word
+浏览器主要使用 Chrome，在特定的场合需要使用 Internet Explorer（IE 11），主要是一些应用不兼容，以及 Edge 和 Firefox 用于测试应用的兼容性。（未来 Edge 也会基于 Chromium 内核）
+
+- [Chrome](https://www.google.com/intl/zh-CN/chrome/)：谷歌浏览器，官网下载。初始登入同步需要全局代理。（[我的插件](./chrome.md)）
+- [FIrefox](http://www.firefox.com.cn/)
+- [Edge](https://www.microsoft.com/en-us/windows/microsoft-edge/)：Windows 10 自带。
+- [Safari](https://www.apple.com/cn/safari/)：在苹果系统上测试兼容性。
+
+### VPN
+
+除了用来翻墙（需要购买账号），还有公司的 VPN 客户端。
+
+- [Shadowsocks](https://github.com/shadowsocks/shadowsocks-windows)：直接替换 `gui-config.json`
+- v2ray：结合 [v2ray-core](https://github.com/v2ray/v2ray-core) 和 [v2ray-N](https://github.com/2dust/v2rayN)（GUI）使用。
+- [FortiClient](https://www.forticlient.com/)：复星用的 VPN 客户端，也可以从 Windows 商店下载。
+- [EasyConnect](https://sslvpn.zjweu.edu.cn/com/installClient.html)：深信服的 SSLVPN。
+- GlobalProtect：[Wilmar](https://wilmarvpn.wilmar.cn/global-protect/login.esp) 的 VPN，[下载地址](https://wilmarvpn.wilmar.cn/global-protect/msi/GlobalProtect64.msi)，[Mac 版](https://wilmarvpn.wilmar.cn/global-protect/msi/GlobalProtect.pkg)。
+
+### 驱动管理
+
+建议Windows更新即可。
+
+- [驱动人生](https://www.160.com/)：不要用驱动精灵，偷偷安装金山毒霸，优化后windows更新失败。
+- ~~驱动精灵~~
+- [鲁大师](https://www.ludashi.com/)：有温控等。
+
+
+
+### 办公套件
+
+- [Office365](https://portal.office.com/account#installs)：用公司的账号激活，Outlook要用应用密码，在线生成密码后要关闭窗口才能生效
+- Word
   - Excel：安装插件
   - PowerPoint
   - Outlook：导入备份
   - Evernote：@me 个人账号
   - Skype for Business
   - OneDrive：@me 个人账号
+  - Visio
+  - Project
+- [WPS](https://www.wps.cn/)：免费的，并且可以在 Linux 上用。
 - [金山词霸](http://www.iciba.com/)：或者用[有道词典](http://cidian.youdao.com/)
 - [KeePass2](https://keepass.info)
 - [Draw.io](https://about.draw.io/integrations/#integrations_offline) 开源绘图工具，可替换visio
 - [百度网盘](https://pan.baidu.com/)
+
+### 即时通讯
+
 - [QQ](https://im.qq.com/)
 - [微信](https://pc.weixin.qq.com/)
 - [企业微信](https://work.weixin.qq.com/)
 - 淘宝旺旺：可以不安装一直用手机版或web版
+
+### 下载工具
+
 - [迅雷X](https://www.xunlei.com/)：下载工具，mini版本迅雷已经不太好用了
-- [迅雷影音](http://video.xunlei.com/pc.html)，或[完美解码](http://jm.wmzhe.com/)，或[POTPlayer](http://potplayer.daum.net/?lang=zh_CN)，KMPlayer；[人人影视播放器](http://app.rrys.tv/)：用来下载[人人](http://www.zmz2019.com/)的视频
+- [人人影视播放器](http://app.rrys.tv/)：用来下载[人人](http://www.zmz2019.com/)的视频
+- 百度云
+- [迅雷影音](http://video.xunlei.com/pc.html)，或[完美解码](http://jm.wmzhe.com/)，或[POTPlayer](http://potplayer.daum.net/?lang=zh_CN)，KMPlayer；
 - [foobar2000](https://www.foobar2000.org/)，[网易云音乐](https://music.163.com/)
 - [7-Zip](https://www.7-zip.org/)、[360压缩](http://yasuo.360.cn/)
 - [搜狗输入法](https://pinyin.sogou.com/) 同步
