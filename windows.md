@@ -1,129 +1,287 @@
-# Windows 工具
+# Windows 工具箱
 
-> 记录我的 Windows 工具和设置
+Windows 工具箱（Awesome Windows），记录我的 Windows 工具和设置
+
+目录：
+
+- [Windows 工具箱](#windows-%e5%b7%a5%e5%85%b7%e7%ae%b1)
+  - [系统工具](#%e7%b3%bb%e7%bb%9f%e5%b7%a5%e5%85%b7)
+    - [系统安全](#%e7%b3%bb%e7%bb%9f%e5%ae%89%e5%85%a8)
+    - [输入法](#%e8%be%93%e5%85%a5%e6%b3%95)
+    - [密码管理](#%e5%af%86%e7%a0%81%e7%ae%a1%e7%90%86)
+    - [浏览器](#%e6%b5%8f%e8%a7%88%e5%99%a8)
+    - [VPN](#vpn)
+    - [驱动管理](#%e9%a9%b1%e5%8a%a8%e7%ae%a1%e7%90%86)
+    - [磁盘管理](#%e7%a3%81%e7%9b%98%e7%ae%a1%e7%90%86)
+    - [办公套件](#%e5%8a%9e%e5%85%ac%e5%a5%97%e4%bb%b6)
+    - [下载工具](#%e4%b8%8b%e8%bd%bd%e5%b7%a5%e5%85%b7)
+    - [网盘](#%e7%bd%91%e7%9b%98)
+    - [即时通讯](#%e5%8d%b3%e6%97%b6%e9%80%9a%e8%ae%af)
+    - [阅读工具](#%e9%98%85%e8%af%bb%e5%b7%a5%e5%85%b7)
+    - [影音播放](#%e5%bd%b1%e9%9f%b3%e6%92%ad%e6%94%be)
+    - [翻译工具](#%e7%bf%bb%e8%af%91%e5%b7%a5%e5%85%b7)
+    - [远程控制](#%e8%bf%9c%e7%a8%8b%e6%8e%a7%e5%88%b6)
+    - [虚拟机](#%e8%99%9a%e6%8b%9f%e6%9c%ba)
+    - [终端工具](#%e7%bb%88%e7%ab%af%e5%b7%a5%e5%85%b7)
+    - [编辑工具](#%e7%bc%96%e8%be%91%e5%b7%a5%e5%85%b7)
+    - [压缩解压](#%e5%8e%8b%e7%bc%a9%e8%a7%a3%e5%8e%8b)
+    - [启动盘制作](#%e5%90%af%e5%8a%a8%e7%9b%98%e5%88%b6%e4%bd%9c)
+    - [截屏录屏](#%e6%88%aa%e5%b1%8f%e5%bd%95%e5%b1%8f)
+  - [开发工具](#%e5%bc%80%e5%8f%91%e5%b7%a5%e5%85%b7)
+    - [源码管理](#%e6%ba%90%e7%a0%81%e7%ae%a1%e7%90%86)
+    - [Java](#java)
+    - [数据库工具](#%e6%95%b0%e6%8d%ae%e5%ba%93%e5%b7%a5%e5%85%b7)
+    - [编辑工具、IDE](#%e7%bc%96%e8%be%91%e5%b7%a5%e5%85%b7ide)
+      - [Java IDE](#java-ide)
+    - [其他运行环境](#%e5%85%b6%e4%bb%96%e8%bf%90%e8%a1%8c%e7%8e%af%e5%a2%83)
+    - [字体](#%e5%ad%97%e4%bd%93)
+  - [Windows 自带工具](#windows-%e8%87%aa%e5%b8%a6%e5%b7%a5%e5%85%b7)
+  - [CMD 常用命令](#cmd-%e5%b8%b8%e7%94%a8%e5%91%bd%e4%bb%a4)
 
 ## 系统工具
 
+### 系统安全
+
+用 Windows 10 自带的 Defender 和防火墙也够了
+
+- [火绒](https://www.huorong.cn/) - 个人版
+
+### 输入法
+
+- [搜狗输入法](https://pinyin.sogou.com/) - 同步账号的词库很方便，广告要设置关闭
+
+### 密码管理
+
+- [KeePass2](https://keepass.info) - 免费的密码管理工具
+- [LastPass](https://lastpass.com/) - Chrome 插件
+
 ### 浏览器
 
-浏览器主要使用 Chrome，在特定的场合需要使用 Internet Explorer（IE 11），主要是一些应用不兼容，以及 Edge 和 Firefox 用于测试应用的兼容性。（未来 Edge 也会基于 Chromium 内核）
+在特定的场合需要使用 Internet Explorer（IE 11），也可以用 Chrome 的插件 IE Tab；其他如 Edge 和 Firefox 用于测试应用的兼容性。
 
-- [Chrome](https://www.google.com/intl/zh-CN/chrome/)：谷歌浏览器，官网下载。初始登入同步需要全局代理。（[我的插件](./chrome.md)）
-- [FIrefox](http://www.firefox.com.cn/)
-- [Edge](https://www.microsoft.com/en-us/windows/microsoft-edge/)：Windows 10 自带。
-- [Safari](https://www.apple.com/cn/safari/)：在苹果系统上测试兼容性。
+- [Chrome](https://www.google.com/intl/zh-CN/chrome/) - 谷歌浏览器，官网下载。初始登入同步需要全局代理，参考：[我的插件](./chrome.md)
+- [Firefox](http://www.firefox.com.cn/) - Mozilla 的浏览器
+- [Edge](https://www.microsoft.com/en-us/windows/microsoft-edge/) - Windows 10 自带
+- [Safari](https://www.apple.com/cn/safari/) - 在 MacOSX 上测试兼容性
 
 ### VPN
 
 除了用来翻墙（需要购买账号），还有公司的 VPN 客户端。
 
-- [Shadowsocks](https://github.com/shadowsocks/shadowsocks-windows)：直接替换 `gui-config.json`
-- v2ray：结合 [v2ray-core](https://github.com/v2ray/v2ray-core) 和 [v2ray-N](https://github.com/2dust/v2rayN)（GUI）使用。
-- [FortiClient](https://www.forticlient.com/)：复星用的 VPN 客户端，也可以从 Windows 商店下载。
-- [EasyConnect](https://sslvpn.zjweu.edu.cn/com/installClient.html)：深信服的 SSLVPN。
-- GlobalProtect：[Wilmar](https://wilmarvpn.wilmar.cn/global-protect/login.esp) 的 VPN，[下载地址](https://wilmarvpn.wilmar.cn/global-protect/msi/GlobalProtect64.msi)，[Mac 版](https://wilmarvpn.wilmar.cn/global-protect/msi/GlobalProtect.pkg)。
+- [Shadowsocks](https://github.com/shadowsocks/shadowsocks-windows) - 翻墙工具，结合 Chrome 的 SwithcyOmega 插件非常方便。初始化后，可以直接替换 `gui-config.json` 的配置。或者设置 PAC 模式
+- v2ray - 结合 [v2ray-core](https://github.com/v2ray/v2ray-core) 和 [v2ray-N](https://github.com/2dust/v2rayN)（GUI）使用
+- [FortiClient](https://www.forticlient.com/) - 公司用的 VPN 客户端，也可以从 Windows 商店下载
+- [EasyConnect](https://sslvpn.zjweu.edu.cn/com/installClient.html) - 深信服的 SSLVPN
+- GlobalProtect - [Wilmar](https://wilmarvpn.wilmar.cn/global-protect/login.esp) 的 VPN，[下载地址](https://wilmarvpn.wilmar.cn/global-protect/msi/GlobalProtect64.msi)，[Mac 版](https://wilmarvpn.wilmar.cn/global-protect/msi/GlobalProtect.pkg)。
 
 ### 驱动管理
 
-建议Windows更新即可。
+建议 Windows 更新
 
-- [驱动人生](https://www.160.com/)：不要用驱动精灵，偷偷安装金山毒霸，优化后windows更新失败。
-- ~~驱动精灵~~
-- [鲁大师](https://www.ludashi.com/)：有温控等。
+- [驱动人生](https://www.160.com/) - 不要用驱动精灵
+- [鲁大师](https://www.ludashi.com/) - 有温控等
 
+### 磁盘管理
 
+- [DiskGenius](http://www.diskgenius.cn/DiskGenius) - 分区修改，慎用
+- [WinDirStat](https://windirstat.net/) - 磁盘使用情况可视化
+- [SpaceSniffer](http://www.uderzo.it/main_products/space_sniffer/) - 同 WinDirStat
+- [CCleaner](https://www.ccleaner.com/) - 清理工具，可以清除重复文件
+- [Dism++](http://www.chuyu.me/) - 系统设置工具，可清理
 
 ### 办公套件
 
-- [Office365](https://portal.office.com/account#installs)：用公司的账号激活，Outlook要用应用密码，在线生成密码后要关闭窗口才能生效
-- Word
-  - Excel：安装插件
+Office 有 2013、2016、Office365 等版本。
+
+- [Office 2016](https://portal.office.com/account#installs) - 微软的办公套件：
+  - Word
+  - Excel - 安装插件
   - PowerPoint
-  - Outlook：导入备份
-  - Evernote：@me 个人账号
-  - Skype for Business
-  - OneDrive：@me 个人账号
+  - Outlook - 邮箱。导入备份；登入要用应用密码，在线生成密码后要关闭窗口才能生效
   - Visio
   - Project
-- [WPS](https://www.wps.cn/)：免费的，并且可以在 Linux 上用。
-- [金山词霸](http://www.iciba.com/)：或者用[有道词典](http://cidian.youdao.com/)
-- [KeePass2](https://keepass.info)
-- [Draw.io](https://about.draw.io/integrations/#integrations_offline) 开源绘图工具，可替换visio
-- [百度网盘](https://pan.baidu.com/)
-
-### 即时通讯
-
-- [QQ](https://im.qq.com/)
-- [微信](https://pc.weixin.qq.com/)
-- [企业微信](https://work.weixin.qq.com/)
-- 淘宝旺旺：可以不安装一直用手机版或web版
+  - Skype for Business
+  - OneDrive - 网盘个人账号，5G 免费空间
+- [WPS Office 2019](https://www.wps.cn/) - 免费，Office 替代；广告较多，有个 “配置工具” 关闭
+- [Draw.io](https://about.draw.io/integrations/#integrations_offline) - 开源绘图工具，可替换 visio
+- [OpenProj](https://sourceforge.net/projects/openproj/) - 开源项目管理工具，可替代 Project（openproj-1.4.msi）
 
 ### 下载工具
 
-- [迅雷X](https://www.xunlei.com/)：下载工具，mini版本迅雷已经不太好用了
-- [人人影视播放器](http://app.rrys.tv/)：用来下载[人人](http://www.zmz2019.com/)的视频
-- 百度云
-- [迅雷影音](http://video.xunlei.com/pc.html)，或[完美解码](http://jm.wmzhe.com/)，或[POTPlayer](http://potplayer.daum.net/?lang=zh_CN)，KMPlayer；
-- [foobar2000](https://www.foobar2000.org/)，[网易云音乐](https://music.163.com/)
-- [7-Zip](https://www.7-zip.org/)、[360压缩](http://yasuo.360.cn/)
-- [搜狗输入法](https://pinyin.sogou.com/) 同步
-- [福昕阅读器](https://www.foxitsoftware.cn/products/reader/)（FoxitReader）阅读PDF文档
-- globalprotected 公司VPN
-- SAPGUI
-- [有道云笔记](http://note.youdao.com)
-- [金山词霸](http://cp.iciba.com/)
-- [DiskGenius](http://www.diskgenius.cn/DiskGenius)：分区修改，慎用
-- TeamViewer
-- 启动盘制作
-  - [Etcher](https://www.balena.io/etcher/)：现在改名叫balenaEtcher了，烧录ISO镜像到U盘
-  - 老毛桃：PE启动盘
-  - 大白菜：PE
-- Evernote 笔记工具，中国区印象笔记，用的全球区
-- FSCapture 截屏工具，免费版
-- [CamStudio](https://camstudio.org/)：桌面录像，免费
-- WinDirStat：磁盘状态查看
+- [迅雷 X](https://www.xunlei.com/) - 下载工具
+- [人人影视播放器](http://app.rrys.tv/) - 用来下载 [人人](http://www.zmz2019.com/) 的视频
 
-### 其他设置
+### 网盘
 
-- [删除**“3D对象”**文件夹](https://jingyan.baidu.com/article/3f16e0031cdd5c2591c103e6.html)
-- Stick Notes 同步：备份目录`C:\Users\yingu\AppData\Local\Packages\Microsoft.MicrosoftStickyNotes_8wekyb3d8bbwe`
-- mklink：符号链接，一些需要重新设置位置、需要备份管理的目录建议做链接，如：
-    ```
-    mklink /j c:\Users\yinguowei\AppData\Local\Yarn d:\Temp\Yarn
-    mklink /j c:\Users\yinguowei\.dbeaver4 d:\yinguowei\Documents\.dbeaver4
-    ```
+- [百度云](https://pan.baidu.com/) - 免费 2T 空间，客户端支持 Mac、Linux 等
+- [OneDrive](https://skydrive.live.com/) - 微软的网盘，在 Office 套件里一起安装
+- Google Drive
+- 坚果云
+
+### 即时通讯
+
+- [QQ](https://im.qq.com/) - 现在也支持 [Linux 版本](https://im.qq.com/linuxqq/download.html) 了
+- [微信](https://pc.weixin.qq.com/) - 个人微信
+- [企业微信](https://work.weixin.qq.com/) - 微信的企业版
+- [阿里旺旺](https://wangwang.taobao.com/) - 也可以不安装一直用手机版或 Web 版
+- [钉钉](https://www.dingtalk.com/) - 阿里旗下企业协同平台，企业用
+
+### 阅读工具
+
+- [有道云笔记](https://note.youdao.com/) - 网易的笔记工具，支持 MarkDown 格式
+- [Evernote](https://evernote.com/) - 笔记工具，中国区印象笔记，用的全球区
+- [福昕阅读器](https://www.foxitsoftware.cn/pdf-reader/)（FoxitReader） - PDF 文档阅读
+- [福昕 PDF 编辑器个人版](http://editor.foxitsoftware.cn/?agent=foxit&MD=menu) - PDF 文档编辑工具，个人版会有水印
+
+### 影音播放
+
+- [QQ 影音](https://player.qq.com/)
+- [迅雷影音](http://video.xunlei.com/pc.html)
+- [完美解码](http://jm.wmzhe.com/)
+- [POTPlayer](http://potplayer.daum.net/?lang=zh_CN)
+- [KMPlayer](https://pc.qq.com/detail/0/detail_500.html)
+- [foobar2000](https://www.foobar2000.org/)
+- [网易云音乐](https://music.163.com/)
+- [Listen1](https://github.com/listen1/listen1_desktop/releases) - 开源跨平台的多平台音乐播放器
+
+### 翻译工具
+
+- [金山词霸](http://cp.iciba.com/) - 金山的桌面词典工具
+- [网易有道词典](https://cidian.youdao.com/) - 网易、有道的桌面词典
+
+### 远程控制
+
+- [TeamViewer](https://www.teamviewer.cn/cn/) - 远程控制软件，注意漏洞
+- [向日葵](https://sunlogin.oray.com/personal/) - 远程控制软件
+- [Remote Desktop Manager](https://remotedesktopmanager.com/) - 多种协议的远程连接管理
+- [Xming](https://sourceforge.net/projects/xming/) - 结合 ssh 工具可以远程打开 Linux 应用，给不支持桌面连接的服务器 Linux 开放桌面接入
+- [FileZilla](https://filezilla-project.org/) - FTP 服务端和客户端工具
+- [SoapUI](https://www.soapui.org/) - SmartBear 公司的 Web Service 调试工具，有开源版和 Pro 版
+- [WinSCP](http://www.winscp.net/) - FTP 工具
+- [SecureCRT](https://www.vandyke.com/products/securecrt/)
+- [XShell，Xftp](https://www.netsarang.com/zh/xshell-download/) - 终端管理，家庭 / 学校用户免费
+- [PuTTY](https://www.putty.org/) - 轻量级 SSH 和 Telnet 客户端
+
+### 虚拟机
+
+- [Oracle VirtualBox](https://www.virtualbox.org/) - 虚拟机
+- [VMWare Workstation Pro](https://www.vmware.com/products/workstation-pro.html) - 虚拟机，Player 免费
+
+### 终端工具
+
+- [Windows Terminal](https://github.com/Microsoft/Terminal/) - 微软最新的终端工具，商店下载安装
+- [Cmder](http://cmder.net/) - 打包了 ConEmu 等多个工具的终端
+- [ConEmu](https://conemu.github.io/) - 终端工具，可以 [集成 WSL](https://conemu.github.io/en/BashOnWindows.html)
+
+### 编辑工具
+
+- [Typora](https://typora.io/) - Markdown 文档编辑工具
+- [Notepad++](https://notepad-plus-plus.org/) - 文本编辑工具，处理大文件比较慢
+- [BeyondCompare](http://www.beyondcompare.cc/xiazai.html) - 文件比对工具
+- [UltraEdit](https://www.ultraedit.com/)
+- [EmEditor](https://www.emeditor.com/) - 大文本处理比较方便
+
+### 压缩解压
+
+- [7-Zip](https://www.7-zip.org/) - 免费开源跨平台
+- [Bandizip](http://www.bandisoft.com/bandizip/) - 无广告，支持 Mac
+- [360 压缩](http://yasuo.360.cn/) - 功能较多
+
+### 启动盘制作
+
+- [Etcher](https://www.balena.io/etcher/) - 现在改名叫 balenaEtcher 了，烧录 Linux ISO 镜像到 U 盘
+- 老毛桃 - PE 启动盘
+- 大白菜 - PE
+- [Rufus](http://rufus.ie/) - 制作 Windows 安装盘
+
+### 截屏录屏
+
+- [PicPick](https://picpick.app/zh/) - 截图工具，个人版免费
+- [FSCapture](https://www.faststone.org/FSCaptureDetail.htm) - 有个之前的版本免费
+- [ScreenToGif](https://www.screentogif.com/?l=zh_cn) - 屏幕，摄像头和白板录像机与集成编辑器。可以录制视频或 GIF
+- [CamStudio](https://camstudio.org/) - 桌面录像，免费
 
 ## 开发工具
 
-- [Git](https://git-scm.com/) git客户端，证书
-- [SourceTree](https://www.sourcetreeapp.com/)
-- [GitKraken](https://www.gitkraken.com/)
-- [Oracle Java SDK](https://www.oracle.com/technetwork/java/javase/downloads/index.html)：Java SE 8u212
-- OpenJDK
+### 源码管理
+
+- [Git](https://git-scm.com/) - git 客户端，证书
+- [SourceTree](https://www.sourcetreeapp.com/) - Git 图形客户端
+- [GitKraken](https://www.gitkraken.com/) - Git 图形客户端
+
+### Java
+
+- [Oracle Java SDK](https://www.oracle.com/technetwork/java/javase/downloads/index.html) - Java SE 8u231
+- [OpenJDK](https://openjdk.java.net/)
 - [Maven](https://maven.apache.org/)
-- [Visual Studio Code](https://code.visualstudio.com/)：安装后用Sync插件同步其他所有插件。（[我的插件](./vscode.md)）
-- [Notepad++](https://notepad-plus-plus.org/)：老牌的文本编辑工具，处理大文件比较慢
-- [BeyondCompare](http://www.beyondcompare.cc/xiazai.html)：￥249.00永久授权
-- [DBeaver](https://dbeaver.io/)：分社区版和企业版，关系型数据库管理免费
-- MySQL
-- Java IDE
-    - [IDEA intellij](http://www.jetbrains.com/idea/)：Java IDE，Ultimate版本，$499.00/user 1st year
-    - [Spring Tools](https://spring.io/tools)：之前叫STS，Spring Tool Suits，可替代 IDEA、Eclipse
-    - Android Studio
-    - Eclipse for Java EE
-- Redis 客户端
-    - [Redisplus](https://gitee.com/MaxBill/RedisPlus)：国人开发，跨平台
-    - [Redis Desktop Managerment](https://redisdesktop.com/)：开源，新版本需要付费或自己编译下载（[编译说明](http://docs.redisdesktop.com/en/latest/install/)），Windows上可以用国人编译的[Windows版本](https://github.com/necan/RedisDesktopManager-Windows)
+
+### 数据库工具
+
+- [MySQL Workbench](https://www.mysql.com/products/workbench/)
+- [DBeaver](https://dbeaver.io/) - 分社区版和企业版，关系型数据库管理免费
+- [Redisplus](https://gitee.com/MaxBill/RedisPlus) - Redis 客户端，国人开发，跨平台
+- [Redis Desktop Managerment](https://redisdesktop.com/) - Redis 客户端，开源，新版本需要付费或自己编译下载（[编译说明](http://docs.redisdesktop.com/en/latest/install/)），Windows 上可以用国人编译的 [Windows 版本](https://github.com/necan/RedisDesktopManager/releases)
+
+### 编辑工具、IDE
+
+- Visual Studio
+- [Visual Studio Code](https://code.visualstudio.com/) - 安装后用 Sync 插件同步其他所有插件（[我的插件](./vscode.md)）
+- [Sublime Text](https://www.sublimetext.com/)
+- [HBuilder](http://www.dcloud.io/) - HTML 编辑器
+- [Atom](https://atom.io/) - GitHub 的编辑工具
+
+#### Java IDE
+
+- [IntelliJ IDEA](http://www.jetbrains.com/idea/) - Java IDE，Ultimate 版本，$499.00/user 1st year
+- [Spring Tools](https://spring.io/tools) - 之前叫 STS，Spring Tool Suits，可替代 IDEA、Eclipse
+- Android Studio
+- [Eclipse for Java EE](https://www.eclipse.org/)
+
+### 其他运行环境
+
 - [Node.js](https://nodejs.org/zh-cn/)
 - [Ruby](https://rubyinstaller.org/)，Jekyll
 - VueCLI
-- [XShell，Xftp](https://www.netsarang.com/zh/xshell-download/)：终端管理，家庭/学校用户免费
-- Windows Terminal：新的官方终端，商店下载安装
-- Xming 给不支持桌面连接的Linux开放桌面接入
-- FileZilla Server/Client
-- SoapUI
-- WinSCP
-- UltraEdit/EmEditor
-- [Oracle VirtualBox](https://www.virtualbox.org/)：虚拟机
-- [Docker for Windows](https://www.docker.com/products/docker-desktop)：现在叫 Docker Desktop，[下载地址](https://download.docker.com/win/stable/Docker%20for%20Windows%20Installer.exe)
+- [Docker for Windows](https://www.docker.com/products/docker-desktop) - 现在叫 Docker Desktop，[下载地址](https://download.docker.com/win/stable/Docker%20for%20Windows%20Installer.exe)
 
+### 字体
+
+- [Powerline Fonts](https://github.com/powerline/fonts) - 额外的字体，用 "DejaVu Sans Mono for Powerline"
+
+## Windows 自带工具
+
+除了第三方工具，还有些 Windows 自带的工具也较常用
+
+- gpedit.msc - 组策略编辑器
+- msconfig - 系统配置
+- service.msc - 服务
+- diskmgmt.msc - 磁盘管理
+- regedit
+- msinfo32 - 系统信息
+- mmc - 控制台
+- mstsc - 远程桌面
+- notepad
+- cmd
+- osk
+- regedit / regedt32 - 注册表编辑器
+- taskmgr
+- control userpasswords2 / netplwiz - 可以在里面设置用户名、免密登入
+- lusrmgr.msc - 本地用户和组管理
+- [删除 “3D 对象” 文件夹](https://jingyan.baidu.com/article/3f16e0031cdd5c2591c103e6.html)
+- Stick Notes 同步 - 备份目录 `C:\Users\yingu\AppData\Local\Packages\Microsoft.MicrosoftStickyNotes_8wekyb3d8bbwe`
+- mklink - 符号链接，一些需要重新设置位置、需要备份管理的目录建议做链接，如：
+
+```cmd
+mklink /j c:\Users\yinguowei\AppData\Local\Yarn d:\Temp\Yarn
+mklink /j c:\Users\yinguowei\.dbeaver4 d:\yinguowei\Documents\.dbeaver4
+```
+
+## CMD 常用命令
+
+- shutdown
+- copy
+- tree
+- xxcopy
+- | findstr "xxx"
+- type
+- diskpart
