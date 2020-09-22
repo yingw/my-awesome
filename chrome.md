@@ -4,14 +4,14 @@
 
 <!-- TOC -->
 
-- [Chrome 插件](#Chrome-%E6%8F%92%E4%BB%B6)
-  - [生产力](#%E7%94%9F%E4%BA%A7%E5%8A%9B)
-    - [搜索](#%E6%90%9C%E7%B4%A2)
-    - [广告拦截](#%E5%B9%BF%E5%91%8A%E6%8B%A6%E6%88%AA)
-    - [安全](#%E5%AE%89%E5%85%A8)
-  - [开发工具](#%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7)
-    - [GitHub](#GitHub)
-  - [娱乐](#%E5%A8%B1%E4%B9%90)
+- [Chrome 插件](#chrome-%e6%8f%92%e4%bb%b6)
+  - [生产力](#%e7%94%9f%e4%ba%a7%e5%8a%9b)
+    - [搜索](#%e6%90%9c%e7%b4%a2)
+    - [广告拦截](#%e5%b9%bf%e5%91%8a%e6%8b%a6%e6%88%aa)
+    - [安全](#%e5%ae%89%e5%85%a8)
+  - [开发工具](#%e5%bc%80%e5%8f%91%e5%b7%a5%e5%85%b7)
+    - [GitHub](#github)
+  - [娱乐](#%e5%a8%b1%e4%b9%90)
 
 <!-- /TOC -->
 
@@ -38,7 +38,7 @@
 
 - [搜索直达](https://chrome.google.com/webstore/detail/faster-search-for-googley/mkpejojlockjoldbdbbgbibeogmemjfk)：去掉搜索引擎重定向
 - [Context Menu Search](https://chrome.google.com/webstore/detail/context-menu-search/ocpcmghnefmdhljkoiapafejjohldoga)：关键字右键多搜索，可添加自定义搜索引擎，需要手动导入导出配置
-- [右键搜](https://chrome.google.com/webstore/detail/context-menus/phlfmkfpmphogkomddckmggcfpmfchpn)：划词右键搜索，默认支持的国内搜索比较多，添加了 Bilibili、爱奇艺等，手动导入导出配置或云同步
+- [右键搜](https://chrome.google.com/webstore/detail/context-menus/phlfmkfpmphogkomddckmggcfpmfchpn)：划词右键搜索，默认支持的国内搜索比较多，添加了 Bilibili、爱奇艺等，手动导入导出配置或云同步（2020年2月下线修改）
 
 ### 广告拦截
 

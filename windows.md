@@ -52,7 +52,7 @@ Windows 工具箱（Awesome Windows），记录我的 Windows 工具和设置
 
 ### 密码管理
 
-- [KeePass2](https://keepass.info) - 免费的密码管理工具
+- [KeePass](https://keepass.info) - 免费的密码管理工具
 - [LastPass](https://lastpass.com/) - Chrome 插件
 
 ### 浏览器
@@ -69,10 +69,10 @@ Windows 工具箱（Awesome Windows），记录我的 Windows 工具和设置
 除了用来翻墙（需要购买账号），还有公司的 VPN 客户端。
 
 - [Shadowsocks](https://github.com/shadowsocks/shadowsocks-windows) - 翻墙工具，结合 Chrome 的 SwithcyOmega 插件非常方便。初始化后，可以直接替换 `gui-config.json` 的配置。或者设置 PAC 模式
-- v2ray - 结合 [v2ray-core](https://github.com/v2ray/v2ray-core) 和 [v2ray-N](https://github.com/2dust/v2rayN)（GUI）使用
+- [v2ray](https://github.com/v2ray) - 结合 [v2ray-core](https://github.com/v2ray/v2ray-core) 和 [v2ray-N](https://github.com/2dust/v2rayN)（GUI）使用
 - [FortiClient](https://www.forticlient.com/) - 公司用的 VPN 客户端，也可以从 Windows 商店下载
 - [EasyConnect](https://sslvpn.zjweu.edu.cn/com/installClient.html) - 深信服的 SSLVPN
-- GlobalProtect - [Wilmar](https://wilmarvpn.wilmar.cn/global-protect/login.esp) 的 VPN，[下载地址](https://wilmarvpn.wilmar.cn/global-protect/msi/GlobalProtect64.msi)，[Mac 版](https://wilmarvpn.wilmar.cn/global-protect/msi/GlobalProtect.pkg)。
+- GlobalProtect - [Wilmar](https://wilmarvpn.wilmar.cn/global-protect/login.esp) 的 VPN，[下载地址](https://wilmarvpn.wilmar.cn/global-protect/msi/GlobalProtect64.msi)，[Mac 版](https://wilmarvpn.wilmar.cn/global-protect/msi/GlobalProtect.pkg)
 
 ### 驱动管理
 
@@ -105,6 +105,7 @@ Office 有 2013、2016、Office365 等版本。
 - [WPS Office 2019](https://www.wps.cn/) - 免费，Office 替代；广告较多，有个 “配置工具” 关闭
 - [Draw.io](https://about.draw.io/integrations/#integrations_offline) - 开源绘图工具，可替换 visio
 - [OpenProj](https://sourceforge.net/projects/openproj/) - 开源项目管理工具，可替代 Project（openproj-1.4.msi）
+- [Processon](https://www.processon.com/) - 在线的作图、协作工具，免费一定额度
 
 ### 下载工具
 
@@ -125,6 +126,9 @@ Office 有 2013、2016、Office365 等版本。
 - [企业微信](https://work.weixin.qq.com/) - 微信的企业版
 - [阿里旺旺](https://wangwang.taobao.com/) - 也可以不安装一直用手机版或 Web 版
 - [钉钉](https://www.dingtalk.com/) - 阿里旗下企业协同平台，企业用
+- [Zoom](https://www.zoom.us/) - 国外用得多
+- [Slack](https://slack.com/) - 国外用得多
+- [Teams](https://teams.microsoft.com/) - 微软 Office 套件中
 
 ### 阅读工具
 
@@ -157,10 +161,6 @@ Office 有 2013、2016、Office365 等版本。
 - [Xming](https://sourceforge.net/projects/xming/) - 结合 ssh 工具可以远程打开 Linux 应用，给不支持桌面连接的服务器 Linux 开放桌面接入
 - [FileZilla](https://filezilla-project.org/) - FTP 服务端和客户端工具
 - [SoapUI](https://www.soapui.org/) - SmartBear 公司的 Web Service 调试工具，有开源版和 Pro 版
-- [WinSCP](http://www.winscp.net/) - FTP 工具
-- [SecureCRT](https://www.vandyke.com/products/securecrt/)
-- [XShell，Xftp](https://www.netsarang.com/zh/xshell-download/) - 终端管理，家庭 / 学校用户免费
-- [PuTTY](https://www.putty.org/) - 轻量级 SSH 和 Telnet 客户端
 
 ### 虚拟机
 
@@ -172,12 +172,16 @@ Office 有 2013、2016、Office365 等版本。
 - [Windows Terminal](https://github.com/Microsoft/Terminal/) - 微软最新的终端工具，商店下载安装
 - [Cmder](http://cmder.net/) - 打包了 ConEmu 等多个工具的终端
 - [ConEmu](https://conemu.github.io/) - 终端工具，可以 [集成 WSL](https://conemu.github.io/en/BashOnWindows.html)
+- [XShell，Xftp](https://www.netsarang.com/zh/xshell-download/) - 终端管理，家庭 / 学校用户免费
+- [WinSCP](http://www.winscp.net/) - FTP 工具
+- [SecureCRT](https://www.vandyke.com/products/securecrt/)
+- [PuTTY](https://www.putty.org/) - 轻量级 SSH 和 Telnet 客户端
 
 ### 编辑工具
 
 - [Typora](https://typora.io/) - Markdown 文档编辑工具
 - [Notepad++](https://notepad-plus-plus.org/) - 文本编辑工具，处理大文件比较慢
-- [BeyondCompare](http://www.beyondcompare.cc/xiazai.html) - 文件比对工具
+- [BeyondCompare](http://www.beyondcompare.cc/xiazai.html) - 文件比对工具，收费
 - [UltraEdit](https://www.ultraedit.com/)
 - [EmEditor](https://www.emeditor.com/) - 大文本处理比较方便
 
@@ -192,6 +196,7 @@ Office 有 2013、2016、Office365 等版本。
 - [Etcher](https://www.balena.io/etcher/) - 现在改名叫 balenaEtcher 了，烧录 Linux ISO 镜像到 U 盘
 - 老毛桃 - PE 启动盘
 - 大白菜 - PE
+- [优启通](https://www.upe.net/)
 - [Rufus](http://rufus.ie/) - 制作 Windows 安装盘
 
 ### 截屏录屏
@@ -282,6 +287,11 @@ mklink /j c:\Users\yinguowei\.dbeaver4 d:\yinguowei\Documents\.dbeaver4
 - copy
 - tree
 - xxcopy
+- netstat
+- taskkill
 - | findstr "xxx"
+  - 查端口：`netstat -aon|findstr "49157"`
+  - 查进程：`tasklist|findstr "2720"`
 - type
+- taskkill - 结束进程：taskkill /PID 1234
 - diskpart
