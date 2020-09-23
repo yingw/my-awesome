@@ -2,6 +2,10 @@
 
 > 记录我在 MacOS 上使用的工具和配置
 
+Mac 软件下载：https://www.macz.com/
+Mac 精品软件：http://xclient.info/
+[Bundlehunt](https://bundlehunt.com/)
+
 目录
 
 <!-- TOC -->
@@ -10,6 +14,7 @@
   - [系统工具](#系统工具)
     - [协同工具](#协同工具)
     - [文档编辑](#文档编辑)
+  - [视频播放器](#视频播放器)
   - [VPN](#vpn)
   - [镜像](#镜像)
   - [1.2. 开发工具](#12-开发工具)
@@ -48,8 +53,9 @@
 - [Typora](https://www.typora.io/)：Markdown 格式编辑器。
 - [有道云笔记](https://note.youdao.com/index.html)：笔记，可以和 Windows 同步；[AppStore](https://itunes.apple.com/cn/app/%E6%9C%89%E9%81%93%E4%BA%91%E7%AC%94%E8%AE%B0/id1121484812?mt=12)；[在线版](https://note.youdao.com/)。
 - 办公套件
-  - Office：微软 Office，可以从 AppStore 下载，按年授权。
+  - Office365：微软 Office，可以从 AppStore 下载，按年授权。淘宝几十一年。
   - iWork：苹果的办公套件，AppStore 下载。
+  - [WPS Office MAC 版](https://www.wps.cn/) - 金山的 WPS，免费
   - 邮箱：Outlook 或者 [Spark](https://sparkmailapp.com/) 免费版够用
   - [ProjectLibre](http://www.projectlibre.com/)：项目管理软件，Office Project 的替代，前身是免费的 OpenProj
   - [OpenOffice](https://www.openoffice.org/)：`brew cask install openoffice`
@@ -59,9 +65,12 @@
   - Keynote
 
 - [迅雷](http://mac.xunlei.com/)：下载工具
+- [Folx](https://mac.eltima.com/cn/torrent-client.html) - 下载工具，免费 + 收费
+- [Mactracker](https://apps.apple.com/cn/app/mactracker/id430255202?mt=12) - 提供苹果全系列产品的所有信息
+- [HandShaker](https://www.smartisan.com/apps/#/handshaker) - 锤子科技出品的文件管理软件，用于在 Mac 电脑上管理 Android 手机内容
 - SAP GUI Java 版
 - 视频
-- PDF 阅读器
+- [PDF Expert](https://www.pdfexpert.cn/) - PDF 阅读器、编辑工具，收费
 - [mackup](https://github.com/lra/mackup)：备份配置，我的配置：[my-mac-mackup-backup](https://github.com/yingw/my-mac-mackup-backup)
 - [iTerm2](https://www.iterm2.com/)：最好的终端，`brew cask install iterm2`
 - zsh，[ohmyzsh](https://ohmyz.sh/)：[参考](https://sspai.com/post/55176)
@@ -79,7 +88,7 @@
 - [Trello](https://trello.com/) ：任务看板，[商店](https://itunes.apple.com/cn/app/trello/id1278508951?mt=12)
 - [MindNote](https://apps.apple.com/cn/app/mindnode-6/id1289197285?mt=12) 思维导图，收费
 - [Eudic 欧路词典](https://apps.apple.com/cn/app/eudic-%E6%AC%A7%E8%B7%AF%E8%AF%8D%E5%85%B8/id434350458?mt=12)：Lite 版不支持第三方词库，基本也够用
-- [Alfred](https://apps.apple.com/cn/app/alfred/id405843582?mt=12)：搜索，很多功能
+- [Alfred](https://apps.apple.com/cn/app/alfred/id405843582?mt=12)：搜索、快速启动工具，很多功能
 - [Zoom](https://www.zoom.us/download) 视频会议
 - [钉钉](https://www.dingtalk.com/)：[应用商店](https://apps.apple.com/cn/app/%E9%92%89%E9%92%89/id1435447041?mt=12)
 - [阿里旺旺](https://wangwang.taobao.com/)
@@ -87,7 +96,31 @@
 - [Ethernet Status](https://apps.apple.com/cn/app/ethernet-status/id1186187538?mt=12) 能显示有线网络连接状态
 - [Scroll Reverser](https://pilotmoon.com/scrollreverser/) 分离触摸板和鼠标的自然滚动设置
 - InsomniaX 不行
+- [腾讯柠檬清理](https://lemon.qq.com/) - 腾讯的系统清理软件
+- [Dr.Cleaner](https://dr-cleaner.en.softonic.com/mac) - 系统清理工具，免费
+- [CleanMyMac X](https://macpaw.com/cleanmymac) - 系统清理工具，收费
+- [Paste](https://pasteapp.io/) - 剪贴板工具，收费
+- [网易邮箱大师](https://mail.163.com/dashi/) - 邮箱客户端，也支持 163 以外的邮箱
+- [QuickRes](https://thnkdev.com/QuickRes/) - 快速切换分辨率，收费
+- [CheetSheet](https://cheatsheet-mac.en.softonic.com/mac) - 快捷键提示，长按 Command
+- [Itsycal](https://www.mowglii.com/itsycal/) - 工具栏日历
+- [Snipaste](https://www.snipaste.com/download.html) - 截图软件，免费
+- [iShot](https://apps.apple.com/cn/app/ishot-%E6%88%AA%E5%9B%BE-%E5%BD%95%E5%B1%8F-2020%E5%85%A8%E6%96%B0%E9%AB%98%E5%BA%A6/id1485844094?mt=12) - 截图工具，支持长截图
+- [超级右键-iRightMouse](https://apps.apple.com/cn/app/%E8%B6%85%E7%BA%A7%E5%8F%B3%E9%94%AE-irightmouse/id1497428978?mt=12)
+- [自动切换输入法](https://apps.apple.com/cn/app/%E8%87%AA%E5%8A%A8%E5%88%87%E6%8D%A2%E8%BE%93%E5%85%A5%E6%B3%95/id1470350547?mt=12)
+- [超级右键](https://apps.apple.com/cn/app/%E8%B6%85%E7%BA%A7%E5%8F%B3%E9%94%AE-irightmouse/id1497428978?mt=12) - 右键菜单管理软件
+- [Better Menubar](https://apps.apple.com/cn/app/better-menubar/id1472818562?mt=12) - 实时监测显示电脑内存、CPU、蓝牙设备及电量
+- [AdGrard](https://adguard.com/zh_cn/welcome.html) - 拦截多个浏览器、系统的广告，免费 + 收费
+- [Downie 4](https://software.charliemonroe.net/downie/) - 视频下载，可以下载 YouTube 视频，收费
+- [DaisyDisk](https://daisydiskapp.com/) - 显示磁盘占用情况，收费
+- Paragon NTFS - 读写 WIndows NTFS 分区
+- [Mounty for NTFS](https://mounty.app/) - 同上，免费
+- Geekbench 5 - 系统检测评分
 
+## 视频播放器
+
+- [IINA](https://www.iina.io/) - 视频播放，开源免费
+-
 ## VPN
 
 - ShadowSocks
@@ -98,7 +131,7 @@
   - 最后在 Mac 网络设置里设置 socks 代理：127.0.0.1:1080
 - [ShadowSocks-NG](https://github.com/shadowsocks/ShadowsocksX-NG)：用链接或二维码导出导入配置，版本 1.8.2
 - [ShadowSocks-NG-X](https://github.com/qinyuhang/ShadowsocksX-NG-R/)：要看 dev 分支
-- [HollyTech](https://store.holytech.tech/clientarea.php) - 客户端使用 [V2Ray](https://www.v2ray.com/)，各种客户端可以 [查看](https://www.v2ray.com/awesome/tools.html)，如 [Qv2ray](https://github.com/Qv2ray/Qv2ray) / [V2rayU](https://github.com/yanue/V2rayU/tree/master) / [V2RayX](https://github.com/Cenmrev/V2RayX)（订阅配置：https://subs.holytech.bid/osubscribe.php?sid=51886&token=wNiSdIyjw11z）
+- [HollyTech](https://store.holytech.tech/clientarea.php) - 客户端使用 [V2Ray](https://www.v2ray.com/)，各种客户端可以 [查看](https://www.v2ray.com/awesome/tools.html)，如 [Qv2ray](https://github.com/Qv2ray/Qv2ray) / [V2rayU](https://github.com/yanue/V2rayU/tree/master) / [V2RayX](https://github.com/Cenmrev/V2RayX)（订阅配置：https://subs.holytech.bid/osubscribe.php?sid=xxxxx&token=xxxxxx）
 
 ## 镜像
 
@@ -246,7 +279,7 @@ sdk install
 - sourceTree 或 [GitKraken](https://www.gitkraken.com/)
 - Postman
 - CleanMymac
-- Parallels Desktop 虚拟机
+- [Parallels Desktop](https://www.parallels.com/) 虚拟机
 - [1Password](https://1password.com/) 密码管理
 - [iPic](https://toolinbox.net/iPic/) 图床
 - TextMate 算了，换 Sublime Text
@@ -255,6 +288,7 @@ sdk install
 - Microsoft Office 365 六件套（Word Excel PPT Outlook OneNote OneDrive）可以字节在 AppStore 下，用公司邮箱可以直接激活 ，[参考](https://itunes.apple.com/cn/app-bundle/microsoft-office-365/id1450038993?mt=12)
 - 微信 / QQ / 企业微信 / 好压 9 试用 10 天）/The Unarchiver / 爱奇艺 / 网易云音乐，这些都可以在 AppStore 直接下
 - 搜狗输入助手，可以和 windows 同步字库，账号：
+- [搜狗输入法 for Mac](https://pinyin.sogou.com/mac/)
 - 网易云音乐
 - [1ting](https://listen1.github.io/listen1/)：搜索和播放来自网易云音乐，虾米，QQ 音乐，酷狗音乐，酷我音乐网站的歌曲
 
@@ -325,4 +359,4 @@ export PATH=/Applications/Visual\ Studio\ Code.app/Contents/Resources/app/bin:$P
 - [Keka](https://www.keka.io/en/) - 免费下载，AppStore 上收费，也是 [7zip](https://www.7-zip.org/download.html) 的非官方 Mac 版
 - [Betterzip](https://www.betterzip.net/) - 收费
 - [The Unarchiver](https://www.theunarchiver.com/) - 免费
-- [eZip](https://ezip.awehunt.com/) - 免费
+- [eZip](https://ezip.awehunt.com/) - 国产解压缩工具，免费
