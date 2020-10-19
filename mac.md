@@ -8,6 +8,7 @@
 
 - [Mac 软件](#mac-软件)
   - [系统工具](#系统工具)
+    - [终端工具](#终端工具)
     - [虚拟机](#虚拟机)
     - [输入法](#输入法)
     - [系统清理](#系统清理)
@@ -48,6 +49,23 @@
 - [HandShaker](https://www.smartisan.com/apps/#/handshaker) - 锤子科技的文件管理软件，用于在 Mac 电脑上管理 Android 手机内容
 - [LaunchRocket](https://github.com/jimbojsb/launchrocket) - 管理服务，`brew cask install launchrocket`
 - [GamePad Companion](https://apps.apple.com/us/app/gamepad-companion/id428799479?mt=12) - 手柄驱动，收费
+- [超级右键 - iRightMouse](https://apps.apple.com/cn/app/%E8%B6%85%E7%BA%A7%E5%8F%B3%E9%94%AE-irightmouse/id1497428978?mt=12)
+- [超级右键](https://apps.apple.com/cn/app/%E8%B6%85%E7%BA%A7%E5%8F%B3%E9%94%AE-irightmouse/id1497428978?mt=12) - 右键菜单管理软件
+- [AdGrard](https://adguard.com/zh_cn/welcome.html) - 拦截多个浏览器、系统的广告，免费 + 收费
+- [Vanilla](https://matthewpalmer.net/vanilla/) - 免费版可以隐藏任菜单栏图标，Pro 有更多功能
+- [Bartender](https://www.macbartender.com/) - 管理菜单栏图标，收费
+- [Itsycal](https://www.mowglii.com/itsycal/) - 工具栏日历
+- [QuickRes](https://thnkdev.com/QuickRes/) - 快速切换分辨率，收费
+- [Ethernet Status](https://apps.apple.com/cn/app/ethernet-status/id1186187538?mt=12) - 显示有线网络连接状态
+- [Scroll Reverser](https://pilotmoon.com/scrollreverser/) - 分离触摸板和鼠标的自然滚动设置
+- InsomniaX - 控制 Mac 在合上盖子和闲置超时后是否进入休眠状态
+
+### 终端工具
+
+- [iTerm2](https://www.iterm2.com/) - 好用的终端工具，`brew cask install iterm2`
+- [oh-my-zsh](https://ohmyz.sh/) - [参考](https://sspai.com/post/55176)
+  - 修改主题 `～/.zshrc`，agnoster
+  - 安装 [字体](https://github.com/powerline/fonts.git) ，用 `DejaVu Sans Mono for Powerline`
 
 ### 虚拟机
 
@@ -65,6 +83,7 @@
 - [腾讯柠檬清理](https://lemon.qq.com/) - 腾讯的系统清理软件
 - [Dr.Cleaner](https://dr-cleaner.en.softonic.com/mac) - 系统清理工具，免费
 - [CleanMyMac X](https://macpaw.com/cleanmymac) - 系统清理工具，收费
+- [AppCleaner](http://freemacsoft.net/appcleaner/) - 卸载应用，`brew cask install appcleaner`
 
 ### 截屏工具
 
@@ -82,18 +101,6 @@
 - [eZip](https://ezip.awehunt.com/) - 国产解压缩工具，免费
 - [Bandizip for macOS](https://apps.apple.com/cn/app/id1265704574)
 
-- [超级右键 - iRightMouse](https://apps.apple.com/cn/app/%E8%B6%85%E7%BA%A7%E5%8F%B3%E9%94%AE-irightmouse/id1497428978?mt=12)
-- [超级右键](https://apps.apple.com/cn/app/%E8%B6%85%E7%BA%A7%E5%8F%B3%E9%94%AE-irightmouse/id1497428978?mt=12) - 右键菜单管理软件
-- [AdGrard](https://adguard.com/zh_cn/welcome.html) - 拦截多个浏览器、系统的广告，免费 + 收费
-- [Vanilla](https://matthewpalmer.net/vanilla/) - 免费版可以隐藏任菜单栏图标，Pro 有更多功能
-- [Bartender](https://www.macbartender.com/) - 管理菜单栏图标，收费
-- [Itsycal](https://www.mowglii.com/itsycal/) - 工具栏日历
-- [QuickRes](https://thnkdev.com/QuickRes/) - 快速切换分辨率，收费
-- [Ethernet Status](https://apps.apple.com/cn/app/ethernet-status/id1186187538?mt=12) - 显示有线网络连接状态
-- [Scroll Reverser](https://pilotmoon.com/scrollreverser/) - 分离触摸板和鼠标的自然滚动设置
-- InsomniaX - 控制 Mac 在合上盖子和闲置超时后是否进入休眠状态
-- [AppCleaner](http://freemacsoft.net/appcleaner/) - 卸载应用，`brew cask install appcleaner`
-
 ### 剪贴板管理
 
 - [CopyLess 2](https://apps.apple.com/cn/app/copyless-2/id993841014?mt=12) - 剪贴板管理，免费版可以记录 100 个历史和 5 个收藏
@@ -105,7 +112,7 @@
 
 ### 性能测试
 
-- [GeekBench](https://www.geekbench.com/index.html) - CPU 性能测试，收费
+- [Geekbench](https://www.geekbench.com/) - 系统检测评分，收费
 - [Blackmagic Disk Speed Test](https://apps.apple.com/us/app/blackmagic-disk-speed-test/id425264550?mt=12) - 磁盘性能测试
 - [Cinebench](https://www.maxon.net/en/products/cinebench-r20-overview/) - GPU 图形性能测试
 
@@ -137,6 +144,7 @@
 - [ProjectLibre](http://www.projectlibre.com/) - 项目管理软件，Office Project 的替代，前身是 OpenProj
 - [OpenOffice](https://www.openoffice.org/) - 开源 Office 套件，`brew cask install openoffice`
 - [draw.io](https://www.draw.io/) - 有 Web 版和 [桌面版](https://github.com/jgraph/drawio-desktop/releases)，`brew cask install drawio`
+- [PDF Expert](https://www.pdfexpert.cn/) - PDF 阅读器、编辑工具，收费
 
 ### 邮件客户端
 
@@ -146,17 +154,18 @@
 ### 文档编辑
 
 - [Typora](https://www.typora.io/) - Markdown 格式编辑器，`brew cask install typora`
-- [iTerm2](https://www.iterm2.com/) - 好用的终端工具，`brew cask install iterm2`
 - [Sublime Text](https://www.sublimetext.com/3) - 文本编辑器，`brew cask install sublime-text`
 - [GitKraken](https://www.gitkraken.com/) - Git 客户端，`brew cask install gitkraken`
 - [OmniGraffle 7](https://www.omnigroup.com/omnigraffle/) - 专业绘图，类 Visio，收费
 - [MacVim](https://github.com/macvim-dev/macvim) - Vim 编辑器，`brew cask install macvim`
 - [Dash](https://kapeli.com/dash) - 管理语言框架的 api 文档，收费，但可以一直免费用，低版本也是免费的，AppStore 上还有移动端，免费，或者用另一个网页版：[https://devdocs.io/](https://devdocs.io/) 还不需要下周很大的文件
+- [MindNote](https://apps.apple.com/cn/app/mindnode-6/id1289197285?mt=12) - 思维导图，收费
 
 ### 笔记管理
 
 - [有道云笔记](https://note.youdao.com/index.html) - 网易的笔记工具，可以和 Windows 同步；[AppStore](https://itunes.apple.com/cn/app/%E6%9C%89%E9%81%93%E4%BA%91%E7%AC%94%E8%AE%B0/id1121484812?mt=12)；[Web 端](https://note.youdao.com/)；`brew cask install youdaonote`
 - 印象笔记 - `brew cask install evernote`
+- [Trello](https://trello.com/)  - 任务看板，[商店](https://itunes.apple.com/cn/app/trello/id1278508951?mt=12)
 
 ### 翻译软件
 
@@ -181,21 +190,12 @@
 - [网易云音乐](https://music.163.com/) - 网易，`brew cask install neteasemusic`
 - [Listen 1](https://listen1.github.io/listen1/)：搜索和播放来自网易云音乐，虾米，QQ 音乐，酷狗音乐，酷我音乐网站的歌曲，`brew cask install listen1`
 
-- [PDF Expert](https://www.pdfexpert.cn/) - PDF 阅读器、编辑工具，收费
-- [mackup](https://github.com/lra/mackup) - 备份配置，我的配置：[my-mac-mackup-backup](https://github.com/yingw/my-mac-mackup-backup)
-- [oh-my-zsh](https://ohmyz.sh/) - [参考](https://sspai.com/post/55176)
-  - 修改主题 `～/.zshrc`，agnoster
-  - 安装 [字体](https://github.com/powerline/fonts.git) ，用 `DejaVu Sans Mono for Powerline`
-- [Trello](https://trello.com/)  - 任务看板，[商店](https://itunes.apple.com/cn/app/trello/id1278508951?mt=12)
-- [MindNote](https://apps.apple.com/cn/app/mindnode-6/id1289197285?mt=12) - 思维导图，收费
-
 ### 磁盘工具
 
 - [DaisyDisk](https://daisydiskapp.com/) - 显示磁盘占用情况，收费
 - Paragon NTFS - 读写 Windows NTFS 分区
 - [Mounty for NTFS](https://mounty.app/) - 读写 Windows NTFS 分区，免费
 - [NTFSTool](https://ntfstool.com/)- 读写 Windows NTFS 分区，免费
-- [Geekbench 5](https://www.geekbench.com/) - 系统检测评分，收费
 - [Disk Inventory X 1.2](http://www.derlien.com/) 磁盘信息情况统计，类似 WinDirStat
 
 ### 系统设置
@@ -264,3 +264,4 @@ brew cask install quicklook-csv  #预览 CSV 文件
 - autojump - `brew install autojump`
 - thefuck - `brew install thefuck`
 - screenfetch - 显示系统信息，`brew install screenfetch`
+- [mackup](https://github.com/lra/mackup) - 备份配置，我的配置：[my-mac-mackup-backup](https://github.com/yingw/my-mac-mackup-backup)，`brew install mackup`
