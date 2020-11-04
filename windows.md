@@ -40,11 +40,17 @@ Windows 工具箱（Awesome Windows），记录我的 Windows 工具和设置
 
 ## 系统工具
 
+- [媒体创建工具 MediaCreationTool.exe](https://www.microsoft.com/zh-cn/software-download/windows10) - 微软官方 Windows 10 安装工具，制作 U 盘，得到名称为 ESD-USB 的 U 盘
+
 ### 系统安全
 
 用 Windows 10 自带的 Defender 和防火墙也够了
 
-- [火绒](https://www.huorong.cn/) - 个人版
+- [火绒安全](https://www.huorong.cn/) - 个人版
+- [Autoruns](https://docs.microsoft.com/zh-cn/sysinternals/downloads/autoruns) - 微软官方的启动项管理工具
+- [Process Explorer](https://docs.microsoft.com/zh-cn/sysinternals/downloads/process-explorer)
+- [Portmon](https://docs.microsoft.com/zh-cn/sysinternals/downloads/portmon)
+- [DiskMon](https://docs.microsoft.com/zh-cn/sysinternals/downloads/diskmon)
 
 ### 输入法
 
@@ -61,7 +67,7 @@ Windows 工具箱（Awesome Windows），记录我的 Windows 工具和设置
 
 - [Chrome](https://www.google.com/intl/zh-CN/chrome/) - 谷歌浏览器，官网下载。初始登入同步需要全局代理，参考：[我的插件](./chrome.md)
 - [Firefox](http://www.firefox.com.cn/) - Mozilla 的浏览器
-- [Edge](https://www.microsoft.com/en-us/windows/microsoft-edge/) - Windows 10 自带
+- [Microsoft Edge](https://www.microsoft.com/en-us/edge) - 非 Windows 10 自带版本，已升级为 Chrome 内核
 - [Safari](https://www.apple.com/cn/safari/) - 在 MacOSX 上测试兼容性
 
 ### VPN
@@ -80,6 +86,7 @@ Windows 工具箱（Awesome Windows），记录我的 Windows 工具和设置
 
 - [驱动人生](https://www.160.com/) - 不要用驱动精灵
 - [鲁大师](https://www.ludashi.com/) - 有温控等
+- [Splashtop Wired XDisplay](https://www.splashtop.com/wiredxdisplay) - 让 iPad 做扩展屏，收费
 
 ### 磁盘管理
 
@@ -88,6 +95,16 @@ Windows 工具箱（Awesome Windows），记录我的 Windows 工具和设置
 - [SpaceSniffer](http://www.uderzo.it/main_products/space_sniffer/) - 同 WinDirStat
 - [CCleaner](https://www.ccleaner.com/) - 清理工具，可以清除重复文件
 - [Dism++](http://www.chuyu.me/) - 系统设置工具，可清理
+- [Bootice](http://www.ipauly.com/) - 最后版本 16 年 v1.3.4.0，官网打不开，随便下载
+- UltraISO
+- EasyBCD
+- [EasyUEFI](https://www.easyuefi.com/index-us.html)
+- [TransMac](https://www.acutesystems.com/scrtm.htm) - 在 Windows 上打开 Mac 的 dmg 文件，收费
+- [Everything](https://www.voidtools.com/zh-cn/) - 全盘检索
+- [Wox](https://github.com/Wox-launcher/Wox) - Windows 上 Everything 的启动器，类似 Alfred
+- [PowerToys](https://github.com/microsoft/PowerToys) - 微软官方的效率工具，有快捷启动和批录重命名等
+- [Geek Uninstaller](https://geekuninstaller.com/) - 卸载工具
+- [PatchCleaner](https://sourceforge.net/projects/patchcleaner/)
 
 ### 办公套件
 
@@ -111,6 +128,7 @@ Office 有 2013、2016、Office365 等版本。
 
 - [迅雷 X](https://www.xunlei.com/) - 下载工具
 - [人人影视播放器](http://app.rrys.tv/) - 用来下载 [人人](http://www.zmz2019.com/) 的视频
+- [FDM](https://www.freedownloadmanager.org/) - 插件支持下载 YouTube 视频
 
 ### 网盘
 
@@ -136,17 +154,28 @@ Office 有 2013、2016、Office365 等版本。
 - [Evernote](https://evernote.com/) - 笔记工具，中国区印象笔记，用的全球区
 - [福昕阅读器](https://www.foxitsoftware.cn/pdf-reader/)（FoxitReader） - PDF 文档阅读
 - [福昕 PDF 编辑器个人版](http://editor.foxitsoftware.cn/?agent=foxit&MD=menu) - PDF 文档编辑工具，个人版会有水印
+- SumatraPDF - 免费 PDF 浏览器
+
+### 看图工具
+
+- [XnView](https://www.xnview.com/en/)
+- [HoneyView](http://www.bandisoft.com/honeyview/) - 看图软件，与 BandZip 是一个开发商
+- [2345 看图王](http://pic.2345.cc/)
+- [光影魔术手](http://www.neoimaging.cn/) - 图像编辑工具，比较老了，用习惯了
+- [美图秀秀](https://xiuxiu.meitu.com/) - 图像编辑工具
 
 ### 影音播放
 
 - [QQ 影音](https://player.qq.com/)
 - [迅雷影音](http://video.xunlei.com/pc.html)
 - [完美解码](http://jm.wmzhe.com/)
-- [POTPlayer](http://potplayer.daum.net/?lang=zh_CN)
+- [POTPlayer](http://potplayer.daum.net/?lang=zh_CN) - 播放器，也可以串流录屏
 - [KMPlayer](https://pc.qq.com/detail/0/detail_500.html)
 - [foobar2000](https://www.foobar2000.org/)
 - [网易云音乐](https://music.163.com/)
 - [Listen1](https://github.com/listen1/listen1_desktop/releases) - 开源跨平台的多平台音乐播放器
+- [OBS Studio](https://obsproject.com/zh-cn) - 视频录制以及直播串流
+- [VLC media player](https://www.videolan.org/index.zh.html) - 视频播放，还支持网络流媒体播放以及捕获设备
 
 ### 翻译工具
 
@@ -161,6 +190,8 @@ Office 有 2013、2016、Office365 等版本。
 - [Xming](https://sourceforge.net/projects/xming/) - 结合 ssh 工具可以远程打开 Linux 应用，给不支持桌面连接的服务器 Linux 开放桌面接入
 - [FileZilla](https://filezilla-project.org/) - FTP 服务端和客户端工具
 - [SoapUI](https://www.soapui.org/) - SmartBear 公司的 Web Service 调试工具，有开源版和 Pro 版
+- [Synergy](https://symless.com/?source=gui) - 多台电脑共享键盘和鼠标，需要服务端先添加设置客户端的主机名
+- [Spacedesk](https://spacedesk.net/) - 投屏 Windows 桌面到 iPad
 
 ### 虚拟机
 
@@ -184,20 +215,27 @@ Office 有 2013、2016、Office365 等版本。
 - [BeyondCompare](http://www.beyondcompare.cc/xiazai.html) - 文件比对工具，收费
 - [UltraEdit](https://www.ultraedit.com/)
 - [EmEditor](https://www.emeditor.com/) - 大文本处理比较方便
+- [Xmind](https://www.xmind.cn/download/) - 思维导图，免费版导出 PDF 有水印
+- [MobaXterm](https://mobaxterm.mobatek.net/) - 全能终端工具，免费版有些限制
 
 ### 压缩解压
 
 - [7-Zip](https://www.7-zip.org/) - 免费开源跨平台
-- [Bandizip](http://www.bandisoft.com/bandizip/) - 无广告，支持 Mac
+- [Bandizip](http://www.bandisoft.com/bandizip/) - 无广告，支持 [Mac](https://apps.apple.com/cn/app/id1265704574)，注意 6.x 无广告，7.0 开始有广告和收费功能
 - [360 压缩](http://yasuo.360.cn/) - 功能较多
 
 ### 启动盘制作
 
 - [Etcher](https://www.balena.io/etcher/) - 现在改名叫 balenaEtcher 了，烧录 Linux ISO 镜像到 U 盘
-- 老毛桃 - PE 启动盘
-- 大白菜 - PE
-- [优启通](https://www.upe.net/)
 - [Rufus](http://rufus.ie/) - 制作 Windows 安装盘
+- Win32DiskImager
+- FlashBoot - 需注册
+- 老毛桃 - PE 启动盘
+- [优启通](https://www.upe.net/) - 比较早期纯净的版本：[优启通 v3.3.2019.0605](https://www.itsk.com/thread-397875-1-1.html)
+- [大白菜](https://www.dabaicai.com/)
+- [微 PE](http://www.wepe.com.cn/) - 推荐，号称纯净，注意 2.1 版本可能有毒
+- [微软 WinPE (Windows PE)](https://docs.microsoft.com/zh-cn/windows-hardware/manufacture/desktop/download-winpe--windows-pe)
+- 其他 PE：深度、老毛桃、我心如水、云爱、天意、小马、装机员、深山红叶、完美者、无垠
 
 ### 截屏录屏
 
@@ -205,6 +243,13 @@ Office 有 2013、2016、Office365 等版本。
 - [FSCapture](https://www.faststone.org/FSCaptureDetail.htm) - 有个之前的版本免费
 - [ScreenToGif](https://www.screentogif.com/?l=zh_cn) - 屏幕，摄像头和白板录像机与集成编辑器。可以录制视频或 GIF
 - [CamStudio](https://camstudio.org/) - 桌面录像，免费
+- [Snipaste](https://zh.snipaste.com/download.html) - 免费，Mac
+
+### 桌面美化
+
+- [腾讯桌面整理](https://guanjia.qq.com/product/zmzl/) - （但是刷新死机）
+- [Wallpaper Engine](https://store.steampowered.com/app/431960/Wallpaper_Engine/)
+- [Fliplo](https://fliqlo.com/#/screensaver) - 时钟屏保
 
 ## 开发工具
 
@@ -241,6 +286,28 @@ Office 有 2013、2016、Office365 等版本。
 - [Spring Tools](https://spring.io/tools) - 之前叫 STS，Spring Tool Suits，可替代 IDEA、Eclipse
 - Android Studio
 - [Eclipse for Java EE](https://www.eclipse.org/)
+
+### 其他工具
+
+- [Gisto](https://www.gistoapp.com/) - 代码片段管理
+- [Zeal](https://zealdocs.org/) - 软件开发官方文档浏览器
+
+### 性能测试工具
+
+- [CPU-Z](https://www.cpuid.com/softwares/cpu-z.html)
+- [GPU-Z](https://www.techpowerup.com/gpuz/) - 查看 GPU 相关参数
+- 鲁大师
+- 3DMARK
+- [Cinebench](https://www.maxon.net/cn/%E4%BA%A7%E5%93%81/cinebench-r20-overview/)
+- AIDA64
+- 国际象棋
+- [HD Tune Pro](http://www.hdtune.com/download.html) - 磁盘健康状态，收费
+- AS SSD Benchmark - 测试 SSD 性能
+- [CrystalDiskMark](https://crystalmark.info/en/software/crystaldiskmark/) - 测试 U 盘读写速度
+- [CrystalDiskInfo](https://crystalmark.info/en/software/crystaldiskinfo/)
+- FlashBoot - 做 DOS 启动盘（刷 BIOS）
+- Paragon ExtFS/NTFS
+- [MSI Afterburner](https://cn.msi.com/page/afterburner) - 显卡超频工具
 
 ### 其他运行环境
 

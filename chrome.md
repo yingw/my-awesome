@@ -4,14 +4,14 @@
 
 <!-- TOC -->
 
-- [Chrome 插件](#chrome-%e6%8f%92%e4%bb%b6)
-  - [生产力](#%e7%94%9f%e4%ba%a7%e5%8a%9b)
-    - [搜索](#%e6%90%9c%e7%b4%a2)
-    - [广告拦截](#%e5%b9%bf%e5%91%8a%e6%8b%a6%e6%88%aa)
-    - [安全](#%e5%ae%89%e5%85%a8)
-  - [开发工具](#%e5%bc%80%e5%8f%91%e5%b7%a5%e5%85%b7)
+- [Chrome 插件](#chrome-插件)
+  - [生产力](#生产力)
+    - [搜索](#搜索)
+    - [广告拦截](#广告拦截)
+    - [安全](#安全)
+  - [开发工具](#开发工具)
     - [GitHub](#github)
-  - [娱乐](#%e5%a8%b1%e4%b9%90)
+  - [娱乐](#娱乐)
 
 <!-- /TOC -->
 
@@ -33,6 +33,7 @@
 - [The QR Code Extension](https://chrome.google.com/webstore/detail/the-qr-code-extension/oijdcdmnjjgnnhgljmhkjlablaejfeeb)：允许当前页面生成 QR 码，并使用网络摄像头扫描 QR 码。用于和移动端传输网页比较方便
 - [书签侧边栏](https://chrome.google.com/webstore/detail/bookmark-sidebar/jdbnofccmhefkmjbkkdkfiicjkgofkdh)：可以通过侧边栏管理收藏夹，隐藏自带收藏栏，但是和 Momentum 类首页插件冲突导致首页没有收藏夹就不用了
 - [为什么你们就是不能加个空格呢？](https://chrome.google.com/webstore/detail/%E7%82%BA%E4%BB%80%E9%BA%BC%E4%BD%A0%E5%80%91%E5%B0%B1%E6%98%AF%E4%B8%8D%E8%83%BD%E5%8A%A0%E5%80%8B%E7%A9%BA%E6%A0%BC%E5%91%A2%EF%BC%9F/paphcfdffjnbcgkokihcdjliihicmbpd)：给全半角之间加上空格
+- [Bilibili哔哩哔哩下载助手](https://chrome.google.com/webstore/detail/bilibili%E5%93%94%E5%93%A9%E5%93%94%E5%93%A9%E4%B8%8B%E8%BD%BD%E5%8A%A9%E6%89%8B/bfcbfobhcjbkilcbehlnlchiinokiijp)
 
 ### 搜索
 

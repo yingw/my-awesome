@@ -49,8 +49,8 @@
 - [HandShaker](https://www.smartisan.com/apps/#/handshaker) - 锤子科技的文件管理软件，用于在 Mac 电脑上管理 Android 手机内容
 - [LaunchRocket](https://github.com/jimbojsb/launchrocket) - 管理服务，`brew cask install launchrocket`
 - [GamePad Companion](https://apps.apple.com/us/app/gamepad-companion/id428799479?mt=12) - 手柄驱动，收费
-- [超级右键 - iRightMouse](https://apps.apple.com/cn/app/%E8%B6%85%E7%BA%A7%E5%8F%B3%E9%94%AE-irightmouse/id1497428978?mt=12)
 - [超级右键](https://apps.apple.com/cn/app/%E8%B6%85%E7%BA%A7%E5%8F%B3%E9%94%AE-irightmouse/id1497428978?mt=12) - 右键菜单管理软件
+- [Better And Better](https://www.better365.cn/bab2.html) - 触控板、鼠标、键盘的手势等
 - [AdGrard](https://adguard.com/zh_cn/welcome.html) - 拦截多个浏览器、系统的广告，免费 + 收费
 - [Vanilla](https://matthewpalmer.net/vanilla/) - 免费版可以隐藏任菜单栏图标，Pro 有更多功能
 - [Bartender](https://www.macbartender.com/) - 管理菜单栏图标，收费
@@ -121,7 +121,7 @@
 - [TeamViewer](https://www.teamviewer.cn/cn/) - 远程控制
 - [VNC Viewer](https://www.realvnc.com/en/connect/download/viewer/) - VNC 客户端
 - [向日葵](https://sunlogin.oray.com/download/) - 远程控制
-- 开启远程控制 - ` 共享 - 开启 “远程登录”、“远程管理”`
+- 开启远程控制 - `共享 - 开启 “远程登录”、“远程管理”`
 - [蒲公英](https://apps.apple.com/cn/app/id1305707014) - 异地组网
 - [Remote Desktop Manager](https://remotedesktopmanager.com/) - 有 Free 和 Enterprise 版本，支持 Windows 和 Mac
 - ` 屏幕共享 ` - Mac 自带的 VNC 客户端（Screen Sharing.APP）
@@ -194,9 +194,9 @@
 
 - [DaisyDisk](https://daisydiskapp.com/) - 显示磁盘占用情况，收费
 - Paragon NTFS - 读写 Windows NTFS 分区
-- [Mounty for NTFS](https://mounty.app/) - 读写 Windows NTFS 分区，免费
+- [Mounty for NTFS](https://mounty.app/) - 读写 Windows NTFS 分区，免费，`brew cask install mounty`
 - [NTFSTool](https://ntfstool.com/)- 读写 Windows NTFS 分区，免费
-- [Disk Inventory X 1.2](http://www.derlien.com/) 磁盘信息情况统计，类似 WinDirStat
+- [Disk Inventory X](http://www.derlien.com/) - 磁盘信息情况统计，类似 WinDirStat
 
 ### 系统设置
 
@@ -265,3 +265,5 @@ brew cask install quicklook-csv  #预览 CSV 文件
 - thefuck - `brew install thefuck`
 - screenfetch - 显示系统信息，`brew install screenfetch`
 - [mackup](https://github.com/lra/mackup) - 备份配置，我的配置：[my-mac-mackup-backup](https://github.com/yingw/my-mac-mackup-backup)，`brew install mackup`
+- [diskutil](https://www.jianshu.com/p/6a1f365617ad)
+
