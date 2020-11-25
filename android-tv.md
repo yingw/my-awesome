@@ -22,6 +22,8 @@
 - [火星直播](http://down.znds.com/apk/live/2014/1123/1268.html)
 - 超级直播 - 可以看港台频道
 - 电视直播
+- [星尘直播 TV 版](http://www.5you.com/apk/399709.html)
+- [TV 影院](https://www.znds.com/tv-1184037-1-1.html)
 
 ## 视频点播
 

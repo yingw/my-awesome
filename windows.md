@@ -75,7 +75,7 @@ Windows 工具箱（Awesome Windows），记录我的 Windows 工具和设置
 除了用来翻墙（需要购买账号），还有公司的 VPN 客户端。
 
 - [Shadowsocks](https://github.com/shadowsocks/shadowsocks-windows) - 翻墙工具，结合 Chrome 的 SwithcyOmega 插件非常方便。初始化后，可以直接替换 `gui-config.json` 的配置。或者设置 PAC 模式
-- [v2ray](https://github.com/v2ray) - 结合 [v2ray-core](https://github.com/v2ray/v2ray-core) 和 [v2ray-N](https://github.com/2dust/v2rayN)（GUI）使用
+- [v2ray](https://github.com/v2ray/v2ray-core) - 用 [v2ray-N](https://github.com/2dust/v2rayN)（集成 Core 的版本 v2rayN-Core.zip）使用，或者用 [QV2Ray](https://github.com/Qv2ray/Qv2ray) + [v2ray-core](https://github.com/v2fly/v2ray-core) 核心使用
 - [FortiClient](https://www.forticlient.com/) - 公司用的 VPN 客户端，也可以从 Windows 商店下载
 - [EasyConnect](https://sslvpn.zjweu.edu.cn/com/installClient.html) - 深信服的 SSLVPN
 - GlobalProtect - [Wilmar](https://wilmarvpn.wilmar.cn/global-protect/login.esp) 的 VPN，[下载地址](https://wilmarvpn.wilmar.cn/global-protect/msi/GlobalProtect64.msi)，[Mac 版](https://wilmarvpn.wilmar.cn/global-protect/msi/GlobalProtect.pkg)
@@ -133,7 +133,7 @@ Office 有 2013、2016、Office365 等版本。
 ### 网盘
 
 - [百度云](https://pan.baidu.com/) - 免费 2T 空间，客户端支持 Mac、Linux 等
-- [OneDrive](https://skydrive.live.com/) - 微软的网盘，在 Office 套件里一起安装
+- [OneDrive](https://www.microsoft.com/zh-cn/microsoft-365/onedrive/download) - 微软的网盘，在 Office 套件里一起安装，[在线管理地址](https://skydrive.live.com/)
 - Google Drive
 - 坚果云
 
