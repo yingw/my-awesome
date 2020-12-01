@@ -11,7 +11,7 @@
 - Windows PE - 后改为 WTG (Windows To GO)，非官方还有很多集成了老版本 PE 的集成 PE 工具，如
   - 老毛桃 - PE 启动盘
   - [优启通](https://www.upe.net/) - 比较早期纯净的版本：[优启通 v3.3.2019.0605](https://www.itsk.com/thread-397875-1-1.html)
-  - [大白菜](https://www.dabaicai.com/)
+  - [大白菜](http://www.winbaicai.com/)
   - [微 PE](http://www.wepe.com.cn/) - 推荐，号称纯净，注意 2.1 版本可能有毒
   - [微软 WinPE (Windows PE)](https://docs.microsoft.com/zh-cn/windows-hardware/manufacture/desktop/download-winpe--windows-pe)
   - 电脑店
@@ -32,7 +32,7 @@
 
 企业级：
 
-- CentOS
+- CentOS - 现在还在用，大部分公司服务器使用
 - RHEL - RedHat Enterprise Linux
 - [Ubuntu Server](https://ubuntu.com/download/server)
 - [华为 EulerOS](https://developer.huaweicloud.com/) - 华为云上的系统，基于 CentOS
