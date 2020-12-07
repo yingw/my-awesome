@@ -51,7 +51,7 @@
 - [GamePad Companion](https://apps.apple.com/us/app/gamepad-companion/id428799479?mt=12) - 手柄驱动，收费
 - [超级右键](https://apps.apple.com/cn/app/%E8%B6%85%E7%BA%A7%E5%8F%B3%E9%94%AE-irightmouse/id1497428978?mt=12) - 右键菜单管理软件
 - [Better And Better](https://www.better365.cn/bab2.html) - 触控板、鼠标、键盘的手势等
-- [AdGrard](https://adguard.com/zh_cn/welcome.html) - 拦截多个浏览器、系统的广告，免费 + 收费
+- [AdGrard](https://adguard.com/zh_cn/welcome.html) - 拦截多个浏览器、系统的广告，收费
 - [Vanilla](https://matthewpalmer.net/vanilla/) - 免费版可以隐藏任菜单栏图标，Pro 有更多功能
 - [Bartender](https://www.macbartender.com/) - 管理菜单栏图标，收费
 - [Itsycal](https://www.mowglii.com/itsycal/) - 菜单栏日历

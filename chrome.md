@@ -34,17 +34,34 @@
 - [书签侧边栏](https://chrome.google.com/webstore/detail/bookmark-sidebar/jdbnofccmhefkmjbkkdkfiicjkgofkdh)：可以通过侧边栏管理收藏夹，隐藏自带收藏栏，但是和 Momentum 类首页插件冲突导致首页没有收藏夹就不用了
 - [为什么你们就是不能加个空格呢？](https://chrome.google.com/webstore/detail/%E7%82%BA%E4%BB%80%E9%BA%BC%E4%BD%A0%E5%80%91%E5%B0%B1%E6%98%AF%E4%B8%8D%E8%83%BD%E5%8A%A0%E5%80%8B%E7%A9%BA%E6%A0%BC%E5%91%A2%EF%BC%9F/paphcfdffjnbcgkokihcdjliihicmbpd)：给全半角之间加上空格
 - [Bilibili哔哩哔哩下载助手](https://chrome.google.com/webstore/detail/bilibili%E5%93%94%E5%93%A9%E5%93%94%E5%93%A9%E4%B8%8B%E8%BD%BD%E5%8A%A9%E6%89%8B/bfcbfobhcjbkilcbehlnlchiinokiijp)
+- [Checker Plus for Gmail](https://chrome.google.com/webstore/detail/checker-plus-for-gmail/oeopbcgkkoapgobdbedcemjljbihmemj)
+- [Decreased Productivity](https://chrome.google.com/webstore/detail/decreased-productivity/nlbpiflhmdcklcbihngeffpmoklbiooj) - 隐藏网页上图片
+- [Enable Copy](https://chrome.google.com/webstore/detail/enable-copy/lmnganadkecefnhncokdlaohlkneihio) - 屏蔽禁用右键脚本
+- [IE Tab](https://chrome.google.com/webstore/detail/ie-tab/hehijbfgiekmjfkfjpbkbammjbdenadd) - 在 Chrome 里用 IE 内核访问网页
 
 ### 搜索
 
 - [搜索直达](https://chrome.google.com/webstore/detail/faster-search-for-googley/mkpejojlockjoldbdbbgbibeogmemjfk)：去掉搜索引擎重定向
 - [Context Menu Search](https://chrome.google.com/webstore/detail/context-menu-search/ocpcmghnefmdhljkoiapafejjohldoga)：关键字右键多搜索，可添加自定义搜索引擎，需要手动导入导出配置
-- [右键搜](https://chrome.google.com/webstore/detail/context-menus/phlfmkfpmphogkomddckmggcfpmfchpn)：划词右键搜索，默认支持的国内搜索比较多，添加了 Bilibili、爱奇艺等，手动导入导出配置或云同步（2020年2月下线修改）
+- [右键搜](https://chrome.google.com/webstore/detail/context-menus/phlfmkfpmphogkomddckmggcfpmfchpn)：划词右键搜索，默认支持的国内搜索比较多，添加了 Bilibili、爱奇艺等，手动导入导出配置或云同步（2020年2月下线修改）。下线后可以安装[离线版 v4.1.315](https://www.jb51.net/softs/577682.html)
+
+右键搜划词菜单：
+
+- [Bilibili](https://search.bilibili.com/all?keyword=%s&from_source=nav_search_new)
+- [淘宝](https://s.taobao.com/search?q=%s)
+- [Steam](https://store.steampowered.com/search/?snr=1_4_4__12&term=%s)
+- [Unity Assets](https://assetstore.unity.com/?q=%s%20&orderBy=1)
+- [Steam激活key](https://store.steampowered.com/account/registerkey?key=%s)
+- [什么值得买](https://search.smzdm.com/?c=home&s=%s&v=b)
+- [RARBG](https://rarbgprx.org/torrents.php?search=%s)
 
 ### 广告拦截
 
 - [Adblock Plus](https://chrome.google.com/webstore/detail/adblock-plus-development/ldcecbkkoecffmfljeihcmifjjdoepkn)：广告拦截
 - [百度广告屏蔽](https://chrome.google.com/webstore/detail/%E7%99%BE%E5%BA%A6%E5%B9%BF%E5%91%8A%E5%B1%8F%E8%94%BD/bdkobfnbgkbemcfgopfollaikdlknlkm)：专门拦截百度的广告，但是在贴吧会造成首贴错位
+- [AdBlock](https://chrome.google.com/webstore/detail/gighmmpiobklfepjocnamgkkbiglidom)
+- [AdGuard](https://chrome.google.com/webstore/detail/adguard-adblocker/bgnkhhnnamicmpeenaelnjfhikgbkllg)
+- [知乎外链直达](https://chrome.google.com/webstore/detail/%E7%9F%A5%E4%B9%8E%E5%A4%96%E9%93%BE%E7%9B%B4%E8%BE%BE/chidjfbdenglhicdckjnjccccpgknfhg)
 
 ### 安全
 
@@ -59,6 +76,7 @@
 - [XV — XML Viewer](https://chrome.google.com/webstore/detail/xv-%E2%80%94-xml-viewer/eeocglpgjdpaefaedpblffpeebgmgddk)：XML 内容的格式化显示
 - [Vue.js devtools](https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)：Vue 的浏览器调试工具
 - [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)：油猴，可以在网页上运行自定义脚本
+- [Gloria](https://chrome.google.com/webstore/detail/gloria/cnelmenogjgobndnoddckekbojgginbn) - 可编程网站通知聚合器
 - [Postman](https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop)：API 工具，也可以用桌面版或 Web 版
 - [Chrome 远程桌面](https://chrome.google.com/webstore/detail/chrome-remote-desktop/gbchcmhmhahfdphkhkmpfmihenigjmpp)：通过互联网安全访问其他计算机，或允许其他用户通过互联网安全访问您的计算机。
 - [EditThisCookie](https://chrome.google.com/webstore/detail/editthiscookie/fngmhnnpilhplaeedifhccceomclgfbg)：修改 cookie
@@ -74,6 +92,7 @@
 - [GitHub Repository Size](https://chrome.google.com/webstore/detail/github-repository-size/apnjnioapinblneaedefcnopcjepgkci)：显示仓库和文件的大小，支持显示目录大小及私有仓库
 - [OctoLinker](https://chrome.google.com/webstore/detail/octolinker/jlmafbaeoofdegohdhinkhilhclaklkp)：在仓库代码中可以提供代码跳转和提示
 - [Sourcegraph](https://chrome.google.com/webstore/detail/sourcegraph/dgjhfomjieaadpoljlnidmbgkdffpack)：用于代码分析和跳转，可以往官网文档跳转，有个站点做仓库分析
+- [GitHub Dark Theme](https://chrome.google.com/webstore/detail/github-dark-theme/odkdlljoangmamjilkamahebpkgpeacp)
 
 ## 娱乐
 
