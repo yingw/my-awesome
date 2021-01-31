@@ -41,6 +41,8 @@ Windows 工具箱（Awesome Windows），记录我的 Windows 工具和设置
 ## 系统工具
 
 - [媒体创建工具 MediaCreationTool.exe](https://www.microsoft.com/zh-cn/software-download/windows10) - 微软官方 Windows 10 安装工具，制作 U 盘，得到名称为 ESD-USB 的 U 盘
+- [QuickLook](https://github.com/QL-Win/QuickLook) - 文档快速预览工具，应用商店安装，Office 文档预览还有装个[插件](https://github.com/QL-Win/QuickLook.Plugin.OfficeViewer)
+- 腾讯软件管理独立版 - 没有官网，在迅雷网盘里
 
 ### 系统安全
 
@@ -49,8 +51,8 @@ Windows 工具箱（Awesome Windows），记录我的 Windows 工具和设置
 - [火绒安全](https://www.huorong.cn/) - 个人版
 - [Autoruns](https://docs.microsoft.com/zh-cn/sysinternals/downloads/autoruns) - 微软官方的启动项管理工具
 - [Process Explorer](https://docs.microsoft.com/zh-cn/sysinternals/downloads/process-explorer)
-- [Portmon](https://docs.microsoft.com/zh-cn/sysinternals/downloads/portmon)
-- [DiskMon](https://docs.microsoft.com/zh-cn/sysinternals/downloads/diskmon)
+- [Portmon](https://docs.microsoft.com/zh-cn/sysinternals/downloads/portmon) - 端口监控，也可以用 `netstat` 查
+- [DiskMon](https://docs.microsoft.com/zh-cn/sysinternals/downloads/diskmon) - 磁盘监控
 
 ### 输入法
 
@@ -87,6 +89,8 @@ Windows 工具箱（Awesome Windows），记录我的 Windows 工具和设置
 - [驱动人生](https://www.160.com/) - 不要用驱动精灵
 - [鲁大师](https://www.ludashi.com/) - 有温控等
 - [Splashtop Wired XDisplay](https://www.splashtop.com/wiredxdisplay) - 让 iPad 做扩展屏，收费
+- [Logitech Options](https://www.logitech.com.cn/zh-cn/product/options?page=flow-multi-device-control) - 设置 Logitech Flow 多屏共享键鼠 M585 + M330，[下载地址](https://support.logi.com/hc/zh-cn/articles/360025297893)
+- [Logitech G HUB](https://support.logi.com/hc/zh-cn/articles/360024361233) - 设置 G304
 
 ### 磁盘管理
 
@@ -102,6 +106,7 @@ Windows 工具箱（Awesome Windows），记录我的 Windows 工具和设置
 - [TransMac](https://www.acutesystems.com/scrtm.htm) - 在 Windows 上打开 Mac 的 dmg 文件，收费
 - [Everything](https://www.voidtools.com/zh-cn/) - 全盘检索
 - [Wox](https://github.com/Wox-launcher/Wox) - Windows 上 Everything 的启动器，类似 Alfred
+- [Listary](https://www.listary.com/)
 - [PowerToys](https://github.com/microsoft/PowerToys) - 微软官方的效率工具，有快捷启动和批录重命名等
 - [Geek Uninstaller](https://geekuninstaller.com/) - 卸载工具
 - [PatchCleaner](https://sourceforge.net/projects/patchcleaner/)
@@ -120,8 +125,8 @@ Office 有 2013、2016、Office365 等版本。
   - Skype for Business
   - OneDrive - 网盘个人账号，5G 免费空间
 - [WPS Office 2019](https://www.wps.cn/) - 免费，Office 替代；广告较多，有个 “配置工具” 关闭
-- [Draw.io](https://about.draw.io/integrations/#integrations_offline) - 开源绘图工具，可替换 visio
-- [OpenProj](https://sourceforge.net/projects/openproj/) - 开源项目管理工具，可替代 Project（openproj-1.4.msi）
+- [Draw.io](https://about.draw.io/integrations/#integrations_offline) - 开源绘图工具，可替换 visio，新[官网](https://app.diagrams.net/)，桌面版下载[地址](https://github.com/jgraph/drawio-desktop/releases)
+- [OpenProj](https://sourceforge.net/projects/openproj/) - 开源项目管理工具，可替代 Project（openproj-1.4.msi），需要安装 JDK5
 - [Processon](https://www.processon.com/) - 在线的作图、协作工具，免费一定额度
 
 ### 下载工具
@@ -176,6 +181,7 @@ Office 有 2013、2016、Office365 等版本。
 - [Listen1](https://github.com/listen1/listen1_desktop/releases) - 开源跨平台的多平台音乐播放器
 - [OBS Studio](https://obsproject.com/zh-cn) - 视频录制以及直播串流
 - [VLC media player](https://www.videolan.org/index.zh.html) - 视频播放，还支持网络流媒体播放以及捕获设备
+- [Tiny Media Manager](https://www.tinymediamanager.org/) - 家庭影院视频库管理，用 v3 版，v4 收费
 
 ### 翻译工具
 
@@ -249,7 +255,8 @@ Office 有 2013、2016、Office365 等版本。
 
 - [腾讯桌面整理](https://guanjia.qq.com/product/zmzl/) - （但是刷新死机）
 - [Wallpaper Engine](https://store.steampowered.com/app/431960/Wallpaper_Engine/)
-- [Fliplo](https://fliqlo.com/#/screensaver) - 时钟屏保
+- [Fliplo](https://fliqlo.com/#/screensaver) - 时钟屏保，1.4 版本已经解决 Flash 禁用问题
+- [Folder Painter v1.3](https://www.sordum.org/10124/folder-painter-v1-3/) - 给目录设置颜色
 
 ## 开发工具
 
@@ -279,6 +286,7 @@ Office 有 2013、2016、Office365 等版本。
 - [Sublime Text](https://www.sublimetext.com/)
 - [HBuilder](http://www.dcloud.io/) - HTML 编辑器
 - [Atom](https://atom.io/) - GitHub 的编辑工具
+- [Notepads](https://www.notepadsapp.com/) - 简洁的编辑器，应用商店安装
 
 #### Java IDE
 
@@ -296,7 +304,6 @@ Office 有 2013、2016、Office365 等版本。
 
 - [CPU-Z](https://www.cpuid.com/softwares/cpu-z.html)
 - [GPU-Z](https://www.techpowerup.com/gpuz/) - 查看 GPU 相关参数
-- 鲁大师
 - 3DMARK
 - [Cinebench](https://www.maxon.net/cn/%E4%BA%A7%E5%93%81/cinebench-r20-overview/)
 - AIDA64
