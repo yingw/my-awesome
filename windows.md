@@ -41,7 +41,7 @@ Windows 工具箱（Awesome Windows），记录我的 Windows 工具和设置
 ## 系统工具
 
 - [媒体创建工具 MediaCreationTool.exe](https://www.microsoft.com/zh-cn/software-download/windows10) - 微软官方 Windows 10 安装工具，制作 U 盘，得到名称为 ESD-USB 的 U 盘
-- [QuickLook](https://github.com/QL-Win/QuickLook) - 文档快速预览工具，应用商店安装，Office 文档预览还有装个[插件](https://github.com/QL-Win/QuickLook.Plugin.OfficeViewer)
+- [QuickLook](https://github.com/QL-Win/QuickLook) - 文档快速预览工具，应用商店安装，Office 文档预览还有装个 [插件](https://github.com/QL-Win/QuickLook.Plugin.OfficeViewer)
 - 腾讯软件管理独立版 - 没有官网，在迅雷网盘里
 
 ### 系统安全
@@ -100,16 +100,16 @@ Windows 工具箱（Awesome Windows），记录我的 Windows 工具和设置
 - [CCleaner](https://www.ccleaner.com/) - 清理工具，可以清除重复文件
 - [Dism++](http://www.chuyu.me/) - 系统设置工具，可清理
 - [Bootice](http://www.ipauly.com/) - 最后版本 16 年 v1.3.4.0，官网打不开，随便下载
-- UltraISO
-- EasyBCD
-- [EasyUEFI](https://www.easyuefi.com/index-us.html)
+- UltraISO - ISO 烧录，收费
+- EasyBCD - 启动菜单修复工具，收费
+- [EasyUEFI](https://www.easyuefi.com/index-us.html) - UEFI 信息编辑工具
 - [TransMac](https://www.acutesystems.com/scrtm.htm) - 在 Windows 上打开 Mac 的 dmg 文件，收费
 - [Everything](https://www.voidtools.com/zh-cn/) - 全盘检索
 - [Wox](https://github.com/Wox-launcher/Wox) - Windows 上 Everything 的启动器，类似 Alfred
-- [Listary](https://www.listary.com/)
+- [Listary](https://www.listary.com/) - Everything 以外另一个搜索工具
 - [PowerToys](https://github.com/microsoft/PowerToys) - 微软官方的效率工具，有快捷启动和批录重命名等
 - [Geek Uninstaller](https://geekuninstaller.com/) - 卸载工具
-- [PatchCleaner](https://sourceforge.net/projects/patchcleaner/)
+- [PatchCleaner](https://sourceforge.net/projects/patchcleaner/) - 多余的补丁卸载工具
 
 ### 办公套件
 
@@ -125,9 +125,10 @@ Office 有 2013、2016、Office365 等版本。
   - Skype for Business
   - OneDrive - 网盘个人账号，5G 免费空间
 - [WPS Office 2019](https://www.wps.cn/) - 免费，Office 替代；广告较多，有个 “配置工具” 关闭
-- [Draw.io](https://about.draw.io/integrations/#integrations_offline) - 开源绘图工具，可替换 visio，新[官网](https://app.diagrams.net/)，桌面版下载[地址](https://github.com/jgraph/drawio-desktop/releases)
+- [Draw.io](https://about.draw.io/integrations/#integrations_offline) - 开源绘图工具，可替换 visio，新 [官网](https://app.diagrams.net/)，桌面版下载 [地址](https://github.com/jgraph/drawio-desktop/releases)
 - [OpenProj](https://sourceforge.net/projects/openproj/) - 开源项目管理工具，可替代 Project（openproj-1.4.msi），需要安装 JDK5
 - [Processon](https://www.processon.com/) - 在线的作图、协作工具，免费一定额度
+- [万彩办公大师](http://www.wofficebox.com/) - 好用免费的 DPF 工具套件
 
 ### 下载工具
 
@@ -253,7 +254,7 @@ Office 有 2013、2016、Office365 等版本。
 
 ### 桌面美化
 
-- [腾讯桌面整理](https://guanjia.qq.com/product/zmzl/) - （但是刷新死机）
+- [腾讯桌面整理](https://guanjia.qq.com/product/zmzl/) - 新版本已经和 Wallpaper Engine 兼容
 - [Wallpaper Engine](https://store.steampowered.com/app/431960/Wallpaper_Engine/)
 - [Fliplo](https://fliqlo.com/#/screensaver) - 时钟屏保，1.4 版本已经解决 Flash 禁用问题
 - [Folder Painter v1.3](https://www.sordum.org/10124/folder-painter-v1-3/) - 给目录设置颜色
@@ -304,17 +305,20 @@ Office 有 2013、2016、Office365 等版本。
 
 - [CPU-Z](https://www.cpuid.com/softwares/cpu-z.html)
 - [GPU-Z](https://www.techpowerup.com/gpuz/) - 查看 GPU 相关参数
-- 3DMARK
+- [3DMARK](https://www.3dmark.com/)
 - [Cinebench](https://www.maxon.net/cn/%E4%BA%A7%E5%93%81/cinebench-r20-overview/)
-- AIDA64
-- 国际象棋
+- [AIDA64](https://www.aida64.com/) - 前身是 Evertest，收费
+- 国际象棋（FritzChessBenchmark） - CPU 性能测试
 - [HD Tune Pro](http://www.hdtune.com/download.html) - 磁盘健康状态，收费
 - AS SSD Benchmark - 测试 SSD 性能
 - [CrystalDiskMark](https://crystalmark.info/en/software/crystaldiskmark/) - 测试 U 盘读写速度
 - [CrystalDiskInfo](https://crystalmark.info/en/software/crystaldiskinfo/)
 - FlashBoot - 做 DOS 启动盘（刷 BIOS）
 - Paragon ExtFS/NTFS
-- [MSI Afterburner](https://cn.msi.com/page/afterburner) - 显卡超频工具
+- [MSI Afterburner](https://cn.msi.com/page/afterburner) - 显卡超频工具，也可以显示游戏内 FPS
+- [游戏加加](https://gamepp.com/) - 游戏内 FPS 显示
+- [FurMark](http://www.geeks3d.com/furmark/) - 显卡拷机工具，甜甜圈
+- 鲁大师 - 视频打分（娱乐大师）
 
 ### 其他运行环境
 
@@ -367,5 +371,7 @@ mklink /j c:\Users\yinguowei\.dbeaver4 d:\yinguowei\Documents\.dbeaver4
   - 查端口：`netstat -aon|findstr "49157"`
   - 查进程：`tasklist|findstr "2720"`
 - type
-- taskkill - 结束进程：taskkill /PID 1234
+- taskkill - 结束进程：`taskkill /PID 1234`
 - diskpart
+  - 删除分区：`list disk / select disk x / clean`
+  - 创建分区：`create partition primary / active / format fs=fat32/ntfs/exfat label="UDisk" quick`
