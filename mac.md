@@ -7,35 +7,35 @@
 <!-- TOC -->
 
 - [Mac 软件](#mac-软件)
-  - [系统工具](#系统工具)
-    - [终端工具](#终端工具)
-    - [虚拟机](#虚拟机)
-    - [输入法](#输入法)
-    - [系统清理](#系统清理)
-    - [截屏工具](#截屏工具)
-    - [压缩解压](#压缩解压)
-    - [剪贴板管理](#剪贴板管理)
-    - [浏览器](#浏览器)
-    - [性能测试](#性能测试)
-    - [远程控制](#远程控制)
-    - [协同工具](#协同工具)
-    - [办公套件](#办公套件)
-    - [邮件客户端](#邮件客户端)
-    - [文档编辑](#文档编辑)
-    - [笔记管理](#笔记管理)
-    - [翻译软件](#翻译软件)
-    - [开发工具](#开发工具)
-    - [下载工具](#下载工具)
-    - [媒体播放](#媒体播放)
-    - [磁盘工具](#磁盘工具)
-    - [系统设置](#系统设置)
-    - [系统监控](#系统监控)
-    - [VPN](#vpn)
-    - [镜像工具](#镜像工具)
-    - [网盘](#网盘)
-    - [账号管理](#账号管理)
-    - [预览增强](#预览增强)
-  - [命令行工具](#命令行工具)
+    - [系统工具](#系统工具)
+        - [终端工具](#终端工具)
+        - [虚拟机](#虚拟机)
+        - [输入法](#输入法)
+        - [系统清理](#系统清理)
+        - [截屏工具](#截屏工具)
+        - [压缩解压](#压缩解压)
+        - [剪贴板管理](#剪贴板管理)
+        - [浏览器](#浏览器)
+        - [性能测试](#性能测试)
+        - [远程控制](#远程控制)
+        - [协同工具](#协同工具)
+        - [办公套件](#办公套件)
+        - [邮件客户端](#邮件客户端)
+        - [文档编辑](#文档编辑)
+        - [笔记管理](#笔记管理)
+        - [翻译软件](#翻译软件)
+        - [开发工具](#开发工具)
+        - [下载工具](#下载工具)
+        - [媒体播放](#媒体播放)
+        - [磁盘工具](#磁盘工具)
+        - [系统设置](#系统设置)
+        - [系统监控](#系统监控)
+        - [VPN](#vpn)
+        - [镜像工具](#镜像工具)
+        - [网盘](#网盘)
+        - [账号管理](#账号管理)
+        - [预览增强](#预览增强)
+    - [命令行工具](#命令行工具)
 
 <!-- /TOC -->
 
@@ -58,7 +58,7 @@
 - [QuickRes](https://thnkdev.com/QuickRes/) - 快速切换分辨率，收费
 - [Ethernet Status](https://apps.apple.com/cn/app/ethernet-status/id1186187538?mt=12) - 显示有线网络连接状态
 - [Scroll Reverser](https://pilotmoon.com/scrollreverser/) - 分离触摸板和鼠标的自然滚动设置
-- [InsomniaX](https://insomniax.en.softonic.com/mac) - 控制 Mac 在合上盖子和闲置超时后是否进入休眠状态
+- [InsomniaX](https://insomniax.en.softonic.com/mac) - 控制 Mac 在合上盖子和闲置超时后是否进入休眠状态，比较老了，有点问题
 - [Monitor Control](https://github.com/MonitorControl/MonitorControl) - 控制扩展视频输出的显示亮度和设备音量 `brew cask install monitorcontrol`
 - [Gas Mask](https://github.com/2ndalpha/gasmask) - Hosts 管理 `brew cask install gas-mask`
 - [SwitchHosts](https://github.com/oldj/SwitchHosts) - Hosts 模板，快速切换 `brew cask install switchhosts`
@@ -95,14 +95,14 @@
 - [Annotate](https://itunes.apple.com/us/app/annotate-capture-screenshot/id918207447?mt=12) - 截屏工具
 - [Snipaste](https://www.snipaste.com/download.html) - 截图软件，免费 `brew cask install snipaste`
 - [iShot](https://apps.apple.com/cn/app/ishot-%E6%88%AA%E5%9B%BE-%E5%BD%95%E5%B1%8F-2020%E5%85%A8%E6%96%B0%E9%AB%98%E5%BA%A6/id1485844094?mt=12) - 截图工具，支持长截图
-- [Kap](https://getkap.co/)，[GitHub](https://github.com/wulkano/kap)： `brew cask install kap` 可以截屏，可以录屏为 GIF 或者 MP4
+- [Kap](https://getkap.co/)，[GitHub](https://github.com/wulkano/kap)： `brew cask install kap` 可以截屏，可以录屏为 GIF 或者 MP4，比较大
 
 ### 压缩解压
 
 - [Keka](https://www.keka.io/en/) - 免费下载，AppStore 上收费，也是 [7zip](https://www.7-zip.org/download.html) 的非官方 Mac 版 `brew cask install keka`
 - [Betterzip](https://www.betterzip.net/) - 收费 `brew cask install betterzip`
 - [The Unarchiver](https://www.theunarchiver.com/) - 免费，`brew cask install the-unarchiver`
-- [eZip](https://ezip.awehunt.com/) - 国产解压缩工具，免费 `brew cask install ezip`
+- [eZip](https://ezip.awehunt.com/) - 国产解压缩工具，免费 `brew cask install ezip`，装助手后变成 MacZip
 - [Bandizip](http://www.bandisoft.com/bandizip.mac/) - 收费
 
 ### 剪贴板管理
@@ -139,12 +139,13 @@
 - [Teams](https://teams.microsoft.com/) - Web 端 + 桌面端
 - [钉钉](https://www.dingtalk.com/) - 阿里的协同工具，[AppStore](https://apps.apple.com/cn/app/%E9%92%89%E9%92%89/id1435447041?mt=12)
 - [阿里旺旺](https://wangwang.taobao.com/)
+- Telegram - `brew install telegram/telegram-desktop`
 
 ### 办公套件
 
 - [Office365](https://www.microsoft.com/zh-cn/microsoft-365?rtc=1) - 微软 Office，可从 [AppStore](https://itunes.apple.com/cn/app-bundle/microsoft-office-365/id1450038993?mt=12) 下载，按年授权；`brew cask install microsoft-office`
 - [iWork](https://www.apple.com/iwork/) - 苹果的办公套件，Pages、Numbers、Keynote，免费，AppStore 下载
-- [WPS Office MAC 版](https://www.wps.cn/) 或 [2](https://www.wps.com/mac/) - 金山的 WPS，免费 `brew cask install wpsoffice`
+- [WPS Office MAC 版](https://www.wps.cn/) 或 [2](https://www.wps.com/mac/) - 金山的 WPS，不要用 brew 里的 wpsoffice，是国际版
 - [ProjectLibre](http://www.projectlibre.com/) - 项目管理软件，Office Project 的替代，前身是 OpenProj
 - [OpenOffice](https://www.openoffice.org/) - 开源 Office 套件，`brew cask install openoffice`
 - [draw.io](https://www.draw.io/) - 有 Web 版和 [桌面版](https://github.com/jgraph/drawio-desktop/releases)，`brew cask install drawio`
@@ -181,6 +182,7 @@
 - [XCode Command Line Toolss](https://developer.apple.com/download/more/)
 - [GitKraken](https://www.gitkraken.com/) - Git 客户端，`brew cask install gitkraken`
 - [Dash](https://kapeli.com/dash) - 管理语言框架的 api 文档，收费，但可以一直免费用，低版本也是免费的，AppStore 上还有移动端，免费，或者用另一个网页版：[https://devdocs.io/](https://devdocs.io/) 还不需要下周很大的文件 `brew cask install dash`
+- [Postman](https://www.postman.com/) - `brew install postman`
 
 ### 下载工具
 
@@ -205,7 +207,7 @@
 
 ### 系统设置
 
-- [TinkerTool](https://www.bresink.com/osx/TinkerTool.html) - 工具集
+- [TinkerTool](https://www.bresink.com/osx/TinkerTool.html) - 系统工具集，注意下载对应系统版本
 - [Deeper](https://www.titanium-software.fr/en/deeper.html) - 配置程序，`brew cask install deeper`
 - [OnyX](https://www.titanium-software.fr/en/onyx.html) - 系统维护和配置程序，`brew cask install onyx`
 
@@ -214,7 +216,7 @@
 - [Glances](https://github.com/nicolargo/glances) - 命令行查看系统运行状态。`brew cask install glances`
 - [iStat Menu](https://bjango.com/mac/istatmenus/) - 菜单栏里的系统监控工具，收费 `brew cask install istat-menus`
 - [iGlance](https://github.com/iglance/iGlance) - 菜单栏里的系统监控工具，多了个风扇转速 `brew cask install iglance`
-- [Better Menubar](https://apps.apple.com/cn/app/better-menubar/id1472818562?mt=12) - 实时监测显示电脑内存、CPU、蓝牙设备及电量
+- [Better Menubar](https://apps.apple.com/cn/app/better-menubar/id1472818562?mt=12) - 实时监测显示电脑内存、CPU、蓝牙设备及电量，突然检测不出了
 - [MenuMeters](https://member.ipmu.jp/yuji.tachikawa/MenuMetersElCapitan/) - `brew cask install menumeters`，[GitHub](https://github.com/yujitach/MenuMeters) ，[原版](http://www.ragingmenace.com/software/menumeters/) 不支持 10.11 以上 OSX，这个是 fork
 - [BitBar](https://github.com/matryer/bitbar), [Plugins](https://github.com/matryer/bitbar-plugins) - 支持用各种插件在菜单栏显示信息 `brew cask install bitbar`
 

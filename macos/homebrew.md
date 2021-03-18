@@ -2,6 +2,13 @@
 
 ## 安装 Homebrew
 
+需要 XCode Command Line Tools，很大很慢，可以先手动安装
+
+```sh
+//安装依赖工具
+xcode-select --install
+```
+
 ```bash
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
@@ -113,3 +120,17 @@ HOMEBREW_BREW_DEFAULT_GIT_REMOTE="https://mirrors.ustc.edu.cn/brew.git"
 /bin/bash -c ./install.sh
 
 ```
+
+## 查看安装流行度、排名
+
+## 安装指定版本软件
+
+1. 如果之前使用brew install node安装过node,需要先执行brew unlink node来'解绑'node
+1. 查找可用的node版本 brew search node
+1. 安装你需要的版本, 比如 brew install node@8
+1. 然后 brew link node@8, 这一步可能会报错, 按照提示执行命令就ok了, 比如我最后执行的是brew link --overwrite --force node@8
+1. node -v 不出意外, 就安装好了你想要的node版本
+
+主仓库的可以直接 search node@，cask 的好像不行，要切换 git 版本，[参考](https://stackoverflow.com/questions/58373704/how-do-you-specify-a-version-using-brew-cask)
+
+## 清除缓存

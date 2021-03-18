@@ -84,7 +84,7 @@ export http_proxy=socket5://127.0.0.1:20090
 export https_proxy=socket5://127.0.0.1:20090
 
 禁用 MacOS 的系统升级提示
-hosts增加
+hosts 增加
 
 ```hosts
 127.0.0.1 swscan.apple.com
@@ -100,3 +100,37 @@ hosts增加
 defaults write com.apple.systempreferences AttentionPrefBundleIDs 0
 Killall Dock
 ```
+
+## 给 iterm 终端设置代理
+
+1. 设置代理
+使用 curl，wget，brew 等 http 应用程序会调用 http_proxy 和 https_proxy 这两环境变量进行代理，通过下面方式设置：
+
+方式 1
+
+```sh
+export http_proxy=http://127.0.0.1:20091
+export https_proxy=$http_proxy
+```
+
+方式 2
+
+```sh
+export http_proxy=http://127.0.0.1:20091 https_proxy=http://127.0.0.1:20091
+```
+
+2. 取消设置代理
+
+```sh
+unset http_proxy https_proxy
+```
+
+3. 快速切换代理
+可以在 ~/.zshrc 或者 ~/.bash_profile 中添加这样的 alias：
+
+```sh
+alias goproxy='export http_proxy=http://127.0.0.1:20091 https_proxy=http://127.0.0.1:20091'
+alias disproxy='unset http_proxy https_proxy'
+```
+
+后续通过 goproxy / disproxy 进行切换
