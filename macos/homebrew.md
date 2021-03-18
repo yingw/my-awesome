@@ -1,6 +1,6 @@
-## Homebrew
+# Homebrew
 
-安装Homebrew：
+## 安装 Homebrew
 
 ```bash
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
@@ -11,7 +11,7 @@ ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
 
 [Cask](https://github.com/Homebrew/homebrew-cask) - 现在好像不用 brew cask 了，直接 brew + install/uninstall
 
-常用命令：
+## 常用命令
 
 ```sh
 # 查找
@@ -49,6 +49,13 @@ brew install brew-cask
 在每次命令前加环境变量
 
 或者在 `~/.zshrc` 或 `~/.bash_profile` 里加上 `export HOMEBREW_NO_AUTO_UPDATE=true`
+
+## 安装cask
+
+```sh
+brew tap homebrew/cask
+brew install brew-cask
+```
 
 ## 更换 Homebrew 源
 
@@ -105,11 +112,4 @@ HOMEBREW_BREW_DEFAULT_GIT_REMOTE="https://mirrors.ustc.edu.cn/brew.git"
 # 然后执行
 /bin/bash -c ./install.sh
 
-```
-
-## 安装cask
-
-```sh
-brew tap homebrew/cask
-brew install brew-cask
 ```

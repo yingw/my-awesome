@@ -84,7 +84,7 @@
 
 ### 系统清理
 
-- [腾讯柠檬清理](https://lemon.qq.com/) - 腾讯的系统清理软件，有工具栏提示 `brew cask install tencent-lemon`
+- [腾讯柠檬清理](https://lemon.qq.com/) - 腾讯的系统清理软件，有工具栏提示 `brew cask install tencent-lemon`，不要使用 App Store 的版本，功能少
 - [Dr.Cleaner](https://dr-cleaner.en.softonic.com/mac) - 系统清理工具，免费
 - [CleanMyMac X](https://macpaw.com/cleanmymac) - 系统清理工具，收费 `brew cask install cleanmymac`
 - [AppCleaner](http://freemacsoft.net/appcleaner/) - 卸载应用，`brew cask install appcleaner`
