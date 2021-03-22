@@ -134,3 +134,11 @@ alias disproxy='unset http_proxy https_proxy'
 ```
 
 后续通过 goproxy / disproxy 进行切换
+
+## 快捷键
+
+- Shift + Ctrl + Opt + 关机: 瞬间关机
+- Ctrl + Opt + 关机: 正常关机
+- F11
+- Ctrl + Command + F 全屏
+- Optional + Command + D 隐藏任务栏

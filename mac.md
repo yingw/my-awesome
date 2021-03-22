@@ -59,6 +59,7 @@
 - [QuickRes](https://thnkdev.com/QuickRes/) - 快速切换分辨率，收费
 - [Ethernet Status](https://apps.apple.com/cn/app/ethernet-status/id1186187538?mt=12) - 显示有线网络连接状态
 - [Scroll Reverser](https://pilotmoon.com/scrollreverser/) - 分离触摸板和鼠标的自然滚动设置
+- [Mos](https://mos.caldis.me/) - 控制鼠标滚动方向，可以设置应用模式 `brew install --cask mos`
 - [InsomniaX](https://insomniax.en.softonic.com/mac) - 控制 Mac 在合上盖子和闲置超时后是否进入休眠状态，比较老了，有点问题
 - [Monitor Control](https://github.com/MonitorControl/MonitorControl) - 控制扩展视频输出的显示亮度和设备音量 `brew install --cask monitorcontrol`
 - [Gas Mask](https://github.com/2ndalpha/gasmask) - Hosts 管理 `brew install --cask gas-mask`
@@ -70,8 +71,9 @@
 - [KeepingYouAwake](https://keepingyouawake.app/) - 同 Caffeine，更新更频繁 `brew install --cask keepingyouawake`
 - [iHash](https://apps.apple.com/cn/app/ihash/id763902043?mt=12) - 比较文件、文件夹 Hash 值
 - [Suspicious Package](https://www.mothersruin.com/software/SuspiciousPackage/) - 查看包安装内部信息 `brew install --cask suspicious-package`
-- [Intel® Power Gadget](https://software.intel.com/content/www/us/en/develop/articles/intel-power-gadget.html) - `brew install --cask intel-power-gadget`
 - [AltTab](https://github.com/lwouis/alt-tab-macos) - 可以用 Alt+Tab 切换窗口 `brew install --cask alt-tab`
+- [Barrier](https://github.com/debauchee/barrier/) - 允许跨系统操作键鼠控制多台PC `brew install --cask barrier`
+- [Wine](https://wiki.winehq.org/MacOS) - Windows 环境模拟，要先安装 `brew install --cask xquartz`，`brew install --cask wine-stable`
 
 ### 终端工具
 
@@ -187,9 +189,12 @@
 
 - [有道词典](http://cidian.youdao.com/multi.html) - 网易的翻译软件，`brew install --cask youdaodict`
 - [Eudic 欧路词典](https://www.eudic.net/v4/en/app/eudic) ,or [AppStore](https://apps.apple.com/cn/app/eudic-%E6%AC%A7%E8%B7%AF%E8%AF%8D%E5%85%B8/id434350458?mt=12) - Lite 版不支持第三方词库，基本够用 `brew install --cask eudic`
+- [DeepL](https://www.deepl.com/translator) - 可以翻译整篇文档，在线版或离线版 `brew install --cask deepl`
 
 ### 开发工具
 
+- Java SDK - 有多个选择 `adoptopenjdk8` `adoptopenjdk11`
+- [JD-GUI](http://jd.benow.ca/) - 反编译工具 `brew install --cask jd-gui`
 - [Visual Studio Code](https://code.visualstudio.com/) - 微软的集成开发环境，`brew install --cask visual-studio-code`
 - [Xcode](https://itunes.apple.com/cn/app/xcode/id497799835?mt=12) - 苹果的集成开发环境
 - [XCode Command Line Toolss](https://developer.apple.com/download/more/)
@@ -199,6 +204,8 @@
 - [MySQL Workbench](https://www.mysql.com/products/workbench/) - MySQL 管理工具，支持建模 `brew install --cask mysqlworkbench`
 - [Another Redis Desktop Manager](https://github.com/qishibo/AnotherRedisDesktopManager/) - Redis 客户端 `brew install --cask another-redis-desktop-manager`
 - [Sequel Pro](https://sequelpro.com/) - MySQL/MariaDB 数据库管理工具 `brew install --cask sequel-pro`
+- [Unity Hub](https://unity3d.com/get-unity/download) - Unity Hub，默认装的是国际版 `brew install --cask unity-hub`
+- [Unity](https://unity.com/products) - Unity 开发工具 `brew install --cask unity`，一定要 Hub
 
 ### 下载工具
 
@@ -216,6 +223,7 @@
 - [Listen 1](https://listen1.github.io/listen1/)：搜索和播放来自网易云音乐，虾米，QQ 音乐，酷狗音乐，酷我音乐网站的歌曲，`brew install --cask listen1`
 - [OBS Studio](https://obsproject.com/) - 截取视频采集卡视频流 `brew install --cask obs`
 - [HandBrake](https://handbrake.fr/) - 视频转码工具 `brew install --cask handbrake`
+- [Plex](https://www.plex.tv/) - 家庭影院 `brew install --cask plex`
 
 ### 磁盘工具
 
@@ -240,6 +248,9 @@
 - [Better Menubar](https://apps.apple.com/cn/app/better-menubar/id1472818562?mt=12) - 实时监测显示电脑内存、CPU、蓝牙设备及电量，突然检测不出了
 - [MenuMeters](https://member.ipmu.jp/yuji.tachikawa/MenuMetersElCapitan/) - `brew install --cask menumeters`，[GitHub](https://github.com/yujitach/MenuMeters) ，[原版](http://www.ragingmenace.com/software/menumeters/) 不支持 10.11 以上 OSX，这个是 fork
 - [BitBar](https://github.com/matryer/bitbar), [Plugins](https://github.com/matryer/bitbar-plugins) - 支持用各种插件在菜单栏显示信息 `brew install --cask bitbar`
+- [Eul](https://github.com/gao-sun/eul) - 支持 Big Sur 桌面组件 `brew install --cask eul`
+- [Intel® Power Gadget](https://software.intel.com/content/www/us/en/develop/articles/intel-power-gadget.html) - `brew install --cask intel-power-gadget`
+- [coconutBattery](https://www.coconut-flavour.com/coconutbattery/) - 显示电池详细信息 `brew install --cask coconutbattery`
 
 ### VPN
 
@@ -259,6 +270,7 @@
 ### 镜像工具
 
 - [Etcher](https://www.balena.io/etcher/) - 烧镜像到 U 盘 `brew install --cask balenaetcher`
+- [UNetbootin](https://unetbootin.github.io/) - 制作 Linux 安装盘 `brew install --cask unetbootin`
 
 ### 网盘
 
@@ -284,12 +296,12 @@ brew install --cask qlstephen      #预览未知拓展名的纯文本文件
 brew install --cask qlmarkdown     #预览 Markdown 文件
 brew install --cask quicklook-json #预览 JSON 文件
 brew install --cask quicklook-csv  #预览 CSV 文件
-qlimagesize # 预览图片大小
-qlvideo    # 预览视频
+brew install --cask qlimagesize    #预览图片大小
+brew install --cask qlvideo        #预览视频
+brew install --cask provisionql    #预览 mobileprovision、provisionprofile、ipa 文件
+
 ```
-- qlimagesize - `brew install --cask qlimagesize`
-qlvideo
-[
+
 ## 命令行工具
 
 一些好用的第三方命令行工具（待整理）
