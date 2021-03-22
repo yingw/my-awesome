@@ -123,6 +123,8 @@ HOMEBREW_BREW_DEFAULT_GIT_REMOTE="https://mirrors.ustc.edu.cn/brew.git"
 
 ## 查看安装流行度、排名
 
+https://formulae.brew.sh/analytics/cask-install/365d/
+
 ## 安装指定版本软件
 
 1. 如果之前使用brew install node安装过node,需要先执行brew unlink node来'解绑'node
@@ -134,3 +136,14 @@ HOMEBREW_BREW_DEFAULT_GIT_REMOTE="https://mirrors.ustc.edu.cn/brew.git"
 主仓库的可以直接 search node@，cask 的好像不行，要切换 git 版本，[参考](https://stackoverflow.com/questions/58373704/how-do-you-specify-a-version-using-brew-cask)
 
 ## 清除缓存
+
+## 转移
+
+brew list > a.txt
+brew leaves > b.txt
+for i in $(cat brew_leaves); do; brew install "$i"; done
+
+## Logitech
+
+logitech-options
+logitech-gaming-software
