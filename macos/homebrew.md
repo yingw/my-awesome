@@ -20,6 +20,8 @@ ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
 
 ## 常用命令
 
+常用命令
+
 ```sh
 # 查找
 brew search XXX
@@ -35,7 +37,6 @@ HOMEBREW_NO_AUTO_UPDATE=1 brew cask install XXX
 brew uninstall XXX
 # 查看当前已经安装的软件
 brew list
-
 ```
 
 官网说有些图形软件需要用cask安装
@@ -137,11 +138,32 @@ https://formulae.brew.sh/analytics/cask-install/365d/
 
 ## 清除缓存
 
+```sh
+brew cleanup -s
+rm -rf "$(brew --cache)"
+```
+
 ## 转移
 
+```sh
 brew list > a.txt
 brew leaves > b.txt
 for i in $(cat brew_leaves); do; brew install "$i"; done
+```
+
+以树形结构查看依赖关系
+
+```sh
+brew deps --tree --installed
+```
+
+## 查看大小
+
+```sh
+for pkg in `brew list --formula -1 | egrep -v '\.|\.\.'`
+  do echo $pkg `brew info $pkg | egrep '[0-9]* files, ' | sed 's/^.*[0-9]* files, \(.*\)).*$/\1/' | awk '{print $1;}/[0-9]$/{s+=$1};/[mM][bB]$/{s+=$1*(1024*1024);next};/[kK][bB]$/{s+=$1*1024;next} END { suffix=" KMGT"; for(i=1; s>1024 && i < length(suffix); i++) s/=1024; printf "\t(all versions: %0.1f%s)",s,substr(suffix, i, 1), $3; }'`
+done
+```
 
 ## Logitech
 

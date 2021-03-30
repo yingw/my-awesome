@@ -34,8 +34,10 @@
         - [镜像工具](#镜像工具)
         - [网盘](#网盘)
         - [账号管理](#账号管理)
+        - [壁纸屏保](#壁纸屏保)
         - [预览增强](#预览增强)
     - [命令行工具](#命令行工具)
+    - [网站](#网站)
 
 <!-- /TOC -->
 
@@ -74,6 +76,7 @@
 - [AltTab](https://github.com/lwouis/alt-tab-macos) - 可以用 Alt+Tab 切换窗口 `brew install --cask alt-tab`
 - [Barrier](https://github.com/debauchee/barrier/) - 允许跨系统操作键鼠控制多台PC `brew install --cask barrier`
 - [Wine](https://wiki.winehq.org/MacOS) - Windows 环境模拟，要先安装 `brew install --cask xquartz`，`brew install --cask wine-stable`
+- [Lulu](https://objective-see.com/products/lulu.html) - 网络防火墙 `brew install --cask lulu`
 
 ### 终端工具
 
@@ -88,6 +91,7 @@
 - [Virtualbox](https://www.virtualbox.org/) - 虚拟机，`brew install --cask virtualbox`
 - VM VirtualBox Extension Pack - VirtualBox 的扩展包，用于支持 USB3.0 等 `brew install --cask virtualbox-extension-pack`
 - [VMWare Fusion Player/Pro](https://www.vmware.com/products/fusion/fusion-evaluation.html)
+- [BlueStacks](https://www.bluestacks.com/) - 蓝叠安卓模拟器
 
 ### 输入法
 
@@ -108,6 +112,7 @@
 - [Snipaste](https://www.snipaste.com/download.html) - 截图软件，免费 `brew install --cask snipaste`
 - [iShot](https://apps.apple.com/cn/app/ishot-%E6%88%AA%E5%9B%BE-%E5%BD%95%E5%B1%8F-2020%E5%85%A8%E6%96%B0%E9%AB%98%E5%BA%A6/id1485844094?mt=12) - 截图工具，支持长截图
 - [Kap](https://getkap.co/)，[GitHub](https://github.com/wulkano/kap)： `brew install --cask kap` 可以截屏，可以录屏为 GIF 或者 MP4，比较大
+- [LICEcap](https://www.cockos.com/licecap/) - 区域录屏为 GIF `brew install --cask licecap`
 
 ### 压缩解压
 
@@ -178,6 +183,7 @@
 - [MacVim](https://github.com/macvim-dev/macvim) - Vim 编辑器，`brew install --cask macvim`
 - [MindNote](https://apps.apple.com/cn/app/mindnode-6/id1289197285?mt=12) - 思维导图，收费
 - [Meld](https://yousseb.github.io/meld/) - 差异比对合并工具，`rew install --cask meld`
+- [DiffMerge](https://www.sourcegear.com/diffmerge/) - 比对合并工具 `brew install --cask diffmerge`
 
 ### 笔记管理
 
@@ -193,7 +199,7 @@
 
 ### 开发工具
 
-- Java SDK - 有多个选择 `adoptopenjdk8` `adoptopenjdk11`
+- Java SDK - 有多个选择 `adoptopenjdk8` `adoptopenjdk11` `corretto`
 - [JD-GUI](http://jd.benow.ca/) - 反编译工具 `brew install --cask jd-gui`
 - [Visual Studio Code](https://code.visualstudio.com/) - 微软的集成开发环境，`brew install --cask visual-studio-code`
 - [Xcode](https://itunes.apple.com/cn/app/xcode/id497799835?mt=12) - 苹果的集成开发环境
@@ -206,6 +212,7 @@
 - [Sequel Pro](https://sequelpro.com/) - MySQL/MariaDB 数据库管理工具 `brew install --cask sequel-pro`
 - [Unity Hub](https://unity3d.com/get-unity/download) - Unity Hub，默认装的是国际版 `brew install --cask unity-hub`
 - [Unity](https://unity.com/products) - Unity 开发工具 `brew install --cask unity`，一定要 Hub
+- [Krita](https://krita.org/zh/) - 免费绘画软件
 
 ### 下载工具
 
@@ -227,10 +234,11 @@
 
 ### 磁盘工具
 
-- [DaisyDisk](https://daisydiskapp.com/) - 显示磁盘占用情况，收费 `brew install --cask daisydisk`
-- [Paragon NTFS](https://www.paragon-software.com/home/ntfs-mac/) - 读写 Windows NTFS 分区，收费 `brew install --cask paragon-ntfs`
+- [Paragon NTFS](https://www.paragon-software.com/home/ntfs-mac/) - 读写 Windows NTFS 分区，收费 `brew install --cask paragon-ntfs`，其他几个都有点问题，加载不了
 - [Mounty for NTFS](https://mounty.app/) - 读写 Windows NTFS 分区，免费，`brew install --cask mounty`
 - [NTFSTool](https://ntfstool.com/)- 读写 Windows NTFS 分区，免费 `brew install --cask ntfstool`
+- [Tuxera NTFS](https://ntfsformac.tuxera.com/download/) - 读写 NTFS，收费
+- [DaisyDisk](https://daisydiskapp.com/) - 显示磁盘占用情况，收费 `brew install --cask daisydisk`
 - [Disk Inventory X](http://www.derlien.com/) - 磁盘信息情况统计，类似 WinDirStat `brew install --cask disk-inventory-x`
 
 ### 系统设置
@@ -250,6 +258,7 @@
 - [BitBar](https://github.com/matryer/bitbar), [Plugins](https://github.com/matryer/bitbar-plugins) - 支持用各种插件在菜单栏显示信息 `brew install --cask bitbar`
 - [Eul](https://github.com/gao-sun/eul) - 支持 Big Sur 桌面组件 `brew install --cask eul`
 - [Intel® Power Gadget](https://software.intel.com/content/www/us/en/develop/articles/intel-power-gadget.html) - `brew install --cask intel-power-gadget`
+- [Turbo Boost Switcher](http://tbswitcher.rugarciap.com/) - `brew install --cask turbo-boost-switcher` 睿频开关
 - [coconutBattery](https://www.coconut-flavour.com/coconutbattery/) - 显示电池详细信息 `brew install --cask coconutbattery`
 
 ### VPN
@@ -261,11 +270,13 @@
   - 不能用 windows 的 gui-config.json 配置文件，只能手动添加配置或者官网扫二维码
   - 最后在 Mac 网络设置里设置 socks 代理：127.0.0.1:1080
 - [V2Ray](https://www.v2ray.com/)- 构建基础通信网络，支持 Socks、HTTP、Shadowsocks、VMess 等协议，客户端参考 [查看](https://www.v2ray.com/awesome/tools.html)
-  - [V2rayU](https://github.com/yanue/V2rayU/tree/master) - Mac 客户端，`brew install --cask v2rayu`
+  - [V2rayU](https://github.com/yanue/V2rayU/tree/master) - Mac 客户端，`brew install --cask v2rayu`，可以设置规则
   - [V2RayX](https://github.com/Cenmrev/V2RayX)- Mac 客户端，`brew install --cask v2rayx`
   - [HollyTech](https://store.holytech.tech/clientarea.php) - 服务 + 客户端
   - [Qv2ray](https://github.com/Qv2ray/Qv2ray) - 跨平台的客户端，`brew install --cask qv2ray`
-- [FortiClient](https://forticlient.com/) - 安装的是在线安装包，还要执行 FortiClientUpdate.app 完成安装 `brew install forticlient-vpn`
+- [FortiClient](https://forticlient.com/) - 安装的是在线安装包，还要执行 FortiClientUpdate.app 完成安装 `brew install forticlient-vpn`，但是下载完整安装包很慢
+- [Proxifier](https://www.proxifier.com/) - 管理应用的代理路径，收费
+- [ClashX](https://github.com/yichengchen/clashX) - 类似 V2RayU
 
 ### 镜像工具
 
@@ -286,6 +297,14 @@
   - [KeeWeb](https://keeweb.info/) - Web 端和桌面端， [Github](https://github.com/keeweb/keeweb) `brew install --cask keeweb`
 - LastPass - Google 插件
 - [1Password](https://1password.com/) - 密码管理 `brew install --cask 1password`
+
+### 壁纸屏保
+
+- [Wallpaper Wizard](https://wallwiz.com/) - 收费，摄影作品
+- fliqlo - 时钟屏幕保护
+- Dynamic Wallpaper Engine - 收费，免费版叫花见
+- 壁纸精灵 - 收费
+- ‎Unsplash Wallpapers - 免费，自然
 
 ### 预览增强
 
@@ -312,3 +331,7 @@ brew install --cask provisionql    #预览 mobileprovision、provisionprofile、
 - [mackup](https://github.com/lra/mackup) - 备份配置，我的配置：[my-mac-mackup-backup](https://github.com/yingw/my-mac-mackup-backup)，`brew install mackup`
 - [diskutil](https://www.jianshu.com/p/6a1f365617ad)
 - [Karabiner-Elements](https://karabiner-elements.pqrs.org/) - 键盘映射，但是会覆盖系统自动的修饰键映射，要重新映射一下，但是不能映射组合键 `brew install --cask karabiner-elements`
+
+## 网站
+
+- https://dynamicwallpaper.club/ 动态壁纸俱乐部，手动下载动态壁纸
