@@ -169,3 +169,12 @@ done
 
 logitech-options
 logitech-gaming-software
+
+## 更新
+
+```sh
+## 更新源
+brew update
+## 更新 formula 和 cask
+brew upgrade
+```

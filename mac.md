@@ -56,6 +56,7 @@
 - [AdGrard](https://adguard.com/zh_cn/welcome.html) - 拦截多个浏览器、系统的广告，收费
 - [Vanilla](https://matthewpalmer.net/vanilla/) - 隐藏任务栏图标，收费，可以改用 Dozer
 - [Dozer](https://github.com/Mortennn/Dozer) - 隐藏任务栏图标，可以替换 Vanilla `brew install --cask dozer`
+- [Hidden Bar](https://github.com/dwarvesf/hidden/) - 同 Dozer，隐藏任务栏图标，更新点 `brew install --cask hiddenbar`
 - [Bartender](https://www.macbartender.com/) - 管理菜单栏图标，收费
 - [Itsycal](https://www.mowglii.com/itsycal/) - 菜单栏日历
 - [QuickRes](https://thnkdev.com/QuickRes/) - 快速切换分辨率，收费
@@ -67,9 +68,11 @@
 - [Gas Mask](https://github.com/2ndalpha/gasmask) - Hosts 管理 `brew install --cask gas-mask`
 - [SwitchHosts](https://github.com/oldj/SwitchHosts) - Hosts 模板，快速切换 `brew install --cask switchhosts`
 - [MacOS小助手](https://www.macwk.com/soft/macos-assistant-macwk) - 工具集，含禁用 macOS 更新提示
-- [Spectacle](https://www.spectacleapp.com/) - 分隔屏幕布局 `brew install --cask spectacle`
+- [Spectacle](https://www.spectacleapp.com/) - 分隔屏幕窗口布局 `brew install --cask spectacle`
+- [Rectangle](https://rectangleapp.com/) - 分隔屏幕窗口布局，支持拖动 `brew install --cask rectangle`
 - [Multipass](https://multipass.run/) - Ubuntu 虚拟机 `brew install --cask multipass`
 - [Caffeine](https://intelliscapesolutions.com/apps/caffeine) - 阻止Mac进入休眠，可改用 KeepingYouAwake `brew install --cask caffeine`
+- Amphetamine -  App Store
 - [KeepingYouAwake](https://keepingyouawake.app/) - 同 Caffeine，更新更频繁 `brew install --cask keepingyouawake`
 - [iHash](https://apps.apple.com/cn/app/ihash/id763902043?mt=12) - 比较文件、文件夹 Hash 值
 - [Suspicious Package](https://www.mothersruin.com/software/SuspiciousPackage/) - 查看包安装内部信息 `brew install --cask suspicious-package`
@@ -168,6 +171,8 @@
 - [OpenOffice](https://www.openoffice.org/) - 开源 Office 套件，`brew install --cask openoffice`
 - [draw.io](https://www.draw.io/) - 有 Web 版和 [桌面版](https://github.com/jgraph/drawio-desktop/releases)，`brew install --cask drawio`
 - [PDF Expert](https://www.pdfexpert.cn/) - PDF 阅读器、编辑工具，收费
+- OmniGraffle - 可以查看 Visio 文档
+- [edrawmax](https://www.edrawsoft.cn/edrawmax/) - 亿图图示，收费
 
 ### 邮件客户端
 
@@ -184,6 +189,7 @@
 - [MindNote](https://apps.apple.com/cn/app/mindnode-6/id1289197285?mt=12) - 思维导图，收费
 - [Meld](https://yousseb.github.io/meld/) - 差异比对合并工具，`rew install --cask meld`
 - [DiffMerge](https://www.sourcegear.com/diffmerge/) - 比对合并工具 `brew install --cask diffmerge`
+- [Beyond Compare](https://www.scootersoftware.com/) - 收费
 
 ### 笔记管理
 
@@ -196,6 +202,7 @@
 - [有道词典](http://cidian.youdao.com/multi.html) - 网易的翻译软件，`brew install --cask youdaodict`
 - [Eudic 欧路词典](https://www.eudic.net/v4/en/app/eudic) ,or [AppStore](https://apps.apple.com/cn/app/eudic-%E6%AC%A7%E8%B7%AF%E8%AF%8D%E5%85%B8/id434350458?mt=12) - Lite 版不支持第三方词库，基本够用 `brew install --cask eudic`
 - [DeepL](https://www.deepl.com/translator) - 可以翻译整篇文档，在线版或离线版 `brew install --cask deepl`
+- [Bob](https://github.com/ripperhe/Bob) - 翻译软件，支持划词翻译、截屏翻译
 
 ### 开发工具
 
@@ -231,6 +238,7 @@
 - [OBS Studio](https://obsproject.com/) - 截取视频采集卡视频流 `brew install --cask obs`
 - [HandBrake](https://handbrake.fr/) - 视频转码工具 `brew install --cask handbrake`
 - [Plex](https://www.plex.tv/) - 家庭影院 `brew install --cask plex`
+- [XnViewMP](https://www.xnview.com/) - 看图软件 `brew install --cask xnviewmp`
 
 ### 磁盘工具
 
