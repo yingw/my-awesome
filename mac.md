@@ -313,6 +313,7 @@
 - Dynamic Wallpaper Engine - 收费，免费版叫花见
 - 壁纸精灵 - 收费
 - ‎Unsplash Wallpapers - 免费，自然
+- [Pap.er](http://paper.meiyuan.in/)
 
 ### 预览增强
 

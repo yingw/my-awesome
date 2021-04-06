@@ -145,7 +145,7 @@ rm -rf "$(brew --cache)"
 
 ## 转移
 
-```sh
+```s
 brew list > a.txt
 brew leaves > b.txt
 for i in $(cat brew_leaves); do; brew install "$i"; done
@@ -153,8 +153,18 @@ for i in $(cat brew_leaves); do; brew install "$i"; done
 
 以树形结构查看依赖关系
 
-```sh
+```s
 brew deps --tree --installed
+```
+
+用 [Bundle](https://github.com/Homebrew/homebrew-bundle) 方式导出 Brewfile
+
+```s
+# creates Brewfile in the current directory from currently-installed packages
+brew bundle dump
+# edit Brewfile
+# install everything from the Brewfile
+brew bundle install
 ```
 
 ## 查看大小
