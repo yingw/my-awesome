@@ -13,6 +13,8 @@
 
 ## 1.4. 初始化
 
+在安全和隐私里显示允许第三方来源应用的选项： `sudo spctl --master-disable`
+
 ## 1.5. 安装 Windows
 
 用 Mac 做 Windows 启动盘，需要 ISO 文件，[官方文档](https://support.apple.com/zh-cn/HT205016)
@@ -80,8 +82,11 @@ export PATH=$PATH:<PATH 1>:<PATH 2>
 然后 `source .bash_profile`
 
 curl 连不上，设置代理
+
+```s
 export http_proxy=socket5://127.0.0.1:20090
 export https_proxy=socket5://127.0.0.1:20090
+```
 
 禁用 MacOS 的系统升级提示
 hosts 增加
@@ -96,7 +101,7 @@ hosts 增加
 
 执行
 
-```shell
+```s
 defaults write com.apple.systempreferences AttentionPrefBundleIDs 0
 Killall Dock
 ```

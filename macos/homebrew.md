@@ -76,12 +76,13 @@ git clone git://mirrors.ustc.edu.cn/homebrew-core.git/ /usr/local/Homebrew/Libra
 // 把homebrew-core的镜像地址也设为中科院的国内镜像
 
 cd "$(brew --repo)"
-
 git remote set-url origin https://mirrors.ustc.edu.cn/brew.git
 
 cd "$(brew --repo)/Library/Taps/homebrew/homebrew-core"
-
 git remote set-url origin https://mirrors.ustc.edu.cn/homebrew-core.git
+
+cd "$(brew --repo)/Library/Taps/homebrew/homebrew-cask"
+git remote set-url origin https://mirrors.ustc.edu.cn/homebrew-cask.git
 
 // 更新
 brew update
