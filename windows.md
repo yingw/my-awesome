@@ -43,6 +43,7 @@ Windows 工具箱（Awesome Windows），记录我的 Windows 工具和设置
 - [媒体创建工具 MediaCreationTool.exe](https://www.microsoft.com/zh-cn/software-download/windows10) - 微软官方 Windows 10 安装工具，制作 U 盘，得到名称为 ESD-USB 的 U 盘
 - [QuickLook](https://github.com/QL-Win/QuickLook) - 文档快速预览工具，应用商店安装，Office 文档预览还有装个 [插件](https://github.com/QL-Win/QuickLook.Plugin.OfficeViewer)
 - 腾讯软件管理独立版 - 没有官网，在迅雷网盘里
+- [HEU KMS Activator](https://github.com/zbezj/HEU_KMS_Activator) - 30.2.0
 
 ### 系统安全
 
@@ -56,11 +57,11 @@ Windows 工具箱（Awesome Windows），记录我的 Windows 工具和设置
 
 ### 输入法
 
-- [搜狗输入法](https://shurufa.sogou.com/) - 同步账号的词库很方便，广告要设置关闭，已被腾讯并购 v12.5
+- [搜狗输入法](https://shurufa.sogou.com/) - 同步账号的词库很方便，广告要设置关闭，已被腾讯并购 v13.5
 
 ### 密码管理
 
-- [KeePass](https://keepass.info) - 免费的密码管理工具 v2.52，还要下载[语言文件](https://keepass.info/translations.html)
+- [KeePass](https://keepass.info) - 免费的密码管理工具 v2.54，还要下载[语言文件](https://keepass.info/translations.html)
 - [LastPass](https://lastpass.com/) - Chrome 插件
 
 ### 浏览器
@@ -77,10 +78,13 @@ Windows 工具箱（Awesome Windows），记录我的 Windows 工具和设置
 除了用来翻墙（需要购买账号），还有公司的 VPN 客户端。
 
 - [Shadowsocks](https://github.com/shadowsocks/shadowsocks-windows) - 翻墙工具，结合 Chrome 的 SwithcyOmega 插件非常方便。初始化后，可以直接替换 `gui-config.json` 的配置。或者设置 PAC 模式
-- [v2ray](https://github.com/v2ray/v2ray-core) - 用 [v2ray-N v5.36](https://github.com/2dust/v2rayN)（集成 Core 的版本 v2rayN-Core.zip）使用，或者用 [QV2Ray](https://github.com/Qv2ray/Qv2ray) + [v2ray-core](https://github.com/v2fly/v2ray-core) 核心使用
+- [v2ray](https://github.com/v2ray/v2ray-core) - 新 [v2rayN 6.x](https://github.com/2dust/v2rayN) 版本需要 Microsoft .NET 6.0 Desktop Runtime。（集成 Core 的版本 v2rayN-With-Core.zip
+）使用，或者用 [QV2Ray](https://github.com/Qv2ray/Qv2ray) + [v2ray-core](https://github.com/v2fly/v2ray-core) 核心使用
 - [FortiClient](https://www.forticlient.com/) - 公司用的 VPN 客户端，也可以从 Windows 商店下载
 - [EasyConnect](https://sslvpn.zjweu.edu.cn/com/installClient.html) - 深信服的 SSLVPN
 - GlobalProtect - [Wilmar](https://wilmarvpn.wilmar.cn/global-protect/login.esp) 的 VPN，[下载地址](https://wilmarvpn.wilmar.cn/global-protect/msi/GlobalProtect64.msi)，[Mac 版](https://wilmarvpn.wilmar.cn/global-protect/msi/GlobalProtect.pkg)
+- [SwitchHosts](https://github.com/oldj/SwitchHosts) - 切换 Hosts，再加入[地址](https://raw.hellogithub.com/hosts)更新 GitHub 地址
+- [ZeroTier](https://www.zerotier.com/) - 1.10.6
 
 ### 驱动管理
 
@@ -94,7 +98,7 @@ Windows 工具箱（Awesome Windows），记录我的 Windows 工具和设置
 
 ### 磁盘管理
 
-- [DiskGenius](http://www.diskgenius.cn/DiskGenius) - V5.4.6.1441 分区修改，慎用，海外版 PartitionGuru v4.9.5.508 专业版
+- [DiskGenius](http://www.diskgenius.cn/DiskGenius) - V5.5.0.1488 分区修改，慎用，海外版 PartitionGuru v4.9.5.508 专业版
 - [WinDirStat](https://windirstat.net/) - 磁盘使用情况可视化 v1.1.2 不更新
 - [SpaceSniffer](http://www.uderzo.it/main_products/space_sniffer/) - 同 WinDirStat，v1.3.0.2 不更新
 - [CCleaner](https://www.ccleaner.com/) - 清理工具，可以清除重复文件
@@ -104,10 +108,10 @@ Windows 工具箱（Awesome Windows），记录我的 Windows 工具和设置
 - EasyBCD - 启动菜单修复工具，收费
 - [EasyUEFI](https://www.easyuefi.com/index-us.html) - UEFI 信息编辑工具
 - [TransMac](https://www.acutesystems.com/scrtm.htm) - 在 Windows 上打开 Mac 的 dmg 文件，收费
-- [Everything](https://www.voidtools.com/zh-cn/) - 全盘检索 v1.4.1.1022
+- [Everything](https://www.voidtools.com/zh-cn/) - 全盘检索 1.4.1.1024
 - [Wox](https://github.com/Wox-launcher/Wox) - Windows 上 Everything 的启动器，类似 Alfred v1.3.524 不更新
 - [Listary](https://www.listary.com/) - Everything 以外另一个搜索工具
-- [PowerToys](https://github.com/microsoft/PowerToys) - 微软官方的效率工具，有快捷启动和批录重命名等
+- [PowerToys](https://github.com/microsoft/PowerToys) - 微软官方的效率工具，有快捷启动和批录重命名等 0.70.1
 - [Geek Uninstaller](https://geekuninstaller.com/) - 卸载工具 1.5.1.162
 - [PatchCleaner](https://sourceforge.net/projects/patchcleaner/) - 多余的补丁卸载工具 1.4.2.0，Windows10 慎用，不更新
 
@@ -124,8 +128,8 @@ Office 有 2013、2016、Office365 等版本。
   - Project
   - Skype for Business
   - OneDrive - 网盘个人账号，5G 免费空间
-- [WPS Office](https://www.wps.cn/) - 免费，Office 替代；广告较多，有个 “配置工具” 关闭，v11.1.0.12650，[旧版 WPS Office 2019](https://www.wps.cn/product/wps2019)：11.1.0.10314
-- [Draw.io](https://about.draw.io/integrations/#integrations_offline) - 开源绘图工具，可替换 visio，新 [官网](https://app.diagrams.net/)，桌面版下载 [地址](https://github.com/jgraph/drawio-desktop/releases) v20.3.0
+- [WPS Office](https://www.wps.cn/) - 免费，Office 替代；广告较多，有个 “配置工具” 关闭，11.1.0.14309，[旧版 WPS Office 2019](https://www.wps.cn/product/wps2019)：11.1.0.10314
+- [Draw.io](https://about.draw.io/integrations/#integrations_offline) - 开源绘图工具，可替换 visio，新 [官网](https://app.diagrams.net/)，桌面版下载 [地址](https://github.com/jgraph/drawio-desktop/releases) v21.2.8
 - [OpenProj](https://sourceforge.net/projects/openproj/) - 开源项目管理工具 v1.4，可替代 Project（openproj-1.4.msi），需要安装 JDK5，不更新
 - [Processon](https://www.processon.com/) - 在线的作图、协作工具，免费一定额度
 - [万彩办公大师](http://www.wofficebox.com/) - 好用免费的 DPF 工具套件 v3.1.0 不更新
@@ -138,25 +142,28 @@ Office 有 2013、2016、Office365 等版本。
 
 ### 网盘
 
-- [百度云](https://pan.baidu.com/) - 免费 2T 空间，客户端支持 Mac、Linux 等
+- [百度云](https://pan.baidu.com/download#win) - 免费 2T 空间，客户端支持 Mac、Linux 等
 - [OneDrive](https://www.microsoft.com/zh-cn/microsoft-365/onedrive/download) - 微软的网盘，在 Office 套件里一起安装，[在线管理地址](https://skydrive.live.com/)
 - Google Drive
 - 坚果云
+- [腾讯微云](https://www.weiyun.com/) - 10G
+- 
 
 ### 即时通讯
 
-- [QQ](https://im.qq.com/) - v9.6.8 现在也支持 [Linux 版本](https://im.qq.com/linuxqq/download.html) 了
-- [微信](https://pc.weixin.qq.com/) - 个人微信 v3.7.6
+- [QQ](https://im.qq.com/) - 现在也支持 [Linux 版本](https://im.qq.com/linuxqq/download.html) 了
+- [微信](https://pc.weixin.qq.com/) - 个人微信
 - [企业微信](https://work.weixin.qq.com/) - 微信的企业版
 - [阿里旺旺](https://wangwang.taobao.com/) - 也可以不安装一直用手机版或 Web 版
 - [钉钉](https://www.dingtalk.com/) - 阿里旗下企业协同平台，企业用
 - [Zoom](https://www.zoom.us/) - 国外用得多
 - [Slack](https://slack.com/) - 国外用得多
 - [Teams](https://teams.microsoft.com/) - 微软 Office 套件中
+- [腾讯会议](https://meeting.tencent.com/)
 
 ### 阅读工具
 
-- [有道云笔记](https://note.youdao.com/) - 网易的笔记工具，支持 MarkDown 格式 v7.1.9
+- [有道云笔记](https://note.youdao.com/note-download/) - 网易的笔记工具，支持 MarkDown 格式 v7.2.6
 - [Evernote](https://evernote.com/) - 笔记工具，中国区印象笔记，用的全球区
 - [福昕阅读器](https://www.foxitsoftware.cn/pdf-reader/)（FoxitReader） - PDF 文档阅读 v11
 - [福昕智慧打印](https://www.foxitsoftware.cn/dayin/) - 远程调用打印机，和微信集成，方便
@@ -169,7 +176,9 @@ Office 有 2013、2016、Office365 等版本。
 - [HoneyView](http://www.bandisoft.com/honeyview/) - 看图软件，与 BandZip 是一个开发商 V 5.50
 - [2345 看图王](http://pic.2345.cc/) - 和2345好压集成方便，v10.9.1.9791
 - [光影魔术手](http://www.neoimaging.cn/) - 图像编辑工具，比较老了，用习惯了 v4.4.1 不更新
-- [美图秀秀](https://xiuxiu.meitu.com/) - 图像编辑工具
+- [美图秀秀](https://xiuxiu.meitu.com/) - 图像编辑工具，有 [Linux 信创版](https://pc.meitu.com/pc?download=linux)
+- [中望CAD 2024](https://www.zwcad.com/) - 国产的 CAD 工具
+- [GIMP](https://www.gimp.org/downloads/)
 
 ### 影音播放
 
@@ -181,9 +190,9 @@ Office 有 2013、2016、Office365 等版本。
 - [foobar2000](https://www.foobar2000.org/)
 - [网易云音乐](https://music.163.com/) - 在线歌单、收藏 v2.10.5.200451
 - [Listen1](https://github.com/listen1/listen1_desktop/releases) - 开源跨平台的多平台音乐播放器 v2.26.2
-- [OBS Studio](https://obsproject.com/zh-cn) - 视频录制以及直播串流 28.0.3
+- [OBS Studio](https://obsproject.com/zh-cn) - 视频录制以及直播串流 29.1.2
 - [VLC media player](https://www.videolan.org/index.zh.html) - 视频播放，还支持网络流媒体播放以及捕获设备
-- [Tiny Media Manager](https://www.tinymediamanager.org/) - 家庭影院视频库管理，用 v3 版，v4 收费 v3.1.17
+- [Tiny Media Manager](https://www.tinymediamanager.org/) - 家庭影院视频库管理，用 v3.1.17 版，v4 收费
 
 ### 翻译工具
 
@@ -193,7 +202,8 @@ Office 有 2013、2016、Office365 等版本。
 ### 远程控制
 
 - [TeamViewer](https://www.teamviewer.cn/cn/) - 远程控制软件，注意漏洞
-- [向日葵](https://sunlogin.oray.com/personal/) - 远程控制软件
+- [贝锐向日葵](https://sunlogin.oray.com/personal/) - 远程控制软件
+- [贝锐蒲公英个人版](https://pgy.oray.com/download/personal)
 - [Remote Desktop Manager](https://remotedesktopmanager.com/) - 多种协议的远程连接管理 v- [x] 
 - [Xming](https://sourceforge.net/projects/xming/) - 结合 ssh 工具可以远程打开 Linux 应用，给不支持桌面连接的服务器 Linux 开放桌面接入，不更新
 - [FileZilla](https://filezilla-project.org/) - FTP 服务端和客户端工具 v3.62.0
@@ -205,6 +215,8 @@ Office 有 2013、2016、Office365 等版本。
 
 - [Oracle VirtualBox](https://www.virtualbox.org/) - 虚拟机
 - [VMWare Workstation Pro](https://www.vmware.com/products/workstation-pro.html) - 虚拟机，Player 免费
+- [Windows Subsystems for Android](https://learn.microsoft.com/en-us/windows/android/wsa/) - 在 Windows Store 里下载，只支持 Windows 11
+- [Windows Subsystem for Linux](https://www.microsoft.com/store/productId/9P9TQF7MRM4R) - [Ubuntu](https://www.microsoft.com/store/productId/9PDXGNCFSCZV) 或者 [22.04.2 LTS](https://www.microsoft.com/store/productId/9PN20MSR04DW)
 
 ### 终端工具
 
@@ -225,6 +237,13 @@ Office 有 2013、2016、Office365 等版本。
 - [EmEditor](https://www.emeditor.com/) - 大文本处理比较方便
 - [Xmind](https://www.xmind.cn/download/) - 思维导图，免费版导出 PDF 有水印 v22.09.3168
 - [MobaXterm](https://mobaxterm.mobatek.net/) - 全能终端工具，免费版有些限制
+- [Notepad3](https://github.com/rizonesoft/Notepad3)
+- [Notepad--](https://gitee.com/cxasm/notepad--) - 有简单的比对功能
+- [Sublime Text](https://www.sublimetext.com/)
+- [HBuilder](http://www.dcloud.io/) - HTML 编辑器
+- [Atom](https://atom.io/) - GitHub 的编辑工具
+- [Notepads](https://www.notepadsapp.com/) - 简洁的编辑器，应用商店安装
+- [Notepad Next](https://github.com/dail8859/NotepadNext) - Notepad++的copy，支持Linux和Mac v0.6.3
 
 ### 压缩解压
 
@@ -236,7 +255,7 @@ Office 有 2013、2016、Office365 等版本。
 
 - [Etcher](https://www.balena.io/etcher/) - 现在改名叫 balenaEtcher 了，烧录 Linux ISO 镜像到 U 盘
 - [Rufus](http://rufus.ie/) - 制作 Windows 安装盘
-- Win32DiskImager
+- [Win32 Disk Imager](https://sourceforge.net/projects/win32diskimager/files/Build%20Tools/)
 - FlashBoot - 需注册
 - 老毛桃 - PE 启动盘
 - [优启通](https://www.upe.net/) - 比较早期纯净的版本：[优启通 v3.3.2019.0605](https://www.itsk.com/thread-397875-1-1.html)
@@ -264,15 +283,17 @@ Office 有 2013、2016、Office365 等版本。
 
 ### 源码管理
 
-- [Git](https://git-scm.com/) - git 客户端，证书 v2.38.1
-- [SourceTree](https://www.sourcetreeapp.com/) - Git 图形客户端 v3.4.9
-- [GitKraken](https://www.gitkraken.com/) - Git 图形客户端
+- [Git](https://git-scm.com/) - git 客户端，证书 v2.41.0
+- [SourceTree](https://www.sourcetreeapp.com/) - Git 图形客户端 v3.4.13
+- [GitKraken](https://www.gitkraken.com/) - Git 图形客户端 9.4.0 有免费版
 
 ### Java
 
 - [Oracle Java SDK](https://www.oracle.com/technetwork/java/javase/downloads/index.html) - Java SE 8u231
 - [OpenJDK](https://openjdk.java.net/)
 - [Maven](https://maven.apache.org/)
+- [阿里 Dragonwell8](https://github.com/dragonwell-project/dragonwell8/releases)
+- [Adoptium/AdoptOpenJDK](https://adoptium.net/zh-CN/) - AdoptOpenJDK，现在称为Adoptium，8-LTS，11-LTS，17-LTS
 
 ### 数据库工具
 
@@ -281,18 +302,11 @@ Office 有 2013、2016、Office365 等版本。
 - [Redisplus](https://gitee.com/MaxBill/RedisPlus) - Redis 客户端，国人开发，跨平台
 - [Redis Desktop Managerment](https://redisdesktop.com/) - Redis 客户端，开源，新版本需要付费或自己编译下载（[编译说明](http://docs.redisdesktop.com/en/latest/install/)），Windows 上可以用国人编译的 [Windows 版本](https://github.com/necan/RedisDesktopManager/releases)
 
-### 编辑工具、IDE
+### IDE 集成开发环境
 
-- Visual Studio
+- [Visual Studio 2022](https://visualstudio.microsoft.com/zh-hans/)
+- [Visual Studio 2019/2017/2015/2013](https://visualstudio.microsoft.com/zh-hans/vs/older-downloads/)
 - [Visual Studio Code](https://code.visualstudio.com/) - 安装后用 Sync 插件同步其他所有插件（[我的插件](./vscode.md)） v1.72.2
-- [Sublime Text](https://www.sublimetext.com/)
-- [HBuilder](http://www.dcloud.io/) - HTML 编辑器
-- [Atom](https://atom.io/) - GitHub 的编辑工具
-- [Notepads](https://www.notepadsapp.com/) - 简洁的编辑器，应用商店安装
-- [Notepad Next](https://github.com/dail8859/NotepadNext) - Notepad++的copy，支持Linux和Mac v0.5.5
-
-#### Java IDE
-
 - [IntelliJ IDEA](http://www.jetbrains.com/idea/) - Java IDE，Ultimate 版本，$499.00/user 1st year
 - [Spring Tools](https://spring.io/tools) - 之前叫 STS，Spring Tool Suits，可替代 IDEA、Eclipse
 - Android Studio
@@ -302,10 +316,11 @@ Office 有 2013、2016、Office365 等版本。
 
 - [Gisto](https://www.gistoapp.com/) - 代码片段管理
 - [Zeal](https://zealdocs.org/) - 软件开发官方文档浏览器
+- Hash.exe
 
 ### 性能测试工具
 
-- [CPU-Z](https://www.cpuid.com/softwares/cpu-z.html)
+- [CPU-Z](https://www.cpuid.com/softwares/cpu-z.html) - 2.06
 - [GPU-Z](https://www.techpowerup.com/gpuz/) - 查看 GPU 相关参数
 - [3DMARK](https://www.3dmark.com/)
 - [Cinebench](https://www.maxon.net/cn/%E4%BA%A7%E5%93%81/cinebench-r20-overview/)
@@ -324,10 +339,11 @@ Office 有 2013、2016、Office365 等版本。
 
 ### 其他运行环境
 
-- [Node.js](https://nodejs.org/zh-cn/)
+- [Node.js](https://nodejs.org/zh-cn/) - 18.16.0-LTS
 - [Ruby](https://rubyinstaller.org/)，Jekyll
 - VueCLI
 - [Docker for Windows](https://www.docker.com/products/docker-desktop) - 现在叫 Docker Desktop，[下载地址](https://download.docker.com/win/stable/Docker%20for%20Windows%20Installer.exe)
+- [.net runtime 6.x](https://dotnet.microsoft.com/zh-cn/download/dotnet) - .NET 6.0 Desktop Runtime (v6.0.16) - Windows x64 Installer!
 
 ### 字体
 
