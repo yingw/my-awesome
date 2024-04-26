@@ -245,6 +245,7 @@ brew install —cask adoptopenjdk11
 - [HandBrake](https://handbrake.fr/) - 视频转码工具 `brew install --cask handbrake`
 - [Plex](https://www.plex.tv/) - 家庭影院 `brew install --cask plex`
 - [XnViewMP](https://www.xnview.com/) - 看图软件 `brew install --cask xnviewmp`
+- [VidHub](https://www.freedidi.com/12241.html) - 免费的视频播放器，支持iOS、Mac、ipad、Apple TV
 
 ### 磁盘工具
 

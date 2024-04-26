@@ -172,13 +172,15 @@ Office 有 2013、2016、Office365 等版本。
 
 ### 看图工具
 
-- [XnView](https://www.xnview.com/en/) - 免费看图工具，有 MP 版本和 classic 版，Classic 2.51.1，MP 1.3.1
-- [HoneyView](http://www.bandisoft.com/honeyview/) - 看图软件，与 BandZip 是一个开发商 V 5.50
+- [XnView](https://www.xnview.com/en/) - 免费看图工具，有 MP 版本和 classic 版，Classic 2.51.1，MP 1.7.1.0
+- [BandView](https://www.bandisoft.com/bandiview/) - v7.0.2，之前叫 [HoneyView](http://www.bandisoft.com/honeyview/) - 看图软件，与 BandZip 是一个开发商 V 5.50
 - [2345 看图王](http://pic.2345.cc/) - 和2345好压集成方便，v10.9.1.9791
 - [光影魔术手](http://www.neoimaging.cn/) - 图像编辑工具，比较老了，用习惯了 v4.4.1 不更新
 - [美图秀秀](https://xiuxiu.meitu.com/) - 图像编辑工具，有 [Linux 信创版](https://pc.meitu.com/pc?download=linux)
 - [中望CAD 2024](https://www.zwcad.com/) - 国产的 CAD 工具
-- [GIMP](https://www.gimp.org/downloads/)
+- [GIMP](https://www.gimp.org/downloads/) - 免费开源的PS平替
+- [inpaint-web](https://github.com/lxfater/inpaint-web) - 免费开源的画面修改（inpainting）、放大工具，[在线](https://inpaintweb.lxfater.com/)
+- [Darktable](https://www.darktable.org/)
 
 ### 影音播放
 
