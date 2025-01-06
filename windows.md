@@ -139,8 +139,8 @@ Office 有 2013、2016、Office365 等版本。
   - Project
   - Skype for Business
   - OneDrive - 网盘个人账号，5G 免费空间
-- [WPS Office](https://www.wps.cn/) - 免费，Office 替代；广告较多，有个 “配置工具” 关闭，12.1.0.18276，[旧版 WPS Office 2019](https://www.wps.cn/product/wps2019)：11.1.0.10314
-- [Draw.io](https://about.draw.io/integrations/#integrations_offline) - 开源绘图工具，可替换 visio，新 [官网](https://app.diagrams.net/)，桌面版下载 [地址](https://github.com/jgraph/drawio-desktop/releases) v21.2.8
+- [WPS Office](https://www.wps.cn/) - 免费，Office 替代；广告较多，有个 “配置工具” 关闭，11.1.0.14309，[旧版 WPS Office 2019](https://www.wps.cn/product/wps2019)：11.1.0.10314
+- [Draw.io](https://about.draw.io/integrations/#integrations_offline) - 开源绘图工具，可替换 visio，新 [官网](https://app.diagrams.net/)，桌面版下载 [地址](https://github.com/jgraph/drawio-desktop/releases) v24.7.5
 - [OpenProj](https://sourceforge.net/projects/openproj/) - 开源项目管理工具 v1.4，可替代 Project（openproj-1.4.msi），需要安装 JDK5，不更新
 - [Processon](https://www.processon.com/) - 在线的作图、协作工具，免费一定额度
 - [万彩办公大师](http://www.wofficebox.com/) - 好用免费的 DPF 工具套件 v3.1.2，还有个离线版推荐
