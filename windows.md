@@ -255,7 +255,7 @@ Office 有 2013、2016、Office365 等版本。
 
 ### 终端工具
 
-- [Windows Terminal](https://github.com/Microsoft/Terminal/) - 微软最新的终端工具，商店下载安装 v1.15.2874
+- [Windows Terminal](https://github.com/Microsoft/Terminal/) - 微软最新的终端工具，建议直接从Windows商店下载也是最新版，v1.21.3231.0
 - [Cmder](http://cmder.net/) - 打包了 ConEmu 等多个工具的终端
 - [ConEmu](https://conemu.github.io/) - 终端工具，可以 [集成 WSL](https://conemu.github.io/en/BashOnWindows.html)
 - [XShell，Xftp](https://www.netsarang.com/zh/xshell-download/) - 终端管理，家庭 / 学校用户免费
