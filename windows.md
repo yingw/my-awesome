@@ -51,6 +51,7 @@ Windows 工具箱（Awesome Windows），记录我的 Windows 工具和设置
 - 腾讯软件管理独立版 - 没有官网，在迅雷网盘里
 - [HEU KMS Activator](https://github.com/zbezj/HEU_KMS_Activator) - v42.3.1 `HEU_KMS_Activator_v42.3.1.rar`，公众号：知彼而知己、小知彼而知己
 - [图吧工具箱](https://www.tbtool.cn/) - 硬件检测工具合集，2024.09正式版
+- [Microsoft C++ Build Tools](https://visualstudio.microsoft.com/zh-hans/visual-cpp-build-tools/)
 
 ### 系统安全
 
@@ -266,7 +267,7 @@ Office 有 2013、2016、Office365 等版本。
 ### 编辑工具
 
 - [Typora](https://typora.io/) - Markdown 文档编辑工具，收费了，最后的免费版：
-- [Notepad++](https://notepad-plus-plus.org/) - 文本编辑工具，处理大文件比较慢 v8.7.5
+- [Notepad++](https://notepad-plus-plus.org/) - 文本编辑工具，处理大文件比较慢 v8.7.5；插件下载可能会卡，去[GitHub](https://github.com/notepad-plus-plus/nppPluginList/blob/master/doc/plugin_list_x64.md)下载
 - [BeyondCompare](http://www.beyondcompare.cc/xiazai.html) - 文件比对工具，收费
 - [UltraEdit](https://www.ultraedit.com/)
 - [EmEditor](https://www.emeditor.com/) - 大文本处理比较方便
