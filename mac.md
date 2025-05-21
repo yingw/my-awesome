@@ -44,10 +44,13 @@
 
 ## 系统工具
 
-- [Homebrew](https://brew.sh/) - 软件管理，安装命令 `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
+- [Homebrew](https://brew.sh/) - 软件管理，安装命令 `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`，或者下载预编译好的 [release](https://github.com/Homebrew/brew/releases) v4.5.2
 - [Cakebrew](https://www.cakebrew.com/) - Homebrew 图形界面管理，`brew install --cask cakebrew`，v1.3 最后更新：2021年，支持 Silicon
+- [MacPorts](https://www.macports.org/) - 另一个软件管理工具。v2.10.7
 - [Alfred](https://apps.apple.com/cn/app/alfred/id405843582?mt=12) - 搜索、快速启动工具，很多功能，`brew install --cask alfred`，v1.2 最后更新：2012年
-- [CheetSheet](https://www.mediaatelier.com/CheatSheet/) - 快捷键提示，长按 Command，`brew install --cask cheatsheet`，其他 Mac 的快捷键提示，[参考](https://sspai.com/post/45338)，[官方](https://support.apple.com/zh-cn/102650)，2025年官网已失效
+- [CheetSheet](https://www.mediaatelier.com/CheatSheet/) - 快捷键提示，长按 Command，`brew install --cask cheatsheet`，其他 Mac 的快捷键提示，[参考](https://sspai.com/post/45338)，[官方](https://support.apple.com/zh-cn/102650)，2025年官网已失效，可以切换到 keyClu
+- [KeyClu](https://github.com/Anze/KeyCluCask/) - 快捷键提示，按 `⌘, ⌘` 呼出，`brew install --cask keyclu`，v0.30.1
+- [CustomShortcuts](https://www.houdah.com/customShortcuts/) - CustomShortcuts 与 KeyClu 一起使用。单击菜单按钮可直接从备忘单中自定义键盘快捷键。`brew install --cask customshortcuts`。v1.2.1
 - [Mactracker](https://apps.apple.com/cn/app/mactracker/id430255202?mt=12) - 提供苹果全系列产品的所有信息，v7.13.5，最后更新：2025年
 - [HandShaker](https://www.smartisan.com/apps/#/handshaker) - 锤子科技的文件管理软件，用于在 Mac 电脑上管理 Android 手机内容，v2.5.6，最后更新：2018年
 - [LaunchRocket](https://github.com/jimbojsb/launchrocket) - 自动启动服务管理，`brew install --cask launchrocket`，v0.7，最后更新：2014年
@@ -85,8 +88,8 @@
 
 ### 终端工具
 
-- [iTerm2](https://www.iterm2.com/) - 好用的终端工具，官网挂了。`brew install --cask iterm2`
-- [oh-my-zsh](https://ohmyz.sh/) - [参考](https://sspai.com/post/55176)
+- [iTerm2](https://iterm2.com/) - 好用的终端工具。`brew install --cask iterm2`。v3.5.14，2025年
+- [oh-my-zsh](https://ohmyz.sh/) - [参考](https://sspai.com/post/55176) `brew install oh-my-posh`
   - 修改主题 `～/.zshrc`，agnoster
   - 安装 [字体](https://github.com/powerline/fonts.git) ，用 `DejaVu Sans Mono for Powerline`
 
@@ -151,6 +154,7 @@
 - [蒲公英](https://apps.apple.com/cn/app/id1305707014) - 异地组网
 - [Remote Desktop Manager](https://remotedesktopmanager.com/) - 有 Free 和 Enterprise 版本，免费版不能记录密码，支持 Windows 和 Mac `brew install --cask remote-desktop-manager-free`。Version: 2025.1.16.3
 - [CyberDuck](https://cyberduck.io/) - 连接各种远程文件库，支持 FTP、OneDriver、Google Driver、Amazon S3，免费，Store上收费 `brew install --cask cyberduck`。v9.1.4，2025年
+- [FileZilla](https://filezilla-project.org/) - FTP 客户端，v3.69.1
 - Screen Sharing.APP（屏幕共享） - Mac 自带的 VNC 客户端
 - [AnyDesk](https://anydesk.com/zhs) 远程桌面，需要对方也安装，用 ID 链接
 - [Microsoft Remote Desktop](https://apps.apple.com/us/app/microsoft-remote-desktop/id715768417)，最新版 8.0.44，应用商店里锁国区，可以到 [外面](https://rink.hockeyapp.net/apps/5e0c144289a51fca2d3bfa39ce7f2b06/) 下 Version 10.2.13 (1593)，或者从 brew 安装
@@ -192,7 +196,7 @@
 - [MindNote](https://apps.apple.com/cn/app/mindnode-6/id1289197285?mt=12) - 思维导图，收费
 - [Meld](https://yousseb.github.io/meld/) - 差异比对合并工具，`rew install --cask meld`，[Github](https://github.com/yousseb/meld/releases/)上的版本更新，v3.21.0 (r4)，2023年，
 - [DiffMerge](https://www.sourcegear.com/diffmerge/) - 比对合并工具 `brew install --cask diffmerge`
-- [Beyond Compare](https://www.scootersoftware.com/) - 收费
+- [Beyond Compare](https://www.scootersoftware.com/) - 收费 `brew install --cask beyond-compare` v5.0.7
 - [Obsidian](https://obsidian.md/download) - 免费，笔记软件，支持 Markdown。v1.8.10
 
 ### 笔记管理
@@ -321,7 +325,7 @@ brew install —cask adoptopenjdk11
 ### 壁纸屏保
 
 - [Wallpaper Wizard](https://wallwiz.com/) - 收费，摄影作品
-- fliqlo - 时钟屏幕保护
+- [fliqlo](https://fliqlo.com/) - 时钟屏幕保护 `brew install --cask fliqlo` v1.9.4，2024年
 - Dynamic Wallpaper Engine - 收费，免费版叫花见
 - 壁纸精灵 - 收费
 - [Unsplash Wallpapers](https://unsplash.com/wallpapers) - 免费，自然
