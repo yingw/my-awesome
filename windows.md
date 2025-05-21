@@ -266,7 +266,7 @@ Office 有 2013、2016、Office365 等版本。
 
 ### 编辑工具
 
-- [Typora](https://typora.io/) - Markdown 文档编辑工具，收费了，最后的免费版：
+- [Typora](https://typora.io/) - Markdown 文档编辑工具，收费了，最后的免费版是 v0.11.18，可以在这里[下载](https://github.com/wyf9661/typora-free)，用的时候要禁止访问网络，否则强制升级
 - [Notepad++](https://notepad-plus-plus.org/) - 文本编辑工具，处理大文件比较慢 v8.7.5；插件下载可能会卡，去[GitHub](https://github.com/notepad-plus-plus/nppPluginList/blob/master/doc/plugin_list_x64.md)下载
 - [BeyondCompare](http://www.beyondcompare.cc/xiazai.html) - 文件比对工具，收费
 - [UltraEdit](https://www.ultraedit.com/)
