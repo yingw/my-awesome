@@ -418,7 +418,7 @@ Office 有 2013、2016、Office365 等版本。
 - taskmgr
 - control userpasswords2 / netplwiz - 可以在里面设置用户名、免密登入
 - lusrmgr.msc - 本地用户和组管理
-- [删除 “3D 对象” 文件夹](https://jingyan.baidu.com/article/3f16e0031cdd5c2591c103e6.html)
+- [删除 “3D 对象” 文件夹](https://jingyan.baidu.com/article/3f16e0031cdd5c2591c103e6.html) - 定位到`HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\`注册表项，在其项下面找到`{0DB7E03F-FC29-4DC6-9020-FF41B59E513A}`注册表项，删除。
 - Stick Notes 同步 - 备份目录 `C:\Users\yingu\AppData\Local\Packages\Microsoft.MicrosoftStickyNotes_8wekyb3d8bbwe`
 - mklink - 符号链接，一些需要重新设置位置、需要备份管理的目录建议做链接，如：
 
