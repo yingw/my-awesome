@@ -58,10 +58,12 @@
 - [超级右键](https://apps.apple.com/cn/app/%E8%B6%85%E7%BA%A7%E5%8F%B3%E9%94%AE-irightmouse/id1497428978?mt=12) - 右键菜单管理软件，v2.3.2，最后更新：2024年
 - [Better And Better](https://www.better365.cn/bab2.html) - 触控板、鼠标、键盘的手势等。v2.6.7，最后更新：2025年，安装包是pkg格式
 - [AdGrard](https://adguard.com/zh_cn/welcome.html) - 拦截多个浏览器、系统的广告，收费，试用期14天
-- [Vanilla](https://matthewpalmer.net/vanilla/) - 隐藏任务栏图标，收费，可以改用 Dozer
+- [Vanilla](https://matthewpalmer.net/vanilla/) - 免费版隐藏任务栏图标，基本够用；收费额外功能
 - [Dozer](https://github.com/Mortennn/Dozer) - 隐藏任务栏图标，可以替换 Vanilla `brew install --cask dozer`。v4.0.0，最后更新：2019年
 - [Hidden Bar](https://github.com/dwarvesf/hidden/) - 同 Dozer，隐藏任务栏图标，更新点 `brew install --cask hiddenbar`。v1.9，最后更新：2022年
+- [Ice](https://icemenubar.app/) - 菜单栏管理，免费；0.11.12，2024年；`brew install jordanbaird-ice`
 - [Bartender](https://www.macbartender.com/) - 管理菜单栏图标，收费
+- [iBar](https://www.better365.cn/ibar.html) - 菜单栏管理，可以聚合模式向下扩展，收费
 - [Itsycal](https://www.mowglii.com/itsycal/) - 菜单栏日历，最后更新：2025年
 - [QuickRes](https://thnkdev.com/QuickRes/) - 快速切换分辨率，收费，支持M1。v4.9，最后更新：2021年
 - [Ethernet Status](https://apps.apple.com/cn/app/ethernet-status/id1186187538?mt=12) - 显示有线网络连接状态。v4.5，最后更新：2023年
@@ -89,7 +91,7 @@
 ### 终端工具
 
 - [iTerm2](https://iterm2.com/) - 好用的终端工具。`brew install --cask iterm2`。v3.5.14，2025年
-- [oh-my-zsh](https://ohmyz.sh/) - [参考](https://sspai.com/post/55176) `brew install oh-my-posh`
+- [oh-my-zsh](https://ohmyz.sh/) - 用脚本安装，[参考](https://sspai.com/post/55176)。[Oh My Posh](https://ohmyposh.dev/) - `brew install oh-my-posh`
   - 修改主题 `～/.zshrc`，agnoster
   - 安装 [字体](https://github.com/powerline/fonts.git) ，用 `DejaVu Sans Mono for Powerline`
 
@@ -127,7 +129,7 @@
 - [Keka](https://www.keka.io/en/) - 免费下载，AppStore 上收费，也是 [7zip](https://www.7-zip.org/download.html) 的非官方 Mac 版 `brew install --cask keka`，7z官方有Mac的控制台版本。v1.5.0，2025年
 - [Betterzip](https://www.betterzip.net/) - 收费 `brew install --cask betterzip`
 - [The Unarchiver](https://www.theunarchiver.com/) - 免费，`brew install --cask the-unarchiver`。v4.3.9，2025年
-- [MacZip](https://ezip.awehunt.com/) - 原名`eZip`，国产解压缩工具，免费 `brew install --cask ezip`。v2.4，2024年
+- [MacZip](https://ezip.awehunt.com/) - 原名`eZip`，国产解压缩工具，免费 `brew install --cask maczip`。v2.4，2024年
 - [Bandizip](http://www.bandisoft.com/bandizip.mac/) - 收费
 
 ### 剪贴板管理
@@ -188,16 +190,19 @@
 
 ### 文档编辑
 
+- [NotepadNext](https://github.com/dail8859/NotepadNext) - Notepad++ 的 Mac 替代，v0.11，2025年，homebrew 要设置 [tap](https://github.com/dail8859/homebrew-notepadnext)
 - [Typora](https://www.typora.io/) - Markdown 格式编辑器 `brew install --cask typora`，最后的[免费版 v0.11.18](https://github.com/wyf9661/typora-free)
 - [MacDown](https://macdown.uranusjr.com/) - Markdown 格式编辑器 `brew install --cask macdown`
 - [Sublime Text](https://www.sublimetext.com/3) - 文本编辑器 `brew install --cask sublime-text`
 - [OmniGraffle 7](https://www.omnigroup.com/omnigraffle/) - 专业绘图，类 Visio，收费
-- [MacVim](https://github.com/macvim-dev/macvim) - Vim 编辑器，`brew install --cask macvim`
+- [MacVim](https://macvim.org/) - Vim 编辑器，`brew install --cask macvim`
 - [MindNote](https://apps.apple.com/cn/app/mindnode-6/id1289197285?mt=12) - 思维导图，收费
 - [Meld](https://yousseb.github.io/meld/) - 差异比对合并工具，`rew install --cask meld`，[Github](https://github.com/yousseb/meld/releases/)上的版本更新，v3.21.0 (r4)，2023年，
 - [DiffMerge](https://www.sourcegear.com/diffmerge/) - 比对合并工具 `brew install --cask diffmerge`
 - [Beyond Compare](https://www.scootersoftware.com/) - 收费 `brew install --cask beyond-compare` v5.0.7
 - [Obsidian](https://obsidian.md/download) - 免费，笔记软件，支持 Markdown。v1.8.10
+- [BBEdit](https://www.barebones.com/products/bbedit/) - 文本编辑器，收费，有30天试用，`brew install --cask bbedit`
+- CotEditor
 
 ### 笔记管理
 
