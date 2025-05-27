@@ -294,11 +294,14 @@ Office 有 2013、2016、Office365 等版本。
 - [Win32 Disk Imager](https://sourceforge.net/projects/win32diskimager/files/Archive/) - v1.0 `win32diskimager-1.0.0-install.exe`
 - FlashBoot - 需注册
 - 老毛桃 - PE 启动盘
-- [优启通](https://www.upe.net/) - 比较早期纯净的版本：[优启通 v3.3.2019.0605](https://www.itsk.com/thread-397875-1-1.html)
+- [优启通](https://www.upe.net/) - 比较早期纯净的版本：[优启通 v3.3.2019.0605](https://www.itsk.com/thread-397875-1-1.html)，新版本需要会员
 - [大白菜](https://www.dabaicai.com/)
-- [微 PE](http://www.wepe.com.cn/) - 推荐，号称纯净，注意 2.1 版本可能有毒
+- [微 PE](http://www.wepe.com.cn/) - 推荐，号称纯净，注意 2.1 版本可能有毒，最新 v2.3
 - [微软 WinPE (Windows PE)](https://docs.microsoft.com/zh-cn/windows-hardware/manufacture/desktop/download-winpe--windows-pe)
 - 其他 PE：深度、老毛桃、我心如水、云爱、天意、小马、装机员、深山红叶、完美者、无垠
+- Windows To Go
+- [FirPE](https://firpe.cn/) - 最新版 v2.0.1
+- LightningPE
 
 ### 截屏录屏
 
