@@ -1,3 +1,4 @@
+# MacOS 命令
 
 ## 1.3. MacOS 恢复功能
 
@@ -88,6 +89,18 @@ export http_proxy=socket5://127.0.0.1:20090
 export https_proxy=socket5://127.0.0.1:20090
 ```
 
+curl 可能不直接使用系统设置的代理，可以
+
+```sh
+alias curl="curl -x <proxy_host>:<proxy_port>"
+```
+
+或者在  ~/.curlrc 中添加：
+
+```sh
+proxy = <proxy_host>:<proxy_port>
+```
+
 禁用 MacOS 的系统升级提示
 hosts 增加
 
@@ -139,6 +152,15 @@ alias disproxy='unset http_proxy https_proxy'
 ```
 
 后续通过 goproxy / disproxy 进行切换
+
+### 设置PATH
+
+有时候需要手动设置新应用的 PATH，在 ~/.bash_profile 或 ~/.zshrc 中添加：
+
+```sh
+export PATH=/usr/local/bin:$PATH
+export PATH=/opt/homebrew/bin:$PATH
+```
 
 ## 快捷键
 

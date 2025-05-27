@@ -266,7 +266,7 @@ Office 有 2013、2016、Office365 等版本。
 
 ### 编辑工具
 
-- [Typora](https://typora.io/) - Markdown 文档编辑工具，收费了，最后的免费版：
+- [Typora](https://typora.io/) - Markdown 文档编辑工具，收费了，最后的免费版是 v0.11.18，可以在这里[下载](https://github.com/wyf9661/typora-free)，用的时候要禁止访问网络，否则强制升级
 - [Notepad++](https://notepad-plus-plus.org/) - 文本编辑工具，处理大文件比较慢 v8.7.5；插件下载可能会卡，去[GitHub](https://github.com/notepad-plus-plus/nppPluginList/blob/master/doc/plugin_list_x64.md)下载
 - [BeyondCompare](http://www.beyondcompare.cc/xiazai.html) - 文件比对工具，收费
 - [UltraEdit](https://www.ultraedit.com/)
@@ -421,7 +421,7 @@ Office 有 2013、2016、Office365 等版本。
 - taskmgr
 - control userpasswords2 / netplwiz - 可以在里面设置用户名、免密登入
 - lusrmgr.msc - 本地用户和组管理
-- [删除 “3D 对象” 文件夹](https://jingyan.baidu.com/article/3f16e0031cdd5c2591c103e6.html)
+- [删除 “3D 对象” 文件夹](https://jingyan.baidu.com/article/3f16e0031cdd5c2591c103e6.html) - 定位到`HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\`注册表项，在其项下面找到`{0DB7E03F-FC29-4DC6-9020-FF41B59E513A}`注册表项，删除。
 - Stick Notes 同步 - 备份目录 `C:\Users\yingu\AppData\Local\Packages\Microsoft.MicrosoftStickyNotes_8wekyb3d8bbwe`
 - mklink - 符号链接，一些需要重新设置位置、需要备份管理的目录建议做链接，如：
 
