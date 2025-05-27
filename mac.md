@@ -274,6 +274,7 @@ brew install —cask adoptopenjdk11
 - [TinkerTool](https://www.bresink.com/osx/TinkerTool.html) - 系统工具集，注意下载对应系统版本
 - [Deeper](https://www.titanium-software.fr/en/deeper.html) - 配置程序，`brew install --cask deeper`
 - [OnyX](https://www.titanium-software.fr/en/onyx.html) - 系统维护和配置程序，`brew install --cask onyx`
+- [TopNorch](https://topnotch.app/) - 隐藏 Mac 顶部刘海，就是设置任务栏黑色，还可以设置底部圆角，`brew install --cask topnorch`
 
 ### 系统监控
 
