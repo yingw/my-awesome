@@ -80,16 +80,27 @@ export HOMEBREW_NO_AUTO_UPDATE=true
 export PATH=$PATH:<PATH 1>:<PATH 2>
 ```
 
+brew 加入 .zshrc 的 PATH
+
+```sh
+cd /opt/homebrew/bin/
+
+PATH=$PATH:/opt/homebrew/bin
+
+echo export PATH=$PATH:/opt/homebrew/bin >> ~/.zshrc
+```
+
 然后 `source .bash_profile`
 
 curl 连不上，设置代理
+(之前可以写 socket5： ，但是现在不支持了)
 
 ```s
-export http_proxy=socket5://127.0.0.1:20090
-export https_proxy=socket5://127.0.0.1:20090
+export http_proxy=http://127.0.0.1:20090
+export https_proxy=http://127.0.0.1:20090
 ```
 
-curl 可能不直接使用系统设置的代理，可以
+curl 可能不直接使用系统设置的代理，可以在命令上加参数 `-x`，或者写 alias
 
 ```sh
 alias curl="curl -x <proxy_host>:<proxy_port>"
@@ -99,6 +110,12 @@ alias curl="curl -x <proxy_host>:<proxy_port>"
 
 ```sh
 proxy = <proxy_host>:<proxy_port>
+```
+
+pip 也可以临时加：
+
+```sh
+pip install xxx --proxy=https://xx.xx.xx.xx:xxxx
 ```
 
 禁用 MacOS 的系统升级提示
@@ -210,3 +227,17 @@ sudo pmset -b hibernatemode 3
 # 深度休眠模式
 sudo pmset -b hibernatemode 25
 ```
+
+## Parallels Desktop
+
+使用宿主机的代理服务
+
+查看宿主机 IP
+
+```sh
+ifconfig | grep inet
+```
+
+一般是这个：10.211.55.2
+
+然后在客户机里面设置代理

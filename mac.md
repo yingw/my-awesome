@@ -202,7 +202,7 @@
 - [Beyond Compare](https://www.scootersoftware.com/) - 收费 `brew install --cask beyond-compare` v5.0.7
 - [Obsidian](https://obsidian.md/download) - 免费，笔记软件，支持 Markdown。v1.8.10
 - [BBEdit](https://www.barebones.com/products/bbedit/) - 文本编辑器，收费，有30天试用，`brew install --cask bbedit`
-- CotEditor
+- [CotEditor](https://coteditor.com/) - 简单的文本编辑工具，`brew install --cask coteditor`
 
 ### 笔记管理
 
@@ -268,6 +268,7 @@ brew install —cask adoptopenjdk11
 - [Tuxera NTFS](https://ntfsformac.tuxera.com/download/) - 读写 NTFS，收费
 - [DaisyDisk](https://daisydiskapp.com/) - 显示磁盘占用情况，收费 `brew install --cask daisydisk`
 - [Disk Inventory X](http://www.derlien.com/) - 磁盘信息情况统计，类似 WinDirStat `brew install --cask disk-inventory-x`
+- [CalHash](https://www.titanium-software.fr/en/calhash.html) - 一个带GUI的Hash计算工具，`brew install --cask calhash`
 
 ### 系统设置
 
