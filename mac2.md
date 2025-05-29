@@ -169,3 +169,44 @@ export PATH=/opt/homebrew/bin:$PATH
 - F11
 - Ctrl + Command + F 全屏
 - Optional + Command + D 隐藏任务栏
+
+## Macbook Pro
+
+耗电问题：
+
+睡眠一晚上耗电 50%，官方宣传的是一天 1~2%
+
+可能的问题或解决设置：
+
+- DHCP 租约更新太短（在路由器上设置）
+- 关闭屏幕时间
+- 关闭 Siri
+- 在休眠时关闭蓝牙和 WIFI，可以使用工具：`brew install --cask bluesnooze`
+- 其他各种可能在睡眠中唤醒的服务，可以在活动监视器里面打开“阻止睡眠”查看
+- 用命令 pmset 设置休眠模式。参考这两篇帖子：[Macbook battery drain while in sleep (actually) SOLVED!](https://www.reddit.com/r/apple/comments/11nhs8a/macbook_battery_drain_while_in_sleep_actually/)
+- 禁用电源小睡以及TCP keep alive:
+
+```sh
+sudo pmset -a tcpkeepalive 0
+sudo pmset -a powernap 0`
+```
+
+其他命令
+
+```sh
+pmset -g log|grep -e " Sleep " -e " Wake " # 查看睡眠和唤醒的日志，注意到 TCPKeepAlive=Active
+pmset -g log | grep -i "wake from"
+pmset -g log | grep -w Charge | more
+pmset -g  # 查看当前电源设置
+pmset -g assertions
+sudo pmset -a standbydelayhigh 10
+sudo pmset -a autopoweroffdelay 60
+sudo pmset -a standbydelaylow 10
+sudo pmset -a standby 1
+sudo pmset -a hibernatemode 3
+sudo pmset -a tcpkeepalive 0
+# 浅休眠模式
+sudo pmset -b hibernatemode 3
+# 深度休眠模式
+sudo pmset -b hibernatemode 25
+```
