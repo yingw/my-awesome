@@ -101,6 +101,7 @@
 - [oh-my-zsh](https://ohmyz.sh/) - 用脚本安装，[参考](https://sspai.com/post/55176)。[Oh My Posh](https://ohmyposh.dev/) - `brew install oh-my-posh`
   - 修改主题 `～/.zshrc`，agnoster
   - 安装 [字体](https://github.com/powerline/fonts.git) ，用 `DejaVu Sans Mono for Powerline`
+  - [Sleep Aid](https://ohanaware.com/sleepaid/) - 记录分析是哪个进程中休眠时唤醒Mac，十四天试用。作者 sam 在[这里](https://www.reddit.com/r/macbookpro/comments/qqo4v2/my_m1_max_keeps_switching_between_sleep_and/)声称`NUB.SPMISw3IRQ nub-spmi0.0x02 rtc/SleepService`这个进程是正常的，可以尝试切换 `"Wake for Maintenance"`
 
 ### 虚拟机
 

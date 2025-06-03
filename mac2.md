@@ -216,6 +216,7 @@ pmset -g log | grep -i "wake from"
 pmset -g log | grep -w Charge | more
 pmset -g  # 查看当前电源设置
 pmset -g assertions
+pmset -g log | grep "Wake Requests"
 sudo pmset -a standbydelayhigh 10
 sudo pmset -a autopoweroffdelay 60
 sudo pmset -a standbydelaylow 10
@@ -227,6 +228,13 @@ sudo pmset -b hibernatemode 3
 # 深度休眠模式
 sudo pmset -b hibernatemode 25
 ```
+
+Rosetta - 在 Arm 架构的 Mac CPU 上模拟 X86 环境运行 APP
+安装（新版本默认安装了）：
+`/usr/sbin/softwareupdate --install-rosetta --agree-to-license`
+选择有bug或闪退的软件右键——显示简介——勾选使用Rosetta打开
+
+[Reset NVRAM or PRAM on your Mac - Apple Support](https://support.apple.com/HT204063) (Apple CPU 不需要)
 
 ## Parallels Desktop
 
