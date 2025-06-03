@@ -26,6 +26,7 @@
     - [笔记管理](#笔记管理)
     - [翻译软件](#翻译软件)
     - [开发工具](#开发工具)
+    - [图像处理](#图像处理)
     - [下载工具](#下载工具)
     - [媒体播放](#媒体播放)
     - [磁盘工具](#磁盘工具)
@@ -45,14 +46,20 @@
 ## 系统工具
 
 - [Homebrew](https://brew.sh/) - 软件管理，安装命令 `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`，或者下载预编译好的 [release](https://github.com/Homebrew/brew/releases) v4.5.2
-- [Cakebrew](https://www.cakebrew.com/) - Homebrew 图形界面管理，`brew install --cask cakebrew`，v1.3 最后更新：2021年，支持 Silicon
+- [Cakebrew](https://www.cakebrew.com/) - Homebrew 图形界面管理，`brew install --cask cakebrew`，v1.3 最后更新：2021年，支持 Silicon（可能被弃用了）
+- [Cork](https://github.com/buresdv/Cork) - Homebrew 快速 GUI，Cakebrew 的替代，`brew install --cask cork`，v1.5.5，2025年。`brew install --cask cork`，收费的，但是开源可以自己编译
+- [Latest](https://max.codes/latest/) - 版本检查更新，还支持非 brew 安装的应用
+- [Applite](https://aerolite.dev/applite) - 也是 brew 的应用管理，有推荐，就是比较慢，要这设置里设置一下代理用 sock 协议，`brew install --cask applite`
 - [MacPorts](https://www.macports.org/) - 另一个软件管理工具。v2.10.7
 - [Alfred](https://apps.apple.com/cn/app/alfred/id405843582?mt=12) - 搜索、快速启动工具，很多功能，`brew install --cask alfred`，v1.2 最后更新：2012年
 - [CheetSheet](https://www.mediaatelier.com/CheatSheet/) - 快捷键提示，长按 Command，`brew install --cask cheatsheet`，其他 Mac 的快捷键提示，[参考](https://sspai.com/post/45338)，[官方](https://support.apple.com/zh-cn/102650)，2025年官网已失效，可以切换到 keyClu
 - [KeyClu](https://github.com/Anze/KeyCluCask/) - 快捷键提示，按 `⌘, ⌘` 呼出，`brew install --cask keyclu`，v0.30.1
 - [CustomShortcuts](https://www.houdah.com/customShortcuts/) - CustomShortcuts 与 KeyClu 一起使用。单击菜单按钮可直接从备忘单中自定义键盘快捷键。`brew install --cask customshortcuts`。v1.2.1
 - [Mactracker](https://apps.apple.com/cn/app/mactracker/id430255202?mt=12) - 提供苹果全系列产品的所有信息，v7.13.5，最后更新：2025年
-- [HandShaker](https://www.smartisan.com/apps/#/handshaker) - 锤子科技的文件管理软件，用于在 Mac 电脑上管理 Android 手机内容，v2.5.6，最后更新：2018年
+- [HandShaker](https://www.smartisan.com/apps/#/handshaker) - 锤子科技的文件管理软件，用于在 Mac 电脑上管理 Android 手机内容，通过手机端 APP 链接配对，v2.5.6，最后更新：2018年
+- [MacDroid](https://www.macdroid.app/) - 和 Android 设备传输文件，免费版只有只读模式，`brew install --cask macdroid`
+- [OpenMTP](https://openmtp.ganeshrvel.com/) - Mac 上的 Android 手机文件管理，可 MTP 文件传输，`brew install --cask openmtp`
+- [LocalSend](https://localsend.org/zh-CN) - 将文件分享到附近的设备，基于本地网络。`brew install --cask localsend`
 - [LaunchRocket](https://github.com/jimbojsb/launchrocket) - 自动启动服务管理，`brew install --cask launchrocket`，v0.7，最后更新：2014年
 - [GamePad Companion](https://apps.apple.com/us/app/gamepad-companion/id428799479?mt=12) - 手柄驱动，收费，v3.3.1，最后更新：2014年
 - [超级右键](https://apps.apple.com/cn/app/%E8%B6%85%E7%BA%A7%E5%8F%B3%E9%94%AE-irightmouse/id1497428978?mt=12) - 右键菜单管理软件，v2.3.2，最后更新：2024年
@@ -63,11 +70,11 @@
 - [Hidden Bar](https://github.com/dwarvesf/hidden/) - 同 Dozer，隐藏任务栏图标，更新点 `brew install --cask hiddenbar`。v1.9，最后更新：2022年
 - [Ice](https://icemenubar.app/) - 菜单栏管理，免费；0.11.12，2024年；`brew install jordanbaird-ice`
 - [Bartender](https://www.macbartender.com/) - 管理菜单栏图标，收费
-- [iBar](https://www.better365.cn/ibar.html) - 菜单栏管理，可以聚合模式向下扩展，收费
+- [iBar](https://www.better365.cn/ibar.html) - 菜单栏管理，可以聚合模式向下扩展，聚合模式收费
 - [Itsycal](https://www.mowglii.com/itsycal/) - 菜单栏日历，最后更新：2025年
 - [QuickRes](https://thnkdev.com/QuickRes/) - 快速切换分辨率，收费，支持M1。v4.9，最后更新：2021年
 - [Ethernet Status](https://apps.apple.com/cn/app/ethernet-status/id1186187538?mt=12) - 显示有线网络连接状态。v4.5，最后更新：2023年
-- [Scroll Reverser](https://pilotmoon.com/scrollreverser/) - 分离触摸板和鼠标的自然滚动设置。v1.9，最后更新：2024年
+- [Scroll Reverser](https://pilotmoon.com/scrollreverser/) - 分离触摸板和鼠标的自然滚动设置，正常情况下，Mac只允许同时设置触控板和外部鼠标的滚动方向，不能独立设置，明显不自然，这个可以分开独立设置。v1.9，最后更新：2024年，`brew install scroll-reverser`
 - [Mos](https://mos.caldis.me/) - 控制鼠标滚动方向，可以设置应用模式 `brew install --cask mos`。v3.5.0，最后更新：2025年
 - [InsomniaX](https://insomniax.en.softonic.com/mac) - 控制 Mac 在合上盖子和闲置超时后是否进入休眠状态，比较老了，有点问题。主页已失效
 - [Monitor Control](https://github.com/MonitorControl/MonitorControl) - 控制扩展视频输出的显示亮度和设备音量 `brew install --cask monitorcontrol`。v4.3.3，2024年
@@ -102,6 +109,7 @@
 - VM VirtualBox Extension Pack - VirtualBox 的扩展包，用于支持 USB3.0 等 `brew install --cask virtualbox-extension-pack`
 - [VMWare Fusion Player/Pro](https://www.vmware.com/products/fusion/fusion-evaluation.html)
 - [BlueStacks](https://www.bluestacks.com/) - 蓝叠安卓模拟器
+- [Qemu](http://www.qemu.org/) - QEMU is a generic and open source machine & userspace emulator and virtualizer. 开源的托管虚拟机，通过纯软件来实现虚拟化模拟器
 
 ### 输入法
 
@@ -145,7 +153,7 @@
 
 - [Geekbench](https://www.geekbench.com/) - 系统检测评分，收费，试用 `brew install --cask geekbench`。v6.4.0
 - [Blackmagic Disk Speed Test](https://apps.apple.com/us/app/blackmagic-disk-speed-test/id425264550?mt=12) - 磁盘性能测试
-- [Cinebench](https://www.maxon.net/en/products/cinebench-r20-overview/) - GPU 图形性能测试，收费，十四天试用 `brew install --cask cinebench`
+- [Cinebench](https://www.maxon.net/en/products/cinebench-r20-overview/) - GPU 图形性能测试，收费，十四天试用 `brew install --cask cinebench`，官网版本是2025，Homebrew下载的是2024，要用 [R23](https://www.techspot.com/downloads/7579-cinebench-r23.html)，下载试用需要注册等人 v2025.4.0
 
 ### 远程控制
 
@@ -240,6 +248,12 @@ brew install —cask adoptopenjdk11
 - [Krita](https://krita.org/zh/) - 免费绘画软件
 - [JD-GUI](http://jd.benow.ca/) - 反编译工具 `brew install --cask jd-gui`
 
+### 图像处理
+
+- [GIMP](https://www.gimp.org/) - 免费的图像处理工具，`brew install --cask gimp`
+- [PicGo](https://picgo.github.io/PicGo-Doc/zh/) - 图床，`brew install --cask picgo`
+- Adobe 全家桶
+
 ### 下载工具
 
 - [迅雷](http://mac.xunlei.com/) - 下载工具 `brew install --cask thunder`
@@ -254,7 +268,7 @@ brew install —cask adoptopenjdk11
 - VLC - `brew install --cask vlc`
 - [网易云音乐](https://music.163.com/) - 网易，`brew install --cask neteasemusic`
 - [Listen 1](https://listen1.github.io/listen1/)：搜索和播放来自网易云音乐，虾米，QQ 音乐，酷狗音乐，酷我音乐网站的歌曲，`brew install --cask listen1`。v2.32.0，2024年
-- [OBS Studio](https://obsproject.com/) - 截取视频采集卡视频流 `brew install --cask obs`
+- [OBS Studio](https://obsproject.com/) - 截取视频采集卡视频流 `brew install --cask obs`，v31.0.3，2025年
 - [HandBrake](https://handbrake.fr/) - 视频转码工具 `brew install --cask handbrake`
 - [Plex](https://www.plex.tv/) - 家庭影院 `brew install --cask plex`
 - [XnViewMP](https://www.xnview.com/) - 看图软件 `brew install --cask xnviewmp`
@@ -311,8 +325,9 @@ brew install —cask adoptopenjdk11
 
 ### 镜像工具
 
-- [Etcher](https://www.balena.io/etcher/) - 烧镜像到 U 盘 `brew install --cask balenaetcher`，v2.1.2，要用 arm64 版本
+- [Etcher](https://etcher.balena.io/) - 烧镜像到 U 盘 `brew install --cask balenaetcher`，v2.1.2，要用 arm64 版本
 - [UNetbootin](https://unetbootin.github.io/) - 制作 Linux 安装盘 `brew install --cask unetbootin`
+- [Raspberry Pi Imager](https://www.raspberrypi.com/software/) - 烧录镜像，原本是树莓派专用， `brew install --cask raspberry-pi-imager`，v1.9.0，2024年，[Github地址](https://github.com/raspberrypi/rpi-imager)
 
 ### 网盘
 
