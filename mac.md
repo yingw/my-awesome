@@ -94,6 +94,7 @@
 - [Barrier](https://github.com/debauchee/barrier/) - 允许跨系统操作键鼠控制多台PC `brew install --cask barrier`。v2.4.0，2021年
 - [Wine](https://wiki.winehq.org/MacOS) - Windows 环境模拟，要先安装 `brew install --cask xquartz`，`brew install --cask wine-stable`
 - [Lulu](https://objective-see.com/products/lulu.html) - 网络防火墙 `brew install --cask lulu`。v3.1.5，2025年
+- [Logi Options+](https://www.logitech.com/en-us/software/logi-options-plus.html) - 罗技鼠标驱动
 
 ### 终端工具
 
@@ -212,6 +213,7 @@
 - [Obsidian](https://obsidian.md/download) - 免费，笔记软件，支持 Markdown。v1.8.10
 - [BBEdit](https://www.barebones.com/products/bbedit/) - 文本编辑器，收费，有30天试用，`brew install --cask bbedit`
 - [CotEditor](https://coteditor.com/) - 简单的文本编辑工具，`brew install --cask coteditor`
+- [PlistEdit Pro](https://www.fatcatsoftware.com/plisteditpro/) - 编辑 plist 文件，Xcode 也可以，试用版
 
 ### 笔记管理
 
