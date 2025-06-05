@@ -200,6 +200,7 @@ export PATH=/opt/homebrew/bin:$PATH
 - 关闭 Siri
 - 在休眠时关闭蓝牙和 WIFI，可以使用工具：`brew install --cask bluesnooze`
 - 其他各种可能在睡眠中唤醒的服务，可以在活动监视器里面打开“阻止睡眠”查看
+- Chrome 会在休眠时多次唤醒，尽量在休眠前退出 Chrome，在 Chrome 的 设置 - 节能模式 - 在拔下电源线时开启
 - 用命令 pmset 设置休眠模式。参考这两篇帖子：[Macbook battery drain while in sleep (actually) SOLVED!](https://www.reddit.com/r/apple/comments/11nhs8a/macbook_battery_drain_while_in_sleep_actually/)
 - 禁用电源小睡以及TCP keep alive:
 

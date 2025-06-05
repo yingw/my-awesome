@@ -93,7 +93,7 @@
 - [AltTab](https://github.com/lwouis/alt-tab-macos) - 可以用 Alt+Tab 切换窗口 `brew install --cask alt-tab`。v7.24.0，2025年
 - [Barrier](https://github.com/debauchee/barrier/) - 允许跨系统操作键鼠控制多台PC `brew install --cask barrier`。v2.4.0，2021年
 - [Wine](https://wiki.winehq.org/MacOS) - Windows 环境模拟，要先安装 `brew install --cask xquartz`，`brew install --cask wine-stable`
-- [Lulu](https://objective-see.com/products/lulu.html) - 网络防火墙 `brew install --cask lulu`。v3.1.5，2025年
+- [Lulu](https://objective-see.org/products/lulu.html) - 网络防火墙 `brew install --cask lulu`。v3.1.5，2025年
 - [Logi Options+](https://www.logitech.com/en-us/software/logi-options-plus.html) - 罗技鼠标驱动
 
 ### 终端工具
@@ -214,6 +214,7 @@
 - [BBEdit](https://www.barebones.com/products/bbedit/) - 文本编辑器，收费，有30天试用，`brew install --cask bbedit`
 - [CotEditor](https://coteditor.com/) - 简单的文本编辑工具，`brew install --cask coteditor`
 - [PlistEdit Pro](https://www.fatcatsoftware.com/plisteditpro/) - 编辑 plist 文件，Xcode 也可以，试用版
+- [Xplist](https://github.com/ic005k/Xplist) - 免费的 plist 编辑器，v1.2.47 2022年
 
 ### 笔记管理
 
@@ -264,6 +265,7 @@ brew install —cask adoptopenjdk11
 - [Downie 4](https://software.charliemonroe.net/downie/) - 视频下载，可以下载 YouTube 视频，收费 `brew install --cask downie`
 - [qBittorrent](https://www.qbittorrent.org/) - BT 客户端 `brew install --cask qbittorrent`
 - [Transmission](https://transmissionbt.com/) - BT 客户端 `brew install --cask transmission`
+- [Free Download Manager](https://www.freedownloadmanager.org/) - 下载工具，有 Chrome 插件集成，`brew install --cask free-download-manager`，v6.28
 
 ### 媒体播放
 
