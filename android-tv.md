@@ -54,6 +54,7 @@
 - 飞视浏览器
 - 小鸡模拟器 TV 版
 - 酷狗音乐 TV 版
+- [Seal](https://github.com/JunkFood02/Seal) - 基于 yt-dlp 的视频下载器，v1.13.1，2024年
 
 ## 论坛
 

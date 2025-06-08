@@ -52,6 +52,7 @@
 - [Applite](https://aerolite.dev/applite) - 也是 brew 的应用管理，有推荐，就是比较慢，要这设置里设置一下代理用 sock 协议，`brew install --cask applite`
 - [MacPorts](https://www.macports.org/) - 另一个软件管理工具。v2.10.7
 - [Alfred](https://apps.apple.com/cn/app/alfred/id405843582?mt=12) - 搜索、快速启动工具，很多功能，`brew install --cask alfred`，v1.2 最后更新：2012年
+- [uTools](https://www.u-tools.cn/index.html) - Alfred 平替，还有 Windows 版，v7.1.1
 - [CheetSheet](https://www.mediaatelier.com/CheatSheet/) - 快捷键提示，长按 Command，`brew install --cask cheatsheet`，其他 Mac 的快捷键提示，[参考](https://sspai.com/post/45338)，[官方](https://support.apple.com/zh-cn/102650)，2025年官网已失效，可以切换到 keyClu
 - [KeyClu](https://github.com/Anze/KeyCluCask/) - 快捷键提示，按 `⌘, ⌘` 呼出，`brew install --cask keyclu`，v0.30.1
 - [CustomShortcuts](https://www.houdah.com/customShortcuts/) - CustomShortcuts 与 KeyClu 一起使用。单击菜单按钮可直接从备忘单中自定义键盘快捷键。`brew install --cask customshortcuts`。v1.2.1
@@ -71,6 +72,7 @@
 - [Ice](https://icemenubar.app/) - 菜单栏管理，免费；0.11.12，2024年；`brew install jordanbaird-ice`
 - [Bartender](https://www.macbartender.com/) - 管理菜单栏图标，收费
 - [iBar](https://www.better365.cn/ibar.html) - 菜单栏管理，可以聚合模式向下扩展，聚合模式收费
+- [OnlySwitch](https://github.com/jacklandrin/OnlySwitch) - 一键切换各种开关，还可以隐藏刘海（Notch），`brew install only-switch`，v2.5.6，2025年
 - [Itsycal](https://www.mowglii.com/itsycal/) - 菜单栏日历，最后更新：2025年
 - [QuickRes](https://thnkdev.com/QuickRes/) - 快速切换分辨率，收费，支持M1。v4.9，最后更新：2021年
 - [Ethernet Status](https://apps.apple.com/cn/app/ethernet-status/id1186187538?mt=12) - 显示有线网络连接状态。v4.5，最后更新：2023年
@@ -207,6 +209,7 @@
 - [OmniGraffle 7](https://www.omnigroup.com/omnigraffle/) - 专业绘图，类 Visio，收费
 - [MacVim](https://macvim.org/) - Vim 编辑器，`brew install --cask macvim`
 - [MindNote](https://apps.apple.com/cn/app/mindnode-6/id1289197285?mt=12) - 思维导图，收费
+- [Xmind](https://xmind.cn/) - 思维导图，收费，有免费版，v25.04
 - [Meld](https://yousseb.github.io/meld/) - 差异比对合并工具，`rew install --cask meld`，[Github](https://github.com/yousseb/meld/releases/)上的版本更新，v3.21.0 (r4)，2023年，
 - [DiffMerge](https://www.sourcegear.com/diffmerge/) - 比对合并工具 `brew install --cask diffmerge`
 - [Beyond Compare](https://www.scootersoftware.com/) - 收费 `brew install --cask beyond-compare` v5.0.7
@@ -266,6 +269,7 @@ brew install —cask adoptopenjdk11
 - [qBittorrent](https://www.qbittorrent.org/) - BT 客户端 `brew install --cask qbittorrent`
 - [Transmission](https://transmissionbt.com/) - BT 客户端 `brew install --cask transmission`
 - [Free Download Manager](https://www.freedownloadmanager.org/) - 下载工具，有 Chrome 插件集成，`brew install --cask free-download-manager`，v6.28
+- [Motrix](https://motrix.app/) - 基于 Aria2 的下载工具，[GitHub](https://github.com/agalwood/Motrix)，v1.8.19，2023年
 
 ### 媒体播放
 
@@ -283,7 +287,7 @@ brew install —cask adoptopenjdk11
 
 - [Paragon NTFS](https://www.paragon-software.com/home/ntfs-mac/) - 读写 Windows NTFS 分区，收费 `brew install --cask paragon-ntfs`，其他几个都有点问题，加载不了
 - [Mounty for NTFS](https://mounty.app/) - 读写 Windows NTFS 分区，免费，`brew install --cask mounty`
-- [NTFSTool](https://ntfstool.com/)- 读写 Windows NTFS 分区，免费 `brew install --cask ntfstool`
+- [NTFSTool](https://ntfstool.com/)- 读写 Windows NTFS 分区，免费 `brew install --cask ntfstool`，[GitHub](https://github.com/ntfstool/ntfstool)，最后更新：2024年
 - [Tuxera NTFS](https://ntfsformac.tuxera.com/download/) - 读写 NTFS，收费
 - [DaisyDisk](https://daisydiskapp.com/) - 显示磁盘占用情况，收费 `brew install --cask daisydisk`
 - [Disk Inventory X](http://www.derlien.com/) - 磁盘信息情况统计，类似 WinDirStat `brew install --cask disk-inventory-x`
