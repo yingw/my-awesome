@@ -138,7 +138,8 @@ Killall Dock
 
 ## 给 iterm 终端设置代理
 
-1. 设置代理
+设置代理
+
 使用 curl，wget，brew 等 http 应用程序会调用 http_proxy 和 https_proxy 这两环境变量进行代理，通过下面方式设置：
 
 方式 1
@@ -148,19 +149,20 @@ export http_proxy=http://127.0.0.1:20091
 export https_proxy=$http_proxy
 ```
 
-方式 2
+方法 2
 
 ```sh
 export http_proxy=http://127.0.0.1:20091 https_proxy=http://127.0.0.1:20091
 ```
 
-2. 取消设置代理
+取消设置代理
 
 ```sh
 unset http_proxy https_proxy
 ```
 
-3. 快速切换代理
+快速切换代理
+
 可以在 ~/.zshrc 或者 ~/.bash_profile 中添加这样的 alias：
 
 ```sh
