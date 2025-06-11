@@ -111,7 +111,7 @@ Windows 工具箱（Awesome Windows），记录我的 Windows 工具和设置
 - [DiskGenius](http://www.diskgenius.cn/DiskGenius) - V5.6.1 分区修改，慎用，海外版 PartitionGuru v4.9.5.508 专业版
 - [WizTree](https://diskanalyzer.com/) - 磁盘使用情况可视化，类似 WinDirStat，超快，v4.23
 - [WinDirStat](https://windirstat.net/) - 磁盘使用情况可视化 v1.1.2；新版本 v2.2.0 只是改了界面，还是慢
-- [SpaceSniffer](http://www.uderzo.it/main_products/space_sniffer/) - 同 WinDirStat，v1.3.0.2 不更新
+- [SpaceSniffer](http://www.uderzo.it/main_products/space_sniffer/) - 同 WinDirStat，v2.0.2.5 2025年更新
 - [CCleaner](https://www.ccleaner.com/) - 清理工具，可以清除重复文件
 - [Dism++](http://www.chuyu.me/) - 系统设置工具，可清理
 - [Bootice](http://www.ipauly.com/) - 最后版本 16 年 v1.3.4.0，官网打不开，随便下载

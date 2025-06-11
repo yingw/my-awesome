@@ -286,7 +286,8 @@ brew install —cask adoptopenjdk11
 - [NTFSTool](https://ntfstool.com/)- 读写 Windows NTFS 分区，免费 `brew install --cask ntfstool`
 - [Tuxera NTFS](https://ntfsformac.tuxera.com/download/) - 读写 NTFS，收费
 - [DaisyDisk](https://daisydiskapp.com/) - 显示磁盘占用情况，收费 `brew install --cask daisydisk`
-- [Disk Inventory X](http://www.derlien.com/) - 磁盘信息情况统计，类似 WinDirStat `brew install --cask disk-inventory-x`
+- [Disk Inventory X](http://www.derlien.com/) - 磁盘信息情况统计，类似 WinDirStat `brew install --cask disk-inventory-x`，v1.3，非原生，依赖 Rosetta，新版本有点问题：读不出外部磁盘文件的大小
+- [GrandPerspectiv](https://grandperspectiv.sourceforge.net/) - 图形显示磁盘文件大小分析，sourceforge 下载免费，AppStore 上下载收费，v3.5.3-L1，2025年。不怎么好看，但是能用
 - [CalHash](https://www.titanium-software.fr/en/calhash.html) - 一个带GUI的Hash计算工具，`brew install --cask calhash`
 
 ### 系统设置
