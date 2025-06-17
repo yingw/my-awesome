@@ -252,3 +252,27 @@ ifconfig | grep inet
 一般是这个：10.211.55.2
 
 然后在客户机里面设置代理
+
+## 自动操作
+
+场景1: [命令行工具设置为应用程序](https://blog.csdn.net/qq_37164975/article/details/109519155)
+
+
+## Wine 中文乱码方块
+
+[参考](https://app.techweb.com.cn/ios/2017-05-05/2520364.shtml)
+
+```regedit
+REGEDIT4
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\FontLink\SystemLink]
+"Arial"="Lantinghei.ttc"
+"Lucida Sans Unicode"="Lantinghei.ttc"
+"Microsoft Sans Serif"="Lantinghei.ttc"
+"MS Sans Serif"="Lantinghei.ttc"
+"SimSun"="Lantinghei.ttc"
+"Tahoma"="Lantinghei.ttc
+"Tahoma Bold"="Lantinghei.ttc"
+```
+
+自动生成的 .desktop 桌面快捷方式文件似乎没用，只要去 exe 创建一个替身就行了。
+或者用“自动操作”做一个shell脚本，内容是 `/opt/homebrew/bin/wine xxx`，存为应用程序

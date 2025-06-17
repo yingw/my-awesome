@@ -94,7 +94,7 @@
 - [Suspicious Package](https://www.mothersruin.com/software/SuspiciousPackage/) - 查看包安装内部信息 `brew install --cask suspicious-package`。v4.5，2024年
 - [AltTab](https://github.com/lwouis/alt-tab-macos) - 可以用 Alt+Tab 切换窗口 `brew install --cask alt-tab`。v7.24.0，2025年
 - [Barrier](https://github.com/debauchee/barrier/) - 允许跨系统操作键鼠控制多台PC `brew install --cask barrier`。v2.4.0，2021年
-- [Wine](https://wiki.winehq.org/MacOS) - Windows 环境模拟，要先安装 `brew install --cask xquartz`，`brew install --cask wine-stable`
+- [Wine](https://wiki.winehq.org/MacOS) - Windows 环境模拟，依赖 [XQuartz](https://www.xquartz.org/)（X窗口系统），要先安装 `brew install --cask xquartz`，`brew install --cask --no-quarantine wine-stable`，版本 v10.0_2，2025年，目前还只支持 Intel，需要 Rosetta2 兼容；卸载：`brew uninstall --cask wine-stable`。[解决中文乱码方块](https://app.techweb.com.cn/ios/2017-05-05/2520364.shtml)
 - [Lulu](https://objective-see.org/products/lulu.html) - 网络防火墙 `brew install --cask lulu`。v3.1.5，2025年
 - [Logi Options+](https://www.logitech.com/en-us/software/logi-options-plus.html) - 罗技鼠标驱动
 
