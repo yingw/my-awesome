@@ -139,7 +139,7 @@
 ### 压缩解压
 
 - [Keka](https://www.keka.io/en/) - 免费下载，AppStore 上收费，也是 [7zip](https://www.7-zip.org/download.html) 的非官方 Mac 版 `brew install --cask keka`，7z官方有Mac的控制台版本。v1.5.0，2025年
-- [Betterzip](https://www.betterzip.net/) - 收费 `brew install --cask betterzip`
+- [Betterzip](https://www.betterzip.net/) - 收费，可试用，有类似7z的主界面，$25，v5.3.4，2023年 `brew install --cask betterzip`
 - [The Unarchiver](https://www.theunarchiver.com/) - 免费，`brew install --cask the-unarchiver`。v4.3.9，2025年
 - [MacZip](https://ezip.awehunt.com/) - 原名`eZip`，国产解压缩工具，免费 `brew install --cask maczip`。v2.4，2024年
 - [Bandizip](http://www.bandisoft.com/bandizip.mac/) - 收费
@@ -271,6 +271,7 @@ brew install —cask adoptopenjdk11
 - [Transmission](https://transmissionbt.com/) - BT 客户端 `brew install --cask transmission`
 - [Free Download Manager](https://www.freedownloadmanager.org/) - 下载工具，有 Chrome 插件集成，`brew install --cask free-download-manager`，v6.28
 - [Motrix](https://motrix.app/) - 基于 Aria2 的下载工具，[GitHub](https://github.com/agalwood/Motrix)，v1.8.19，2023年
+- [speedtest-cli](https://github.com/sivel/speedtest-cli) - 命令行测试工具，[网站](https://speedtest.net)，安装 `brew install speedtest-cli`，运行：`speedtest-cli --simple`
 
 ### 媒体播放
 
@@ -290,10 +291,14 @@ brew install —cask adoptopenjdk11
 - [Mounty for NTFS](https://mounty.app/) - 读写 Windows NTFS 分区，免费，没找到开源，可能是闭源的，`brew install --cask mounty`，2023年，v2.4，支持 MacOS 15
 - [NTFSTool](https://ntfstool.com/)- 读写 Windows NTFS 分区，免费 `brew install --cask ntfstool`，[GitHub](https://github.com/ntfstool/ntfstool)，最后更新：2024年，v3.5.1，支持 M1～M3，第一次需要安装 NTFS 驱动，见 [Help](https://ntfstool.com/help.html)，需要关闭 SIP/重启安装
 - [Tuxera NTFS](https://ntfsformac.tuxera.com/download/) - 读写 NTFS，收费
-- [DaisyDisk](https://daisydiskapp.com/) - 显示磁盘占用情况，收费 `brew install --cask daisydisk`
+- [DaisyDisk](https://daisydiskapp.com/) - 显示磁盘占用情况，收费，使用邮箱激活试用，`brew install --cask daisydisk`
 - [Disk Inventory X](http://www.derlien.com/) - 磁盘信息情况统计，类似 WinDirStat `brew install --cask disk-inventory-x`，v1.3，非原生，依赖 Rosetta，新版本有点问题：读不出外部磁盘文件的大小
 - [GrandPerspectiv](https://grandperspectiv.sourceforge.net/) - 图形显示磁盘文件大小分析，sourceforge 下载免费，AppStore 上下载收费，v3.5.3-L1，2025年。不怎么好看，但是能用
+- [SquirrelDisk](https://www.squirreldisk.com/) - 磁盘空间可视化，环形显示不是很直观，v0.3.4，2023年，[Github](https://github.com/adileo/squirreldisk)
 - [CalHash](https://www.titanium-software.fr/en/calhash.html) - 一个带GUI的Hash计算工具，`brew install --cask calhash`
+- [Disk Space Analyzer: Inspector](https://apps.apple.com/us/app/disk-space-analyzer-inspector/id446243721?mt=12)
+- [baobab](https://apps.gnome.org/zh-CN/Baobab/) - 图形化磁盘，是基于 Gnome 开发的？所以安装一堆依赖。`brew install baobab`，v48，2025年
+- [ncdu](https://dev.yorhel.nl/ncdu) - 命令行模式下的磁盘分析，`brew install ncdu`
 
 ### 系统设置
 
