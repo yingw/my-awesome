@@ -289,7 +289,7 @@ brew install —cask adoptopenjdk11
 
 - [Paragon NTFS](https://www.paragon-software.com/home/ntfs-mac/) - 读写 Windows NTFS 分区，收费 `brew install --cask paragon-ntfs`，其他几个都有点问题，加载不了
 - [Mounty for NTFS](https://mounty.app/) - 读写 Windows NTFS 分区，免费，没找到开源，可能是闭源的，`brew install --cask mounty`，2023年，v2.4，支持 MacOS 15
-- [NTFSTool](https://ntfstool.com/)- 读写 Windows NTFS 分区，免费 `brew install --cask ntfstool`，[GitHub](https://github.com/ntfstool/ntfstool)，最后更新：2024年，v3.5.1，支持 M1～M3，第一次需要安装 NTFS 驱动，见 [Help](https://ntfstool.com/help.html)，需要关闭 SIP/重启安装
+- [NTFSTool](https://ntfstool.com/)- 读写 Windows NTFS 分区，免费 `brew install --cask ntfstool`，[GitHub](https://github.com/ntfstool/ntfstool)，最后更新：2024年，v3.5.1，支持 M1～M3，第一次需要安装 NTFS 驱动，见 [Help](https://ntfstool.com/help.html)，需要关闭 SIP/重启安装。谨慎使用！非开源，issue上都在骂，收费了。卸载方法见：[issue](https://github.com/ntfstool/ntfstool/issues/105)
 - [Tuxera NTFS](https://ntfsformac.tuxera.com/download/) - 读写 NTFS，收费
 - [DaisyDisk](https://daisydiskapp.com/) - 显示磁盘占用情况，收费，使用邮箱激活试用，`brew install --cask daisydisk`
 - [Disk Inventory X](http://www.derlien.com/) - 磁盘信息情况统计，类似 WinDirStat `brew install --cask disk-inventory-x`，v1.3，非原生，依赖 Rosetta，新版本有点问题：读不出外部磁盘文件的大小
