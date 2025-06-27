@@ -284,6 +284,7 @@ brew install —cask adoptopenjdk11
 - [Plex](https://www.plex.tv/) - 家庭影院 `brew install --cask plex`
 - [XnViewMP](https://www.xnview.com/) - 看图软件 `brew install --cask xnviewmp`
 - [VidHub](https://www.freedidi.com/12241.html) - 免费的视频播放器，支持iOS、Mac、ipad、Apple TV
+- [foobar2000](https://www.foobar2000.org/mac) - 有 Mac 版，v2.24.5，2025年，`brew install --cask foobar2000`
 
 ### 磁盘工具
 
