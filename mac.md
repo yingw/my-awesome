@@ -38,6 +38,7 @@
     - [账号管理](#账号管理)
     - [壁纸屏保](#壁纸屏保)
     - [预览增强](#预览增强)
+    - [其他](#其他)
   - [命令行工具](#命令行工具)
   - [网站](#网站)
 
@@ -117,7 +118,7 @@
 
 ### 输入法
 
-- [搜狗输入法](https://pinyin.sogou.com/mac/) - `brew install --cask sogouinput`
+- [搜狗输入法](https://pinyin.sogou.com/mac/) - 现在没有 brew 安装，需要手动下载。v6.18.0 2025年6月
 - [自动切换输入法](https://apps.apple.com/cn/app/%E8%87%AA%E5%8A%A8%E5%88%87%E6%8D%A2%E8%BE%93%E5%85%A5%E6%B3%95/id1470350547?mt=12) - v2.2.7，2025年
 
 ### 系统清理
@@ -384,6 +385,11 @@ brew install --cask qlvideo        #预览视频
 brew install --cask provisionql    #预览 mobileprovision、provisionprofile、ipa 文件
 
 ```
+
+### 其他
+
+- [Steam](https://store.steampowered.com/about/) - 游戏平台，Steam 的 Mac 版本，v4.0，`brew install --cask steam`
+- [RetroArch](https://www.retroarch.com/) - v1.21.0，`brew install --cask retroarch`
 
 ## 命令行工具
 
