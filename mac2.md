@@ -276,3 +276,33 @@ REGEDIT4
 
 自动生成的 .desktop 桌面快捷方式文件似乎没用，只要去 exe 创建一个替身就行了。
 或者用“自动操作”做一个shell脚本，内容是 `/opt/homebrew/bin/wine xxx`，存为应用程序
+
+## 检查校验码
+
+MD5 验证码
+```sh
+# MD5 内置
+md5 file
+# MD5sum 安装
+md5sum file
+# crc32
+crc32 /path/to/file
+# 批量
+for filename in `ls`; do md5 $filename; done
+md5 -r *
+# 过滤文件
+find -s /path/to/folder -type f -exec md5sum {} \;
+find -s /path/to/folder -type f -exec md5 {} \;
+# sha1
+shasum /path/to/file
+# sha256
+sha256 /path/to/file
+# md5sha1sum
+brew install md5sha1sum
+# openssl
+openssl md5 /path/to/file
+openssl sha1 /path/to/file
+openssl sha256 /path/to/file
+
+```
+
