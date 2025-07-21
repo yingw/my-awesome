@@ -38,6 +38,7 @@
     - [账号管理](#账号管理)
     - [壁纸屏保](#壁纸屏保)
     - [预览增强](#预览增强)
+    - [文件管理](#文件管理)
     - [其他](#其他)
   - [命令行工具](#命令行工具)
   - [网站](#网站)
@@ -98,6 +99,8 @@
 - [Wine](https://wiki.winehq.org/MacOS) - Windows 环境模拟，依赖 [XQuartz](https://www.xquartz.org/)（X窗口系统），要先安装 `brew install --cask xquartz`，`brew install --cask --no-quarantine wine-stable`，版本 v10.0_2，2025年，目前还只支持 Intel，需要 Rosetta2 兼容；卸载：`brew uninstall --cask wine-stable`。[解决中文乱码方块](https://app.techweb.com.cn/ios/2017-05-05/2520364.shtml)
 - [Lulu](https://objective-see.org/products/lulu.html) - 网络防火墙 `brew install --cask lulu`。v3.1.5，2025年
 - [Logi Options+](https://www.logitech.com/en-us/software/logi-options-plus.html) - 罗技鼠标驱动
+- [BetterDisplay](https://github.com/waydabber/BetterDisplay) - 控制外接屏，在投屏时可以关闭主屏幕（免费），GitHub上就一个Readme，不开源，有部分专业版功能收费，v3.5.6，`brew install --cask betterdisplay`
+- [赤友右键超人](https://aibotech.cn/right-click-menu/) - 右键菜单增强型应用
 
 ### 终端工具
 
@@ -173,6 +176,7 @@
 - Screen Sharing.APP（屏幕共享） - Mac 自带的 VNC 客户端
 - [AnyDesk](https://anydesk.com/zhs) 远程桌面，需要对方也安装，用 ID 链接
 - [Microsoft Remote Desktop](https://apps.apple.com/us/app/microsoft-remote-desktop/id715768417)，最新版 8.0.44，应用商店里锁国区，可以到 [外面](https://rink.hockeyapp.net/apps/5e0c144289a51fca2d3bfa39ce7f2b06/) 下 Version 10.2.13 (1593)，或者从 brew 安装
+- [Tabby](https://tabby.sh/) - SSH 客户端，有连接管理，[GitHub](https://github.com/eugeny/tabby)，v1.0.223，`brew install --cask tabby`
 
 ### 协同工具
 
@@ -385,6 +389,12 @@ brew install --cask qlvideo        #预览视频
 brew install --cask provisionql    #预览 mobileprovision、provisionprofile、ipa 文件
 
 ```
+
+### 文件管理
+
+- [transnomino](https://www.transnomino.com/) - 文件批量改名，支持正则表达式，v9.3，2025年
+- [FileBot](https://www.filebot.net/) - 视频文件名批量处理
+- [ABetterFinderRename](https://www.publicspace.net/ABetterFinderRename/index.html)
 
 ### 其他
 

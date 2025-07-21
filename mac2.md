@@ -306,3 +306,19 @@ openssl sha256 /path/to/file
 
 ```
 
+## 处理 Mac .DS_Store 文件
+
+[知乎文章：.DS_Store文件彻底删除+禁用生成2025最全攻略](https://zhuanlan.zhihu.com/p/1926963355161190495)
+
+```
+# 打开显示隐藏文件
+defaults write com.apple.finder AppleShowAllFiles TRUE ; killall Finder
+# 批量删除
+find . -name '.DS_Store' -type f -delete
+# 另外还有图片预览缓存
+find . -name '._.*' -type f -delete
+# 禁止在网络共享目录生成
+defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool TRUE
+# 禁止在移动磁盘生成
+defaults write com.apple.desktopservices DSDontWriteUSBStores -bool TRUE
+```
