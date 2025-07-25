@@ -188,6 +188,7 @@ export PATH=/opt/homebrew/bin:$PATH
 - F11
 - Ctrl + Command + F 全屏
 - Optional + Command + D 隐藏任务栏
+- Shift + Option + Command + Esc 关闭窗口（关闭一些没有 APP、没有菜单的弹出告警窗口，如 “自动任务” 的 wine 运行报错）
 
 ## Macbook Pro
 

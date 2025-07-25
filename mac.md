@@ -175,7 +175,7 @@
 - [FileZilla](https://filezilla-project.org/) - FTP 客户端，v3.69.1
 - Screen Sharing.APP（屏幕共享） - Mac 自带的 VNC 客户端
 - [AnyDesk](https://anydesk.com/zhs) 远程桌面，需要对方也安装，用 ID 链接
-- [Microsoft Remote Desktop](https://apps.apple.com/us/app/microsoft-remote-desktop/id715768417)，最新版 8.0.44，应用商店里锁国区，可以到 [外面](https://rink.hockeyapp.net/apps/5e0c144289a51fca2d3bfa39ce7f2b06/) 下 Version 10.2.13 (1593)，或者从 brew 安装
+- [windows-app](https://adoption.microsoft.com/windows-app/) - `brew install --cask windows-app`，v11.1.9，之前叫：[Microsoft Remote Desktop](https://apps.apple.com/us/app/microsoft-remote-desktop/id715768417)，最新版 8.0.44，应用商店里锁国区，可以到 [外面](https://rink.hockeyapp.net/apps/5e0c144289a51fca2d3bfa39ce7f2b06/) 下 Version 10.2.13 (1593)，或者从 brew 安装
 - [Tabby](https://tabby.sh/) - SSH 客户端，有连接管理，[GitHub](https://github.com/eugeny/tabby)，v1.0.223，`brew install --cask tabby`
 
 ### 协同工具
