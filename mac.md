@@ -65,7 +65,7 @@
 - [LocalSend](https://localsend.org/zh-CN) - 将文件分享到附近的设备，基于本地网络。`brew install --cask localsend`
 - [LaunchRocket](https://github.com/jimbojsb/launchrocket) - 自动启动服务管理，`brew install --cask launchrocket`，v0.7，最后更新：2014年
 - [GamePad Companion](https://apps.apple.com/us/app/gamepad-companion/id428799479?mt=12) - 手柄驱动，收费，v3.3.1，最后更新：2014年
-- [超级右键](https://apps.apple.com/cn/app/%E8%B6%85%E7%BA%A7%E5%8F%B3%E9%94%AE-irightmouse/id1497428978?mt=12) - 右键菜单管理软件，v2.3.2，最后更新：2024年
+- [超级右键](https://apps.apple.com/cn/app/%E8%B6%85%E7%BA%A7%E5%8F%B3%E9%94%AE-irightmouse/id1497428978?mt=12) - 右键菜单管理软件，v2.3.9，最后更新：2025年，有 Lite 版和专业版（收费）
 - [Better And Better](https://www.better365.cn/bab2.html) - 触控板、鼠标、键盘的手势等。v2.6.7，最后更新：2025年，安装包是pkg格式
 - [AdGrard](https://adguard.com/zh_cn/welcome.html) - 拦截多个浏览器、系统的广告，收费，试用期14天
 - [Vanilla](https://matthewpalmer.net/vanilla/) - 免费版隐藏任务栏图标，基本够用；收费额外功能
