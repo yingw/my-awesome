@@ -275,6 +275,17 @@ REGEDIT4
 "Tahoma Bold"="Lantinghei.ttc"
 ```
 
+导入注册表：
+
+还没完全解决，部分界面上的字体还是方块，参考：
+
+https://blog.csdn.net/u011233383/article/details/105454632
+
+Mac 字体文件目录：
+'/System/Library/Fonts/'
+Wine Windows 字体目录：
+/Users/yinguowei/.wine/drive_c/windows/Fonts/
+
 自动生成的 .desktop 桌面快捷方式文件似乎没用，只要去 exe 创建一个替身就行了。
 或者用“自动操作”做一个shell脚本，内容是 `/opt/homebrew/bin/wine xxx`，存为应用程序
 
