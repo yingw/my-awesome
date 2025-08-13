@@ -272,7 +272,7 @@ brew install —cask adoptopenjdk11
 - [迅雷](http://mac.xunlei.com/) - 下载工具 `brew install --cask thunder`
 - [Folx](https://mac.eltima.com/cn/torrent-client.html) - 下载工具，免费 + 收费
 - [Downie 4](https://software.charliemonroe.net/downie/) - 视频下载，可以下载 YouTube 视频，收费 `brew install --cask downie`
-- [qBittorrent](https://www.qbittorrent.org/) - BT 客户端 `brew install --cask qbittorrent`
+- [qBittorrent](https://www.qbittorrent.org/) - BT 客户端 `brew install --cask qbittorrent`，Mac 的版本略滞后，v5.0.5
 - [Transmission](https://transmissionbt.com/) - BT 客户端 `brew install --cask transmission`
 - [Free Download Manager](https://www.freedownloadmanager.org/) - 下载工具，有 Chrome 插件集成，`brew install --cask free-download-manager`，v6.28
 - [Motrix](https://motrix.app/) - 基于 Aria2 的下载工具，[GitHub](https://github.com/agalwood/Motrix)，v1.8.19，2023年
