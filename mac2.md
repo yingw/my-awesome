@@ -256,8 +256,22 @@ ifconfig | grep inet
 
 ## 自动操作
 
-场景1: [命令行工具设置为应用程序](https://blog.csdn.net/qq_37164975/article/details/109519155)
+场景1: [将脚本封装为 App](https://blog.csdn.net/qq_37164975/article/details/109519155)
 
+新建 文稿类型：应用程序
+资源库里选：运行shell脚本
+测试运行无误后，存储为 APP
+
+```sh
+/opt/homebrew/bin/wine notepad++
+# 或者用绝对路径
+/opt/homebrew/bin/wine /Users/yinguowei/Tools/BeyondCompare-v4.1.4/BCompare.exe
+
+```
+
+## 替换 APP 图标
+
+在 APP 显示简介 上，点中图标，直接复制图标，或者拖拽图标文件上去。
 
 ## Wine 中文乱码方块
 
