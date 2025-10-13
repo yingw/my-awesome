@@ -198,6 +198,7 @@ export PATH=/opt/homebrew/bin:$PATH
 - F11
 - Ctrl + Command + F 全屏
 - Optional + Command + D 隐藏任务栏
+- Shift + Option + Command + Esc 关闭窗口（关闭一些没有 APP、没有菜单的弹出告警窗口，如 “自动任务” 的 wine 运行报错）
 
 ## Macbook Pro
 
@@ -271,8 +272,22 @@ ifconfig | grep inet
 
 ## 自动操作
 
-场景1: [命令行工具设置为应用程序](https://blog.csdn.net/qq_37164975/article/details/109519155)
+场景1: [将脚本封装为 App](https://blog.csdn.net/qq_37164975/article/details/109519155)
 
+新建 文稿类型：应用程序
+资源库里选：运行shell脚本
+测试运行无误后，存储为 APP
+
+```sh
+/opt/homebrew/bin/wine notepad++
+# 或者用绝对路径
+/opt/homebrew/bin/wine /Users/yinguowei/Tools/BeyondCompare-v4.1.4/BCompare.exe
+
+```
+
+## 替换 APP 图标
+
+在 APP 显示简介 上，点中图标，直接复制图标，或者拖拽图标文件上去。
 
 ## Wine
 
@@ -294,6 +309,17 @@ REGEDIT4
 "Tahoma"="Lantinghei.ttc
 "Tahoma Bold"="Lantinghei.ttc"
 ```
+
+导入注册表：
+
+还没完全解决，部分界面上的字体还是方块，参考：
+
+https://blog.csdn.net/u011233383/article/details/105454632
+
+Mac 字体文件目录：
+'/System/Library/Fonts/'
+Wine Windows 字体目录：
+/Users/yinguowei/.wine/drive_c/windows/Fonts/
 
 自动生成的 .desktop 桌面快捷方式文件似乎没用，只要去 exe 创建一个替身就行了。
 或者用“自动操作”做一个shell脚本，内容是 `/opt/homebrew/bin/wine xxx`，存为应用程序
