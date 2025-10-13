@@ -83,6 +83,7 @@ Windows 工具箱（Awesome Windows），记录我的 Windows 工具和设置
 - [Microsoft Edge](https://www.microsoft.com/en-us/edge) - 非 Windows 10 自带版本，已升级为 Chrome 内核
 - [Safari](https://www.apple.com/cn/safari/) - 在 MacOSX 上测试兼容性
 - [360浏览器](https://browser.360.cn/) - 15.3
+- [360极速浏览器](https://chromex.360.cn/)
 
 ### VPN
 
@@ -103,8 +104,9 @@ Windows 工具箱（Awesome Windows），记录我的 Windows 工具和设置
 - [驱动人生](https://qd.160.com/) - v8.16.XX，不要用驱动精灵，有标准版和集成了万能网卡驱动的网卡版，没有有线网络的环境建议用网卡版
 - [鲁大师](https://www.ludashi.com/) - v6.X，有温控等，旧版鲁大师经典版v5.1
 - [Splashtop Wired XDisplay](https://www.splashtop.com/wiredxdisplay) - 让 iPad 做扩展屏，收费
-- [Logitech Options](https://www.logitech.com.cn/zh-cn/product/options?page=flow-multi-device-control) - 设置 Logitech Flow 多屏共享键鼠 M585 + M330，[下载地址](https://support.logi.com/hc/zh-cn/articles/360025297893)
-- [Logitech G HUB](https://support.logi.com/hc/zh-cn/articles/360024361233) - 设置 G304
+- [Logitech Options](https://www.logitech.com/zh-cn/software/options.html) - 设置 Logitech Flow 多屏共享键鼠 M585 + M330，[下载地址](https://support.logi.com/hc/zh-cn/articles/360025297893-Logitech-Options)
+- [Logitech G HUB](https://support.logi.com/hc/zh-cn/articles/360024361233) - 罗技鼠标设置 G304
+- [Unifying](https://support.logi.com/hc/en-nz/articles/360025297913-Unifying-Software) - 罗技鼠标配对程序
 
 ### 磁盘管理
 

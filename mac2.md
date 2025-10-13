@@ -1,8 +1,13 @@
 # MacOS 命令
 
+Apple 官方文档：
+
+- [Mac 笔记本电脑支持](https://support.apple.com/zh-cn/mac/laptops)
+
 ## 1.3. MacOS 恢复功能
 
-[官方文档](https://support.apple.com/zh-cn/HT201314)，关机状态下按住 `Command (⌘)-R`，再按电源键开机，进入恢复，可以：
+- [重置 Mac 的 SMC](https://support.apple.com/zh-cn/102605)
+- [如何从“macOS 恢复”启动](https://support.apple.com/zh-cn/102518) - “按下再松开电源按钮以将 Mac 开机，然后立即按住键盘上的 Command (⌘) 和 R 这两个按键。”（Intel芯片），进入恢复，可以：
 
 1. Restore From Time Machine Backup
 2. Reinstall Mac OS X
@@ -11,6 +16,11 @@
 注：重装需要联网下载整个 OS 镜像
 
 或者 [制作使用引导安装器](https://support.apple.com/zh-cn/HT201372)
+
+## 降级 / 重新安装 macOS
+
+- [如何下载和安装 macOS](https://support.apple.com/zh-cn/102662)
+- [创建可引导的 macOS 安装器](https://support.apple.com/zh-cn/101578)
 
 ## 1.4. 初始化
 
@@ -207,8 +217,14 @@ export PATH=/opt/homebrew/bin:$PATH
 - 禁用电源小睡以及TCP keep alive:
 
 ```sh
-sudo pmset -a tcpkeepalive 0
-sudo pmset -a powernap 0`
+sudo pmset -a hibernatemode 25
+sudo pmset -b tcpkeepalive 0
+sudo pmset -a powernap 0
+
+恢复
+sudo pmset -a hibernatemode 3
+sudo pmset -b tcpkeepalive 1
+
 ```
 
 其他命令
@@ -258,9 +274,14 @@ ifconfig | grep inet
 场景1: [命令行工具设置为应用程序](https://blog.csdn.net/qq_37164975/article/details/109519155)
 
 
-## Wine 中文乱码方块
+## Wine
 
-[参考](https://app.techweb.com.cn/ios/2017-05-05/2520364.shtml)
+运行 .exe 程序： `wine program.exe`
+运行 .msi 安装程序： `msiexec /i program.msi`
+设置 wine： `winecfg`
+查看程序兼容性： `appdb Program Name`，其实是链接到 appdb.winehq.org 进行查询
+
+中文乱码方块，[参考](https://app.techweb.com.cn/ios/2017-05-05/2520364.shtml)
 
 ```regedit
 REGEDIT4
@@ -306,6 +327,18 @@ openssl sha256 /path/to/file
 
 ```
 
+## macOS 26 Tahoe
+
+Tahoe 里面 Apple 去掉了原来的启动台 Launchpad，替换为 Spotlight，恢复的方法：
+
+- 官方的讨论：[How do I restore the old Launchpad in macOS Tahoe](https://discussions.apple.com/thread/256146250?sortBy=rank)
+- [命令行恢复方式（可能已失效）](https://www.reddit.com/r/MacOSBeta/comments/1lk8j5r/get_launchpad_back_macos_26/)
+- 开源替代品：[kristof12345/Launchpad](https://github.com/kristof12345/Launchpad)
+- [Semnykcze/MacOS-26-Launchpad](https://github.com/Semnykcze/MacOS-26-Launchpad) - 恢复脚本（可能已失效）
+- NovaPadGo - AppStore 上的第三方 Launchpad，收费
+- [LaunchBoard – App Launcher](https://apps.apple.com/us/app/launchboard-app-launcher/id6753108141)
+- [Quick App Launcher (QAL) Pro](https://apps.apple.com/us/app/quick-app-launcher-qal-pro/id6740396517) - 收费
+
 ## 处理 Mac .DS_Store 文件
 
 [知乎文章：.DS_Store文件彻底删除+禁用生成2025最全攻略](https://zhuanlan.zhihu.com/p/1926963355161190495)
@@ -313,12 +346,36 @@ openssl sha256 /path/to/file
 ```
 # 打开显示隐藏文件
 defaults write com.apple.finder AppleShowAllFiles TRUE ; killall Finder
+# 查找
+find /path/where/is -name .DS_Store
+# 删除
+find /path/where/is -name .DS_Store -delete
 # 批量删除
 find . -name '.DS_Store' -type f -delete
 # 另外还有图片预览缓存
 find . -name '._.*' -type f -delete
-# 禁止在网络共享目录生成
+# 禁止在网络共享目录生成，重启生效
 defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool TRUE
-# 禁止在移动磁盘生成
+# 禁止在移动磁盘生成，重启生效
 defaults write com.apple.desktopservices DSDontWriteUSBStores -bool TRUE
+# 查看设置
+defaults read com.apple.desktopservices DSDontWriteNetworkStores
+defaults read com.apple.desktopservices DSDontWriteUSBStores
+# 恢复
+defaults write com.apple.finder AppleShowAllFiles FALSE ; killall Finder
+defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool FALSE
+defaults write com.apple.desktopservices DSDontWriteUSBStores -bool FALSE
+# 另一个禁用特定目录生成 .DS_Store 的方法，只能单个目录设置
+sudo cp -af /dev/null ~/Documents/.DS_Store && sudo chmod a=rw ~/Documents/.DS_Store
+
 ```
+
+- [CleanMyMac](https://macpaw.com/cleanmymac) 默认批量删除 .DS_Store 文件
+- [Asepsis](https://asepsis.binaryage.com/) - 禁用 .DS_Store，但是只支持旧版 MacOS 10.8 - 10.10
+- [BlueHarvest](https://www.zeroonetwenty.com/blueharvest/) - 自动删除 .DS_Store，支持 macOS 10.15 至 macOS 15，收费
+
+## 其他
+
+- [is Apple Silicon Ready](https://isapplesiliconready.com/)
+- [屏蔽设置提示升级的小红点](https://zhuanlan.zhihu.com/p/1951680001368917919)
+- 关于 SIP (System Integrity Protection) - 禁用：在恢复模式下运行 `csrutil disable`，恢复：`csrutil enable`（强烈不建议关闭）
