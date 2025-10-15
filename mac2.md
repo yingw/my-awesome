@@ -266,6 +266,8 @@ ifconfig | grep inet
 /opt/homebrew/bin/wine notepad++
 # 或者用绝对路径
 /opt/homebrew/bin/wine /Users/yinguowei/Tools/BeyondCompare-v4.1.4/BCompare.exe
+# 或者用
+/usr/local/bin/wine notepad++
 
 ```
 

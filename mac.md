@@ -42,6 +42,7 @@
     - [其他](#其他)
   - [命令行工具](#命令行工具)
   - [网站](#网站)
+  - [其他](#其他-1)
 
 <!-- /TOC -->
 
@@ -73,7 +74,7 @@
 - [Hidden Bar](https://github.com/dwarvesf/hidden/) - 同 Dozer，隐藏任务栏图标，更新点 `brew install --cask hiddenbar`。v1.9，最后更新：2022年
 - [Ice](https://icemenubar.app/) - 菜单栏管理，免费；0.11.12，2024年；`brew install jordanbaird-ice`
 - [Bartender](https://www.macbartender.com/) - 管理菜单栏图标，收费
-- [iBar](https://www.better365.cn/ibar.html) - 菜单栏管理，可以聚合模式向下扩展，聚合模式收费
+- [iBar](https://www.better365.cn/ibar.html) - 菜单栏管理，可以聚合模式向下扩展，聚合模式收费。普通模式对刘海屏没用。
 - [OnlySwitch](https://github.com/jacklandrin/OnlySwitch) - 一键切换各种开关，还可以隐藏刘海（Notch），`brew install only-switch`，v2.5.6，2025年
 - [Itsycal](https://www.mowglii.com/itsycal/) - 菜单栏日历，最后更新：2025年
 - [QuickRes](https://thnkdev.com/QuickRes/) - 快速切换分辨率，收费，支持M1。v4.9，最后更新：2021年
@@ -91,7 +92,7 @@
 - [Multipass](https://multipass.run/) - Ubuntu 公司官方的虚拟机 `brew install --cask multipass`
 - [Caffeine](https://intelliscapesolutions.com/apps/caffeine) - 阻止Mac进入休眠，可改用 KeepingYouAwake `brew install --cask caffeine`，v1.1.3，最后更新：2020年
 - [Amphetamine](https://apps.apple.com/us/app/amphetamine/id937984704?mt=12) -  App Store 上的另一款阻止休眠，免费。v5.3.2，2023年
-- [KeepingYouAwake](https://keepingyouawake.app/) - 同 Caffeine，更新更频繁 `brew install --cask keepingyouawake`。v1.6.6，2024年
+- [KeepingYouAwake](https://keepingyouawake.app/) - 同 Caffeine，更新更频繁 `brew install --cask keepingyouawake`。v1.6.8，2024年
 - [iHash](https://apps.apple.com/cn/app/ihash/id763902043?mt=12) - 比较文件、文件夹 Hash 值（找不到了）。替代品：[Hash/Check](https://apps.apple.com/us/app/hash-check/id1550525767?mt=12)，免费，v2.1，2023年
 - [Suspicious Package](https://www.mothersruin.com/software/SuspiciousPackage/) - 查看包安装内部信息 `brew install --cask suspicious-package`。v4.5，2024年
 - [AltTab](https://github.com/lwouis/alt-tab-macos) - 可以用 Alt+Tab 切换窗口 `brew install --cask alt-tab`。v7.24.0，2025年
@@ -138,6 +139,7 @@
 - [Snipaste](https://www.snipaste.com/download.html) - 截图软件，免费 `brew install --cask snipaste`。v2.10.6，2025年
 - [iShot](https://apps.apple.com/cn/app/ishot-%E6%88%AA%E5%9B%BE-%E5%BD%95%E5%B1%8F-2020%E5%85%A8%E6%96%B0%E9%AB%98%E5%BA%A6/id1485844094?mt=12) - 截图工具，支持长截图。v2.5.9，2024年
 - [Kap](https://getkap.co/)，[GitHub](https://github.com/wulkano/kap)： `brew install --cask kap` 可以截屏，可以录屏为 GIF 或者 MP4，比较大。v3.6.0，2022年
+- [Omi](https://apps.apple.com/tt/app/screen-recorder-by-omi/id1592987853?mt=12) - 录屏工具，1.3.17，2025年，免费版功能够用
 - [LICEcap](https://www.cockos.com/licecap/) - 区域录屏为 GIF `brew install --cask licecap`。v1.32，2022年
 
 ### 压缩解压
@@ -373,7 +375,7 @@ brew install —cask adoptopenjdk11
 - Dynamic Wallpaper Engine - 收费，免费版叫花见
 - 壁纸精灵 - 收费
 - [Unsplash Wallpapers](https://unsplash.com/wallpapers) - 免费，自然
-- [Pap.er](http://paper.meiyuan.in/)
+- [Pap.er](http://paper.meiyuan.in/) - 免费壁纸应用，[链接2](https://paper.photos/)，[AppStore](https://apps.apple.com/cn/app/pap-er-%E4%BC%98%E9%9B%85%E5%A3%81%E7%BA%B8/id1639052102)
 
 ### 预览增强
 
@@ -416,3 +418,11 @@ brew install --cask provisionql    #预览 mobileprovision、provisionprofile、
 
 - [Dynamic Wallpaper Club](https://dynamicwallpaper.club/) - 动态壁纸俱乐部，手动下载动态壁纸
 - [MacWk](https://www.macwk.com/soft/all/p1) - Mac 软件网站
+
+
+## 其他
+
+- [popclip](https://www.popclip.app/) - 关键词扩展功能，免费试用 250 次 + 收费，`brew install --cask popclip`，brew 上安装的是较旧的版本
+- [TunesBro CleanGeeker](https://www.tunesbro.com/mac-cleaner.html) - 清理软件，有查重复文件功能
+- [Disk Drill](https://www.cleverfiles.com/) - 文件恢复功能，也有文件查重功能，Version 6.0.2020 • macOS 10.15.7–26.x，还有 Windows 版
+- 
