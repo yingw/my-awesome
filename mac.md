@@ -65,10 +65,13 @@
 - [HandShaker](https://www.smartisan.com/apps/#/handshaker) - 锤子科技的文件管理软件，用于在 Mac 电脑上管理 Android 手机内容，通过手机端 APP 链接配对，v2.5.6，最后更新：2018年
 - [MacDroid](https://www.macdroid.app/) - 和 Android 设备传输文件，免费版只有只读模式，`brew install --cask macdroid`
 - [OpenMTP](https://openmtp.ganeshrvel.com/) - Mac 上的 Android 手机文件管理，可 MTP 文件传输，`brew install --cask openmtp`
-- [LocalSend](https://localsend.org/zh-CN) - 将文件分享到附近的设备，基于本地网络。`brew install --cask localsend`
+- [LANDrop](https://landrop.app/) - 跨平台文件传输，`brew install --cask landrop`，v2.7.2 ，macOS >= 10.15
+- [LocalSend](https://localsend.org/zh-CN) - 将文件分享到附近的设备，基于本地网络。`brew install --cask localsend`，v1.17.0，2025年，[AppStore](https://apps.apple.com/us/app/localsend/id1661733229)
 - [LaunchRocket](https://github.com/jimbojsb/launchrocket) - 自动启动服务管理，`brew install --cask launchrocket`，v0.7，最后更新：2014年
 - [GamePad Companion](https://apps.apple.com/us/app/gamepad-companion/id428799479?mt=12) - 手柄驱动，收费，v3.3.1，最后更新：2014年
 - [超级右键](https://apps.apple.com/cn/app/%E8%B6%85%E7%BA%A7%E5%8F%B3%E9%94%AE-irightmouse/id1497428978?mt=12) - 右键菜单管理软件，有免费和付费版本。v2.4.1，最后更新：2025年
+- [RClick](https://github.com/wflixu/RClick) - Finder 右键菜单增强，v1.7.0，2025年
+- [OpenInTerminal](https://github.com/Ji4n1ng/OpenInTerminal) - Finder 工具栏上直接进入终端，v2.3.8，2025年，`brew install --cask openinterminal`
 - [Better And Better](https://www.better365.cn/bab2.html) - 触控板、鼠标、键盘的手势等。v2.6.7，最后更新：2025年，安装包是pkg格式
 - [AdGrard](https://adguard.com/zh_cn/welcome.html) - 拦截多个浏览器、系统的广告，收费，试用期14天
 - [Vanilla](https://matthewpalmer.net/vanilla/) - 免费版隐藏任务栏图标，基本够用；收费额外功能
@@ -90,9 +93,11 @@
 - [SwitchHosts](https://github.com/oldj/SwitchHosts) - Hosts 模板，快速切换 `brew install --cask switchhosts`。v4.2.0，2024年
 - [iHosts](https://toolinbox.net/iHosts/) - v1.4.0，2018年
 - [MacOS小助手](https://www.macwk.com/soft/macos-assistant-macwk) - 工具集，含禁用 macOS 更新提示
-- [Spectacle](https://www.spectacleapp.com/) - 分隔屏幕窗口布局 `brew install --cask spectacle`
+- [Spectacle](https://www.spectacleapp.com/) - 分隔屏幕窗口布局 `brew install --cask spectacle`，官网和 brew 已失效。[Github](https://github.com/eczarny/spectacle) 还在，已停止更新，最后更新：2022年，v1.2
 - [Rectangle](https://rectangleapp.com/) - 分隔屏幕窗口布局，支持拖动 `brew install --cask rectangle`，v0.87，最后更新：2025年
 - [Multipass](https://multipass.run/) - Ubuntu 公司官方的虚拟机 `brew install --cask multipass`
+- [afloat](https://github.com/rwu823/afloat) - 让窗口 pin 在最前端的插件，但是很老不保险
+- [Topit](https://github.com/lihaoyun6/Topit) - 窗口置顶，`brew install lihaoyun6/tap/topit`, v0.1.5，2024年
 - [Caffeine](https://intelliscapesolutions.com/apps/caffeine) - 阻止Mac进入休眠，可改用 KeepingYouAwake `brew install --cask caffeine`，v1.1.3，最后更新：2020年
 - [Amphetamine](https://apps.apple.com/us/app/amphetamine/id937984704?mt=12) -  App Store 上的另一款阻止休眠，免费。v5.3.2，2023年
 - [KeepingYouAwake](https://keepingyouawake.app/) - 同 Caffeine，更新更频繁 `brew install --cask keepingyouawake`。v1.6.6，2024年
@@ -145,6 +150,7 @@
 - [Snipaste](https://www.snipaste.com/download.html) - 截图软件，免费 `brew install --cask snipaste`。v2.10.6，2025年
 - [iShot](https://apps.apple.com/cn/app/ishot/id1485844094?mt=12) - 截图工具，支持长截图。v2.5.9，2024年
 - [Kap](https://getkap.co/)，[GitHub](https://github.com/wulkano/kap)： `brew install --cask kap` 可以截屏，可以录屏为 GIF 或者 MP4，比较大。v3.6.0，2022年
+- [PixPin](https://pixpin.cn/) - 屏幕截图，录制屏幕，长截图，文字识别，贴图，v2.0.0.3 macOS >= 10.15，`brew install --cask pixpin`
 - [LICEcap](https://www.cockos.com/licecap/) - 区域录屏为 GIF `brew install --cask licecap`。v1.32，2022年
 
 ### 压缩解压
@@ -213,11 +219,13 @@
 - [网易邮箱大师](https://mail.163.com/dashi/) - 网易邮件客户端
 - 微软 Outlook - 有新旧版切换，新版免费；目前无法同步 iCloud 的通讯录到 Outlook
 - [Thunderbird](https://www.thunderbird.net/zh-CN/) - `brew install --cask thunderbird`，Mozilla 浏览器的邮件客户端，很强大，略丑，可以同步 iCloud 的通讯录
-- Spark
-- Airmail
+- [Spark](https://sparkmailapp.com/)
+- [Airmail](https://airmailapp.com/)
+- [MailMate](https://freron.com/)
 
 ### 文档编辑
 
+- [TextMate](https://macromates.com/) - macOS平台的专业文本编辑器，v2.0.23，支持 OS X 10.12 (i386 / ARM)，`brew install --cask textmate`，最后更新：2021年
 - [NotepadNext](https://github.com/dail8859/NotepadNext) - Notepad++ 的 Mac 替代，v0.11，2025年，homebrew 要设置 [tap](https://github.com/dail8859/homebrew-notepadnext)
 - [Typora](https://www.typora.io/) - Markdown 格式编辑器 `brew install --cask typora`，最后的[免费版 v0.11.18](https://github.com/wyf9661/typora-free)
 - [VNote](https://app.vnote.fun/) -  Markdown编辑器，支持Windows/Mac/Linux，[GitHub](https://github.com/vnotex/vnote)，`brew install --cask vnote`，v3.19.2
@@ -293,7 +301,7 @@ brew install —cask adoptopenjdk11
 ### 媒体播放
 
 - [IINA](https://www.iina.io/) - 视频播放，开源免费，`brew install --cask iina`。v1.3.5，2024年。
-- VLC - `brew install --cask vlc`
+- [VLC](https://www.videolan.org/) - `brew install --cask vlc`
 - [网易云音乐](https://music.163.com/) - 网易，`brew install --cask neteasemusic`
 - [Listen 1](https://listen1.github.io/listen1/)：搜索和播放来自网易云音乐，虾米，QQ 音乐，酷狗音乐，酷我音乐网站的歌曲，`brew install --cask listen1`。v2.32.0，2024年
 - [OBS Studio](https://obsproject.com/) - 截取视频采集卡视频流 `brew install --cask obs`，v31.0.3，2025年

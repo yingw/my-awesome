@@ -7,7 +7,15 @@ Apple 官方文档：
 ## 1.3. MacOS 恢复功能
 
 - [重置 Mac 的 SMC](https://support.apple.com/zh-cn/102605)
+- [以安全模式启动 Mac](https://support.apple.com/zh-cn/116946) - Intel 芯片：按住 Shift 开机；Apple 芯片：安装开机键看到启动选项，再按住 Shift 按“继续以安全模式运行”按
 - [如何从“macOS 恢复”启动](https://support.apple.com/zh-cn/102518) - “按下再松开电源按钮以将 Mac 开机，然后立即按住键盘上的 Command (⌘) 和 R 这两个按键。”（Intel芯片），进入恢复，可以：
+- [重置 Mac 上的 NVRAM](https://support.apple.com/zh-cn/102539) (Apple CPU 不需要)
+- 电池问题：[如果你在 MacBook Air 或 MacBook Pro 上看到“建议维修”](https://support.apple.com/zh-cn/108376)
+- [识别 Mac 电源适配器](https://support.apple.com/zh-cn/109509)
+- 关于充电：[为 MacBook Air 或 MacBook Pro 充电](https://support.apple.com/zh-cn/102397)
+- 关于快充：[为 MacBook Air 或 MacBook Pro 快速充电](https://support.apple.com/zh-cn/102378) - 没有提到 PD 协议充电器，但是应该也支持
+- [苹果历代充电器](https://post.smzdm.com/p/a90r70wo/)
+- [笔记本电脑按键](https://support.apple.com/zh-cn/101268)
 
 1. Restore From Time Machine Backup
 2. Reinstall Mac OS X
@@ -254,8 +262,6 @@ Rosetta - 在 Arm 架构的 Mac CPU 上模拟 X86 环境运行 APP
 `/usr/sbin/softwareupdate --install-rosetta --agree-to-license`
 选择有bug或闪退的软件右键——显示简介——勾选使用Rosetta打开
 
-[Reset NVRAM or PRAM on your Mac - Apple Support](https://support.apple.com/HT204063) (Apple CPU 不需要)
-
 ## Parallels Desktop
 
 使用宿主机的代理服务
@@ -380,6 +386,11 @@ find /path/where/is -name .DS_Store -delete
 find . -name '.DS_Store' -type f -delete
 # 另外还有图片预览缓存
 find . -name '._.*' -type f -delete
+# 另一个几个版本：删除 ._.DS_Store 、跳过输出
+find . -type f \( -name ".DS_Store" -o -name "._.DS_Store" \) -delete -print 2>&1 | grep -v "Permission denied"
+sudo find / -name “.DS_Store” -depth -exec rm {} \
+rm -v **/.DS_Store
+
 # 禁止在网络共享目录生成，重启生效
 defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool TRUE
 # 禁止在移动磁盘生成，重启生效
@@ -399,6 +410,7 @@ sudo cp -af /dev/null ~/Documents/.DS_Store && sudo chmod a=rw ~/Documents/.DS_S
 - [CleanMyMac](https://macpaw.com/cleanmymac) 默认批量删除 .DS_Store 文件
 - [Asepsis](https://asepsis.binaryage.com/) - 禁用 .DS_Store，但是只支持旧版 MacOS 10.8 - 10.10
 - [BlueHarvest](https://www.zeroonetwenty.com/blueharvest/) - 自动删除 .DS_Store，支持 macOS 10.15 至 macOS 15，收费
+- [DS_Store Cleaner](https://apps.apple.com/us/app/ds-store-cleaner/id6748859939?mt=12) - 手动清除 DS_Store 文件，免费，2025年，v1.2，[官网](https://www.pcffm.de/macos-app-delete-ds_store-files-in-seconds/)需要梯子
 
 ## 其他
 
