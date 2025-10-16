@@ -40,9 +40,9 @@
     - [壁纸屏保](#壁纸屏保)
     - [预览增强](#预览增强)
     - [文件管理](#文件管理)
-    - [其他](#其他)
   - [命令行工具](#命令行工具)
   - [网站](#网站)
+  - [其他](#其他)
 
 <!-- /TOC -->
 
@@ -79,7 +79,7 @@
 - [Hidden Bar](https://github.com/dwarvesf/hidden/) - 同 Dozer，隐藏任务栏图标，更新点 `brew install --cask hiddenbar`。v1.9，最后更新：2022年
 - [Ice](https://icemenubar.app/) - 菜单栏管理，免费；0.11.12，2024年；`brew install jordanbaird-ice`
 - [Bartender](https://www.macbartender.com/) - 管理菜单栏图标，收费
-- [iBar](https://www.better365.cn/ibar.html) - 菜单栏管理，可以聚合模式向下扩展，聚合模式收费
+- [iBar](https://www.better365.cn/ibar.html) - 菜单栏管理，可以聚合模式向下扩展，聚合模式收费。普通模式对刘海屏没用。
 - [OnlySwitch](https://github.com/jacklandrin/OnlySwitch) - 一键切换各种开关，还可以隐藏刘海（Notch），`brew install only-switch`，v2.5.6，2025年
 - [Itsycal](https://www.mowglii.com/itsycal/) - 菜单栏日历，最后更新：2025年
 - [QuickRes](https://thnkdev.com/QuickRes/) - 快速切换分辨率，收费，支持M1。v4.9，最后更新：2021年
@@ -100,7 +100,7 @@
 - [Topit](https://github.com/lihaoyun6/Topit) - 窗口置顶，`brew install lihaoyun6/tap/topit`, v0.1.5，2024年
 - [Caffeine](https://intelliscapesolutions.com/apps/caffeine) - 阻止Mac进入休眠，可改用 KeepingYouAwake `brew install --cask caffeine`，v1.1.3，最后更新：2020年
 - [Amphetamine](https://apps.apple.com/us/app/amphetamine/id937984704?mt=12) -  App Store 上的另一款阻止休眠，免费。v5.3.2，2023年
-- [KeepingYouAwake](https://keepingyouawake.app/) - 同 Caffeine，更新更频繁 `brew install --cask keepingyouawake`。v1.6.6，2024年
+- [KeepingYouAwake](https://keepingyouawake.app/) - 同 Caffeine，更新更频繁 `brew install --cask keepingyouawake`。v1.6.8，2024年
 - [iHash](https://apps.apple.com/cn/app/ihash/id763902043?mt=12) - 比较文件、文件夹 Hash 值（找不到了）。替代品：[Hash/Check](https://apps.apple.com/us/app/hash-check/id1550525767?mt=12)，免费，v2.1，2023年
 - [Suspicious Package](https://www.mothersruin.com/software/SuspiciousPackage/) - 查看包安装内部信息 `brew install --cask suspicious-package`。v4.5，2024年
 - [AltTab](https://github.com/lwouis/alt-tab-macos) - 可以用 Alt+Tab 切换窗口 `brew install --cask alt-tab`。v7.24.0，2025年
@@ -151,6 +151,7 @@
 - [iShot](https://apps.apple.com/cn/app/ishot/id1485844094?mt=12) - 截图工具，支持长截图。v2.5.9，2024年
 - [Kap](https://getkap.co/)，[GitHub](https://github.com/wulkano/kap)： `brew install --cask kap` 可以截屏，可以录屏为 GIF 或者 MP4，比较大。v3.6.0，2022年
 - [PixPin](https://pixpin.cn/) - 屏幕截图，录制屏幕，长截图，文字识别，贴图，v2.0.0.3 macOS >= 10.15，`brew install --cask pixpin`
+- [Omi](https://apps.apple.com/tt/app/screen-recorder-by-omi/id1592987853?mt=12) - 录屏工具，1.3.17，2025年，免费版功能够用
 - [LICEcap](https://www.cockos.com/licecap/) - 区域录屏为 GIF `brew install --cask licecap`。v1.32，2022年
 
 ### 压缩解压
@@ -403,7 +404,7 @@ brew install —cask adoptopenjdk11
 - Dynamic Wallpaper Engine - 收费，免费版叫花见
 - 壁纸精灵 - 收费
 - [Unsplash Wallpapers](https://unsplash.com/wallpapers) - 免费，自然
-- [Pap.er](http://paper.meiyuan.in/)
+- [Pap.er](http://paper.meiyuan.in/) - 免费壁纸应用，[链接2](https://paper.photos/)，[AppStore](https://apps.apple.com/cn/app/pap-er-%E4%BC%98%E9%9B%85%E5%A3%81%E7%BA%B8/id1639052102)
 
 ### 预览增强
 
@@ -426,11 +427,6 @@ brew install --cask provisionql    #预览 mobileprovision、provisionprofile、
 - [FileBot](https://www.filebot.net/) - 视频文件名批量处理
 - [ABetterFinderRename](https://www.publicspace.net/ABetterFinderRename/index.html)
 
-### 其他
-
-- [Steam](https://store.steampowered.com/about/) - 游戏平台，Steam 的 Mac 版本，v4.0，`brew install --cask steam`
-- [RetroArch](https://www.retroarch.com/) - v1.21.0，`brew install --cask retroarch`
-
 ## 命令行工具
 
 一些好用的第三方命令行工具（待整理）
@@ -450,3 +446,11 @@ brew install --cask provisionql    #预览 mobileprovision、provisionprofile、
 - [appstorrent](https://appstorrent.ru/) - 俄罗斯
 - [HaxMac](https://haxmac.cc/)
 - [awesome](https://github.com/jaywcjlove/awesome-mac/blob/master/README-zh.md)
+
+## 其他
+
+- [Steam](https://store.steampowered.com/about/) - 游戏平台，Steam 的 Mac 版本，v4.0，`brew install --cask steam`
+- [RetroArch](https://www.retroarch.com/) - v1.21.0，`brew install --cask retroarch`
+- [popclip](https://www.popclip.app/) - 关键词扩展功能，免费试用 250 次 + 收费，`brew install --cask popclip`，brew 上安装的是较旧的版本
+- [TunesBro CleanGeeker](https://www.tunesbro.com/mac-cleaner.html) - 清理软件，有查重复文件功能
+- [Disk Drill](https://www.cleverfiles.com/) - 文件恢复功能，也有文件查重功能，Version 6.0.2020 • macOS 10.15.7–26.x，还有 Windows 版
