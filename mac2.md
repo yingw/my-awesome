@@ -27,6 +27,7 @@ Apple 官方文档：
 
 ## 降级 / 重新安装 macOS
 
+- [如何重新安装 macOS](https://support.apple.com/zh-cn/102655)
 - [如何下载和安装 macOS](https://support.apple.com/zh-cn/102662)
 - [创建可引导的 macOS 安装器](https://support.apple.com/zh-cn/101578)
 
@@ -201,12 +202,62 @@ export PATH=/opt/homebrew/bin:$PATH
 
 ## 快捷键
 
+[Mac 键盘快捷键](https://support.apple.com/zh-cn/102650)
+
+修饰键：
+
+- Fn (Function) 或地球仪
+- Control（或 Ctrl）⌃
+- Option（或 Alt）⌥
+- Shift ⇧
+- Command（或 Cmd）⌘
+
+常用快捷键：
+
+- Command-X：剪切
+- Command-C：拷贝
+- Command-V：粘贴
+- Finder 里文件剪切需要：拷贝（Command-C）后，再“移动” (Option-Command-V)
+- Command-Z：撤销上一个命令。Shift-Command-Z 来重做
+- Command-A：选择所有
+- Command-F：查找
+- Command-H：隐藏最前方 App 的窗口。要查看最前方的 App 但隐藏所有其他 App，请按 Option-Command-H。
+- Command-M：将最前方的窗口最小化至程序坞。要最小化最前方 App 的所有窗口，请按 Option-Command-M。
+- Command-O：打开所选项目，或打开一个对话框以选择要打开的文件。
+- Command-S：存储当前文稿。
+- Command-T：打开新标签页。
+- Command-W：关闭最前方的窗口。要关闭 App 的所有窗口，请按下 Option-Command-W。
+
+文本编辑：
+
+- Backspace：删除光标前的字符
+- Fn + Backspace：删除光标后的单词（相当于 Windows 的 Delete）
+
+系统桌面
+
+- Command-空格键：显示或隐藏“聚焦”搜索栏
+- Option-Command-Esc：强制退出 App
 - Shift + Ctrl + Opt + 关机: 瞬间关机
 - Ctrl + Opt + 关机: 正常关机
 - F11
 - Ctrl + Command + F 全屏
 - Optional + Command + D 隐藏任务栏
 - Shift + Option + Command + Esc 关闭窗口（关闭一些没有 APP、没有菜单的弹出告警窗口，如 “自动任务” 的 wine 运行报错）
+- Command-重音符 (`)：在你当前所用 App 的各个窗口之间切换
+- Command-逗号 (,)：打开最前方 App 的设置（偏好设置）。
+
+访达（Finder，文件管理器）：
+
+- Shift-Command-C：打开“电脑”窗口
+- Shift-Command-D：打开“桌面”文件夹
+- Shift-Command-F：打开“最近使用”窗口
+- Shift-Command-G：打开“前往文件夹”窗口
+- Shift-Command-H：打开当前 macOS 用户账户的个人文件夹
+- Option-Command-L：打开“下载”文件夹
+- Shift-Command-N：新建文件夹。
+- Shift-Command-T：显示或隐藏“访达”窗口中的标签页栏。
+- Command-Delete：将所选项目移到废纸篓。
+- Fn-Shift-A：显示或隐藏启动台。
 
 ## Macbook Pro
 
@@ -413,6 +464,18 @@ sudo cp -af /dev/null ~/Documents/.DS_Store && sudo chmod a=rw ~/Documents/.DS_S
 - [Asepsis](https://asepsis.binaryage.com/) - 禁用 .DS_Store，但是只支持旧版 MacOS 10.8 - 10.10
 - [BlueHarvest](https://www.zeroonetwenty.com/blueharvest/) - 自动删除 .DS_Store，支持 macOS 10.15 至 macOS 15，收费
 - [DS_Store Cleaner](https://apps.apple.com/us/app/ds-store-cleaner/id6748859939?mt=12) - 手动清除 DS_Store 文件，免费，2025年，v1.2，[官网](https://www.pcffm.de/macos-app-delete-ds_store-files-in-seconds/)需要梯子
+
+## 启用未知来源软件
+
+Mac 提示「未打开“XXX.app”」Apple 无法验证“Sketch.app”是否包含可能危害Mac安全或泄露隐私的恶意软件。
+
+是因为：macOS 15.0 系统开始，Mac 改动了保护机制，默认不允许安装未知来源的软件（即自己下载的 APP 且没有授权开发证书签名）。
+
+临时授权：「系统偏好设置」-「隐私与安全性」-「安全性」，点击「仍要打开」
+
+或者使用单一签名：执行：`sudo xattr -rd com.apple.quarantine /Applications/XXX.app`
+
+永久授权：终端执行：`sudo spctl --master-disable`，此为之安全性来源里增加了选项“任何来源”，然后去安全性里设置为允许“任何来源”
 
 ## 其他
 
