@@ -19,6 +19,7 @@ Windows 工具箱（Awesome Windows），记录我的 Windows 工具和设置
     - [即时通讯](#即时通讯)
     - [阅读工具](#阅读工具)
     - [看图工具](#看图工具)
+    - [图像处理](#图像处理)
     - [影音播放](#影音播放)
     - [翻译工具](#翻译工具)
     - [AI大模型](#ai大模型)
@@ -29,6 +30,7 @@ Windows 工具箱（Awesome Windows），记录我的 Windows 工具和设置
     - [压缩解压](#压缩解压)
     - [启动盘制作](#启动盘制作)
     - [截屏录屏](#截屏录屏)
+    - [视频剪辑](#视频剪辑)
     - [桌面美化](#桌面美化)
     - [其他](#其他)
   - [开发工具](#开发工具)
@@ -52,6 +54,8 @@ Windows 工具箱（Awesome Windows），记录我的 Windows 工具和设置
 - [HEU KMS Activator](https://github.com/zbezj/HEU_KMS_Activator) - v42.3.1 `HEU_KMS_Activator_v42.3.1.rar`，公众号：知彼而知己、小知彼而知己
 - [图吧工具箱](https://www.tbtool.cn/) - 硬件检测工具合集，2024.09正式版
 - [Microsoft C++ Build Tools](https://visualstudio.microsoft.com/zh-hans/visual-cpp-build-tools/)
+- [StartAllBack](https://www.startallback.com/) - 修改 Windows11 UI，收费的
+- [StartIsBack](https://www.startisback.com/) - 同一作者，给 Windows 10 用的
 
 ### 系统安全
 
@@ -83,7 +87,7 @@ Windows 工具箱（Awesome Windows），记录我的 Windows 工具和设置
 - [Microsoft Edge](https://www.microsoft.com/en-us/edge) - 非 Windows 10 自带版本，已升级为 Chrome 内核
 - [Safari](https://www.apple.com/cn/safari/) - 在 MacOSX 上测试兼容性
 - [360浏览器](https://browser.360.cn/) - 15.3
-- [360极速浏览器](https://chromex.360.cn/)
+- [360极速浏览器X](https://chromex.360.cn/) - 还有 macOS 版本：[360极速浏览器Pro](https://browser.360.cn/ee/mac/index.html)
 
 ### VPN
 
@@ -102,21 +106,24 @@ Windows 工具箱（Awesome Windows），记录我的 Windows 工具和设置
 建议 Windows 更新
 
 - [驱动人生](https://qd.160.com/) - v8.16.XX，不要用驱动精灵，有标准版和集成了万能网卡驱动的网卡版，没有有线网络的环境建议用网卡版
-- [鲁大师](https://www.ludashi.com/) - v6.X，有温控等，旧版鲁大师经典版v5.1
+- [鲁大师](https://www.ludashi.com/) - v6.X，有温控等，新版都是广告别用，旧版鲁大师经典版v5.x，还算比较好用的版本
 - [Splashtop Wired XDisplay](https://www.splashtop.com/wiredxdisplay) - 让 iPad 做扩展屏，收费
 - [Logitech Options](https://www.logitech.com/zh-cn/software/options.html) - 设置 Logitech Flow 多屏共享键鼠 M585 + M330，[下载地址](https://support.logi.com/hc/zh-cn/articles/360025297893-Logitech-Options)
 - [Logitech G HUB](https://support.logi.com/hc/zh-cn/articles/360024361233) - 罗技鼠标设置 G304
 - [Unifying](https://support.logi.com/hc/en-nz/articles/360025297913-Unifying-Software) - 罗技鼠标配对程序
+- [北通游戏厅](https://www.betop-cn.com/support) - 北通手柄的设置 APP，21年，v2.4.1.1
+- [爱思助手 (i4Tools)](https://www.i4.cn/) - 苹果设备管理、升降级、装 APP，v9.05
 
 ### 磁盘管理
 
 - [DiskGenius](http://www.diskgenius.cn/DiskGenius) - V5.6.1 分区修改，慎用，海外版 PartitionGuru v4.9.5.508 专业版
 - [WizTree](https://diskanalyzer.com/) - 磁盘使用情况可视化，类似 WinDirStat，超快，v4.23
 - [WinDirStat](https://windirstat.net/) - 磁盘使用情况可视化 v1.1.2；新版本 v2.2.2 只是改了界面，还是慢
+- [TreeSize](https://www.jam-software.com/treesize_free) - 类似 WinDirStat，分析磁盘空间，没有图形化
 - [SpaceSniffer](http://www.uderzo.it/main_products/space_sniffer/) - 同 WinDirStat，v2.0.2.5 2025年更新
 - [CCleaner](https://www.ccleaner.com/) - 清理工具，可以清除重复文件
 - [Czkawka](https://github.com/qarmin/czkawka) - 磁盘清理工具，v10.0.0，可以识别重复文件，要下载 GUI 封装好的程序文件：`windows_krokiet_on_linux.exe`
-- [Dism++](http://www.chuyu.me/) - 系统设置工具，可清理
+- [Dism++](http://www.chuyu.me/) - 系统设置工具，可清理系统、可导出本机驱动程序
 - [Bootice](http://www.ipauly.com/) - 最后版本 16 年 v1.3.4.0，官网打不开，随便下载
 - UltraISO - ISO 烧录，收费
 - EasyBCD - 启动菜单修复工具，收费
@@ -155,6 +162,9 @@ Office 有 2013、2016、Office365 等版本。
 - [迅雷](https://www.xunlei.com/) - 下载工具 v12.1
 - [人人影视播放器](http://app.rrys.tv/) - 用来下载 [人人](http://www.zmz2019.com/) 的视频
 - [FDM](https://www.freedownloadmanager.org/) - 插件支持下载 YouTube 视频
+- [Bili23 Downloader](https://github.com/ScottSloan/Bili23-Downloader) - B站视频下载工具，要登陆，v1.70.1
+- [Motrix](https://motrix.app/zh-CN) - 免费下载工具，支持下载 HTTP、FTP、BT、磁力链接，支持 Windows、macOS、Linux，v1.8.19，基于 [aria2](https://aria2.github.io/)
+- [JDownloader](https://jdownloader.org/) - 开源跨平台免费下载工具
 
 ### 网盘
 
@@ -185,12 +195,17 @@ Office 有 2013、2016、Office365 等版本。
 - [福昕智慧打印](https://www.foxitsoftware.cn/dayin/) - 远程调用打印机，和微信集成，方便
 - [福昕 PDF 编辑器个人版](http://editor.foxitsoftware.cn/) - PDF 文档编辑工具，个人版会有水印，老版本 v9.2.3.42566，新版本 v13.3.119.26555
 - SumatraPDF - 免费 PDF 浏览器
+- [DAMN NFO Viewer v2.10](https://damn-nfo-viewer.en.softonic.com/) - NFO 文件查看器
 
 ### 看图工具
 
-- [XnView](https://www.xnview.com/en/) - 免费看图工具，有 MP 版本和 classic 版，Classic 2.52.0，MP 1.8.3
+- [XnView](https://www.xnview.com/en/) - 免费看图工具，有 MP 版本和 classic 版，Classic 2.52.2，MP 1.9.5，同时还有 macOS 和 Linux 版本
 - [BandView](https://www.bandisoft.com/bandiview/) - v7.10，之前叫 [HoneyView](http://www.bandisoft.com/honeyview/) - 看图软件，与 BandZip 是一个开发商 最终版 v5.53
 - [2345 看图王](http://pic.2345.cc/) - 和2345好压集成方便，v11.4
+
+### 图像处理
+
+- Adobe Photoshop
 - [光影魔术手](http://www.neoimaging.cn/) - 图像编辑工具，比较老了，用习惯了 v4.4.1 不更新；24年新版本 v4.6.4
 - [美图秀秀](https://xiuxiu.meitu.com/) - 图像编辑工具，有 [Linux 信创版](https://pc.meitu.com/pc?download=linux)
 - [中望CAD 2024](https://www.zwcad.com/) - 国产的 CAD 工具
@@ -199,6 +214,10 @@ Office 有 2013、2016、Office365 等版本。
 - [Darktable](https://www.darktable.org/)
 - [Photopea](https://www.photopea.com/) - 在线图片编辑 PS 软件
 - [PhotoDemon](https://photodemon.org/) - 图片工具，可以打开PSD，v2024.12
+- [Krita](https://krita.org/zh-cn/) - 开源绘画软件，KDE社区，支持多平台
+- [Pixlr](https://pixlr.com) - 收费的图片处理工具，有在线和本地版本，AI功能有限制收费
+- [Affinity](https://www.affinity.studio/) - PS 平替，国内访问官网会自动跳到 Canva.cn支持，macOS 和 Windows，之前是收费的，25年11月开始免费了，基础版免费有大部分功能，高级版收费多了些 AI 功能。下载地址：[Windows版](https://downloads.affinity.studio/Affinity%20x64.msix)、[macOS版](https://downloads.affinity.studio/Affinity.dmg)，使用时需要 Canva 账号，canva.com才行，跳到cn没用。使用中可以再下载一些模型做智能裁剪，但是缺少智能填充
+- [Lunacy](https://icons8.com/lunacy) - Sketch 的免费平替，可以在 Windows 上打开 Sketch 格式了，[介绍](https://www.thosefree.com/lunacy)，支持 macOS、Windows、Linux
 
 ### 影音播放
 
@@ -283,12 +302,14 @@ Office 有 2013、2016、Office365 等版本。
 - [Atom](https://atom.io/) - GitHub 的编辑工具
 - [Notepads](https://www.notepadsapp.com/) - 简洁的编辑器，应用商店安装
 - [Notepad Next](https://github.com/dail8859/NotepadNext) - Notepad++的copy，支持Linux和Mac v0.9
+- [po2mo.net](https://po2mo.net/) - 在线转换 po 到 mo，类似本地的 [Poedit](https://poedit.net/)、[POEditor](https://poeditor.com/)
 
 ### 压缩解压
 
-- [7-Zip](https://www.7-zip.org/) - 免费开源跨平台 v24.09
+- [7-Zip](https://www.7-zip.org/) - 7zip，7z格式，免费开源跨平台 v24.09
 - [Bandizip](http://www.bandisoft.com/bandizip/) - 无广告，支持 [Mac](https://apps.apple.com/cn/app/id1265704574)，注意 6.x 无广告，7.0 开始有广告和收费功能
 - [360 压缩](http://yasuo.360.cn/) - 功能较多 v4.0.0.1540
+- [PeaZip](https://peazip.github.io/) - 压缩解压工具，支持多平台
 
 ### 启动盘制作
 
@@ -297,22 +318,35 @@ Office 有 2013、2016、Office365 等版本。
 - [Win32 Disk Imager](https://sourceforge.net/projects/win32diskimager/files/Archive/) - v1.0 `win32diskimager-1.0.0-install.exe`
 - FlashBoot - 需注册
 - 老毛桃 - PE 启动盘
-- [优启通](https://www.upe.net/) - 比较早期纯净的版本：[优启通 v3.3.2019.0605](https://www.itsk.com/thread-397875-1-1.html)，新版本需要会员
+- [优启通](https://www.upe.net/) - 比较早期纯净的版本：[优启通 2019年 v3.3.2019.0605](https://www.itsk.com/thread-397875-1-1.html)、[最新版 2025年 v3.7.2025.0326](https://www.itsk.com/thread/434043)，新版本需要会员
 - [大白菜](https://www.dabaicai.com/)
 - [微 PE](http://www.wepe.com.cn/) - 推荐，号称纯净，注意 2.1 版本可能有毒，最新 v2.3
 - [微软 WinPE (Windows PE)](https://docs.microsoft.com/zh-cn/windows-hardware/manufacture/desktop/download-winpe--windows-pe)
 - 其他 PE：深度、老毛桃、我心如水、云爱、天意、小马、装机员、深山红叶、完美者、无垠
-- Windows To Go
+- [Windows To Go](https://learn.microsoft.com/zh-cn/previous-versions/windows/it-pro/windows-10/deployment/windows-to-go/windows-to-go-overview) - 可以把 Windows 安装在 U盘里，参考：[萝卜头论坛的教程和魔改](https://social.luobotou.org/bstra/forum-88-1.html)，有特别的部署辅助工具 [WTGA](https://social.luobotou.org/bstra/thread-761-1-1.html) v5.6.2，2023年更新
 - [FirPE](https://firpe.cn/) - 最新版 v2.0.1
 - LightningPE
 
 ### 截屏录屏
 
-- [PicPick](https://picpick.app/zh/) - 截图工具，个人版免费 v6.3.2
+- [PicPick](https://picpick.app/zh/) - 截图工具，个人版免费 v7.4
 - [FSCapture](https://www.faststone.org/FSCaptureDetail.htm) - 有个之前的版本免费
 - [ScreenToGif](https://www.screentogif.com/?l=zh_cn) - 屏幕，摄像头和白板录像机与集成编辑器。可以录制视频或 GIF v2.37.1
 - [CamStudio](https://camstudio.org/) - 桌面录像，免费 v2.7.4
 - [Snipaste](https://zh.snipaste.com/download.html) - 免费，Mac
+
+### 视频剪辑
+
+- [剪映（国内版）](https://www.capcut.cn) [CapCut（国际版）](https://www.capcut.com) - 抖音的视频剪辑工具，自动文配图，国内版和国际版不一样，可同时装，国际版AI生成字幕需要联网，支持多平台
+- [必剪](https://bcut.bilibili.cn/) - 哔哩哔哩的视频剪辑软件，生成字幕不能超过15分钟，支持多个平台
+- [爱剪辑](https://www.ijianji.com/)
+- [度加创作工具](https://aigc.baidu.com/) - 百度的AI视频生成工具，有APP版
+- [Blender](https://www.blender.org) - 3D建模软件，免费
+- [Bili23-Downloader](https://github.com/ScottSloan/Bili23-Downloader) - B 站视频下载工具，可批量下载、自动合并，v1.70.1
+- 会声会影
+- [Shotcut](https://shotcut.org/) - 免费开源的视频编辑软件，[视频介绍](https://www.youtube.com/watch?v=abi9Dlt7lhQ)，支持Windows、 macOS和Linux
+- [OpenCut](https://opencut.app/) - 免费开源视频剪辑软件，在线网页版，对标剪映（CapCut），[Github地址](https://github.com/OpenCut-app/OpenCut)，已经4w多star，可以本地docker部署
+- [LosslessCut](https://github.com/mifi/lossless-cut) - 开源的视频剪辑软件，v3.67.1，[介绍文](https://www.zhihu.com/question/359566300/answer/1973781969377712003)，支持 Windows、macOS和Linux
 
 ### 桌面美化
 
@@ -378,7 +412,7 @@ Office 有 2013、2016、Office365 等版本。
 ### 性能测试工具
 
 - [CPU-Z](https://www.cpuid.com/softwares/cpu-z.html) - 2.06
-- [GPU-Z](https://www.techpowerup.com/gpuz/) - 查看 GPU 相关参数
+- [GPU-Z](https://www.techpowerup.com/gpuz/) - 查看 GPU 相关参数，v2.68
 - [3DMARK](https://www.3dmark.com/)
 - [Cinebench](https://www.maxon.net/cn/%E4%BA%A7%E5%93%81/cinebench-r20-overview/)
 - [AIDA64](https://www.aida64.com/) - 前身是 Evertest，收费
@@ -392,7 +426,6 @@ Office 有 2013、2016、Office365 等版本。
 - [MSI Afterburner](https://cn.msi.com/page/afterburner) - 显卡超频工具，也可以显示游戏内 FPS
 - [游戏加加](https://gamepp.com/) - 游戏内 FPS 显示
 - [FurMark](http://www.geeks3d.com/furmark/) - 显卡拷机工具，甜甜圈
-- 鲁大师 - 视频打分（娱乐大师）
 
 ### 其他运行环境
 
@@ -450,3 +483,4 @@ mklink /j c:\Users\yinguowei\.dbeaver4 d:\yinguowei\Documents\.dbeaver4
 - diskpart
   - 删除分区：`list disk / select disk x / clean`
   - 创建分区：`create partition primary / active / format fs=fat32/ntfs/exfat label="UDisk" quick`
+- certutil - 命令查sha256校验码：`certutil -hashfile D:\xxxxx.xxx sha256`

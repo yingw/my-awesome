@@ -49,7 +49,7 @@
 
 ## 系统工具
 
-- [Homebrew](https://brew.sh/) - 软件管理，安装命令 `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`，或者下载预编译好的 [release](https://github.com/Homebrew/brew/releases) v4.5.2
+- [Homebrew](https://brew.sh/) - 软件管理，参考官网命令行安装，或者下载预编译好的 [release](https://github.com/Homebrew/brew/releases)，国内网络如果安装连不上 GitHub，可以使用国内源 [HomebrewCN](https://gitee.com/cunkai/HomebrewCN)，还可以用来换源，最新版：v4.6.20 或 5.0.1
 - [Cakebrew](https://www.cakebrew.com/) - Homebrew 图形界面管理，`brew install --cask cakebrew`，v1.3 最后更新：2021年，支持 Silicon（可能被弃用了）
 - [Cork](https://github.com/buresdv/Cork) - Homebrew 快速 GUI，Cakebrew 的替代，`brew install --cask cork`，v1.5.5，2025年。`brew install --cask cork`，收费的，但是开源可以自己编译
 - [Latest](https://max.codes/latest/) - 版本检查更新，还支持非 brew 安装的应用
@@ -109,7 +109,7 @@
 - [Aldente Pro](https://aldente.cn/) - 电池管理软件，可以优化健康度，收费，[AlDente Pro 1.35.1 Cracked](https://haxmac.cc/aldente-pro/) 或 [AlDente atb 版 1.35](https://macwk.cn/app/4562.html)
 - [Sleep Aid](https://ohanaware.com/sleepaid/) - 记录分析是哪个进程中休眠时唤醒Mac，十四天试用，v1.5，2025年更新。作者 sam 在[这里](https://www.reddit.com/r/macbookpro/comments/qqo4v2/my_m1_max_keeps_switching_between_sleep_and/)声称`NUB.SPMISw3IRQ nub-spmi0.0x02 rtc/SleepService`这个进程是正常的，可以尝试切换 `"Wake for Maintenance"`
 - [Karabiner-Elements](https://karabiner-elements.pqrs.org/) - 键盘映射，但是会覆盖系统自动的修饰键映射，要重新映射一下，但是不能映射组合键 `brew install --cask karabiner-elements`，v15.5.0，2025年更新
-- [OSX Packages Uninstaller](https://github.com/mpapis/pkg_uninstaller) - v0.1.1，很老了，卸载 pkg 应用
+- [OSX Packages Uninstaller](https://github.com/mpapis/pkg_uninstaller) - v0.1.1，很老了，卸载 pkg 应用。列出所有安装的 pkg 应用：`./pkg-list `，卸载 pkg 应用：`./pkg-uninstall <pkg_name>`。还有一种方式是用这脚本安装 pkg：`pkg-install <package_file.pkg>`，会生成一个 sh 脚本，卸载的时候运行：`./uninstall_<package_file_pkg>.sh`
 
 ### 菜单栏
 
@@ -134,7 +134,7 @@
 - [Parallels Desktop](https://www.parallels.com/) - 虚拟机，收费。[Parallels Desktop 19](https://www.cnblogs.com/mr-ryan/p/18896782) - 用版本 19.3.0 + 破解补丁 5.1.1，需要注册一个账号。[一些设置](https://www.luoxx.top/archives/pd-install-tips)。[19.4.1](https://macked.app/parallels-desktop-19-crack.html)，[提示 This copy of Parallels Desktop may not be genuine](https://www.cnblogs.com/JetpropelledSnake/p/16828983.html)：删掉虚拟机 Windows 里面的 `C:\Program Files (x86) Parallels\Parallels Tools\Plugins\DesktopUtilities.dll`，创建一个空的
 - [Virtualbox](https://www.virtualbox.org/) - 虚拟机，`brew install --cask virtualbox`。v7.1.8
 - VM VirtualBox Extension Pack - VirtualBox 的扩展包，用于支持 USB3.0 等 `brew install --cask virtualbox-extension-pack`
-- [VMWare Fusion Player/Pro](https://www.vmware.com/products/fusion/fusion-evaluation.html)
+- [VMWare Fusion Player/Pro](https://www.vmware.com/products/desktop-hypervisor/workstation-and-fusion) - VMWare 虚拟机，个人使用免费，最新版 25H2，需要注册一个博通账号，安装 Windows 11 ARM 版后可能要手动安装 VMWare Tools 才能开启网络、分辨率设置，参考：[在 Apple 芯片的 Mac 上通过 VMware Fusion 13 使用 Windows 11](https://zhuanlan.zhihu.com/p/452412091) 或 [视频](https://www.bilibili.com/video/BV1B8411t7yc)
 - [BlueStacks](https://www.bluestacks.com/) - 蓝叠安卓模拟器
 - [Qemu](http://www.qemu.org/) - QEMU is a generic and open source machine & userspace emulator and virtualizer. 开源的托管虚拟机，通过纯软件来实现虚拟化模拟器
 
@@ -169,6 +169,7 @@
 - [The Unarchiver](https://www.theunarchiver.com/) - 免费，`brew install --cask the-unarchiver`。v4.3.9，2025年
 - [MacZip](https://ezip.awehunt.com/) - 原名`eZip`，国产解压缩工具，免费 `brew install --cask maczip`。v2.4，2024年
 - [Bandizip](http://www.bandisoft.com/bandizip.mac/) - 收费
+- [Peazip](https://peazip.github.io/) - 免费开源的压缩解压工具，有 Linux、Windows、macOS 版本，v10.7.0
 
 ### 剪贴板管理
 
@@ -183,7 +184,7 @@
 
 - [Geekbench](https://www.geekbench.com/) - 系统检测评分，收费，试用 `brew install --cask geekbench`。v6.4.0
 - [Blackmagic Disk Speed Test](https://apps.apple.com/us/app/blackmagic-disk-speed-test/id425264550?mt=12) - 磁盘性能测试
-- [Cinebench](https://www.maxon.net/en/products/cinebench-r20-overview/) - GPU 图形性能测试，收费，十四天试用 `brew install --cask cinebench`，官网版本是2025，Homebrew下载的是2024，要用 [R23](https://www.techspot.com/downloads/7579-cinebench-r23.html)，下载试用需要注册等人 v2025.4.0
+- [Cinebench](https://www.maxon.net/en/products/cinebench-r20-overview/) - GPU 图形性能测试，收费，十四天试用 `brew install --cask cinebench`，官网版本是2025，Homebrew下载的是2024，要用 [R23](https://www.techspot.com/downloads/7579-cinebench-r23.html)，下载试用需要注册等人 v2025.4.0。新版会自动装一个 Maxon 套件，很大，可以删除，还会在系统创建一个 'Maxon App Service' 的用户组，卸载后可以删除。
 
 ### 远程控制
 
@@ -302,7 +303,7 @@ brew install —cask adoptopenjdk11
 
 - [迅雷](http://mac.xunlei.com/) - 下载工具 `brew install --cask thunder`
 - [Folx](https://mac.eltima.com/cn/torrent-client.html) - 下载工具，免费 + 收费
-- [Downie 4](https://software.charliemonroe.net/downie/) - 视频下载下载，可以下载 YouTube 视频，收费 `brew install --cask downie`
+- [Downie 4](https://software.charliemonroe.net/downie/) - 视频下载下载，可以下载 YouTube 视频，收费 `brew install --cask downie`，浏览器插件需要手动[安装](https://blog.charliemonroe.net/downie-and-chrome/)。BUG：4 以上版本在 M1 上添加任务闪退，解决不了。
 - [qBittorrent](https://www.qbittorrent.org/) - BT 客户端 `brew install --cask qbittorrent`，Mac 的版本略滞后，v5.0.5
 - [Transmission](https://transmissionbt.com/) - BT 客户端 `brew install --cask transmission`
 - [Free Download Manager](https://www.freedownloadmanager.org/) - 下载工具，有 Chrome 插件集成，`brew install --cask free-download-manager`，v6.28
@@ -328,7 +329,8 @@ brew install —cask adoptopenjdk11
 - [OpenShot Video Editor](https://www.openshot.org/) - 小巧的一款视频编辑软件，免费，`brew install --cask openshot-video-editor`，v3.3.0，2024年
 - [Final Cut Pro](https://apps.apple.com/cn/app/final-cut-pro/id424389933?mt=12)
 - [Premiere Pro](https://www.adobe.com/products/premiere.html)
-- [DaVinci Resolve](https://apps.apple.com/cn/app/davinci-resolve-studio/id900392332?mt=12)
+- [DaVinci Resolve 20](https://www.blackmagicdesign.com/products/davinciresolve) - 达芬奇，视频编辑，免费，[AppStore地址](https://apps.apple.com/cn/app/davinci-resolve/id571213070?mt=12)，[DaVinci Resolve Studio](https://www.blackmagicdesign.com/products/davinciresolve/studio) 是收费的，另外还有DaVinci Fusion Studio 影视特效合成软件
+- [大拍档剪辑助手](https://www.spdpd.net/) - B站UP主视频大拍档设计和开发的视频剪辑 APP，有 Windows/macOS 版本，v0.4.5，2023年
 
 ### 磁盘工具
 
@@ -469,3 +471,4 @@ brew install --cask provisionql    #预览 mobileprovision、provisionprofile、
 - [popclip](https://www.popclip.app/) - 关键词扩展功能，免费试用 250 次 + 收费，`brew install --cask popclip`，brew 上安装的是较旧的版本
 - [TunesBro CleanGeeker](https://www.tunesbro.com/mac-cleaner.html) - 清理软件，有查重复文件功能，试用，比较老了，2019年，v1.0.1，而且每次启动会自动设置开机自启，慎用
 - [Disk Drill](https://www.cleverfiles.com/) - 文件恢复功能，也有文件查重功能，Version 6.0.2020 • macOS 10.15.7–26.x，还有 Windows 版
+- [PlayCover](https://playcover.io/) - 侧载运行 iOS 软件，iOS 程序是 ipa 后缀的脱壳程序版本，可以从：[decrypt.day](https://decrypt.day/) 或 [ipa.store](https://ipa.store/) 等获取，v3.1.0

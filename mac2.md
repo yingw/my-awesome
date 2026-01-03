@@ -439,6 +439,8 @@ find /path/where/is -name .DS_Store -delete
 find . -name '.DS_Store' -type f -delete
 # 另外还有图片预览缓存
 find . -name '._.*' -type f -delete
+# 还有 ._ 开头的文件
+find . -name '._*' -type f -delete
 # 另一个几个版本：删除 ._.DS_Store 、跳过输出
 find . -type f \( -name ".DS_Store" -o -name "._.DS_Store" \) -delete -print 2>&1 | grep -v "Permission denied"
 sudo find / -name “.DS_Store” -depth -exec rm {} \
@@ -451,6 +453,7 @@ defaults write com.apple.desktopservices DSDontWriteUSBStores -bool TRUE
 # 查看设置
 defaults read com.apple.desktopservices DSDontWriteNetworkStores
 defaults read com.apple.desktopservices DSDontWriteUSBStores
+(输出为1即为TRUE)
 # 恢复
 defaults write com.apple.finder AppleShowAllFiles FALSE ; killall Finder
 defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool FALSE
@@ -479,6 +482,9 @@ Mac 提示「未打开“XXX.app”」Apple 无法验证“Sketch.app”是否�
 
 ## 其他
 
-- [is Apple Silicon Ready](https://isapplesiliconready.com/)
+- [is Apple Silicon Ready](https://isapplesiliconready.com/) - 适用于苹果芯片兼容性检查
+- [Does It ARM?](https://doesitarm.com/) - 同上
 - [屏蔽设置提示升级的小红点](https://zhuanlan.zhihu.com/p/1951680001368917919)
 - 关于 SIP (System Integrity Protection) - 禁用：在恢复模式下运行 `csrutil disable`，恢复：`csrutil enable`（强烈不建议关闭）
+- 重新设置用户：在恢复模式下终端运行：`rm /volumes/Macintosh\ HD\ -d\ data/private/var/db/.AppleSetupDone`，也可能是：`rm /Volumes/Macintosh\ HD/private/var/db/.AppleSetupDone` 或 `rm /Volumes/Macintosh\ HD /var/db/.AppleSetupDone`
+- 
