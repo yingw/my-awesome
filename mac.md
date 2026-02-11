@@ -9,6 +9,7 @@
 
 - [Mac 软件](#mac-软件)
   - [系统工具](#系统工具)
+    - [菜单栏](#菜单栏)
     - [终端工具](#终端工具)
     - [虚拟机](#虚拟机)
     - [输入法](#输入法)
@@ -48,7 +49,7 @@
 
 ## 系统工具
 
-- [Homebrew](https://brew.sh/) - 软件管理，安装命令 `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`，或者下载预编译好的 [release](https://github.com/Homebrew/brew/releases) v4.5.2
+- [Homebrew](https://brew.sh/) - 软件管理，参考官网命令行安装，或者下载预编译好的 [release](https://github.com/Homebrew/brew/releases)，国内网络如果安装连不上 GitHub，可以使用国内源 [HomebrewCN](https://gitee.com/cunkai/HomebrewCN)，还可以用来换源，最新版：v4.6.20 或 5.0.1
 - [Cakebrew](https://www.cakebrew.com/) - Homebrew 图形界面管理，`brew install --cask cakebrew`，v1.3 最后更新：2021年，支持 Silicon（可能被弃用了）
 - [Cork](https://github.com/buresdv/Cork) - Homebrew 快速 GUI，Cakebrew 的替代，`brew install --cask cork`，v1.5.5，2025年。`brew install --cask cork`，收费的，但是开源可以自己编译
 - [Latest](https://max.codes/latest/) - 版本检查更新，还支持非 brew 安装的应用
@@ -56,10 +57,10 @@
 - [MacPorts](https://www.macports.org/) - 另一个软件管理工具。v2.10.7
 - [Alfred](https://www.alfredapp.com/) - 搜索、快速启动工具，很多功能，`brew install --cask alfred`，AppStore 上面的很老，[Alfred](https://apps.apple.com/cn/app/alfred/id405843582?mt=12) v1.2 最后更新：2012年
 - [uTools](https://www.u-tools.cn/index.html) - Alfred 平替，还有 Windows 版，v7.1.1
-- [CheetSheet](https://www.mediaatelier.com/CheatSheet/) - 快捷键提示，长按 Command，`brew install --cask cheatsheet`，其他 Mac 的快捷键提示，[参考](https://sspai.com/post/45338)，[官方](https://support.apple.com/zh-cn/102650)，2025年官网已失效，可以切换到 keyClu
+- [CheetSheet](https://www.mediaatelier.com/CheatSheet/) - 快捷键提示，长按 Command，`brew install --cask cheatsheet`（已失效），其他 Mac 的快捷键提示，[参考](https://sspai.com/post/45338)，[官方](https://support.apple.com/zh-cn/102650)，2025年官网已失效，可以切换到 keyClu
 - [KeyClu](https://github.com/Anze/KeyCluCask/) - 快捷键提示，按 `⌘, ⌘` 呼出，`brew install --cask keyclu`，v0.30.1
 - [CustomShortcuts](https://www.houdah.com/customShortcuts/) - CustomShortcuts 与 KeyClu 一起使用。单击菜单按钮可直接从备忘单中自定义键盘快捷键。`brew install --cask customshortcuts`。v1.3
-- [ShortcutDetective](https://www.irradiatedsoftware.com/labs/) - 可以检测系统内APP快捷键冲突，但是很久不更新，有报告经常Crash，
+- [ShortcutDetective](https://www.irradiatedsoftware.com/labs/) - 可以检测系统内APP快捷键冲突，但是很久不更新，v1.0，2015年，有报告经常在使用完Crash，Raddit上有讨论
 - [Supercharge](https://sindresorhus.com/supercharge) - 系统修改工具，收费。里面有个快捷键冲突检测功能：Keyboard shortcut inspector
 - [Mactracker](https://apps.apple.com/cn/app/mactracker/id430255202?mt=12) - 提供苹果全系列产品的所有信息，v7.13.5，最后更新：2025年
 - [HandShaker](https://www.smartisan.com/apps/#/handshaker) - 锤子科技的文件管理软件，用于在 Mac 电脑上管理 Android 手机内容，通过手机端 APP 链接配对，v2.5.6，最后更新：2018年
@@ -74,13 +75,6 @@
 - [OpenInTerminal](https://github.com/Ji4n1ng/OpenInTerminal) - Finder 工具栏上直接进入终端，v2.3.8，2025年，`brew install --cask openinterminal`
 - [Better And Better](https://www.better365.cn/bab2.html) - 触控板、鼠标、键盘的手势等。v2.6.7，最后更新：2025年，安装包是pkg格式
 - [AdGrard](https://adguard.com/zh_cn/welcome.html) - 拦截多个浏览器、系统的广告，收费，试用期14天
-- [Vanilla](https://matthewpalmer.net/vanilla/) - 免费版隐藏任务栏图标，基本够用；收费额外功能
-- [Dozer](https://github.com/Mortennn/Dozer) - 隐藏任务栏图标，可以替换 Vanilla `brew install --cask dozer`。v4.0.0，最后更新：2019年
-- [Hidden Bar](https://github.com/dwarvesf/hidden/) - 同 Dozer，隐藏任务栏图标，更新点 `brew install --cask hiddenbar`。v1.9，最后更新：2022年
-- [Ice](https://icemenubar.app/) - 菜单栏管理，免费；0.11.12，2024年；`brew install jordanbaird-ice`
-- [Bartender](https://www.macbartender.com/) - 管理菜单栏图标，收费
-- [iBar](https://www.better365.cn/ibar.html) - 菜单栏管理，可以聚合模式向下扩展，聚合模式收费。普通模式对刘海屏没用。
-- [OnlySwitch](https://github.com/jacklandrin/OnlySwitch) - 一键切换各种开关，还可以隐藏刘海（Notch），`brew install only-switch`，v2.5.6，2025年
 - [Itsycal](https://www.mowglii.com/itsycal/) - 菜单栏日历，最后更新：2025年
 - [QuickRes](https://thnkdev.com/QuickRes/) - 快速切换分辨率，收费，支持M1。v4.9，最后更新：2021年
 - [Ethernet Status](https://apps.apple.com/cn/app/ethernet-status/id1186187538?mt=12) - 显示有线网络连接状态。v4.5，最后更新：2023年
@@ -98,9 +92,9 @@
 - [Multipass](https://multipass.run/) - Ubuntu 公司官方的虚拟机 `brew install --cask multipass`
 - [afloat](https://github.com/rwu823/afloat) - 让窗口 pin 在最前端的插件，但是很老不保险
 - [Topit](https://github.com/lihaoyun6/Topit) - 窗口置顶，`brew install lihaoyun6/tap/topit`, v0.1.5，2024年
-- [Caffeine](https://intelliscapesolutions.com/apps/caffeine) - 阻止Mac进入休眠，可改用 KeepingYouAwake `brew install --cask caffeine`，v1.1.3，最后更新：2020年
-- [Amphetamine](https://apps.apple.com/us/app/amphetamine/id937984704?mt=12) -  App Store 上的另一款阻止休眠，免费。v5.3.2，2023年
-- [KeepingYouAwake](https://keepingyouawake.app/) - 同 Caffeine，更新更频繁 `brew install --cask keepingyouawake`。v1.6.8，2024年
+- [Caffeine](https://intelliscapesolutions.com/apps/caffeine) - 阻止Mac进入休眠，可改用 KeepingYouAwake `brew install --cask caffeine`，v1.1.4，最后更新：2025年
+- [Amphetamine](https://apps.apple.com/us/app/amphetamine/id937984704?mt=12) -  App Store 上的另一款阻止休眠，免费，可以设置多种防止睡眠的场景，可以设置外接显示器唤醒。v5.3.2，2023年
+- [KeepingYouAwake](https://keepingyouawake.app/) - 同 Caffeine， `brew install --cask keepingyouawake`。v1.6.8，2025年
 - [iHash](https://apps.apple.com/cn/app/ihash/id763902043?mt=12) - 比较文件、文件夹 Hash 值（找不到了）。替代品：[Hash/Check](https://apps.apple.com/us/app/hash-check/id1550525767?mt=12)，免费，v2.1，2023年
 - [Suspicious Package](https://www.mothersruin.com/software/SuspiciousPackage/) - 查看包安装内部信息 `brew install --cask suspicious-package`。v4.5，2024年
 - [AltTab](https://github.com/lwouis/alt-tab-macos) - 可以用 Alt+Tab 切换窗口 `brew install --cask alt-tab`。v7.24.0，2025年
@@ -109,9 +103,24 @@
 - [CrossOver](https://www.codeweavers.com/crossover/) - 模拟 Windows 环境
 - [Lulu](https://objective-see.org/products/lulu.html) - 网络防火墙 `brew install --cask lulu`。v3.1.5，2025年
 - [Logi Options+](https://www.logitech.com/en-us/software/logi-options-plus.html) - 罗技鼠标驱动
-- [BetterDisplay](https://github.com/waydabber/BetterDisplay) - 控制外接屏，在投屏时可以关闭主屏幕（免费），GitHub上就一个Readme，不开源，有部分专业版功能收费，v3.5.6，`brew install --cask betterdisplay`
+- [BetterDisplay](https://github.com/waydabber/BetterDisplay) - 控制外接屏，在投屏时可以关闭主屏幕（免费），GitHub上就一个Readme，不开源，有部分专业版功能收费，v3.5.6，`brew install --cask betterdisplay`，之前叫：BetterDummy
 - [赤友右键超人](https://aibotech.cn/right-click-menu/) - 右键菜单增强型应用
+- [iBoySoft Magic Menu](https://apps.apple.com/us/app/iboysoft-magicmenu/id1599191594?mt=12) - 右键管理，好像和上面赤友上一样的
 - [Aldente Pro](https://aldente.cn/) - 电池管理软件，可以优化健康度，收费，[AlDente Pro 1.35.1 Cracked](https://haxmac.cc/aldente-pro/) 或 [AlDente atb 版 1.35](https://macwk.cn/app/4562.html)
+- [Sleep Aid](https://ohanaware.com/sleepaid/) - 记录分析是哪个进程中休眠时唤醒Mac，十四天试用，v1.5，2025年更新。作者 sam 在[这里](https://www.reddit.com/r/macbookpro/comments/qqo4v2/my_m1_max_keeps_switching_between_sleep_and/)声称`NUB.SPMISw3IRQ nub-spmi0.0x02 rtc/SleepService`这个进程是正常的，可以尝试切换 `"Wake for Maintenance"`
+- [Karabiner-Elements](https://karabiner-elements.pqrs.org/) - 键盘映射，但是会覆盖系统自动的修饰键映射，要重新映射一下，但是不能映射组合键 `brew install --cask karabiner-elements`，v15.5.0，2025年更新
+- [OSX Packages Uninstaller](https://github.com/mpapis/pkg_uninstaller) - v0.1.1，很老了，卸载 pkg 应用。列出所有安装的 pkg 应用：`./pkg-list `，卸载 pkg 应用：`./pkg-uninstall <pkg_name>`。还有一种方式是用这脚本安装 pkg：`pkg-install <package_file.pkg>`，会生成一个 sh 脚本，卸载的时候运行：`./uninstall_<package_file_pkg>.sh`
+
+### 菜单栏
+
+- [Vanilla](https://matthewpalmer.net/vanilla/) - 免费版隐藏任务栏图标，基本够用；收费额外功能
+- [Dozer](https://github.com/Mortennn/Dozer) - 隐藏任务栏图标，可以替换 Vanilla `brew install --cask dozer`。v4.0.0，最后更新：2019年
+- [Hidden Bar](https://github.com/dwarvesf/hidden/) - 同 Dozer，隐藏任务栏图标，更新点 `brew install --cask hiddenbar`。v1.9，最后更新：2022年
+- [Ice](https://icemenubar.app/) - 菜单栏管理，免费；0.11.12，2024年；`brew install jordanbaird-ice`
+- [Bartender](https://www.macbartender.com/) - 管理菜单栏图标，收费
+- [iBar](https://www.better365.cn/ibar.html) - 菜单栏管理，可以聚合模式向下扩展，聚合模式收费。普通模式对刘海屏没用。
+- [OnlySwitch](https://github.com/jacklandrin/OnlySwitch) - 一键切换各种开关，还可以隐藏刘海（Notch），`brew install only-switch`，v2.5.6，2025年
+- [TopNorch](https://topnotch.app/) - 隐藏 Mac 顶部刘海，就是设置任务栏黑色，还可以设置底部圆角，`brew install --cask topnorch`
 
 ### 终端工具
 
@@ -119,14 +128,13 @@
 - [oh-my-zsh](https://ohmyz.sh/) - 用脚本安装，[参考](https://sspai.com/post/55176)。[Oh My Posh](https://ohmyposh.dev/) - `brew install oh-my-posh`
   - 修改主题 `～/.zshrc`，agnoster
   - 安装 [字体](https://github.com/powerline/fonts.git) ，用 `DejaVu Sans Mono for Powerline`
-  - [Sleep Aid](https://ohanaware.com/sleepaid/) - 记录分析是哪个进程中休眠时唤醒Mac，十四天试用。作者 sam 在[这里](https://www.reddit.com/r/macbookpro/comments/qqo4v2/my_m1_max_keeps_switching_between_sleep_and/)声称`NUB.SPMISw3IRQ nub-spmi0.0x02 rtc/SleepService`这个进程是正常的，可以尝试切换 `"Wake for Maintenance"`
 
 ### 虚拟机
 
 - [Parallels Desktop](https://www.parallels.com/) - 虚拟机，收费。[Parallels Desktop 19](https://www.cnblogs.com/mr-ryan/p/18896782) - 用版本 19.3.0 + 破解补丁 5.1.1，需要注册一个账号。[一些设置](https://www.luoxx.top/archives/pd-install-tips)。[19.4.1](https://macked.app/parallels-desktop-19-crack.html)，[提示 This copy of Parallels Desktop may not be genuine](https://www.cnblogs.com/JetpropelledSnake/p/16828983.html)：删掉虚拟机 Windows 里面的 `C:\Program Files (x86) Parallels\Parallels Tools\Plugins\DesktopUtilities.dll`，创建一个空的
 - [Virtualbox](https://www.virtualbox.org/) - 虚拟机，`brew install --cask virtualbox`。v7.1.8
 - VM VirtualBox Extension Pack - VirtualBox 的扩展包，用于支持 USB3.0 等 `brew install --cask virtualbox-extension-pack`
-- [VMWare Fusion Player/Pro](https://www.vmware.com/products/fusion/fusion-evaluation.html)
+- [VMWare Fusion Player/Pro](https://www.vmware.com/products/desktop-hypervisor/workstation-and-fusion) - VMWare 虚拟机，个人使用免费，最新版 25H2，需要注册一个博通账号，安装 Windows 11 ARM 版后可能要手动安装 VMWare Tools 才能开启网络、分辨率设置，参考：[在 Apple 芯片的 Mac 上通过 VMware Fusion 13 使用 Windows 11](https://zhuanlan.zhihu.com/p/452412091) 或 [视频](https://www.bilibili.com/video/BV1B8411t7yc)
 - [BlueStacks](https://www.bluestacks.com/) - 蓝叠安卓模拟器
 - [Qemu](http://www.qemu.org/) - QEMU is a generic and open source machine & userspace emulator and virtualizer. 开源的托管虚拟机，通过纯软件来实现虚拟化模拟器
 
@@ -161,6 +169,7 @@
 - [The Unarchiver](https://www.theunarchiver.com/) - 免费，`brew install --cask the-unarchiver`。v4.3.9，2025年
 - [MacZip](https://ezip.awehunt.com/) - 原名`eZip`，国产解压缩工具，免费 `brew install --cask maczip`。v2.4，2024年
 - [Bandizip](http://www.bandisoft.com/bandizip.mac/) - 收费
+- [Peazip](https://peazip.github.io/) - 免费开源的压缩解压工具，有 Linux、Windows、macOS 版本，v10.7.0
 
 ### 剪贴板管理
 
@@ -175,7 +184,7 @@
 
 - [Geekbench](https://www.geekbench.com/) - 系统检测评分，收费，试用 `brew install --cask geekbench`。v6.4.0
 - [Blackmagic Disk Speed Test](https://apps.apple.com/us/app/blackmagic-disk-speed-test/id425264550?mt=12) - 磁盘性能测试
-- [Cinebench](https://www.maxon.net/en/products/cinebench-r20-overview/) - GPU 图形性能测试，收费，十四天试用 `brew install --cask cinebench`，官网版本是2025，Homebrew下载的是2024，要用 [R23](https://www.techspot.com/downloads/7579-cinebench-r23.html)，下载试用需要注册等人 v2025.4.0
+- [Cinebench](https://www.maxon.net/en/products/cinebench-r20-overview/) - GPU 图形性能测试，收费，十四天试用 `brew install --cask cinebench`，官网版本是2025，Homebrew下载的是2024，要用 [R23](https://www.techspot.com/downloads/7579-cinebench-r23.html)，下载试用需要注册等人 v2025.4.0。新版会自动装一个 Maxon 套件，很大，可以删除，还会在系统创建一个 'Maxon App Service' 的用户组，卸载后可以删除。
 
 ### 远程控制
 
@@ -226,7 +235,8 @@
 
 ### 文档编辑
 
-- [TextMate](https://macromates.com/) - macOS平台的专业文本编辑器，v2.0.23，支持 OS X 10.12 (i386 / ARM)，`brew install --cask textmate`，最后更新：2021年
+- [TextMate](https://macromates.com/) - macOS平台的专业文本编辑器，v2.0.23，支持 OS X 10.12 (i386 / ARM)，`brew install --cask textmate`，[GitHub](https://github.com/textmate/textmate)，最后更新：2021年
+- [Nova](https://nova.app/) - 集成代码的文本编辑器，v13.3，收费
 - [NotepadNext](https://github.com/dail8859/NotepadNext) - Notepad++ 的 Mac 替代，v0.11，2025年，homebrew 要设置 [tap](https://github.com/dail8859/homebrew-notepadnext)
 - [Typora](https://www.typora.io/) - Markdown 格式编辑器 `brew install --cask typora`，最后的[免费版 v0.11.18](https://github.com/wyf9661/typora-free)
 - [VNote](https://app.vnote.fun/) -  Markdown编辑器，支持Windows/Mac/Linux，[GitHub](https://github.com/vnotex/vnote)，`brew install --cask vnote`，v3.19.2
@@ -244,6 +254,7 @@
 - [CotEditor](https://coteditor.com/) - 简单的文本编辑工具，`brew install --cask coteditor`
 - [PlistEdit Pro](https://www.fatcatsoftware.com/plisteditpro/) - 编辑 plist 文件，Xcode 也可以，试用版
 - [Xplist](https://github.com/ic005k/Xplist) - 免费的 plist 编辑器，v1.2.47 2022年
+- [SuspiciousPackage](https://mothersruin.com/software/SuspiciousPackage/get.html) - 查看 PKG，v4.6，2025年
 
 ### 笔记管理
 
@@ -292,16 +303,17 @@ brew install —cask adoptopenjdk11
 
 - [迅雷](http://mac.xunlei.com/) - 下载工具 `brew install --cask thunder`
 - [Folx](https://mac.eltima.com/cn/torrent-client.html) - 下载工具，免费 + 收费
-- [Downie 4](https://software.charliemonroe.net/downie/) - 视频下载下载，可以下载 YouTube 视频，收费 `brew install --cask downie`
+- [Downie 4](https://software.charliemonroe.net/downie/) - 视频下载下载，可以下载 YouTube 视频，收费 `brew install --cask downie`，浏览器插件需要手动[安装](https://blog.charliemonroe.net/downie-and-chrome/)。BUG：4 以上版本在 M1 上添加任务闪退，解决不了。
 - [qBittorrent](https://www.qbittorrent.org/) - BT 客户端 `brew install --cask qbittorrent`，Mac 的版本略滞后，v5.0.5
 - [Transmission](https://transmissionbt.com/) - BT 客户端 `brew install --cask transmission`
 - [Free Download Manager](https://www.freedownloadmanager.org/) - 下载工具，有 Chrome 插件集成，`brew install --cask free-download-manager`，v6.28
+- Neat Download Manager - v1.3，2021年更新，另一款免费轻量小巧的多线程下载工具，支持浏览器插件在线视频嗅探，可以下B站视频，YouTube不行
 - [Motrix](https://motrix.app/) - 基于 Aria2 的下载工具，[GitHub](https://github.com/agalwood/Motrix)，v1.8.19，2023年
 - [speedtest-cli](https://github.com/sivel/speedtest-cli) - 命令行测试工具，[网站](https://speedtest.net)，安装 `brew install speedtest-cli`，运行：`speedtest-cli --simple`
 
 ### 媒体播放
 
-- [IINA](https://www.iina.io/) - 视频播放，开源免费，`brew install --cask iina`。v1.3.5，2024年。
+- [IINA](https://www.iina.io/) - 视频播放，开源免费，`brew install --cask iina`。v1.4.1，2025年。
 - [VLC](https://www.videolan.org/) - `brew install --cask vlc`
 - [网易云音乐](https://music.163.com/) - 网易，`brew install --cask neteasemusic`
 - [Listen 1](https://listen1.github.io/listen1/)：搜索和播放来自网易云音乐，虾米，QQ 音乐，酷狗音乐，酷我音乐网站的歌曲，`brew install --cask listen1`。v2.32.0，2024年
@@ -317,7 +329,8 @@ brew install —cask adoptopenjdk11
 - [OpenShot Video Editor](https://www.openshot.org/) - 小巧的一款视频编辑软件，免费，`brew install --cask openshot-video-editor`，v3.3.0，2024年
 - [Final Cut Pro](https://apps.apple.com/cn/app/final-cut-pro/id424389933?mt=12)
 - [Premiere Pro](https://www.adobe.com/products/premiere.html)
-- [DaVinci Resolve](https://apps.apple.com/cn/app/davinci-resolve-studio/id900392332?mt=12)
+- [DaVinci Resolve 20](https://www.blackmagicdesign.com/products/davinciresolve) - 达芬奇，视频编辑，免费，[AppStore地址](https://apps.apple.com/cn/app/davinci-resolve/id571213070?mt=12)，[DaVinci Resolve Studio](https://www.blackmagicdesign.com/products/davinciresolve/studio) 是收费的，另外还有DaVinci Fusion Studio 影视特效合成软件
+- [大拍档剪辑助手](https://www.spdpd.net/) - B站UP主视频大拍档设计和开发的视频剪辑 APP，有 Windows/macOS 版本，v0.4.5，2023年
 
 ### 磁盘工具
 
@@ -329,7 +342,7 @@ brew install —cask adoptopenjdk11
 - [Disk Inventory X](http://www.derlien.com/) - 磁盘信息情况统计，类似 WinDirStat `brew install --cask disk-inventory-x`，v1.3，非原生，依赖 Rosetta，新版本有点问题：读不出外部磁盘文件的大小
 - [GrandPerspectiv](https://grandperspectiv.sourceforge.net/) - 图形显示磁盘文件大小分析，sourceforge 下载免费，AppStore 上下载收费，v3.5.3-L1，2025年。不怎么好看，但是能用
 - [SquirrelDisk](https://www.squirreldisk.com/) - 磁盘空间可视化，环形显示不是很直观，v0.3.4，2023年，[Github](https://github.com/adileo/squirreldisk)
-- [CalHash](https://www.titanium-software.fr/en/calhash.html) - 一个带GUI的Hash计算工具，`brew install --cask calhash`
+- [CalHash](https://www.titanium-software.fr/en/calhash.html) - 一个带GUI的Hash计算工具，v1.4.4，选文件方式不是很方便，`brew install --cask calhash`
 - [Disk Space Analyzer: Inspector](https://apps.apple.com/us/app/disk-space-analyzer-inspector/id446243721?mt=12)
 - [baobab](https://apps.gnome.org/zh-CN/Baobab/) - 图形化磁盘，是基于 Gnome 开发的？所以安装一堆依赖。`brew install baobab`，v48，2025年
 - [ncdu](https://dev.yorhel.nl/ncdu) - 命令行模式下的磁盘分析，`brew install ncdu`
@@ -338,10 +351,9 @@ brew install —cask adoptopenjdk11
 
 ### 系统设置
 
-- [TinkerTool](https://www.bresink.com/osx/TinkerTool.html) - 系统工具集，注意下载对应系统版本
+- [TinkerTool](https://www.bresink.com/osx/TinkerTool.html) - 系统工具集，注意下载对应系统版本，v10.6 for macOS 15 Sequoia, v11.2 for macOS Taheo，2025年更新
 - [Deeper](https://www.titanium-software.fr/en/deeper.html) - 配置程序，`brew install --cask deeper`
-- [OnyX](https://www.titanium-software.fr/en/onyx.html) - 系统维护和配置程序，`brew install --cask onyx`
-- [TopNorch](https://topnotch.app/) - 隐藏 Mac 顶部刘海，就是设置任务栏黑色，还可以设置底部圆角，`brew install --cask topnorch`
+- [OnyX](https://www.titanium-software.fr/en/onyx.html) - 系统维护和配置程序，`brew install --cask onyx`，4.8.5 for macOS Sequoia 15；4.9.1 for macOS Tahoe 26，2025年更新
 
 ### 系统监控
 
@@ -357,6 +369,7 @@ brew install —cask adoptopenjdk11
 - [Turbo Boost Switcher](http://tbswitcher.rugarciap.com/) - `brew install --cask turbo-boost-switcher` 睿频开关
 - [coconutBattery](https://www.coconut-flavour.com/coconutbattery/) - 显示电池详细信息 `brew install --cask coconutbattery`
 - [TG Pro](https://www.tunabellysoftware.com/tgpro) - 风扇监控，收费
+- [HWMonitorSMC2](https://github.com/CloverHackyColor/HWMonitorSMC2/) - 多个系统监控，能监控风扇转速（很久不更新，已失效），2020年，2.6.1
 
 ### VPN
 
@@ -408,6 +421,8 @@ brew install —cask adoptopenjdk11
 
 ### 预览增强
 
+[Quick Look 插件](https://github.com/sindresorhus/quick-look-plugins)
+
 ```bash
 #Quick Look 系列
 brew install --cask qlcolorcode    #预览脚本时自动代码配色
@@ -420,6 +435,8 @@ brew install --cask qlvideo        #预览视频
 brew install --cask provisionql    #预览 mobileprovision、provisionprofile、ipa 文件
 
 ```
+
+[macOS 15 开始不支持 QuickLook 插件](https://forum.foxtrot-search.com/index.php?t=msg&th=614&goto=1847&)，以上插件被 deprecated，2026年
 
 ### 文件管理
 
@@ -436,7 +453,6 @@ brew install --cask provisionql    #预览 mobileprovision、provisionprofile、
 - screenfetch - 显示系统信息，`brew install screenfetch`
 - [mackup](https://github.com/lra/mackup) - 备份配置，我的配置：[my-mac-mackup-backup](https://github.com/yingw/my-mac-mackup-backup)，`brew install mackup`
 - [diskutil](https://www.jianshu.com/p/6a1f365617ad)
-- [Karabiner-Elements](https://karabiner-elements.pqrs.org/) - 键盘映射，但是会覆盖系统自动的修饰键映射，要重新映射一下，但是不能映射组合键 `brew install --cask karabiner-elements`
 
 ## 网站
 
@@ -446,11 +462,13 @@ brew install --cask provisionql    #预览 mobileprovision、provisionprofile、
 - [appstorrent](https://appstorrent.ru/) - 俄罗斯
 - [HaxMac](https://haxmac.cc/)
 - [awesome](https://github.com/jaywcjlove/awesome-mac/blob/master/README-zh.md)
+- [GoodMac](https://goodmac.cn/)
 
 ## 其他
 
 - [Steam](https://store.steampowered.com/about/) - 游戏平台，Steam 的 Mac 版本，v4.0，`brew install --cask steam`
 - [RetroArch](https://www.retroarch.com/) - v1.21.0，`brew install --cask retroarch`
 - [popclip](https://www.popclip.app/) - 关键词扩展功能，免费试用 250 次 + 收费，`brew install --cask popclip`，brew 上安装的是较旧的版本
-- [TunesBro CleanGeeker](https://www.tunesbro.com/mac-cleaner.html) - 清理软件，有查重复文件功能
+- [TunesBro CleanGeeker](https://www.tunesbro.com/mac-cleaner.html) - 清理软件，有查重复文件功能，试用，比较老了，2019年，v1.0.1，而且每次启动会自动设置开机自启，慎用
 - [Disk Drill](https://www.cleverfiles.com/) - 文件恢复功能，也有文件查重功能，Version 6.0.2020 • macOS 10.15.7–26.x，还有 Windows 版
+- [PlayCover](https://playcover.io/) - 侧载运行 iOS 软件，iOS 程序是 ipa 后缀的脱壳程序版本，可以从：[decrypt.day](https://decrypt.day/) 或 [ipa.store](https://ipa.store/) 等获取，v3.1.0
