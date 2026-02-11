@@ -8,7 +8,7 @@ Apple 官方文档：
 
 - [重置 Mac 的 SMC](https://support.apple.com/zh-cn/102605)
 - [以安全模式启动 Mac](https://support.apple.com/zh-cn/116946) - Intel 芯片：按住 Shift 开机；Apple 芯片：安装开机键看到启动选项，再按住 Shift 按“继续以安全模式运行”按
-- [如何从“macOS 恢复”启动](https://support.apple.com/zh-cn/102518) - “按下再松开电源按钮以将 Mac 开机，然后立即按住键盘上的 Command (⌘) 和 R 这两个按键。”（Intel芯片），进入恢复，可以：
+- [如何从“macOS 恢复”启动](https://support.apple.com/zh-cn/102518) - Apple 芯片：关机状态下，长按电源，直到看到提示“正在载入启动选项”；Intel芯片：“按下再松开电源按钮以将 Mac 开机，然后立即按住键盘上的 Command (⌘) 和 R 这两个按键。”，进入恢复，可以：
 - [重置 Mac 上的 NVRAM](https://support.apple.com/zh-cn/102539) (Apple CPU 不需要)
 - 电池问题：[如果你在 MacBook Air 或 MacBook Pro 上看到“建议维修”](https://support.apple.com/zh-cn/108376)
 - [识别 Mac 电源适配器](https://support.apple.com/zh-cn/109509)

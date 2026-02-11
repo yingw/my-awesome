@@ -52,6 +52,7 @@ Windows 工具箱（Awesome Windows），记录我的 Windows 工具和设置
 - [HEU KMS Activator](https://github.com/zbezj/HEU_KMS_Activator) - v42.3.1 `HEU_KMS_Activator_v42.3.1.rar`，公众号：知彼而知己、小知彼而知己
 - [图吧工具箱](https://www.tbtool.cn/) - 硬件检测工具合集，2024.09正式版
 - [Microsoft C++ Build Tools](https://visualstudio.microsoft.com/zh-hans/visual-cpp-build-tools/)
+- [Windows Update Blocker v1.8](https://www.sordum.org/9470/windows-update-blocker-v1-8/) - 阻止 Windows 更新，支持 Windows 10，11
 
 ### 系统安全
 
